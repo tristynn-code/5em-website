@@ -1,16 +1,27 @@
 import type { Metadata } from 'next';
 import { auditCTA } from '@/lib/site';
 import data from '@/content/testimonials-page.json';
+import JsonLd from '@/components/JsonLd';
+import { pageMetadata } from '@/lib/seo';
+import { breadcrumbSchema } from '@/lib/schema';
 
-export const metadata: Metadata = {
-  title: 'Testimonials | Real Franchise Owners, Real Results | 5th Element Media',
+export const metadata: Metadata = pageMetadata({
+  title: 'Franchise Owner Testimonials | Real Results',
   description:
     '24+ real franchise owners share their results with 5th Element Media. 100% occupancy at opening, 900+ leads in 5 months, and stories from IMAGE Studios locations nationwide.',
-};
+  path: '/testimonials',
+  keywords: ['5th Element Media reviews', 'franchise marketing testimonials', 'franchise owner reviews', 'IMAGE Studios testimonials', 'BODY20 reviews'],
+});
 
 export default function TestimonialsPage() {
   return (
     <>
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: 'Home', path: '/' },
+          { name: 'Testimonials', path: '/testimonials' },
+        ])}
+      />
       {/* HERO */}
       <section
         className="pt-[140px] px-6 pb-[60px]"

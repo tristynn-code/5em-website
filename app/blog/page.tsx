@@ -1,16 +1,27 @@
 import type { Metadata } from 'next';
 import { WaitlistButton, NewsletterToast } from '@/components/BlogWaitlistButton';
 import upcoming from '@/content/upcoming-posts.json';
+import JsonLd from '@/components/JsonLd';
+import { pageMetadata } from '@/lib/seo';
+import { breadcrumbSchema } from '@/lib/schema';
 
-export const metadata: Metadata = {
-  title: 'Blog | Coming Soon | 5th Element Media',
+export const metadata: Metadata = pageMetadata({
+  title: 'Franchise Marketing Blog (Launching Soon)',
   description:
-    'The 5th Element Media blog is launching soon. Real franchise marketing insights, tactical breakdowns, and case studies from 100+ locations. Join the waitlist.',
-};
+    'The 5th Element Media blog launches soon. Real franchise marketing insights, tactical breakdowns, and case studies from 100+ locations. Join the waitlist.',
+  path: '/blog',
+  keywords: ['franchise marketing blog', 'franchise lead generation tips', 'multi-location marketing insights'],
+});
 
 export default function BlogPage() {
   return (
     <>
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: 'Home', path: '/' },
+          { name: 'Blog', path: '/blog' },
+        ])}
+      />
       {/* HERO */}
       <section
         className="px-6 pt-[100px] pb-[60px]"

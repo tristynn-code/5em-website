@@ -1,15 +1,36 @@
 import type { Metadata } from 'next';
 import VerticalPageLayout from '@/components/VerticalPageLayout';
+import JsonLd from '@/components/JsonLd';
+import { pageMetadata } from '@/lib/seo';
+import { serviceSchema, breadcrumbSchema } from '@/lib/schema';
 
-export const metadata: Metadata = {
-  title: 'Home Services Franchise Marketing | HVAC, Plumbing, Cleaning Ads | 5th Element Media',
+export const metadata: Metadata = pageMetadata({
+  title: 'Home Services Franchise Marketing | HVAC, Plumbing, Cleaning Ads',
   description:
     'Lead generation for home services franchises. Urgent-demand capture, territory targeting, real-tech UGC, and lead-to-booked-job tracking for HVAC, plumbing, restoration, and more.',
-};
+  path: '/home-services',
+  keywords: ['home services franchise marketing', 'HVAC franchise marketing', 'plumbing franchise ads', 'cleaning franchise marketing', 'restoration franchise leads'],
+});
+
+const serviceLd = serviceSchema({
+  name: 'Home Services Franchise Marketing',
+  description: 'Lead generation for home services franchise brands: HVAC, plumbing, restoration, cleaning, landscaping.',
+  path: '/home-services',
+  serviceType: 'Home Services Franchise Marketing',
+});
 
 export default function HomeServicesPage() {
   return (
-    <VerticalPageLayout
+    <>
+      <JsonLd data={serviceLd} />
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: 'Home', path: '/' },
+          { name: 'Industries', path: '/home-services' },
+          { name: 'Home Services', path: '/home-services' },
+        ])}
+      />
+      <VerticalPageLayout
       heroTag="Home Services"
       heroHeading={
         <>
@@ -303,5 +324,6 @@ export default function HomeServicesPage() {
         </div>
       </section>
     </VerticalPageLayout>
+    </>
   );
 }

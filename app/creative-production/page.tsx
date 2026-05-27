@@ -1,12 +1,25 @@
 import type { Metadata } from 'next';
 import ServicePageLayout from '@/components/ServicePageLayout';
 import data from '@/content/services/creative-production.json';
+import JsonLd from '@/components/JsonLd';
+import { pageMetadata } from '@/lib/seo';
+import { serviceSchema, breadcrumbSchema } from '@/lib/schema';
 
-export const metadata: Metadata = {
-  title: 'Franchise Social Media & Creative Production | UGC Content for Franchises | 5th Element Media',
+export const metadata: Metadata = pageMetadata({
+  title: 'Franchise Social Media & UGC Creative Production',
   description:
     'Social media management and UGC content production for franchise brands. UGC outperforms stock creative by 30-50% on CPL. We brief, coach, edit, and deploy authentic content for every location.',
-};
+  path: '/creative-production',
+  keywords: ['franchise UGC', 'franchise social media management', 'franchise creative production', 'UGC for franchisees', 'franchise content marketing'],
+});
+
+const serviceLd = serviceSchema({
+  name: 'Franchise Social Media & Creative Production',
+  description:
+    'UGC-powered creative production and social media management for franchise brands.',
+  path: '/creative-production',
+  serviceType: 'Content Production & Social Media',
+});
 
 /* === Hero: floating social cards === */
 function HeroSocialCards() {
@@ -737,19 +750,28 @@ export default function CreativeProductionPage() {
   const features = data.features.map((f, i) => ({ ...f, visual: visuals[i] }));
 
   return (
-    <ServicePageLayout
-      hero={{
-        eyebrow: data.hero.eyebrow,
-        headline: (
-          <>
-            Organic Fuels<br />
-            <em className="not-italic text-teal">Paid.</em>
-          </>
-        ),
-        sub: data.hero.sub,
-        visual: <HeroSocialCards />,
-        bareVisual: true,
-      }}
+    <>
+      <JsonLd data={serviceLd} />
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: 'Home', path: '/' },
+          { name: 'Services', path: '/creative-production' },
+          { name: 'Social Media & Creative', path: '/creative-production' },
+        ])}
+      />
+      <ServicePageLayout
+        hero={{
+          eyebrow: data.hero.eyebrow,
+          headline: (
+            <>
+              Organic Fuels<br />
+              <em className="not-italic text-teal">Paid.</em>
+            </>
+          ),
+          sub: data.hero.sub,
+          visual: <HeroSocialCards />,
+          bareVisual: true,
+        }}
       why={data.why}
       introHeader={data.introHeader}
       beforeFeatures={<BridgeSection />}
@@ -757,5 +779,6 @@ export default function CreativeProductionPage() {
       testimonial={data.testimonial}
       cta={data.cta}
     />
+    </>
   );
 }

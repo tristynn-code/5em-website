@@ -1,15 +1,36 @@
 import type { Metadata } from 'next';
 import VerticalPageLayout from '@/components/VerticalPageLayout';
+import JsonLd from '@/components/JsonLd';
+import { pageMetadata } from '@/lib/seo';
+import { serviceSchema, breadcrumbSchema } from '@/lib/schema';
 
-export const metadata: Metadata = {
-  title: 'Wellness Franchise Marketing | Light Therapy, Cryo, IV, Stretch | 5th Element Media',
+export const metadata: Metadata = pageMetadata({
+  title: 'Wellness Franchise Marketing | Light Therapy, Cryo, IV, Stretch',
   description:
     'Premium franchise marketing for wellness brands. Education-first creative, affluent audience targeting, and LTV-focused strategy for light therapy, cryotherapy, IV, and recovery franchises.',
-};
+  path: '/wellness-franchises',
+  keywords: ['wellness franchise marketing', 'beem Light Sauna marketing', 'cryotherapy franchise marketing', 'IV therapy franchise marketing', 'recovery franchise ads'],
+});
+
+const serviceLd = serviceSchema({
+  name: 'Wellness & Recovery Franchise Marketing',
+  description: 'Premium marketing for wellness and recovery franchise brands: light therapy, cryotherapy, IV, med spa, and stretch concepts.',
+  path: '/wellness-franchises',
+  serviceType: 'Wellness Franchise Marketing',
+});
 
 export default function WellnessFranchisesPage() {
   return (
-    <VerticalPageLayout
+    <>
+      <JsonLd data={serviceLd} />
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: 'Home', path: '/' },
+          { name: 'Industries', path: '/wellness-franchises' },
+          { name: 'Wellness & Recovery', path: '/wellness-franchises' },
+        ])}
+      />
+      <VerticalPageLayout
       heroTag="Wellness & Recovery"
       heroHeading={
         <>
@@ -311,5 +332,6 @@ export default function WellnessFranchisesPage() {
         </div>
       </section>
     </VerticalPageLayout>
+    </>
   );
 }

@@ -1,12 +1,25 @@
 import type { Metadata } from 'next';
 import ServicePageLayout from '@/components/ServicePageLayout';
 import data from '@/content/services/paid-ads.json';
+import JsonLd from '@/components/JsonLd';
+import { pageMetadata } from '@/lib/seo';
+import { serviceSchema, breadcrumbSchema } from '@/lib/schema';
 
-export const metadata: Metadata = {
-  title: 'Franchise Paid Ads Management | Meta & Google Ads for Franchises | 5th Element Media',
+export const metadata: Metadata = pageMetadata({
+  title: 'Franchise Paid Ads Management | Meta & Google Ads for Franchises',
   description:
     'Hyper-local Meta and Google Ads management for franchise brands. Every location gets its own targeting strategy, UGC creative pipeline, and real-time performance dashboard.',
-};
+  path: '/paid-ads',
+  keywords: ['franchise paid ads', 'Meta ads for franchises', 'Google ads for franchises', 'franchise PPC', 'multi-location ad management', 'franchise CPL'],
+});
+
+const serviceLd = serviceSchema({
+  name: 'Franchise Paid Ads Management',
+  description:
+    'Hyper-local Meta and Google Ads management for franchise brands across every market.',
+  path: '/paid-ads',
+  serviceType: 'Paid Advertising Management',
+});
 
 /* ============ MOCKUPS (specific to Paid Ads) ============ */
 
@@ -602,24 +615,34 @@ export default function PaidAdsPage() {
   }));
 
   return (
-    <ServicePageLayout
-      hero={{
-        eyebrow: data.hero.eyebrow,
-        headline: (
-          <>
-            Every Location.<br />
-            <em className="not-italic text-teal">Optimized.</em>
-          </>
-        ),
-        sub: data.hero.sub,
-        visual: <HeroDashMockup />,
-      }}
-      why={data.why}
-      introHeader={data.introHeader}
-      beforeFeatures={<PlatformsStrip />}
-      features={features}
-      testimonial={data.testimonial}
-      cta={data.cta}
-    />
+    <>
+      <JsonLd data={serviceLd} />
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: 'Home', path: '/' },
+          { name: 'Services', path: '/paid-ads' },
+          { name: 'Paid Ads', path: '/paid-ads' },
+        ])}
+      />
+      <ServicePageLayout
+        hero={{
+          eyebrow: data.hero.eyebrow,
+          headline: (
+            <>
+              Every Location.<br />
+              <em className="not-italic text-teal">Optimized.</em>
+            </>
+          ),
+          sub: data.hero.sub,
+          visual: <HeroDashMockup />,
+        }}
+        why={data.why}
+        introHeader={data.introHeader}
+        beforeFeatures={<PlatformsStrip />}
+        features={features}
+        testimonial={data.testimonial}
+        cta={data.cta}
+      />
+    </>
   );
 }

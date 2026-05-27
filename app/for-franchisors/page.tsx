@@ -1,16 +1,27 @@
 import type { Metadata } from 'next';
 import { auditCTA } from '@/lib/site';
 import '@/styles/audience.css';
+import JsonLd from '@/components/JsonLd';
+import { pageMetadata } from '@/lib/seo';
+import { breadcrumbSchema } from '@/lib/schema';
 
-export const metadata: Metadata = {
-  title: 'Franchise Marketing for Franchisors | Grow Your Franchise System | 5th Element Media',
+export const metadata: Metadata = pageMetadata({
+  title: 'Franchise Marketing for Franchisors | Grow Your Franchise System',
   description:
-    'The marketing system for franchise brands. Sell more franchise units, fill every location with leads, and unify brand performance with the 5E Insight Engine — from 20 locations to 200.',
-};
+    'The marketing system for franchise brands. Sell more franchise units, fill every location with leads, and unify brand performance with the 5E Insight Engine, from 20 locations to 200.',
+  path: '/for-franchisors',
+  keywords: ['marketing for franchisors', 'franchise development marketing', 'franchise system marketing', 'CMO franchise', 'sell franchise units'],
+});
 
 export default function ForFranchisorsPage() {
   return (
     <>
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: 'Home', path: '/' },
+          { name: 'For Franchisors', path: '/for-franchisors' },
+        ])}
+      />
       {/* HERO */}
       <section className="ap-hero-split">
         <div>

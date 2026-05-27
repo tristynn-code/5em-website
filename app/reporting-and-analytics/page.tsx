@@ -1,12 +1,25 @@
 import type { Metadata } from 'next';
 import ServicePageLayout from '@/components/ServicePageLayout';
 import data from '@/content/services/reporting-and-analytics.json';
+import JsonLd from '@/components/JsonLd';
+import { pageMetadata } from '@/lib/seo';
+import { serviceSchema, breadcrumbSchema } from '@/lib/schema';
 
-export const metadata: Metadata = {
-  title: 'Franchise Marketing Dashboards & Analytics | AI-Powered Insights | 5th Element Media',
+export const metadata: Metadata = pageMetadata({
+  title: 'Franchise Marketing Dashboards & Analytics | AI-Powered Insights',
   description:
-    'Real-time franchise marketing dashboards. See CPL, lead volume, creative performance, and ROI across every location with the 5E Insight Engine - built for multi-location brands.',
-};
+    'Real-time franchise marketing dashboards. See CPL, lead volume, creative performance, and ROI across every location with the 5E Insight Engine, built for multi-location brands.',
+  path: '/reporting-and-analytics',
+  keywords: ['franchise marketing dashboard', 'franchise analytics', '5E Insight Engine', 'multi-location reporting', 'franchise ROI tracking'],
+});
+
+const serviceLd = serviceSchema({
+  name: 'Franchise Marketing Reporting & Analytics',
+  description:
+    'Real-time dashboards and AI-driven insights covering every location for multi-location franchise brands.',
+  path: '/reporting-and-analytics',
+  serviceType: 'Marketing Analytics & Reporting',
+});
 
 function HeroDash() {
   return (
@@ -743,23 +756,33 @@ export default function ReportingAnalyticsPage() {
   const features = data.features.map((f, i) => ({ ...f, visual: visuals[i] }));
 
   return (
-    <ServicePageLayout
-      hero={{
-        eyebrow: data.hero.eyebrow,
-        headline: (
-          <>
-            You Can&apos;t Scale<br />
-            <em className="not-italic text-teal">What You Can&apos;t See.</em>
-          </>
-        ),
-        sub: data.hero.sub,
-        visual: <HeroDash />,
-      }}
+    <>
+      <JsonLd data={serviceLd} />
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: 'Home', path: '/' },
+          { name: 'Services', path: '/reporting-and-analytics' },
+          { name: 'Reporting & Analytics', path: '/reporting-and-analytics' },
+        ])}
+      />
+      <ServicePageLayout
+        hero={{
+          eyebrow: data.hero.eyebrow,
+          headline: (
+            <>
+              You Can&apos;t Scale<br />
+              <em className="not-italic text-teal">What You Can&apos;t See.</em>
+            </>
+          ),
+          sub: data.hero.sub,
+          visual: <HeroDash />,
+        }}
       why={data.why}
       introHeader={data.introHeader}
       features={features}
       testimonial={data.testimonial}
       cta={data.cta}
     />
+    </>
   );
 }

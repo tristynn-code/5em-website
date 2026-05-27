@@ -1,12 +1,25 @@
 import type { Metadata } from 'next';
 import ServicePageLayout from '@/components/ServicePageLayout';
 import data from '@/content/services/email-sms.json';
+import JsonLd from '@/components/JsonLd';
+import { pageMetadata } from '@/lib/seo';
+import { serviceSchema, breadcrumbSchema } from '@/lib/schema';
 
-export const metadata: Metadata = {
-  title: 'Franchise Email & SMS Marketing | Automated Follow-Up for Franchises | 5th Element Media',
+export const metadata: Metadata = pageMetadata({
+  title: 'Franchise Email & SMS Marketing | Automated Follow-Up',
   description:
     'Automated email and SMS follow-up sequences for franchise brands. New lead confirmations, appointment reminders, no-show recovery, and nurture sequences that run 24/7 across every location.',
-};
+  path: '/email-sms',
+  keywords: ['franchise email marketing', 'franchise SMS marketing', 'lead nurture automation', 'appointment reminders franchise', 'no-show recovery'],
+});
+
+const serviceLd = serviceSchema({
+  name: 'Franchise Email & SMS Marketing',
+  description:
+    'Automated email and SMS follow-up sequences purpose-built for multi-location franchise brands.',
+  path: '/email-sms',
+  serviceType: 'Email & SMS Marketing',
+});
 
 function HeroMessageStack() {
   const msgs = [
@@ -638,23 +651,33 @@ export default function EmailSMSPage() {
   const features = data.features.map((f, i) => ({ ...f, visual: visuals[i] }));
 
   return (
-    <ServicePageLayout
-      hero={{
-        eyebrow: data.hero.eyebrow,
-        headline: (
-          <>
-            Follow-Up That<br />
-            <em className="not-italic text-teal">Never Sleeps.</em>
-          </>
-        ),
-        sub: data.hero.sub,
-        visual: <HeroMessageStack />,
-      }}
+    <>
+      <JsonLd data={serviceLd} />
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: 'Home', path: '/' },
+          { name: 'Services', path: '/email-sms' },
+          { name: 'Email & SMS', path: '/email-sms' },
+        ])}
+      />
+      <ServicePageLayout
+        hero={{
+          eyebrow: data.hero.eyebrow,
+          headline: (
+            <>
+              Follow-Up That<br />
+              <em className="not-italic text-teal">Never Sleeps.</em>
+            </>
+          ),
+          sub: data.hero.sub,
+          visual: <HeroMessageStack />,
+        }}
       why={data.why}
       introHeader={data.introHeader}
       features={features}
       testimonial={data.testimonial}
       cta={data.cta}
     />
+    </>
   );
 }

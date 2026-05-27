@@ -1,15 +1,36 @@
 import type { Metadata } from 'next';
 import VerticalPageLayout from '@/components/VerticalPageLayout';
+import JsonLd from '@/components/JsonLd';
+import { pageMetadata } from '@/lib/seo';
+import { serviceSchema, breadcrumbSchema } from '@/lib/schema';
 
-export const metadata: Metadata = {
-  title: 'Lifestyle Franchise Marketing | Pet, Tutoring, Entertainment Ads | 5th Element Media',
+export const metadata: Metadata = pageMetadata({
+  title: 'Lifestyle Franchise Marketing | Golf, Recreation, Entertainment',
   description:
-    'Marketing for lifestyle franchises. Experience-first creative, lifestyle audience targeting, and LTV-driven strategy for pet services, tutoring, entertainment, and membership clubs.',
-};
+    'Marketing for lifestyle franchises. Experience-first creative, lifestyle audience targeting, and LTV-driven strategy for golf, recreation, entertainment, and membership concepts.',
+  path: '/lifestyle-entertainment',
+  keywords: ['lifestyle franchise marketing', 'golf franchise marketing', 'entertainment franchise ads', 'recreation franchise ads', 'Scramblers Golf marketing'],
+});
+
+const serviceLd = serviceSchema({
+  name: 'Lifestyle & Entertainment Franchise Marketing',
+  description: 'Marketing for lifestyle and entertainment franchise brands: golf, recreation, experiential concepts.',
+  path: '/lifestyle-entertainment',
+  serviceType: 'Lifestyle Franchise Marketing',
+});
 
 export default function LifestyleEntertainmentPage() {
   return (
-    <VerticalPageLayout
+    <>
+      <JsonLd data={serviceLd} />
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: 'Home', path: '/' },
+          { name: 'Industries', path: '/lifestyle-entertainment' },
+          { name: 'Lifestyle & Entertainment', path: '/lifestyle-entertainment' },
+        ])}
+      />
+      <VerticalPageLayout
       heroTag="Lifestyle Franchises"
       heroHeading={
         <>
@@ -302,5 +323,6 @@ export default function LifestyleEntertainmentPage() {
         </div>
       </section>
     </VerticalPageLayout>
+    </>
   );
 }

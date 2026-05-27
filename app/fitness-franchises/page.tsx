@@ -1,15 +1,36 @@
 import type { Metadata } from 'next';
 import VerticalPageLayout from '@/components/VerticalPageLayout';
+import JsonLd from '@/components/JsonLd';
+import { pageMetadata } from '@/lib/seo';
+import { serviceSchema, breadcrumbSchema } from '@/lib/schema';
 
-export const metadata: Metadata = {
-  title: 'Fitness Franchise Marketing Agency | EMS, Pilates, HIIT, Gym Ads | 5th Element Media',
+export const metadata: Metadata = pageMetadata({
+  title: 'Fitness Franchise Marketing Agency | EMS, Pilates, HIIT, Gym Ads',
   description:
     'Franchise marketing built for fitness brands. We manage paid ads, UGC creative, and lead generation for EMS, Pilates, HIIT, and gym franchises across 100s of locations.',
-};
+  path: '/fitness-franchises',
+  keywords: ['fitness franchise marketing', 'EMS franchise marketing', 'Pilates franchise marketing', 'HIIT franchise marketing', 'gym franchise ads', 'BODY20 marketing', 'Pilates Addiction marketing', 'iFlex marketing'],
+});
+
+const serviceLd = serviceSchema({
+  name: 'Fitness Franchise Marketing',
+  description: 'Franchise marketing for fitness brands: EMS, Pilates, HIIT, yoga, CrossFit, stretch and recovery concepts.',
+  path: '/fitness-franchises',
+  serviceType: 'Fitness Franchise Marketing',
+});
 
 export default function FitnessFranchisesPage() {
   return (
-    <VerticalPageLayout
+    <>
+      <JsonLd data={serviceLd} />
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: 'Home', path: '/' },
+          { name: 'Industries', path: '/fitness-franchises' },
+          { name: 'Fitness Franchises', path: '/fitness-franchises' },
+        ])}
+      />
+      <VerticalPageLayout
       heroTag="Fitness Franchises"
       heroHeading={
         <>
@@ -311,5 +332,6 @@ export default function FitnessFranchisesPage() {
         </div>
       </section>
     </VerticalPageLayout>
+    </>
   );
 }
