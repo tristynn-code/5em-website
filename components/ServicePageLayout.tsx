@@ -25,6 +25,8 @@ interface Props {
     headline: ReactNode;
     sub: string;
     visual: ReactNode;
+    /** Strip the dark frame around the hero visual (used when the visual needs to float on the page background, e.g. /creative-production). */
+    bareVisual?: boolean;
   };
   why: {
     eyebrow: string;
@@ -81,17 +83,21 @@ export default function ServicePageLayout({
             Book Your Free Audit →
           </a>
         </div>
-        <div
-          className="rounded-l overflow-hidden flex items-center justify-center mx-auto lg:mx-0 w-full max-w-[560px]"
-          style={{
-            aspectRatio: '3 / 2',
-            background: 'linear-gradient(135deg, #0F1314 0%, #1D2637 100%)',
-            boxShadow: '0 24px 60px rgba(0,0,0,.12)',
-            padding: 32,
-          }}
-        >
-          {hero.visual}
-        </div>
+        {hero.bareVisual ? (
+          <div className="relative w-full mx-auto lg:mx-0">{hero.visual}</div>
+        ) : (
+          <div
+            className="rounded-l overflow-hidden flex items-center justify-center mx-auto lg:mx-0 w-full max-w-[560px]"
+            style={{
+              aspectRatio: '3 / 2',
+              background: 'linear-gradient(135deg, #0F1314 0%, #1D2637 100%)',
+              boxShadow: '0 24px 60px rgba(0,0,0,.12)',
+              padding: 32,
+            }}
+          >
+            {hero.visual}
+          </div>
+        )}
       </section>
 
       {/* WHY DIFFERENT */}

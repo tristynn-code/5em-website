@@ -32,7 +32,7 @@ function HeroSocialCards() {
     <div
       className="absolute bg-wh overflow-hidden"
       style={{
-        width: 200,
+        width: 210,
         borderRadius: 16,
         boxShadow: '0 24px 60px rgba(0,0,0,.12), 0 8px 24px rgba(0,0,0,.08)',
         border: '1px solid rgba(0,0,0,.05)',
@@ -64,10 +64,9 @@ function HeroSocialCards() {
           muted
           playsInline
           preload="metadata"
+          src={videoUrl}
           className="absolute inset-0 w-full h-full object-cover z-[1]"
-        >
-          <source src={videoUrl} type="video/mp4" />
-        </video>
+        />
         <div
           className="absolute inset-0 z-[2] pointer-events-none"
           style={{
@@ -95,7 +94,7 @@ function HeroSocialCards() {
     </div>
   );
   return (
-    <div className="relative w-full" style={{ minHeight: 460 }}>
+    <div className="relative w-full" style={{ minHeight: 580 }}>
       <Card
         name="body20"
         platform="Instagram"
@@ -749,6 +748,7 @@ export default function CreativeProductionPage() {
         ),
         sub: data.hero.sub,
         visual: <HeroSocialCards />,
+        bareVisual: true,
       }}
       why={data.why}
       introHeader={data.introHeader}
