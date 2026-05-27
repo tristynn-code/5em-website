@@ -88,11 +88,11 @@ export default function CaseStudiesPage() {
 
           {/* Standard cards */}
           {data.cards.slice(0, 3).map(c => (
-            <CardWithQuote key={c.id} {...c} />
+            <CardWithQuote key={c.id} {...(c as Parameters<typeof CardWithQuote>[0])} />
           ))}
 
           {/* iFlex (description-only) */}
-          <CardWithDescription {...data.cards[3]} />
+          <CardWithDescription {...(data.cards[3] as Parameters<typeof CardWithDescription>[0])} />
 
           {/* Sequel Brands - full width split card */}
           <div
@@ -127,7 +127,7 @@ export default function CaseStudiesPage() {
           </div>
 
           {/* Scramblers Golf - description-only */}
-          <CardWithDescription {...data.cards[4]} />
+          <CardWithDescription {...(data.cards[4] as Parameters<typeof CardWithDescription>[0])} />
         </div>
       </section>
 

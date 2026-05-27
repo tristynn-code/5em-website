@@ -273,8 +273,9 @@ function MockupKanban() {
                 {col.count}
               </span>
             </div>
-            {col.cards.map((c, j) =>
-              c.ghost ? (
+            {col.cards.map((card, j) => {
+              const c = card as { ghost?: boolean; won?: boolean; active?: boolean; name?: string; meta?: string };
+              return c.ghost ? (
                 <div
                   key={j}
                   style={{
@@ -310,8 +311,8 @@ function MockupKanban() {
                     {c.meta}
                   </div>
                 </div>
-              )
-            )}
+              );
+            })}
           </div>
         ))}
       </div>
