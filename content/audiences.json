@@ -1,0 +1,22 @@
+[
+  {
+    "id": "franchisors",
+    "title": "Franchisors",
+    "description": "CEOs, CMOs, and VP Marketing who need consistent results across every market."
+  },
+  {
+    "id": "multi-unit",
+    "title": "Multi-Unit Operators (3+)",
+    "description": "Operators running multiple locations who need scalable lead gen per market."
+  },
+  {
+    "id": "individual",
+    "title": "Individual Franchisees",
+    "description": "Single-location owners frustrated with results who want a proven lead flow system."
+  },
+  {
+    "id": "franchise-dev",
+    "title": "Franchise Development Teams",
+    "description": "Teams selling units who need content and lead gen to attract qualified candidates."
+  }
+]

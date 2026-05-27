@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog | Coming Soon | 5th Element Media</title>
+<meta name="description" content="The 5th Element Media blog is launching soon. Real franchise marketing insights, tactical breakdowns, and case studies from 100+ locations. Join the waitlist.">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--teal:#00BE9D;--tealh:#00D4AE;--tealbg:rgba(0,190,157,.06);--tealbd:rgba(0,190,157,.15);--dk:#0F1314;--wh:#FFFFFF;--off:#F7F7F7;--tx:#1a1a1a;--tx2:#444;--tx3:#777;--bd:rgba(0,0,0,.07);--glass:rgba(255,255,255,.55);--glassborder:rgba(255,255,255,.25);--r:16px;--rl:24px;--rs:12px;--f:'Plus Jakarta Sans',system-ui,sans-serif}
+html{scroll-behavior:smooth}
+body{font-family:var(--f);color:var(--tx);background:var(--wh);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{text-decoration:none;color:inherit}
+.mx{max-width:1200px;margin:0 auto;padding:0 24px}
+.nav{position:fixed;top:12px;left:50%;transform:translateX(-50%);width:calc(100% - 48px);max-width:1200px;z-index:100;padding:12px 24px;display:flex;align-items:center;justify-content:space-between;background:var(--glass);backdrop-filter:blur(24px) saturate(1.4);-webkit-backdrop-filter:blur(24px) saturate(1.4);border:1px solid var(--glassborder);border-radius:var(--r);box-shadow:0 4px 24px rgba(0,0,0,.04)}
+.nav img{height:26px;filter:brightness(0)}
+.navr{display:flex;gap:24px;align-items:center}
+.navr a{font-size:14px;font-weight:500;color:var(--tx2);transition:color .2s}
+.navr a:hover{color:var(--tx)}
+.bp{display:inline-flex;align-items:center;gap:8px;font-family:var(--f);font-weight:700;border:none;cursor:pointer;transition:all .2s;background:var(--teal);color:var(--dk);padding:12px 24px;border-radius:var(--rs);font-size:15px}
+.bp:hover{background:var(--tealh);transform:translateY(-1px);box-shadow:0 8px 24px rgba(0,190,157,.2)}
+.bpl{padding:16px 32px;font-size:16px}
+.stag{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--teal);margin-bottom:16px}
+.ft{background:var(--dk);padding:64px 24px 32px;color:rgba(255,255,255,.5);font-size:13px}
+.ftin{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:40px}
+.ftbr img{height:28px;filter:brightness(0) invert(1);margin-bottom:12px}
+.ftbr p{line-height:1.6;max-width:280px}
+.ftc h4{color:var(--wh);font-size:14px;font-weight:700;margin-bottom:16px}
+.ftc a{display:block;margin-bottom:10px;color:rgba(255,255,255,.5);transition:color .2s;font-size:13px}
+.ftc a:hover{color:var(--teal)}
+.ftbt{text-align:center;padding-top:32px;border-top:1px solid rgba(255,255,255,.06);max-width:1200px;margin:0 auto}
+@media(max-width:1024px){.fg{grid-template-columns:1fr 1fr}.hero-split{grid-template-columns:1fr;gap:40px}.hero-split .hero-img{aspect-ratio:16/10;max-width:520px;margin:0 auto}.ftin{grid-template-columns:1fr 1fr}}
+@media(max-width:768px){.navr a:not(.bp){display:none}.fg{grid-template-columns:1fr}.hero-split,.sec,.fcta,.why,.testimonial,.brands{padding-left:20px;padding-right:20px}.ftin{grid-template-columns:1fr}.brand-row{gap:32px}.brand-row img{height:36px}}
+@keyframes pulseRing{0%{transform:translate(-50%,-50%) scale(1);opacity:.6}100%{transform:translate(-50%,-50%) scale(3.5);opacity:0}}
+@keyframes pulse{0%,100%{opacity:1;transform:translate(-50%,-50%) scale(1)}50%{opacity:.5;transform:translate(-50%,-50%) scale(.8)}}
+/* === Responsive === */
+@media(max-width:900px){
+  .feat-grid{grid-template-columns:1fr;gap:48px}
+  .feat-reverse .feat-text{order:1}.feat-reverse .feat-visual{order:2}
+  .feat{padding:72px 20px}
+  .feat-h{font-size:26px}.feat-p{font-size:15px}
+  .mockup-phone{width:220px}
+}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.3)}}
+@keyframes geopulse{0%{transform:scale(0.8);opacity:.4}100%{transform:scale(1.1);opacity:0}}
+@keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+/* Bottom overlay (user, caption, audio strip) */
+.ig-bottom{position:absolute;left:0;right:60px;bottom:16px;z-index:5;padding:0 14px;color:#fff}
+@keyframes igprog{from{width:0}to{width:100%}}
+@keyframes notifSlide{to{opacity:1;transform:translateY(0)}}
+@keyframes hmsgSlide{to{opacity:1;transform:translateX(0) rotate(0)}}
+@keyframes typing{0%,60%,100%{transform:translateY(0);opacity:.3}30%{transform:translateY(-4px);opacity:1}}
+@keyframes cpPulse{0%,100%{box-shadow:0 0 0 0 rgba(0,190,157,.6)}50%{box-shadow:0 0 0 6px rgba(0,190,157,0)}}
+@keyframes cpShimmer{0%,100%{opacity:0}50%{opacity:1}}
+@keyframes cpScan{0%{left:-100%}50%{left:100%}100%{left:100%}}
+@keyframes pvcWave{0%,100%{transform:scaleY(.6);opacity:.5}50%{transform:scaleY(1);opacity:1}}
+@keyframes pvsTyping{0%,60%,100%{transform:translateY(0);opacity:.4}30%{transform:translateY(-3px);opacity:1}}
+/* === Blog Index Page === */
+.blg-hero{padding:100px 24px 60px;background:linear-gradient(180deg,var(--off) 0%,var(--wh) 100%)}
+.blg-hero-inner{max-width:820px;margin:0 auto;text-align:center}
+.blg-hero-h1{font-size:clamp(38px,5.5vw,62px);font-weight:800;letter-spacing:-.03em;line-height:1.08;color:var(--tx);margin:20px 0 20px}
+.blg-hero-p{font-size:18px;line-height:1.55;color:var(--tx2);font-weight:500;max-width:640px;margin:0 auto}
+.blg-newsletter{padding:80px 24px;background:var(--wh)}
+.blg-nl-card{background:linear-gradient(135deg,var(--dk) 0%,#1D2637 100%);border-radius:20px;padding:52px 48px;max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1.3fr 1fr;gap:40px;align-items:center}
+.blg-nl-title{font-size:clamp(26px,3vw,38px);font-weight:800;letter-spacing:-.02em;line-height:1.15;color:#fff;margin:16px 0 14px}
+.blg-nl-p{font-size:15px;line-height:1.55;color:rgba(255,255,255,.7);font-weight:500}
+.blg-nl-right{display:flex;flex-direction:column;gap:10px;align-items:flex-start}
+.blg-nl-note{font-size:12px;color:rgba(255,255,255,.5);font-weight:600}
+@media(max-width:880px){.blg-featured-card{grid-template-columns:1fr}.blg-featured-img{min-height:220px}.blg-grid{grid-template-columns:repeat(2,1fr)}.blg-nl-card{grid-template-columns:1fr;padding:36px 28px}}
+/* === Newsletter Coming Soon Toast === */
+.nl-toast{position:fixed;bottom:24px;right:24px;z-index:9999;opacity:0;transform:translateY(16px);pointer-events:none;transition:opacity .35s ease,transform .35s ease;max-width:calc(100vw - 48px)}
+.nl-toast-inner{display:flex;align-items:flex-start;gap:14px;background:linear-gradient(135deg,#0F1314 0%,#1D2637 100%);border:1px solid rgba(0,190,157,.3);border-radius:14px;padding:18px 22px 18px 20px;box-shadow:0 20px 60px rgba(0,0,0,.25),0 0 0 1px rgba(0,190,157,.1);max-width:380px;position:relative}
+.nl-toast-icon{width:40px;height:40px;border-radius:50%;background:rgba(0,190,157,.18);color:var(--teal);display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0}
+.nl-toast-text{flex:1;min-width:0;padding-right:8px}
+.nl-toast-title{font-size:15px;font-weight:800;color:#fff;letter-spacing:-.01em;margin-bottom:4px}
+.nl-toast-msg{font-size:13px;color:rgba(255,255,255,.7);line-height:1.45;font-weight:500}
+.nl-toast-close{position:absolute;top:10px;right:10px;width:24px;height:24px;border:none;background:rgba(255,255,255,.08);color:rgba(255,255,255,.6);border-radius:50%;cursor:pointer;font-size:15px;line-height:1;display:flex;align-items:center;justify-content:center;padding:0;font-family:inherit;transition:background .2s,color .2s}
+.nl-toast-close:hover{background:rgba(255,255,255,.15);color:#fff}
+@media(max-width:520px){.nl-toast{left:12px;right:12px;bottom:12px;max-width:none}.nl-toast-inner{max-width:none}}
+/* === Blog Coming Soon Section === */
+.blg-soon-sec{padding:40px 24px 80px;background:var(--wh)}
+.blg-soon-card{max-width:880px;margin:0 auto;background:linear-gradient(135deg,var(--dk) 0%,#1D2637 100%);border:1px solid rgba(0,190,157,.2);border-radius:22px;padding:56px 48px;position:relative;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.1)}
+.blg-soon-card::before{content:"";position:absolute;top:-60px;right:-60px;width:220px;height:220px;background:radial-gradient(circle,rgba(0,190,157,.15) 0%,transparent 70%);pointer-events:none}
+.blg-soon-badge{display:inline-flex;align-items:center;gap:8px;padding:6px 14px;background:rgba(0,190,157,.12);border:1px solid rgba(0,190,157,.35);border-radius:100px;font-size:11px;font-weight:800;color:var(--teal);letter-spacing:.14em;text-transform:uppercase;margin-bottom:20px;position:relative;z-index:1}
+.blg-soon-dot{width:7px;height:7px;border-radius:50%;background:var(--teal);animation:pulse 1.5s ease-in-out infinite}
+.blg-soon-title{font-size:clamp(34px,4.5vw,52px);font-weight:800;letter-spacing:-.03em;line-height:1.1;color:#fff;margin-bottom:18px;position:relative;z-index:1}
+.blg-soon-p{font-size:17px;line-height:1.55;color:rgba(255,255,255,.75);font-weight:500;max-width:640px;margin-bottom:36px;position:relative;z-index:1}
+.blg-soon-preview{padding:28px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:14px;margin-bottom:32px;position:relative;z-index:1}
+.blg-soon-preview-label{font-size:11px;font-weight:800;color:var(--teal);letter-spacing:.14em;text-transform:uppercase;margin-bottom:18px}
+.blg-soon-list{display:flex;flex-direction:column;gap:14px}
+.blg-soon-item{display:flex;gap:16px;align-items:flex-start;padding:14px 16px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:10px;transition:background .2s,border-color .2s}
+.blg-soon-item:hover{background:rgba(0,190,157,.06);border-color:rgba(0,190,157,.2)}
+.blg-soon-num{font-size:13px;font-weight:800;color:var(--teal);font-variant-numeric:tabular-nums;flex-shrink:0;width:28px;letter-spacing:.04em;padding-top:1px}
+.blg-soon-text{flex:1;min-width:0}
+.blg-soon-name{font-size:14px;font-weight:700;color:#fff;letter-spacing:-.01em;line-height:1.35;margin-bottom:4px}
+.blg-soon-cat{font-size:11px;font-weight:700;color:rgba(255,255,255,.55);letter-spacing:.04em;text-transform:uppercase}
+.blg-soon-footer{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;padding-top:28px;border-top:1px solid rgba(255,255,255,.08);position:relative;z-index:1}
+.blg-soon-footer-text{font-size:15px;color:rgba(255,255,255,.85);font-weight:600;letter-spacing:-.01em;flex:1;min-width:200px}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+@media(max-width:640px){.blg-soon-card{padding:36px 24px}.blg-soon-preview{padding:18px}.blg-soon-item{padding:12px}.blg-soon-footer{justify-content:center;text-align:center}.blg-soon-footer-text{text-align:center}}
+</style>
+</head>
+<body>
+<nav class="nav"><a href="/homepage-v5"><img src="https://cdn.prod.website-files.com/68f669a6d79edc75f34470f3/6921faef19de659f7d5b81f6_FifthElement%207.png" alt="5th Element Media"></a><div class="navr"><a href="/about-v5">About</a><a href="/case-studies-v5">Case Studies</a><a href="/paid-ads-v5">Services</a><a href="/blog">Blog</a><a href="/contact-v5">Contact</a><a href="https://go.5them.com/free-franchise-lead-engine-audit" class="bp">Book Free Audit</a></div></nav>
+
+<!-- HERO SPLIT -->
+
+<!-- BLOG HERO -->
+<section class="blg-hero"><div class="blg-hero-inner"><div class="stag" style="display:inline-block">The 5EM Blog</div><h1 class="blg-hero-h1">Franchise Marketing, Decoded.</h1><p class="blg-hero-p">Tactical breakdowns, data-driven insights, and real-world playbooks from managing 100+ franchise locations. No fluff. Just what&apos;s working right now.</p></div></section>
+
+<!-- COMING SOON HERO CARD -->
+<section class="blg-soon-sec"><div class="mx"><div class="blg-soon-card"><div class="blg-soon-badge"><span class="blg-soon-dot"></span>In Production</div><h2 class="blg-soon-title">The Blog Is Brewing.</h2><p class="blg-soon-p">We&apos;re writing tactical breakdowns, real case studies, and franchise marketing playbooks built from what actually works across our 100+ franchise locations. Launching soon. No fluff, no recycled AI slop &mdash; just the real stuff.</p><div class="blg-soon-preview"><div class="blg-soon-preview-label">Coming up first:</div><div class="blg-soon-list"><div class="blg-soon-item"><div class="blg-soon-num">01</div><div class="blg-soon-text"><div class="blg-soon-name">Why UGC Creative Beats Stock Photography by 30-50%</div><div class="blg-soon-cat">Paid Ads &middot; Creative</div></div></div><div class="blg-soon-item"><div class="blg-soon-num">02</div><div class="blg-soon-text"><div class="blg-soon-name">The 7-Step Follow-Up Sequence That Doubled Our Conversion Rate</div><div class="blg-soon-cat">CRM &amp; Automation</div></div></div><div class="blg-soon-item"><div class="blg-soon-num">03</div><div class="blg-soon-text"><div class="blg-soon-name">How to Build a Franchise Development Lead Engine That Actually Works</div><div class="blg-soon-cat">Franchise Dev</div></div></div><div class="blg-soon-item"><div class="blg-soon-num">04</div><div class="blg-soon-text"><div class="blg-soon-name">Most Franchise Brands Are Lazy About Creative. Here&apos;s The Wake-Up Call.</div><div class="blg-soon-cat">Hot Takes</div></div></div></div></div><div class="blg-soon-footer"><div class="blg-soon-footer-text">Want these in your inbox the moment they drop?</div><button type="button" onclick="showNewsletterToast()" class="bp bpl" style="border:none;cursor:pointer;font-family:inherit">Join the Waitlist &rarr;</button></div></div></div></section>
+
+<!-- NEWSLETTER CTA -->
+<section class="blg-newsletter"><div class="mx"><div class="blg-nl-card"><div class="blg-nl-left"><div class="stag" style="display:inline-block;color:#fff;background:rgba(0,190,157,.2);border-color:rgba(0,190,157,.4)">Weekly Newsletter</div><h2 class="blg-nl-title">Get The Franchise Marketing Insider</h2><p class="blg-nl-p">Tactical breakdowns, what&apos;s working right now, and the playbooks we use with 100+ franchise locations. Delivered every Wednesday.</p></div><div class="blg-nl-right"><button type="button" onclick="showNewsletterToast()" class="bp bpl" style="border:none;cursor:pointer;font-family:inherit">Subscribe Free &rarr;</button><div class="blg-nl-note">No spam. Unsubscribe any time.</div></div></div></div></section>
+
+
+<footer class="ft"><div class="ftin"><div class="ftbr"><img src="https://cdn.prod.website-files.com/68f669a6d79edc75f34470f3/6921faef19de659f7d5b81f6_FifthElement%207.png" alt="5th Element Media"><p>The franchise marketing agency behind 100s of franchise locations. Predictable lead flow, UGC creative, and AI-driven insights.</p></div><div class="ftc"><h4>Company</h4><a href="/about-v5">About</a><a href="/case-studies-v5">Case Studies</a><a href="/blog">Blog</a><a href="/contact-v5">Contact</a></div><div class="ftc"><h4>Services</h4><a href="/paid-ads-v5">Paid Ads</a><a href="/for-franchisors-v5">For Franchisors</a><a href="/for-franchisees-v5">For Franchisees</a><a href="/reporting-and-analytics">Analytics</a></div><div class="ftc"><h4>Connect</h4><a href="https://www.linkedin.com/company/5th-element-media">LinkedIn</a><a href="https://www.instagram.com/fifthelement.agency/">Instagram</a><a href="https://www.youtube.com/@Tristynn.McGowan">YouTube</a></div></div><div class="ftbt">&copy; 2026 5th Element Media LLC. All Rights Reserved.</div></footer>
+<script>
+const obs=new IntersectionObserver(e=>{e.forEach(el=>{if(el.isIntersecting)el.target.classList.add('visible')})},{threshold:.15,rootMargin:'0px 0px -40px 0px'});
+document.querySelectorAll('.stag,.sttl,.ssub,.fc,.quote,.attr,.hero-img,.feat-text,.feat-visual').forEach(el=>{el.classList.add('anim');obs.observe(el)});
+const nav=document.querySelector('.nav');window.addEventListener('scroll',()=>{nav.style.padding=window.scrollY>60?'8px 24px':'12px 24px';nav.style.boxShadow=window.scrollY>60?'0 4px 32px rgba(0,0,0,.06)':'0 4px 24px rgba(0,0,0,.04)'});
+</script>
+
+
+<!-- NEWSLETTER COMING SOON TOAST -->
+<div id="nl-toast" class="nl-toast"><div class="nl-toast-inner"><div class="nl-toast-icon">&#128274;</div><div class="nl-toast-text"><div class="nl-toast-title">Coming Soon!</div><div class="nl-toast-msg">The Franchise Marketing Insider newsletter launches soon. Stay tuned &mdash; it&apos;ll be worth the wait.</div></div><button type="button" class="nl-toast-close" onclick="hideNewsletterToast()" aria-label="Close">&times;</button></div></div>
+
+<script>
+function showNewsletterToast(){var t=document.getElementById('nl-toast');t.classList.add('nl-toast-show');clearTimeout(window._nlToastTimer);window._nlToastTimer=setTimeout(hideNewsletterToast,5000);}
+function hideNewsletterToast(){document.getElementById('nl-toast').classList.remove('nl-toast-show');}
+</script>
+
+</body>
+</html>

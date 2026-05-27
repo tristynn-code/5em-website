@@ -1,0 +1,107 @@
+{
+  "hero": {
+    "eyebrow": "Franchise Growth Systems",
+    "sub": "Most franchise agencies sell you one piece of the puzzle and leave you to stitch it together. We build the entire machine - paid ads, UGC creative, CRM automation, dashboards, and dedicated account management - all working together as one system. Installed once, managed forever."
+  },
+  "why": {
+    "eyebrow": "Why Systems Win",
+    "title": "Tactics Don't Scale. Systems Do.",
+    "body": "Most franchise brands have a marketing stack that looks like this: one agency for paid ads, another for email, a designer for creative, a VA for reporting, and the franchisee trying to coordinate all of it. Information gets lost between the handoffs. Nobody owns the full outcome. Leads leak at every seam. The brands that scale past 50, 100, 500 locations do it by installing a single integrated system - one team, one dashboard, one source of truth - so every franchisee gets the same engine on day one."
+  },
+  "introHeader": {
+    "eyebrow": "The Full System",
+    "title": "Every Piece. Connected. Working Together.",
+    "body": "Most agencies sell you one piece of the puzzle. We build the entire machine - from ad click to closed deal - and manage it for you."
+  },
+  "features": [
+    {
+      "eyebrow": "Stage 1 · The Front Door",
+      "title": "Predictable Local Lead Flow",
+      "paragraph": "Every franchise location gets its own hyper-local ad engine on Meta and Google, managed by our team, optimized daily. We run the campaigns, own the creative, test the audiences, and deliver a predictable volume of qualified leads every single month. No more guessing. No more \"marketing months.\" Just a steady flow of leads tuned to your brand, your geography, and your offer.",
+      "bullets": [
+        { "label": "Hyper-local targeting", "rest": "tuned to each location's specific market" },
+        { "label": "Continuous optimization", "rest": "across creative, audience, and bid strategy" },
+        { "label": "Unified campaign structure", "rest": "that works across every location and every brand" }
+      ],
+      "link": { "href": "/paid-ads", "label": "See how our paid ads work" },
+      "bgOff": true
+    },
+    {
+      "eyebrow": "Stage 2 · The Fuel",
+      "title": "UGC Creative Engine",
+      "paragraph": "Paid ads don't work without creative that actually converts. We coach your franchisees to shoot authentic local content, edit it into ad-ready clips, and deploy it directly into live campaigns every cycle. The result: localized creative that outperforms stock photography by 30-50%, turning every franchise location into its own content studio - without adding headcount.",
+      "bullets": [
+        { "label": "Franchisee coaching", "rest": "via briefs, guides, and 1:1 support" },
+        { "label": "Pro editing & deployment", "rest": "built into every ad cycle" },
+        { "label": "Creative refresh cadence", "rest": "that keeps performance compounding" }
+      ],
+      "link": { "href": "/creative-production", "label": "See how creative works" },
+      "reverse": true
+    },
+    {
+      "eyebrow": "Stage 3 · The Catch",
+      "title": "CRM & Automation",
+      "paragraph": "The leads from your ads land in a fully configured GoHighLevel environment - sub-accounts per location, automatic lead routing by zip code, speed-to-lead workflows firing within 60 seconds, and visual pipelines so every location knows exactly where every opportunity stands. No lead falls through the cracks. No franchisee wonders where a prospect is in the funnel.",
+      "bullets": [
+        { "label": "GoHighLevel sub-account architecture", "rest": "built for multi-location scale" },
+        { "label": "Zip-code lead routing", "rest": "to the correct location in under 5 seconds" },
+        { "label": "Multi-channel notifications", "rest": "via SMS, email, and mobile app" }
+      ],
+      "link": { "href": "/crm-automations", "label": "See how CRM works" },
+      "bgOff": true
+    },
+    {
+      "eyebrow": "Stage 4 · The Nurture",
+      "title": "Email & SMS Follow-Up",
+      "paragraph": "The moment a lead hits the CRM, our automated follow-up engine takes over. New-lead confirmation fires in under 60 seconds. 24-hour reminders, no-show recovery, post-visit review requests, and long-term nurture sequences all run on autopilot, across every location, 24/7. The franchisee's team focuses on real human conversations that close deals. The system handles everything else.",
+      "bullets": [
+        { "label": "Automated multi-touch sequences", "rest": "across email and SMS" },
+        { "label": "No-show recovery", "rest": "that rebooks up to 42% of missed appointments" },
+        { "label": "Long-term nurture", "rest": "that re-engages dormant leads at 30, 60, 90 days" }
+      ],
+      "link": { "href": "/email-sms", "label": "See how nurture works" },
+      "reverse": true
+    },
+    {
+      "eyebrow": "Stage 5 · The Visibility",
+      "title": "5E Insight Engine",
+      "paragraph": "Every stage above feeds data into the 5E Insight Engine - live dashboards that show exactly what's happening across every location, every campaign, every creative. Franchisees see their own numbers. Franchisors see the network rollup. Our team sees where to optimize next. One source of truth, updated in real time. No more waiting for monthly reports to find out what went wrong three weeks ago.",
+      "bullets": [
+        { "label": "Real-time dashboards", "rest": "refreshed every 15 minutes" },
+        { "label": "Creative leaderboards", "rest": "showing which ads are winning and fatiguing" },
+        { "label": "ROI attribution", "rest": "connecting ad spend all the way to signed members" }
+      ],
+      "link": { "href": "/reporting-and-analytics", "label": "See how dashboards work" },
+      "bgOff": true
+    },
+    {
+      "eyebrow": "Stage 6 · The Partner",
+      "title": "Dedicated CSM Support",
+      "paragraph": "Software and automation get you 80% of the way. The last 20% is human. Every brand we work with gets a dedicated Client Success Manager who knows your entire franchise system: your locations, your offers, your franchisees, your pain points. Monthly strategy calls, personalized Loom recaps, Slack access for real-time support. You're not a ticket number in a queue. You're a partner with a dedicated team that owns your outcome.",
+      "bullets": [
+        { "label": "One senior point of contact", "rest": "who knows your entire system" },
+        { "label": "Monthly strategy calls & Loom recaps", "rest": "with clear next steps" },
+        { "label": "Slack + AI support", "rest": "built into your day-to-day operations" }
+      ],
+      "reverse": true
+    }
+  ],
+  "pillars": [
+    { "eb": "Paid Ads", "title": "Predictable Local Lead Flow", "desc": "Meta and Google ads managed per location with hyper-local targeting." },
+    { "eb": "UGC Creative", "title": "Authentic Ad Creative Engine", "desc": "Franchisees shoot local content, we edit and ship it into live campaigns." },
+    { "eb": "CRM & Automation", "title": "Zero Lead Leakage", "desc": "Lead routing, speed-to-lead workflows, and pipelines that run 24/7." },
+    { "eb": "Email & SMS", "title": "Follow-Up That Never Sleeps", "desc": "Automated nurture sequences across every stage of the funnel." },
+    { "eb": "5E Insight Engine", "title": "Real-Time Network Visibility", "desc": "Live dashboards across every location, campaign, and creative." },
+    { "eb": "Dedicated CSM", "title": "A Partner, Not a Ticket", "desc": "One senior point of contact who knows your entire system inside out." }
+  ],
+  "testimonial": {
+    "quote": "Fifth Element got us to 100% leased before we even opened. The entire system just worked from day one.",
+    "name": "Jared Jamison",
+    "meta": "Bakersfield, CA",
+    "avatar": "https://cdn.prod.website-files.com/68f669a6d79edc75f34470f3/692e9562339abd420ce02b28_Screenshot%202025-12-01%20at%2011.29.25%E2%80%AFPM.png"
+  },
+  "cta": {
+    "title": "Ready to Build a System That Scales?",
+    "body": "Book your free audit. We'll map out exactly what your current stack is missing and what a complete system would look like for your brand."
+  }
+}

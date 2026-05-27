@@ -1,0 +1,26 @@
+[
+  {
+    "id": "lead-flow",
+    "number": "01",
+    "label": "Pillar 1",
+    "title": "Predictable Local Lead Flow",
+    "description": "Centralized Meta & Google ad management per location. Every market gets hyper-local campaigns generating an abundance of qualified leads per month.",
+    "viz": "line"
+  },
+  {
+    "id": "ugc-creative",
+    "number": "02",
+    "label": "Pillar 2",
+    "title": "UGC-Powered Creative Engine",
+    "description": "We coach franchisees to create authentic local content that outperforms corporate creative by 30-50% on cost per lead.",
+    "viz": "creative"
+  },
+  {
+    "id": "insight-engine",
+    "number": "03",
+    "label": "Pillar 3",
+    "title": "5E Insight Engine",
+    "description": "AI-driven dashboards showing what works across every location in real time. No more guessing which markets are winning.",
+    "viz": "bars"
+  }
+]

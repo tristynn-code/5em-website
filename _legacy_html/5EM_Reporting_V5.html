@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Franchise Marketing Dashboards & Analytics | AI-Powered Insights | 5th Element Media</title>
+<meta name="description" content="Real-time franchise marketing dashboards. See CPL, lead volume, creative performance, and ROI across every location with the 5E Insight Engine — built for multi-location brands.">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+
+
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--teal:#00BE9D;--tealh:#00D4AE;--tealbg:rgba(0,190,157,.06);--tealbd:rgba(0,190,157,.15);--dk:#0F1314;--wh:#FFFFFF;--off:#F7F7F7;--tx:#1a1a1a;--tx2:#444;--tx3:#777;--bd:rgba(0,0,0,.07);--glass:rgba(255,255,255,.55);--glassborder:rgba(255,255,255,.25);--r:16px;--rl:24px;--rs:12px;--f:'Plus Jakarta Sans',system-ui,sans-serif}
+html{scroll-behavior:smooth}
+body{font-family:var(--f);color:var(--tx);background:var(--wh);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{text-decoration:none;color:inherit}
+.mx{max-width:1200px;margin:0 auto;padding:0 24px}
+.nav{position:fixed;top:12px;left:50%;transform:translateX(-50%);width:calc(100% - 48px);max-width:1200px;z-index:100;padding:12px 24px;display:flex;align-items:center;justify-content:space-between;background:var(--glass);backdrop-filter:blur(24px) saturate(1.4);-webkit-backdrop-filter:blur(24px) saturate(1.4);border:1px solid var(--glassborder);border-radius:var(--r);box-shadow:0 4px 24px rgba(0,0,0,.04)}
+.nav img{height:26px;filter:brightness(0)}
+.navr{display:flex;gap:24px;align-items:center}
+.navr a{font-size:14px;font-weight:500;color:var(--tx2);transition:color .2s}
+.navr a:hover{color:var(--tx)}
+.bp{display:inline-flex;align-items:center;gap:8px;font-family:var(--f);font-weight:700;border:none;cursor:pointer;transition:all .2s;background:var(--teal);color:var(--dk);padding:12px 24px;border-radius:var(--rs);font-size:15px}
+.bp:hover{background:var(--tealh);transform:translateY(-1px);box-shadow:0 8px 24px rgba(0,190,157,.2)}
+.bpl{padding:16px 32px;font-size:16px}
+.sec{padding:100px 24px}
+.stag{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--teal);margin-bottom:16px}
+.sttl{font-size:clamp(32px,5vw,48px);font-weight:800;letter-spacing:-.03em;line-height:1.08;color:var(--tx);margin-bottom:20px}
+.ssub{font-size:18px;color:var(--tx2);line-height:1.6;max-width:640px}
+.hero-split{padding:140px 24px 80px;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;max-width:1200px;margin:0 auto}
+.hero-split h1{font-size:clamp(36px,5vw,56px);font-weight:800;letter-spacing:-.03em;line-height:1.08;margin-bottom:20px}
+.hero-split h1 em{font-style:normal;color:var(--teal)}
+.hero-split .hero-img{border-radius:var(--rl);overflow:hidden;aspect-ratio:4/5;box-shadow:0 24px 60px rgba(0,0,0,.12);position:relative}
+.why{padding:100px 24px;background:var(--off)}
+.why .inner{max-width:960px;margin:0 auto;text-align:center}
+.testimonial{padding:100px 24px;background:var(--wh)}
+.testimonial .inner{max-width:960px;margin:0 auto}
+.testimonial .card{background:var(--dk);color:var(--wh);border-radius:var(--rl);padding:64px 56px;text-align:center;box-shadow:0 24px 60px rgba(0,0,0,.12);position:relative;overflow:hidden}
+.testimonial .card::before{content:'';position:absolute;top:-40px;right:-40px;width:200px;height:200px;border-radius:50%;background:radial-gradient(circle,rgba(0,190,157,.12),transparent 70%);pointer-events:none}
+.testimonial .stag{color:var(--teal);position:relative;z-index:1}
+.testimonial .quote{font-size:clamp(22px,3vw,30px);font-weight:600;line-height:1.35;letter-spacing:-.02em;margin:24px 0 32px;position:relative;z-index:1}
+.testimonial .quote::before{content:'\201C';color:var(--teal);font-size:64px;line-height:0;vertical-align:-24px;margin-right:8px}
+.testimonial .attr{display:flex;align-items:center;justify-content:center;gap:14px;position:relative;z-index:1}
+.testimonial .attr img{width:48px;height:48px;border-radius:50%;object-fit:cover;border:2px solid rgba(255,255,255,.1)}
+.testimonial .attr-text{text-align:left}
+.testimonial .attr-name{font-weight:700;font-size:15px}
+.testimonial .attr-meta{font-size:13px;color:rgba(255,255,255,.5)}
+@media(max-width:768px){.testimonial .card{padding:48px 28px}}
+.fcta{padding:80px 24px;text-align:center;background:var(--off)}
+.fcta h2{font-size:clamp(28px,4vw,40px);font-weight:800;letter-spacing:-.02em;margin-bottom:12px}
+.fcta p{font-size:16px;color:var(--tx2);margin-bottom:32px}
+.ft{background:var(--dk);padding:64px 24px 32px;color:rgba(255,255,255,.5);font-size:13px}
+.ftin{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:40px}
+.ftbr img{height:28px;filter:brightness(0) invert(1);margin-bottom:12px}
+.ftbr p{line-height:1.6;max-width:280px}
+.ftc h4{color:var(--wh);font-size:14px;font-weight:700;margin-bottom:16px}
+.ftc a{display:block;margin-bottom:10px;color:rgba(255,255,255,.5);transition:color .2s;font-size:13px}
+.ftc a:hover{color:var(--teal)}
+.ftbt{text-align:center;padding-top:32px;border-top:1px solid rgba(255,255,255,.06);max-width:1200px;margin:0 auto}
+@media(max-width:1024px){.fg{grid-template-columns:1fr 1fr}.hero-split{grid-template-columns:1fr;gap:40px}.hero-split .hero-img{aspect-ratio:16/10;max-width:520px;margin:0 auto}.ftin{grid-template-columns:1fr 1fr}}
+@media(max-width:768px){.navr a:not(.bp){display:none}.fg{grid-template-columns:1fr}.hero-split,.sec,.fcta,.why,.testimonial,.brands{padding-left:20px;padding-right:20px}.ftin{grid-template-columns:1fr}.brand-row{gap:32px}.brand-row img{height:36px}}
+/* ============ DEEP-DIVE FEATURE SECTIONS ============ */
+.feat{padding:100px 24px;overflow:hidden}
+.feat-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;max-width:1200px;margin:0 auto}
+.feat-reverse .feat-text{order:2}
+.feat-reverse .feat-visual{order:1}
+.feat-eb{font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--teal);margin-bottom:14px}
+.feat-h{font-size:clamp(28px,3.5vw,40px);font-weight:800;letter-spacing:-.02em;line-height:1.1;margin-bottom:20px;color:var(--tx)}
+.feat-p{font-size:17px;color:var(--tx2);line-height:1.65;margin-bottom:24px}
+.feat-list{list-style:none;padding:0;margin:0}
+.feat-list li{position:relative;padding-left:28px;margin-bottom:14px;font-size:15px;color:var(--tx2);line-height:1.55}
+.feat-list li::before{content:'';position:absolute;left:0;top:8px;width:16px;height:16px;border-radius:50%;background:var(--tealbg);border:1.5px solid var(--teal);background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%2300BE9D' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round' d='M3 8.5l3 3 7-7'/></svg>");background-repeat:no-repeat;background-position:center}
+.feat-list li strong{color:var(--tx);font-weight:700}
+.feat-visual{display:flex;align-items:center;justify-content:center}
+@keyframes pulseRing{0%{transform:translate(-50%,-50%) scale(1);opacity:.6}100%{transform:translate(-50%,-50%) scale(3.5);opacity:0}}
+@keyframes pulse{0%,100%{opacity:1;transform:translate(-50%,-50%) scale(1)}50%{opacity:.5;transform:translate(-50%,-50%) scale(.8)}}
+/* === Responsive === */
+@media(max-width:900px){
+  .feat-grid{grid-template-columns:1fr;gap:48px}
+  .feat-reverse .feat-text{order:1}.feat-reverse .feat-visual{order:2}
+  .feat{padding:72px 20px}
+  .feat-h{font-size:26px}.feat-p{font-size:15px}
+  .mockup-phone{width:220px}
+}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.3)}}
+@keyframes geopulse{0%{transform:scale(0.8);opacity:.4}100%{transform:scale(1.1);opacity:0}}
+@keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+/* Bottom overlay (user, caption, audio strip) */
+.ig-bottom{position:absolute;left:0;right:60px;bottom:16px;z-index:5;padding:0 14px;color:#fff}
+@keyframes igprog{from{width:0}to{width:100%}}
+@keyframes notifSlide{to{opacity:1;transform:translateY(0)}}
+@keyframes hmsgSlide{to{opacity:1;transform:translateX(0) rotate(0)}}
+@keyframes typing{0%,60%,100%{transform:translateY(0);opacity:.3}30%{transform:translateY(-4px);opacity:1}}
+/* === Hero dashboard === */
+.hero-dash{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:20px;width:100%;max-width:420px;backdrop-filter:blur(12px)}
+.hd-header{padding-bottom:14px;border-bottom:1px solid rgba(255,255,255,.08);margin-bottom:16px}
+.hd-title-row{display:flex;justify-content:space-between;align-items:center;margin-bottom:4px}
+.hd-title{font-size:14px;font-weight:800;letter-spacing:-.01em;color:#fff}
+.hd-badge{display:flex;align-items:center;gap:6px;font-size:10px;font-weight:700;color:var(--teal);letter-spacing:.04em;text-transform:uppercase}
+.hd-dot{width:6px;height:6px;border-radius:50%;background:var(--teal);animation:pulse 1.5s ease-in-out infinite}
+.hd-sub{font-size:11px;color:rgba(255,255,255,.55);font-weight:500}
+.hd-kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:14px}
+.hd-kpi{padding:12px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);border-radius:10px}
+.hd-kpi-lbl{font-size:9px;color:rgba(255,255,255,.5);font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.hd-kpi-val{font-size:18px;font-weight:800;color:#fff;letter-spacing:-.02em;line-height:1;margin-top:4px}
+.hd-kpi-delta{font-size:10px;color:var(--teal);font-weight:700;margin-top:4px}
+.hd-chart{padding:6px 0 0}
+/* === F1: Live Dashboard === */
+.mockup-live-dash{background:var(--wh);border:1px solid var(--bd);border-radius:var(--rl);padding:22px;width:100%;max-width:440px;box-shadow:0 12px 40px rgba(0,0,0,.06)}
+.mld-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;padding-bottom:12px;border-bottom:1px solid var(--bd)}
+.mld-title{font-size:13px;font-weight:800;color:var(--tx);letter-spacing:-.01em}
+.mld-live{display:flex;align-items:center;gap:6px;font-size:10px;font-weight:700;color:var(--teal)}
+.mld-dot{width:6px;height:6px;border-radius:50%;background:var(--teal);animation:pulse 1.5s ease-in-out infinite}
+.mld-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px}
+.mld-kpi{padding:12px;background:var(--off);border:1px solid var(--bd);border-radius:10px}
+.mld-kpi-lbl{font-size:10px;color:var(--tx3);font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.mld-kpi-val{font-size:18px;font-weight:800;color:var(--tx);letter-spacing:-.02em;line-height:1;margin-top:4px}
+.mld-spark{margin-top:8px}
+.mld-delta{font-size:10px;font-weight:700;margin-top:4px}
+.mld-delta-up{color:var(--teal)}
+.mld-alert{display:flex;align-items:center;gap:8px;padding:10px 12px;background:rgba(239,159,39,.08);border:1px solid rgba(239,159,39,.2);border-radius:8px;font-size:11px;color:var(--tx);font-weight:600}
+.mld-alert-icon{color:#EF9F27;font-size:14px;flex-shrink:0}
+.mld-alert-text{line-height:1.3}
+/* === F2: Location Comparison === */
+.mockup-loc-comp{background:var(--wh);border:1px solid var(--bd);border-radius:var(--rl);padding:22px;width:100%;max-width:440px;box-shadow:0 12px 40px rgba(0,0,0,.06)}
+.mlc-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;padding-bottom:12px;border-bottom:1px solid var(--bd)}
+.mlc-title{font-size:13px;font-weight:800;color:var(--tx);letter-spacing:-.01em}
+.mlc-filter{font-size:10px;color:var(--tx3);font-weight:600;padding:3px 8px;background:var(--off);border-radius:6px}
+.mlc-list{display:flex;flex-direction:column;gap:8px;margin-bottom:14px}
+.mlc-item{display:grid;grid-template-columns:24px 1fr 60px;gap:10px;align-items:center;padding:10px 12px;background:var(--off);border:1px solid var(--bd);border-radius:8px}
+.mlc-item-top{background:var(--tealbg);border-color:var(--tealbd)}
+.mlc-item-bot{background:rgba(239,159,39,.08);border-color:rgba(239,159,39,.2)}
+.mlc-rank{font-size:14px;font-weight:800;color:var(--tx3);text-align:center}
+.mlc-item-top .mlc-rank{color:var(--teal)}
+.mlc-item-bot .mlc-rank{color:#EF9F27}
+.mlc-info{min-width:0}
+.mlc-name{font-size:12px;font-weight:700;color:var(--tx);letter-spacing:-.01em;margin-bottom:4px}
+.mlc-bar-wrap{height:5px;background:rgba(0,0,0,.05);border-radius:3px;overflow:hidden}
+.mlc-bar{height:100%;background:var(--teal);border-radius:3px}
+.mlc-bar-avg{background:var(--tx3)}
+.mlc-bar-bot{background:#EF9F27}
+.mlc-val{font-size:13px;font-weight:800;color:var(--tx);letter-spacing:-.01em;text-align:right}
+.mlc-avg{display:flex;justify-content:space-between;padding:10px 12px;background:rgba(0,0,0,.03);border-radius:8px;font-size:11px;font-weight:700;color:var(--tx3)}
+.mlc-avg-label{letter-spacing:.04em;text-transform:uppercase}
+.mlc-avg-val{color:var(--tx)}
+/* === F3: Creative Performance === */
+.mockup-creative-perf{background:var(--wh);border:1px solid var(--bd);border-radius:var(--rl);padding:22px;width:100%;max-width:440px;box-shadow:0 12px 40px rgba(0,0,0,.06)}
+.mcp-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;padding-bottom:12px;border-bottom:1px solid var(--bd)}
+.mcp-title{font-size:13px;font-weight:800;color:var(--tx);letter-spacing:-.01em}
+.mcp-period{font-size:10px;color:var(--tx3);font-weight:600;padding:3px 8px;background:var(--off);border-radius:6px}
+.mcp-list{display:flex;flex-direction:column;gap:8px}
+.mcp-item{display:flex;align-items:center;gap:12px;padding:10px;background:var(--off);border:1px solid var(--bd);border-radius:10px}
+.mcp-item-winner{background:var(--tealbg);border-color:var(--tealbd)}
+.mcp-item-fatigue{background:rgba(239,159,39,.08);border-color:rgba(239,159,39,.2)}
+.mcp-thumb{width:44px;height:56px;border-radius:6px;flex-shrink:0;display:flex;align-items:flex-end;justify-content:center;padding-bottom:4px;position:relative;overflow:hidden}
+.mcp-thumb-1{background:linear-gradient(135deg,#667eea,#764ba2)}
+.mcp-thumb-2{background:linear-gradient(135deg,#f093fb,#f5576c)}
+.mcp-thumb-3{background:linear-gradient(135deg,#4facfe,#00f2fe)}
+.mcp-thumb-4{background:linear-gradient(135deg,#434343,#000)}
+.mcp-thumb-label{font-size:8px;font-weight:800;color:#fff;background:rgba(0,0,0,.4);padding:2px 5px;border-radius:3px;letter-spacing:.04em;text-transform:uppercase}
+.mcp-info{flex:1;min-width:0}
+.mcp-name{font-size:12px;font-weight:700;color:var(--tx);letter-spacing:-.01em;line-height:1.2;margin-bottom:2px}
+.mcp-meta{font-size:10px;color:var(--tx3);font-weight:600}
+.mcp-metrics{display:flex;gap:10px;flex-shrink:0}
+.mcp-metric{text-align:right}
+.mcp-metric-val{font-size:13px;font-weight:800;color:var(--tx);letter-spacing:-.01em;line-height:1}
+.mcp-metric-lbl{font-size:9px;color:var(--tx3);font-weight:700;letter-spacing:.04em;text-transform:uppercase;margin-top:3px}
+.mcp-metric-good .mcp-metric-val{color:var(--teal)}
+.mcp-metric-bad .mcp-metric-val{color:#EF9F27}
+/* === F4: Loom Player === */
+.mockup-loom{background:var(--wh);border:1px solid var(--bd);border-radius:var(--rl);padding:16px;width:100%;max-width:420px;box-shadow:0 12px 40px rgba(0,0,0,.06)}
+.mlm-player{background:#0f1314;border-radius:12px;overflow:hidden;margin-bottom:14px}
+.mlm-video{position:relative;aspect-ratio:16/10;background:linear-gradient(135deg,#1D2637 0%,#0f1314 100%);padding:24px;display:flex;align-items:center;justify-content:center}
+.mlm-thumb-overlay{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;z-index:2}
+.mlm-play{width:56px;height:56px;border-radius:50%;background:var(--teal);color:var(--dk);display:flex;align-items:center;justify-content:center;font-size:20px;padding-left:4px;box-shadow:0 8px 32px rgba(0,190,157,.4)}
+.mlm-dash-preview{width:100%;opacity:.3}
+.mlm-dp-row{display:flex;gap:8px;margin-bottom:10px}
+.mlm-dp-block{flex:1;height:24px;background:rgba(255,255,255,.1);border-radius:4px}
+.mlm-dp-block-teal{background:rgba(0,190,157,.2)}
+.mlm-dp-chart{padding:8px 0}
+.mlm-circle{position:absolute;bottom:16px;right:16px;width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,#00BE9D,#00a789);border:3px solid rgba(255,255,255,.2);z-index:3}
+.mlm-controls{padding:10px 14px;background:#1a2021;display:flex;align-items:center;gap:10px}
+.mlm-progress{flex:1;height:3px;background:rgba(255,255,255,.15);border-radius:2px;overflow:hidden}
+.mlm-progress-fill{height:100%;width:32%;background:var(--teal);border-radius:2px}
+.mlm-time{font-size:10px;color:rgba(255,255,255,.7);font-weight:600;flex-shrink:0;font-variant-numeric:tabular-nums}
+.mlm-info{padding:0 4px}
+.mlm-title{font-size:14px;font-weight:800;color:var(--tx);letter-spacing:-.01em;margin-bottom:4px}
+.mlm-meta{font-size:11px;color:var(--tx3);font-weight:600}
+/* === F5: ROI Funnel === */
+.mockup-roi{background:var(--wh);border:1px solid var(--bd);border-radius:var(--rl);padding:22px;width:100%;max-width:440px;box-shadow:0 12px 40px rgba(0,0,0,.06)}
+.mroi-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;padding-bottom:12px;border-bottom:1px solid var(--bd)}
+.mroi-title{font-size:13px;font-weight:800;color:var(--tx);letter-spacing:-.01em}
+.mroi-period{font-size:10px;color:var(--tx3);font-weight:600;padding:3px 8px;background:var(--off);border-radius:6px}
+.mroi-funnel{display:flex;flex-direction:column;gap:6px;margin-bottom:16px}
+.mroi-stage{display:flex;justify-content:center}
+.mroi-stage-bar{position:relative;background:var(--tealbg);border:1px solid var(--tealbd);border-radius:8px;padding:12px 16px;display:flex;justify-content:space-between;align-items:center;min-height:44px}
+.mroi-stage-bar-won{background:var(--teal);border-color:var(--teal)}
+.mroi-stage-label{font-size:12px;font-weight:700;color:var(--tx);letter-spacing:-.01em}
+.mroi-stage-bar-won .mroi-stage-label{color:var(--dk)}
+.mroi-stage-val{font-size:13px;font-weight:800;color:var(--tx);letter-spacing:-.02em;margin-left:16px}
+.mroi-stage-bar-won .mroi-stage-val{color:var(--dk)}
+.mroi-footer{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding-top:14px;border-top:1px solid var(--bd)}
+.mroi-metric{text-align:center;padding:10px;background:var(--off);border-radius:8px;border:1px solid var(--bd)}
+.mroi-metric-good{background:var(--tealbg);border-color:var(--tealbd)}
+.mroi-metric-lbl{font-size:9px;color:var(--tx3);font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.mroi-metric-val{font-size:16px;font-weight:800;color:var(--tx);letter-spacing:-.02em;line-height:1;margin-top:4px}
+.mroi-metric-good .mroi-metric-val{color:var(--teal)}
+/* === F6: Franchisor Rollup === */
+.mockup-rollup{background:var(--wh);border:1px solid var(--bd);border-radius:var(--rl);padding:22px;width:100%;max-width:420px;box-shadow:0 12px 40px rgba(0,0,0,.06)}
+.mrp-header{margin-bottom:16px;padding-bottom:12px;border-bottom:1px solid var(--bd)}
+.mrp-title{font-size:14px;font-weight:800;color:var(--tx);letter-spacing:-.01em}
+.mrp-sub{font-size:11px;color:var(--tx3);margin-top:2px;font-weight:600}
+.mrp-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:16px}
+.mrp-stat{padding:12px 8px;background:var(--tealbg);border:1px solid var(--tealbd);border-radius:10px;text-align:center}
+.mrp-stat-val{font-size:16px;font-weight:800;color:var(--teal);letter-spacing:-.02em;line-height:1}
+.mrp-stat-lbl{font-size:9px;color:var(--tx3);font-weight:700;letter-spacing:.04em;text-transform:uppercase;margin-top:4px}
+.mrp-markets{padding-top:8px;border-top:1px solid var(--bd)}
+.mrp-market-title{font-size:10px;font-weight:800;color:var(--tx3);letter-spacing:.04em;text-transform:uppercase;margin-bottom:10px;padding-top:8px}
+.mrp-market{display:grid;grid-template-columns:1fr auto auto;gap:12px;align-items:center;padding:10px 12px;background:var(--off);border:1px solid var(--bd);border-radius:8px;margin-bottom:6px}
+.mrp-market-good{background:var(--tealbg);border-color:var(--tealbd)}
+.mrp-market-attention{background:rgba(239,159,39,.08);border-color:rgba(239,159,39,.2)}
+.mrp-market-name{font-size:12px;font-weight:700;color:var(--tx);letter-spacing:-.01em}
+.mrp-market-count{font-size:10px;color:var(--tx3);font-weight:600}
+.mrp-market-metric{font-size:12px;font-weight:800;color:var(--tx);letter-spacing:-.01em}
+.mrp-market-good .mrp-market-metric{color:var(--teal)}
+.mrp-market-attention .mrp-market-metric{color:#EF9F27}
+</style>
+</head>
+<body>
+<nav class="nav"><a href="/homepage-v5"><img src="https://cdn.prod.website-files.com/68f669a6d79edc75f34470f3/6921faef19de659f7d5b81f6_FifthElement%207.png" alt="5th Element Media"></a><div class="navr"><a href="/about-v5">About</a><a href="/case-studies-v5">Case Studies</a><a href="/paid-ads-v5">Services</a><a href="/blog">Blog</a><a href="/contact-v5">Contact</a><a href="https://go.5them.com/free-franchise-lead-engine-audit" class="bp">Book Free Audit</a></div></nav>
+
+<!-- HERO SPLIT -->
+<section class="hero-split"><div><div class="stag">Reporting &amp; Analytics</div><h1>You Can't Scale<br><em>What You Can't See.</em></h1><p class="ssub" style="margin-bottom:32px">Most franchise brands operate blind. Agencies send a PDF once a month and call it reporting. We built something better: the 5E Insight Engine &mdash; live dashboards that show you exactly what's working across every location, every campaign, every creative. Updated in real time.</p><a href="https://go.5them.com/free-franchise-lead-engine-audit" class="bp bpl">Book Your Free Audit &rarr;</a></div><div class="hero-img" style="aspect-ratio:3/2;min-height:auto;background:linear-gradient(135deg,#0f1314 0%,#1D2637 100%);display:flex;align-items:center;justify-content:center;padding:24px"><div class="hero-dash"><div class="hd-header"><div class="hd-title-row"><div class="hd-title">5E Insight Engine</div><div class="hd-badge"><span class="hd-dot"></span>Live</div></div><div class="hd-sub">All locations &middot; Last 30 days</div></div><div class="hd-kpis"><div class="hd-kpi"><div class="hd-kpi-lbl">Total leads</div><div class="hd-kpi-val">2,847</div><div class="hd-kpi-delta">&uarr; 23%</div></div><div class="hd-kpi"><div class="hd-kpi-lbl">Avg CPL</div><div class="hd-kpi-val">$14.20</div><div class="hd-kpi-delta">&darr; 18%</div></div><div class="hd-kpi"><div class="hd-kpi-lbl">Show rate</div><div class="hd-kpi-val">72%</div><div class="hd-kpi-delta">&uarr; 8%</div></div></div><div class="hd-chart"><svg viewBox="0 0 280 60" preserveAspectRatio="none" style="width:100%;height:60px"><defs><linearGradient id="hdg" x1="0" x2="0" y1="0" y2="1"><stop offset="0%" stop-color="#00BE9D" stop-opacity=".4"/><stop offset="100%" stop-color="#00BE9D" stop-opacity="0"/></linearGradient></defs><path d="M0,45 L20,40 L40,42 L60,35 L80,32 L100,28 L120,30 L140,22 L160,18 L180,20 L200,14 L220,10 L240,12 L260,6 L280,4 L280,60 L0,60 Z" fill="url(#hdg)"/><path d="M0,45 L20,40 L40,42 L60,35 L80,32 L100,28 L120,30 L140,22 L160,18 L180,20 L200,14 L220,10 L240,12 L260,6 L280,4" fill="none" stroke="#00BE9D" stroke-width="2"/></svg></div></div></div></section>
+
+<!-- WHY DIFFERENT -->
+<section class="why"><div class="inner"><div class="stag">Why Reporting Matters</div><h2 class="sttl">Monthly PDFs Aren't Reporting. They're History Lessons.</h2><p class="ssub" style="margin:0 auto">By the time you get a monthly report, the problems it's describing are already 30 days old. The underperforming location has been bleeding budget for weeks. The winning creative has already fatigued. The best franchise brands make decisions on live data, not lagging indicators. The 5E Insight Engine gives every franchisor and franchisee the same real-time visibility our internal team uses &mdash; no waiting, no guessing, no stale reports.</p></div></section>
+
+<!-- INTRO TO DEEP DIVE -->
+<section class="sec" style="padding:100px 24px 80px;text-align:center"><div class="mx"><div class="stag" style="display:inline-block">The 5E Insight Engine</div><h2 class="sttl" style="text-align:center">AI-Powered Dashboards for Franchise Brands</h2><p class="ssub" style="margin:0 auto;text-align:center;max-width:680px">Stop waiting for monthly reports. See live performance data across every location, every campaign, and every creative &mdash; updated in real time.</p></div></section>
+
+<!-- FEATURE 1: LIVE PERFORMANCE DASHBOARD -->
+<section class="feat" style="background:var(--off)"><div class="feat-grid mx"><div class="feat-text"><div class="feat-eb">Real-Time Data. No Waiting.</div><h3 class="feat-h">Live Performance Dashboard</h3><p class="feat-p">The 5E Insight Engine pulls data directly from Meta, Google, and your CRM every 15 minutes, so you're always looking at current reality &mdash; not what happened three weeks ago. Track CPL, lead volume, show rates, booking rates, and close rates across every location in one unified view. When something spikes or dips, you see it immediately and can act on it the same day. No waiting for the Friday report. No waiting for the month to close.</p><ul class="feat-list"><li><strong>15-minute data refresh</strong> across Meta, Google, and GHL pipeline</li><li><strong>Unified multi-location view</strong> that rolls up every campaign in one place</li><li><strong>Anomaly alerts</strong> that flag CPL spikes and volume dips before they compound</li></ul></div><div class="feat-visual"><div class="mockup-live-dash"><div class="mld-header"><div class="mld-title">Network Overview</div><div class="mld-live"><span class="mld-dot"></span>Live &middot; Updated 2m ago</div></div><div class="mld-grid"><div class="mld-kpi"><div class="mld-kpi-lbl">Total leads</div><div class="mld-kpi-val">2,847</div><div class="mld-spark"><svg viewBox="0 0 80 20" preserveAspectRatio="none" style="width:100%;height:20px"><path d="M0,15 L10,13 L20,14 L30,10 L40,11 L50,7 L60,5 L70,6 L80,3" fill="none" stroke="#00BE9D" stroke-width="1.5"/></svg></div><div class="mld-delta mld-delta-up">&uarr; 23%</div></div><div class="mld-kpi"><div class="mld-kpi-lbl">Avg CPL</div><div class="mld-kpi-val">$14.20</div><div class="mld-spark"><svg viewBox="0 0 80 20" preserveAspectRatio="none" style="width:100%;height:20px"><path d="M0,5 L10,7 L20,6 L30,10 L40,9 L50,12 L60,14 L70,13 L80,16" fill="none" stroke="#00BE9D" stroke-width="1.5"/></svg></div><div class="mld-delta mld-delta-up">&darr; 18%</div></div><div class="mld-kpi"><div class="mld-kpi-lbl">Show rate</div><div class="mld-kpi-val">72%</div><div class="mld-spark"><svg viewBox="0 0 80 20" preserveAspectRatio="none" style="width:100%;height:20px"><path d="M0,14 L10,12 L20,13 L30,10 L40,9 L50,7 L60,8 L70,5 L80,4" fill="none" stroke="#00BE9D" stroke-width="1.5"/></svg></div><div class="mld-delta mld-delta-up">&uarr; 8%</div></div><div class="mld-kpi"><div class="mld-kpi-lbl">Close rate</div><div class="mld-kpi-val">38%</div><div class="mld-spark"><svg viewBox="0 0 80 20" preserveAspectRatio="none" style="width:100%;height:20px"><path d="M0,12 L10,10 L20,11 L30,8 L40,7 L50,9 L60,6 L70,5 L80,3" fill="none" stroke="#00BE9D" stroke-width="1.5"/></svg></div><div class="mld-delta mld-delta-up">&uarr; 12%</div></div></div><div class="mld-alert"><span class="mld-alert-icon">&#9888;</span><span class="mld-alert-text">Austin South CPL up 42% in last 48hr &mdash; needs review</span></div></div></div></div></section>
+
+<!-- FEATURE 2: LOCATION COMPARISON -->
+<section class="feat"><div class="feat-grid mx feat-reverse"><div class="feat-text"><div class="feat-eb">Spot Outliers. Replicate Winners.</div><h3 class="feat-h">Location Performance Comparison</h3><p class="feat-p">Some locations crush it. Some struggle. The question that matters is: why? We build comparison views that surface the outliers instantly &mdash; which locations are beating the network average, which ones are lagging, and what specific factors explain the gap. Creative mix, audience targeting, follow-up speed, local offers, demographic fit. Once you see the pattern, you can replicate what's working and fix what's not, at the network level.</p><ul class="feat-list"><li><strong>Side-by-side location benchmarks</strong> with rankings across every KPI</li><li><strong>Network-average indicators</strong> that make outliers instantly visible</li><li><strong>Drill-down analysis</strong> into creative, audience, and funnel stage per location</li></ul></div><div class="feat-visual"><div class="mockup-loc-comp"><div class="mlc-header"><div class="mlc-title">Locations Ranked &middot; CPL</div><div class="mlc-filter">Last 30d</div></div><div class="mlc-list"><div class="mlc-item mlc-item-top"><div class="mlc-rank">1</div><div class="mlc-info"><div class="mlc-name">Austin North</div><div class="mlc-bar-wrap"><div class="mlc-bar" style="width:32%"></div></div></div><div class="mlc-val">$9.40</div></div><div class="mlc-item mlc-item-top"><div class="mlc-rank">2</div><div class="mlc-info"><div class="mlc-name">Dallas Central</div><div class="mlc-bar-wrap"><div class="mlc-bar" style="width:38%"></div></div></div><div class="mlc-val">$11.20</div></div><div class="mlc-item"><div class="mlc-rank">3</div><div class="mlc-info"><div class="mlc-name">Miami Beach</div><div class="mlc-bar-wrap"><div class="mlc-bar" style="width:45%"></div></div></div><div class="mlc-val">$13.30</div></div><div class="mlc-item"><div class="mlc-rank">4</div><div class="mlc-info"><div class="mlc-name">Houston West</div><div class="mlc-bar-wrap"><div class="mlc-bar mlc-bar-avg" style="width:52%"></div></div></div><div class="mlc-val">$15.40</div></div><div class="mlc-item mlc-item-bot"><div class="mlc-rank">5</div><div class="mlc-info"><div class="mlc-name">Phoenix East</div><div class="mlc-bar-wrap"><div class="mlc-bar mlc-bar-bot" style="width:78%"></div></div></div><div class="mlc-val">$23.10</div></div></div><div class="mlc-avg"><span class="mlc-avg-label">Network avg</span><span class="mlc-avg-val">$14.20</span></div></div></div></div></section>
+
+<!-- FEATURE 3: CREATIVE PERFORMANCE -->
+<section class="feat" style="background:var(--off)"><div class="feat-grid mx"><div class="feat-text"><div class="feat-eb">Data-Driven Creative Decisions</div><h3 class="feat-h">Creative Performance Tracking</h3><p class="feat-p">Most agencies pick creative based on what looks good. We pick based on what works. The 5E Insight Engine tracks every ad creative, hook, format, and variation against real performance data &mdash; CTR, CPC, CPL, and conversion to booked appointment. You see exactly which creatives are winning, which are fatiguing, and which hooks connect with your target audience. Then we double down on what's working and retire what's not, continuously.</p><ul class="feat-list"><li><strong>Creative leaderboard</strong> ranked by CPL and conversion rate</li><li><strong>Fatigue detection</strong> that flags declining creatives before they tank</li><li><strong>Hook &amp; format analysis</strong> that identifies winning patterns for your audience</li></ul></div><div class="feat-visual"><div class="mockup-creative-perf"><div class="mcp-header"><div class="mcp-title">Creative Leaderboard</div><div class="mcp-period">Last 14d</div></div><div class="mcp-list"><div class="mcp-item mcp-item-winner"><div class="mcp-thumb mcp-thumb-1"><div class="mcp-thumb-label">UGC</div></div><div class="mcp-info"><div class="mcp-name">Sarah transformation story</div><div class="mcp-meta">UGC &middot; 60s vertical</div></div><div class="mcp-metrics"><div class="mcp-metric mcp-metric-good"><div class="mcp-metric-val">$8.20</div><div class="mcp-metric-lbl">CPL</div></div></div></div><div class="mcp-item mcp-item-winner"><div class="mcp-thumb mcp-thumb-2"><div class="mcp-thumb-label">UGC</div></div><div class="mcp-info"><div class="mcp-name">Jake gym routine walkthrough</div><div class="mcp-meta">UGC &middot; 45s vertical</div></div><div class="mcp-metrics"><div class="mcp-metric mcp-metric-good"><div class="mcp-metric-val">$9.80</div><div class="mcp-metric-lbl">CPL</div></div></div></div><div class="mcp-item"><div class="mcp-thumb mcp-thumb-3"><div class="mcp-thumb-label">Static</div></div><div class="mcp-info"><div class="mcp-name">Intro offer &mdash; $49 trial</div><div class="mcp-meta">Static &middot; 1:1</div></div><div class="mcp-metrics"><div class="mcp-metric"><div class="mcp-metric-val">$14.40</div><div class="mcp-metric-lbl">CPL</div></div></div></div><div class="mcp-item mcp-item-fatigue"><div class="mcp-thumb mcp-thumb-4"><div class="mcp-thumb-label">Brand</div></div><div class="mcp-info"><div class="mcp-name">Brand intro video &mdash; v1</div><div class="mcp-meta">Fatiguing &middot; 8 weeks old</div></div><div class="mcp-metrics"><div class="mcp-metric mcp-metric-bad"><div class="mcp-metric-val">$28.90</div><div class="mcp-metric-lbl">CPL</div></div></div></div></div></div></div></div></section>
+
+<!-- FEATURE 4: MONTHLY LOOM RECAPS -->
+<section class="feat"><div class="feat-grid mx feat-reverse"><div class="feat-text"><div class="feat-eb">Your CSM on Video. Every Month.</div><h3 class="feat-h">Monthly Loom Recaps</h3><p class="feat-p">Dashboards are powerful, but they can't replace a human pointing at the screen and saying &ldquo;here's what happened and here's what we're doing about it.&rdquo; Every month, your dedicated CSM records a personalized Loom video walking through your performance: what worked, what didn't, what we're testing next. No jargon, no fluff, no 40-page PDF. Just clear narration over the exact data that matters, sent to your inbox on the first of every month.</p><ul class="feat-list"><li><strong>Personalized monthly video recap</strong> narrated by your dedicated CSM</li><li><strong>Clear insights &amp; next steps</strong> delivered without industry jargon</li><li><strong>On-demand async</strong> so you can watch when it's convenient &mdash; no meetings required</li></ul></div><div class="feat-visual"><div class="mockup-loom"><div class="mlm-player"><div class="mlm-video"><div class="mlm-thumb-overlay"><div class="mlm-play">&#9654;</div></div><div class="mlm-dash-preview"><div class="mlm-dp-row"><div class="mlm-dp-block"></div><div class="mlm-dp-block mlm-dp-block-teal"></div><div class="mlm-dp-block"></div></div><div class="mlm-dp-chart"><svg viewBox="0 0 200 40" preserveAspectRatio="none" style="width:100%;height:40px"><path d="M0,30 L20,28 L40,25 L60,20 L80,15 L100,18 L120,12 L140,10 L160,8 L180,5 L200,3" fill="none" stroke="#00BE9D" stroke-width="2"/></svg></div></div><div class="mlm-circle"></div></div><div class="mlm-controls"><div class="mlm-progress"><div class="mlm-progress-fill"></div></div><div class="mlm-time">2:34 / 8:12</div></div></div><div class="mlm-info"><div class="mlm-title">March Performance Recap</div><div class="mlm-meta">Recorded by Justin &middot; CSM &middot; 8 min</div></div></div></div></div></section>
+
+<!-- FEATURE 5: ROI TRACKING -->
+<section class="feat" style="background:var(--off)"><div class="feat-grid mx"><div class="feat-text"><div class="feat-eb">CPL is a Vanity Metric. ROI is the Real One.</div><h3 class="feat-h">End-to-End ROI Tracking</h3><p class="feat-p">A low CPL doesn't mean anything if those leads don't convert to paying customers. We connect ad spend to actual revenue by tying Meta and Google data directly to your CRM pipeline and membership system. You see true cost per acquisition, lifetime value per channel, and ROI per location &mdash; not just cost per lead. This is the reporting franchise leadership actually needs to make strategic decisions about budget allocation.</p><ul class="feat-list"><li><strong>Ad spend to revenue attribution</strong> that closes the loop from click to close</li><li><strong>True cost per acquisition</strong> calculated on booked appointments and signed members</li><li><strong>LTV per channel</strong> that shows which sources bring the best long-term clients</li></ul></div><div class="feat-visual"><div class="mockup-roi"><div class="mroi-header"><div class="mroi-title">ROI by Channel</div><div class="mroi-period">Q1 2026</div></div><div class="mroi-funnel"><div class="mroi-stage"><div class="mroi-stage-bar" style="width:100%"><div class="mroi-stage-label">Ad spend</div><div class="mroi-stage-val">$48,200</div></div></div><div class="mroi-stage"><div class="mroi-stage-bar" style="width:82%"><div class="mroi-stage-label">Leads generated</div><div class="mroi-stage-val">2,847</div></div></div><div class="mroi-stage"><div class="mroi-stage-bar" style="width:58%"><div class="mroi-stage-label">Booked appts</div><div class="mroi-stage-val">1,245</div></div></div><div class="mroi-stage"><div class="mroi-stage-bar mroi-stage-bar-won" style="width:38%"><div class="mroi-stage-label">Signed members</div><div class="mroi-stage-val">472</div></div></div></div><div class="mroi-footer"><div class="mroi-metric"><div class="mroi-metric-lbl">True CAC</div><div class="mroi-metric-val">$102</div></div><div class="mroi-metric"><div class="mroi-metric-lbl">Avg LTV</div><div class="mroi-metric-val">$1,840</div></div><div class="mroi-metric mroi-metric-good"><div class="mroi-metric-lbl">LTV:CAC</div><div class="mroi-metric-val">18:1</div></div></div></div></div></div></section>
+
+<!-- FEATURE 6: FRANCHISOR ROLLUP -->
+<section class="feat"><div class="feat-grid mx feat-reverse"><div class="feat-text"><div class="feat-eb">Brand-Level Intelligence. Location-Level Detail.</div><h3 class="feat-h">Franchisor Rollup Reporting</h3><p class="feat-p">Brand leadership needs a different view than individual franchisees. While the franchisee cares about their location's numbers, the franchisor needs the network-wide picture: total leads across all locations, average CPL by market, creative that's working system-wide, underperforming markets that need support. We build franchisor-specific rollup dashboards that aggregate every location into one strategic view &mdash; perfect for leadership meetings, board updates, and system-wide decisions.</p><ul class="feat-list"><li><strong>Network-level KPIs</strong> aggregated across every franchise location</li><li><strong>Market-by-market performance</strong> broken down by region and franchise group</li><li><strong>Executive-ready exports</strong> built for board decks and leadership reviews</li></ul></div><div class="feat-visual"><div class="mockup-rollup"><div class="mrp-header"><div class="mrp-title">Franchisor Network Rollup</div><div class="mrp-sub">28 locations &middot; 6 markets</div></div><div class="mrp-stats"><div class="mrp-stat"><div class="mrp-stat-val">2,847</div><div class="mrp-stat-lbl">Total leads</div></div><div class="mrp-stat"><div class="mrp-stat-val">$14.20</div><div class="mrp-stat-lbl">Network CPL</div></div><div class="mrp-stat"><div class="mrp-stat-val">18:1</div><div class="mrp-stat-lbl">LTV:CAC</div></div></div><div class="mrp-markets"><div class="mrp-market-title">Markets</div><div class="mrp-market mrp-market-good"><div class="mrp-market-name">Texas</div><div class="mrp-market-count">8 locations</div><div class="mrp-market-metric">$11.40</div></div><div class="mrp-market mrp-market-good"><div class="mrp-market-name">Florida</div><div class="mrp-market-count">6 locations</div><div class="mrp-market-metric">$12.80</div></div><div class="mrp-market"><div class="mrp-market-name">California</div><div class="mrp-market-count">5 locations</div><div class="mrp-market-metric">$14.90</div></div><div class="mrp-market mrp-market-attention"><div class="mrp-market-name">Arizona</div><div class="mrp-market-count">3 locations</div><div class="mrp-market-metric">$22.10</div></div></div></div></div></div></section>
+
+<!-- TESTIMONIAL -->
+<section class="testimonial"><div class="inner"><div class="card"><div class="stag">Real Results</div><div class="quote">Their data-driven, collaborative approach has been outstanding. We finally have visibility into what's actually working.</div><div class="attr"><img src="https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69b5f20ceaf0810bac666af2.jpeg" alt="Chris Johnson"><div class="attr-text"><div class="attr-name">Chris Johnson</div><div class="attr-meta">Palm Beach Gardens, FL</div></div></div></div></div></section>
+
+<!-- CTA -->
+<section class="fcta"><h2>Ready to See What's Actually Working?</h2><p>Book your free audit and we'll show you exactly what your current reporting is missing and what you should be tracking instead.</p><a href="https://go.5them.com/free-franchise-lead-engine-audit" class="bp bpl">Book Your Free Audit &rarr;</a></section>
+
+<footer class="ft"><div class="ftin"><div class="ftbr"><img src="https://cdn.prod.website-files.com/68f669a6d79edc75f34470f3/6921faef19de659f7d5b81f6_FifthElement%207.png" alt="5th Element Media"><p>The franchise marketing agency behind 100s of franchise locations. Predictable lead flow, UGC creative, and AI-driven insights.</p></div><div class="ftc"><h4>Company</h4><a href="/about-v5">About</a><a href="/case-studies-v5">Case Studies</a><a href="/blog">Blog</a><a href="/contact-v5">Contact</a></div><div class="ftc"><h4>Services</h4><a href="/paid-ads-v5">Paid Ads</a><a href="/for-franchisors-v5">For Franchisors</a><a href="/for-franchisees-v5">For Franchisees</a><a href="/reporting-and-analytics">Analytics</a></div><div class="ftc"><h4>Connect</h4><a href="https://www.linkedin.com/company/5th-element-media">LinkedIn</a><a href="https://www.instagram.com/fifthelement.agency/">Instagram</a><a href="https://www.youtube.com/@Tristynn.McGowan">YouTube</a></div></div><div class="ftbt">&copy; 2026 5th Element Media LLC. All Rights Reserved.</div></footer>
+
+<script>
+const obs=new IntersectionObserver(e=>{e.forEach(el=>{if(el.isIntersecting)el.target.classList.add('visible')})},{threshold:.15,rootMargin:'0px 0px -40px 0px'});
+document.querySelectorAll('.stag,.sttl,.ssub,.fc,.quote,.attr,.hero-img,.feat-text,.feat-visual').forEach(el=>{el.classList.add('anim');obs.observe(el)});
+const nav=document.querySelector('.nav');window.addEventListener('scroll',()=>{nav.style.padding=window.scrollY>60?'8px 24px':'12px 24px';nav.style.boxShadow=window.scrollY>60?'0 4px 32px rgba(0,0,0,.06)':'0 4px 24px rgba(0,0,0,.04)'});
+</script>
+</body></html>

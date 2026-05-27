@@ -1,0 +1,94 @@
+{
+  "hero": {
+    "eyebrow": "Franchise Paid Ads Management",
+    "sub": "We manage hyper-local Meta and Google Ads for franchise brands. Every location gets its own targeting, creative, and optimization strategy, with AI-driven reporting that ties every dollar to real results."
+  },
+  "why": {
+    "eyebrow": "Why We're Different",
+    "title": "Built for Franchises. Not Retrofitted.",
+    "body": "Most agencies take their B2B or e-commerce playbook and slap it on franchise brands. That's why franchise CPL keeps climbing and results stay flat. We built every system from scratch for multi-location businesses. Our targeting accounts for local market nuance. Our creative pipeline produces hyper-local UGC. Our dashboard shows performance across every location in real time. One system, built for how franchises actually grow."
+  },
+  "introHeader": {
+    "eyebrow": "What's Included",
+    "title": "Everything You Need to Generate Leads",
+    "body": "The Franchise Lead Engine is a complete system. Every piece works together to turn ad spend into booked appointments."
+  },
+  "features": [
+    {
+      "eyebrow": "Every Market Is Different",
+      "title": "Hyper-Local Targeting",
+      "paragraph": "One-size-fits-all targeting is why most franchise ads underperform. A 20-mile radius in Los Angeles isn't the same as a 20-mile radius in rural Ohio. Every location we manage gets its own targeting strategy, local audience data, market-specific demographics, and competitive landscape analysis tuned to what actually works for that market. Your ads show up in front of the exact people most likely to walk through your doors, not wasted impressions 30 miles away.",
+      "bullets": [
+        { "label": "Precision geo-targeting", "rest": "tuned to each location's realistic drive time or service area" },
+        { "label": "Market-specific demographics", "rest": "layered beyond broad national targeting" },
+        { "label": "Local audience signals", "rest": "that identify in-market prospects ready to convert" }
+      ],
+      "bgOff": true
+    },
+    {
+      "eyebrow": "Authenticity Beats Polished",
+      "title": "UGC Creative Pipeline",
+      "paragraph": "Stock creative is why franchise ads feel generic. Real people talking about real experiences at your real locations is why they convert. We run a full UGC pipeline: brief your franchisees on exactly what to shoot, coach them through the capture, edit the raw footage into ad-ready clips, and deploy them into live campaigns. The result is creative that outperforms stock by 30-50% on cost per lead, built on a content engine that keeps producing.",
+      "bullets": [
+        { "label": "Detailed creative briefs", "rest": "that tell franchisees exactly what to shoot" },
+        { "label": "Professional editing", "rest": "with captions, music, and pacing optimized for each platform" },
+        { "label": "Weekly creative refreshes", "rest": "that prevent ad fatigue and keep CPL low" }
+      ],
+      "reverse": true
+    },
+    {
+      "eyebrow": "See What's Actually Working",
+      "title": "5E Insight Engine",
+      "paragraph": "Most franchise brands run ads with no real visibility into what's driving results. That's why spend keeps climbing and nobody knows why. The 5E Insight Engine is our AI-powered dashboard that shows you live CPL per location, lead volume, show rates, creative performance, and trend analysis across your entire network. When something spikes or dips, you know immediately, not three weeks later when the report lands.",
+      "bullets": [
+        { "label": "Live location-level reporting", "rest": "with CPL, leads, and conversion data updated hourly" },
+        { "label": "Creative performance scoring", "rest": "that flags top and bottom performers automatically" },
+        { "label": "AI-driven alerts", "rest": "that catch anomalies before they cost you real money" }
+      ],
+      "bgOff": true
+    },
+    {
+      "eyebrow": "Every Lead. The Right Location. Instantly.",
+      "title": "Smart Lead Routing",
+      "paragraph": "The fastest way to kill franchise ROI is to let leads sit in a generic inbox or land at the wrong location. We build routing rules that map every lead to the correct location's CRM the moment it comes in, with instant SMS and email notifications to the location's team. No leads falling through the cracks, no manual forwarding, no prospects going cold because nobody saw the form submission for two hours.",
+      "bullets": [
+        { "label": "Zip-code routing logic", "rest": "that sends leads to the right location every time" },
+        { "label": "Multi-channel notifications", "rest": "via SMS, email, and CRM alerts within seconds" },
+        { "label": "Fallback rules", "rest": "that escalate leads if a location doesn't respond fast enough" }
+      ],
+      "reverse": true
+    },
+    {
+      "eyebrow": "A Real Human Behind Every Account",
+      "title": "Dedicated Client Success Manager",
+      "paragraph": "Most agencies hand you off to a rotating cast of account managers who don't know your brand. We don't. Every account gets a dedicated Client Success Manager who knows your brand, your markets, your franchisees, and your growth goals. Monthly strategy calls, weekly Loom recaps, direct Slack access, and a real human who's accountable to your results, not a generic ticket queue.",
+      "bullets": [
+        { "label": "Dedicated CSM", "rest": "assigned to your account from day one" },
+        { "label": "Monthly strategy calls", "rest": "to review performance and align on next-quarter moves" },
+        { "label": "Weekly Loom recaps", "rest": "that show exactly what's working and what's being tested" }
+      ],
+      "bgOff": true
+    },
+    {
+      "eyebrow": "Speed to Lead Is Everything",
+      "title": "Automated Follow-Up",
+      "paragraph": "Studies show that leads contacted within 5 minutes are 21x more likely to convert than leads contacted after 30 minutes. Most franchisees can't hit that speed manually, especially with a small team juggling the front desk. We build automated follow-up sequences that fire the instant a lead comes in: SMS confirmations, email nurtures, booking link delivery, and escalation reminders. Your team still does the human follow-up, but the machine makes sure no lead ever goes cold.",
+      "bullets": [
+        { "label": "60-second SMS speed-to-lead", "rest": "that fires the instant a form is submitted" },
+        { "label": "Multi-day nurture sequences", "rest": "that keep warming leads until they book" },
+        { "label": "Escalation workflows", "rest": "that alert the team when a lead needs human follow-up" }
+      ],
+      "reverse": true
+    }
+  ],
+  "testimonial": {
+    "quote": "Fifth Element got us to 100% leased before we even opened. Their ads system just works.",
+    "name": "Jared Jamison",
+    "meta": "Bakersfield, CA",
+    "avatar": "https://cdn.prod.website-files.com/68f669a6d79edc75f34470f3/692e9562339abd420ce02b28_Screenshot%202025-12-01%20at%2011.29.25%E2%80%AFPM.png"
+  },
+  "cta": {
+    "title": "Ready to Fix Your Franchise Ads?",
+    "body": "Book your free audit and we'll show you exactly where your ad spend is leaking and how to plug it."
+  }
+}

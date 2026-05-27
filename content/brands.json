@@ -1,0 +1,58 @@
+[
+  {
+    "id": "image-studios",
+    "name": "IMAGE Studios",
+    "category": "Salon Suites",
+    "logo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61c11861524201c5c5c6b.png",
+    "tag": "Multi-Location Growth",
+    "displaySize": "standard"
+  },
+  {
+    "id": "body20",
+    "name": "BODY20",
+    "category": "EMS Fitness",
+    "logo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61c1f9619acdae09d4701.svg",
+    "tag": "200+ Leads/Mo",
+    "displaySize": "standard"
+  },
+  {
+    "id": "pilates-addiction",
+    "name": "Pilates Addiction",
+    "category": "Pilates & Fitness",
+    "logo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61cd67794bf85bf5349a6.png",
+    "tag": "400+ Leads/Mo",
+    "displaySize": "xl"
+  },
+  {
+    "id": "beem-light-sauna",
+    "name": "beem Light Sauna",
+    "category": "Wellness & Recovery",
+    "logo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61ce7861524e9a15c68c3.png",
+    "tag": "Leads From Day One",
+    "displaySize": "standard"
+  },
+  {
+    "id": "iflex",
+    "name": "iFlex",
+    "category": "Stretch & Recovery",
+    "logo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61c507794bf3a895341c1.png",
+    "tag": "UGC Creative Pipeline",
+    "displaySize": "xl"
+  },
+  {
+    "id": "scramblers-golf",
+    "name": "Scramblers Golf Club",
+    "category": "Golf & Entertainment",
+    "logo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61d157794bfb92e534d69.png",
+    "tag": "Membership Growth",
+    "displaySize": "xl"
+  },
+  {
+    "id": "sequel-brands",
+    "name": "Sequel Brands",
+    "category": "Parent Brand",
+    "logo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61ced5ebd49328a7ad413.png",
+    "tag": "Multi-Brand Portfolio",
+    "displaySize": "standard"
+  }
+]

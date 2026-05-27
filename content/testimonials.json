@@ -1,0 +1,68 @@
+[
+  {
+    "id": "elizabeth-cassutti",
+    "name": "Elizabeth Cassutti",
+    "role": "Franchise Owner",
+    "location": "Jacksonville, FL",
+    "brand": "IMAGE Studios",
+    "quote": "We reached 100% occupancy within just a couple of months, far above the franchise benchmark — hands down because of Fifth Element.",
+    "avatar": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69b5f25fad0276a4e3e39e3b.png",
+    "category": "occupancy",
+    "featured": true
+  },
+  {
+    "id": "jared-jamison",
+    "name": "Jared Jamison",
+    "role": "Franchise Owner",
+    "location": "Bakersfield, CA",
+    "brand": "IMAGE Studios",
+    "quote": "Fifth Element got us to 100% leased before we even opened, solely because of how well they generated leads.",
+    "avatar": "https://cdn.prod.website-files.com/68f669a6d79edc75f34470f3/692e9562339abd420ce02b28_Screenshot%202025-12-01%20at%2011.29.25%E2%80%AFPM.png",
+    "category": "leasing",
+    "featured": true
+  },
+  {
+    "id": "esther-mazzarino",
+    "name": "Esther Mazzarino",
+    "role": "Franchise Owner",
+    "location": "Houston, TX",
+    "brand": "IMAGE Studios",
+    "quote": "900+ leads in five months. Fifth Element eats, breathes, and sleeps Image Studios.",
+    "avatar": "https://cdn.prod.website-files.com/68f669a6d79edc75f34470f3/692e95b04b221fb8065be71e_Screenshot%202025-12-01%20at%2011.30.41%E2%80%AFPM.png",
+    "category": "follow-up",
+    "featured": true
+  },
+  {
+    "id": "sierra-smith",
+    "name": "Sierra Smith",
+    "role": "Franchise Owner",
+    "location": "Boynton Beach, FL",
+    "brand": "IMAGE Studios",
+    "quote": "You cannot go wrong with Fifth Element.",
+    "avatar": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69b5f17feaf08161cb663ec0.png",
+    "category": "community",
+    "featured": true
+  },
+  {
+    "id": "chris-johnson",
+    "name": "Chris Johnson",
+    "role": "Franchise Owner",
+    "location": "Palm Beach Gardens, FL",
+    "brand": "IMAGE Studios",
+    "quote": "Their data-driven, collaborative approach has been outstanding.",
+    "avatar": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69b5f20ceaf0810bac666af2.jpeg",
+    "category": "data-driven",
+    "featured": true
+  },
+  {
+    "id": "richard-mazzarino",
+    "name": "Richard Mazzarino",
+    "role": "Franchise Owner",
+    "location": "Houston, TX",
+    "brand": "IMAGE Studios",
+    "quote": "We have been inundated with leads to the point we can barely keep up.",
+    "avatar": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69b5f1ef87f0f23941f78333.jpeg",
+    "category": "volume",
+    "featured": true
+  }
+]

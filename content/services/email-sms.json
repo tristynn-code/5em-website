@@ -1,0 +1,94 @@
+{
+  "hero": {
+    "eyebrow": "Email & SMS Marketing",
+    "sub": "Your team goes home at 6. Your leads don't stop submitting forms. We build automated email and SMS sequences that keep every lead warm, every appointment confirmed, and every no-show recovered - 24/7, across every location."
+  },
+  "why": {
+    "eyebrow": "Why Follow-Up Fails",
+    "title": "Most Franchise Leads Die From Neglect, Not Rejection.",
+    "body": "Most people who say \"no\" to a franchise don't actually say no. They go quiet. They get busy. They forget they ever submitted the form. Industry data shows 80% of sales happen between the 5th and 12th touch - but most franchisees give up after 2. We build email and SMS sequences that follow up for you, consistently, across every lead, every day of the week - without burning out your team or annoying your prospects."
+  },
+  "introHeader": {
+    "eyebrow": "What's Included",
+    "title": "Automated Nurture Sequences for Every Stage",
+    "body": "From the moment a lead submits a form to the day they become a paying customer, every touchpoint is automated and optimized."
+  },
+  "features": [
+    {
+      "eyebrow": "Welcome Them Before They Cool Off",
+      "title": "New Lead Confirmation Sequence",
+      "paragraph": "The moment a lead hits submit, they're at peak intent. If they don't hear back from you in the next 5 minutes, that intent drops off a cliff. We build an instant email + SMS confirmation sequence that fires the second a form comes in: thanks them by name, confirms their inquiry, and drops a direct booking link into their inbox. No waiting. No wondering if it went through. Just a clear next step.",
+      "bullets": [
+        { "label": "Dual-channel confirmation", "rest": "via email and SMS within 60 seconds of form submission" },
+        { "label": "Personalized merge fields", "rest": "that reference the exact service or location they inquired about" },
+        { "label": "Direct booking link", "rest": "in every message so they can self-schedule on the spot" }
+      ],
+      "bgOff": true
+    },
+    {
+      "eyebrow": "Reduce No-Shows by 30-40%",
+      "title": "Appointment Reminder Flow",
+      "paragraph": "No-shows are a silent killer for franchise businesses. Every missed appointment is wasted time, wasted ad spend, and a missed membership sale. We build multi-touch reminder sequences that fire at exactly the right moments: 24 hours before, 1 hour before, and 5 minutes before. Each reminder gives them a chance to confirm, reschedule, or cancel. The result: no-show rates drop by 30-40% within the first month.",
+      "bullets": [
+        { "label": "24-hour SMS + email reminder", "rest": "with confirm / reschedule / cancel options" },
+        { "label": "1-hour SMS reminder", "rest": "for the final push before the appointment" },
+        { "label": "5-minute SMS", "rest": "with directions, parking info, and what to bring" }
+      ],
+      "reverse": true
+    },
+    {
+      "eyebrow": "Turn Missed Appointments Into Second Chances",
+      "title": "No-Show Recovery Sequence",
+      "paragraph": "Even with perfect reminders, some prospects still miss appointments. Life happens. Most franchises treat this as a dead lead and move on. We don't. We fire an automated recovery sequence within 15 minutes of a missed appointment: empathetic tone, easy rebooking link, no pressure. About 35-45% of no-shows end up rebooking when the follow-up is fast and low-friction, which means every franchisee gets a second shot at conversion without any extra work.",
+      "bullets": [
+        { "label": "15-minute recovery trigger", "rest": "that fires the moment an appointment is marked as missed" },
+        { "label": "Empathetic messaging templates", "rest": "that reduce friction and avoid coming across as pushy" },
+        { "label": "One-click rebooking link", "rest": "that lets them pick a new time on the spot" }
+      ],
+      "bgOff": true
+    },
+    {
+      "eyebrow": "For Leads Who Aren't Ready Yet",
+      "title": "Long-Term Nurture Sequences",
+      "paragraph": "Not every lead is ready to buy today. Some are researching, some are waiting for payday, some are just curious. The brands that win are the ones that stay top-of-mind without being annoying. We build 90-day email nurture sequences that educate, entertain, and slowly build trust - so when they're ready to buy, your brand is the first one they think of. Content is modular per franchise vertical and customized to your brand voice.",
+      "bullets": [
+        { "label": "90-day educational drip", "rest": "tuned to your franchise vertical" },
+        { "label": "Behavioral triggers", "rest": "that re-engage dormant leads based on email activity" },
+        { "label": "Re-engagement campaigns", "rest": "that activate at 30, 60, and 90 days of silence" }
+      ],
+      "reverse": true
+    },
+    {
+      "eyebrow": "Turn Happy Clients Into Social Proof",
+      "title": "Automated Review Requests",
+      "paragraph": "Google reviews are one of the highest-leverage assets a franchise location can build. Prospects read them before booking, search engines rank by them, and they compound over time. But most franchisees never ask for them consistently. We automate the ask: timed review requests that fire at the perfect post-visit moment, with one-click links straight to your Google Business Profile. The result: review count compounds month over month, and your star rating keeps climbing.",
+      "bullets": [
+        { "label": "Perfectly-timed post-visit prompts", "rest": "sent when client satisfaction is highest" },
+        { "label": "Direct-to-Google links", "rest": "that remove all friction from leaving a review" },
+        { "label": "Negative feedback capture", "rest": "that routes unhappy clients to an internal team first" }
+      ],
+      "bgOff": true
+    },
+    {
+      "eyebrow": "See Every Sequence's Impact",
+      "title": "Performance Tracking & Optimization",
+      "paragraph": "Running sequences without tracking them is just expensive guesswork. We track every touchpoint across every sequence: open rates, click rates, response rates, and ultimate conversion to booked appointments. When a message performs well, we double down. When a sequence fatigues, we refresh it. Every franchise location's data rolls up into a single dashboard, so you always know exactly what's working across your network.",
+      "bullets": [
+        { "label": "Per-message analytics", "rest": "covering open, click, and response rates" },
+        { "label": "Sequence-level conversion tracking", "rest": "tied to booked appointments and revenue" },
+        { "label": "Continuous A/B testing", "rest": "that evolves sequences as audiences and seasons shift" }
+      ],
+      "reverse": true
+    }
+  ],
+  "testimonial": {
+    "quote": "We opened with 40 spaces and hit 900+ leads in five months. Their follow-up system kept every one of them warm.",
+    "name": "Esther Mazzarino",
+    "meta": "Houston, TX",
+    "avatar": "https://cdn.prod.website-files.com/68f669a6d79edc75f34470f3/692e95b04b221fb8065be71e_Screenshot%202025-12-01%20at%2011.30.41%E2%80%AFPM.png"
+  },
+  "cta": {
+    "title": "Ready for Follow-Up That Converts?",
+    "body": "Book your free audit and we'll show you exactly where your leads are going cold and how to warm them back up."
+  }
+}

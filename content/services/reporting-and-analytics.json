@@ -1,0 +1,94 @@
+{
+  "hero": {
+    "eyebrow": "Reporting & Analytics",
+    "sub": "Most franchise brands operate blind. Agencies send a PDF once a month and call it reporting. We built something better: the 5E Insight Engine - live dashboards that show you exactly what's working across every location, every campaign, every creative. Updated in real time."
+  },
+  "why": {
+    "eyebrow": "Why Reporting Matters",
+    "title": "Monthly PDFs Aren't Reporting. They're History Lessons.",
+    "body": "By the time you get a monthly report, the problems it's describing are already 30 days old. The underperforming location has been bleeding budget for weeks. The winning creative has already fatigued. The best franchise brands make decisions on live data, not lagging indicators. The 5E Insight Engine gives every franchisor and franchisee the same real-time visibility our internal team uses - no waiting, no guessing, no stale reports."
+  },
+  "introHeader": {
+    "eyebrow": "The 5E Insight Engine",
+    "title": "AI-Powered Dashboards for Franchise Brands",
+    "body": "Stop waiting for monthly reports. See live performance data across every location, every campaign, and every creative - updated in real time."
+  },
+  "features": [
+    {
+      "eyebrow": "Real-Time Data. No Waiting.",
+      "title": "Live Performance Dashboard",
+      "paragraph": "The 5E Insight Engine pulls data directly from Meta, Google, and your CRM every 15 minutes, so you're always looking at current reality - not what happened three weeks ago. Track CPL, lead volume, show rates, booking rates, and close rates across every location in one unified view. When something spikes or dips, you see it immediately and can act on it the same day. No waiting for the Friday report. No waiting for the month to close.",
+      "bullets": [
+        { "label": "15-minute data refresh", "rest": "across Meta, Google, and GHL pipeline" },
+        { "label": "Unified multi-location view", "rest": "that rolls up every campaign in one place" },
+        { "label": "Anomaly alerts", "rest": "that flag CPL spikes and volume dips before they compound" }
+      ],
+      "bgOff": true
+    },
+    {
+      "eyebrow": "Spot Outliers. Replicate Winners.",
+      "title": "Location Performance Comparison",
+      "paragraph": "Some locations crush it. Some struggle. The question that matters is: why? We build comparison views that surface the outliers instantly - which locations are beating the network average, which ones are lagging, and what specific factors explain the gap. Creative mix, audience targeting, follow-up speed, local offers, demographic fit. Once you see the pattern, you can replicate what's working and fix what's not, at the network level.",
+      "bullets": [
+        { "label": "Side-by-side location benchmarks", "rest": "with rankings across every KPI" },
+        { "label": "Network-average indicators", "rest": "that make outliers instantly visible" },
+        { "label": "Drill-down analysis", "rest": "into creative, audience, and funnel stage per location" }
+      ],
+      "reverse": true
+    },
+    {
+      "eyebrow": "Data-Driven Creative Decisions",
+      "title": "Creative Performance Tracking",
+      "paragraph": "Most agencies pick creative based on what looks good. We pick based on what works. The 5E Insight Engine tracks every ad creative, hook, format, and variation against real performance data - CTR, CPC, CPL, and conversion to booked appointment. You see exactly which creatives are winning, which are fatiguing, and which hooks connect with your target audience. Then we double down on what's working and retire what's not, continuously.",
+      "bullets": [
+        { "label": "Creative leaderboard", "rest": "ranked by CPL and conversion rate" },
+        { "label": "Fatigue detection", "rest": "that flags declining creatives before they tank" },
+        { "label": "Hook & format analysis", "rest": "that identifies winning patterns for your audience" }
+      ],
+      "bgOff": true
+    },
+    {
+      "eyebrow": "Your CSM on Video. Every Month.",
+      "title": "Monthly Loom Recaps",
+      "paragraph": "Dashboards are powerful, but they can't replace a human pointing at the screen and saying \"here's what happened and here's what we're doing about it.\" Every month, your dedicated CSM records a personalized Loom video walking through your performance: what worked, what didn't, what we're testing next. No jargon, no fluff, no 40-page PDF. Just clear narration over the exact data that matters, sent to your inbox on the first of every month.",
+      "bullets": [
+        { "label": "Personalized monthly video recap", "rest": "narrated by your dedicated CSM" },
+        { "label": "Clear insights & next steps", "rest": "delivered without industry jargon" },
+        { "label": "On-demand async", "rest": "so you can watch when it's convenient - no meetings required" }
+      ],
+      "reverse": true
+    },
+    {
+      "eyebrow": "CPL is a Vanity Metric. ROI is the Real One.",
+      "title": "End-to-End ROI Tracking",
+      "paragraph": "A low CPL doesn't mean anything if those leads don't convert to paying customers. We connect ad spend to actual revenue by tying Meta and Google data directly to your CRM pipeline and membership system. You see true cost per acquisition, lifetime value per channel, and ROI per location - not just cost per lead. This is the reporting franchise leadership actually needs to make strategic decisions about budget allocation.",
+      "bullets": [
+        { "label": "Ad spend to revenue attribution", "rest": "that closes the loop from click to close" },
+        { "label": "True cost per acquisition", "rest": "calculated on booked appointments and signed members" },
+        { "label": "LTV per channel", "rest": "that shows which sources bring the best long-term clients" }
+      ],
+      "bgOff": true
+    },
+    {
+      "eyebrow": "Brand-Level Intelligence. Location-Level Detail.",
+      "title": "Franchisor Rollup Reporting",
+      "paragraph": "Brand leadership needs a different view than individual franchisees. While the franchisee cares about their location's numbers, the franchisor needs the network-wide picture: total leads across all locations, average CPL by market, creative that's working system-wide, underperforming markets that need support. We build franchisor-specific rollup dashboards that aggregate every location into one strategic view - perfect for leadership meetings, board updates, and system-wide decisions.",
+      "bullets": [
+        { "label": "Network-level KPIs", "rest": "aggregated across every franchise location" },
+        { "label": "Market-by-market performance", "rest": "broken down by region and franchise group" },
+        { "label": "Executive-ready exports", "rest": "built for board decks and leadership reviews" }
+      ],
+      "reverse": true
+    }
+  ],
+  "testimonial": {
+    "quote": "Their data-driven, collaborative approach has been outstanding. We finally have visibility into what's actually working.",
+    "name": "Chris Johnson",
+    "meta": "Palm Beach Gardens, FL",
+    "avatar": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69b5f20ceaf0810bac666af2.jpeg"
+  },
+  "cta": {
+    "title": "Ready to See What's Actually Working?",
+    "body": "Book your free audit and we'll show you exactly what your current reporting is missing and what you should be tracking instead."
+  }
+}

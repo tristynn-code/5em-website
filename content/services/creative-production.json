@@ -1,0 +1,105 @@
+{
+  "hero": {
+    "eyebrow": "Social Media & Creative Production",
+    "sub": "Your Instagram, Facebook, and TikTok aren't just social accounts. They're your retargeting pool, your audience testing ground, and the creative lab that tells us what will actually convert in paid ads. We build and manage all of it, together."
+  },
+  "why": {
+    "eyebrow": "The UGC Advantage",
+    "title": "UGC Beats Stock Creative. Every Time.",
+    "body": "Stock creative is why franchise ads look generic. Real franchisees, at real locations, talking about real experiences is why they convert. After managing ads across hundreds of franchise locations, we've seen the pattern every single time: UGC outperforms polished stock creative by 30-50% on cost per lead. So we built a full pipeline around it - briefing, coaching, editing, and deploying authentic local content at scale."
+  },
+  "bridge": {
+    "eyebrow": "The Real Reason We Do Both",
+    "title": "Social Media Is the Lab. Paid Ads Are the Scale.",
+    "body": "Here's the truth most franchise marketing agencies won't tell you: your organic social and your paid ads aren't two separate things. They're the same engine running at different speeds. Your social presence is where we test hooks, train your audience, build retargeting pools, and learn what actually resonates. Your paid ads are where we take the winners and scale them into real booked appointments.",
+    "cards": [
+      { "num": "1", "title": "Organic Is Your Testing Ground", "body": "Every hook, every hot take, every UGC angle gets tested organically first. The ones that earn real engagement become paid ad creatives. The ones that flop save you thousands in wasted spend." },
+      { "num": "2", "title": "Social Builds Your Retargeting Pool", "body": "Every view, every profile visit, every engagement builds a custom audience we can retarget with paid ads. The bigger your organic footprint, the cheaper and more effective your retargeting campaigns become." },
+      { "num": "3", "title": "Content Tells Us What to Sell", "body": "Which posts get saved? Which ones get DMs? Which topics spark comments? That data tells us exactly what your audience is actually interested in, which directly shapes the offers and messaging in your paid campaigns." },
+      { "num": "4", "title": "Social Proof Closes the Deal", "body": "When someone clicks your ad and lands on your Instagram, what do they see? A dead feed tanks conversions. A thriving feed full of real client stories makes them pull out the calendar and book. Your social is the trust layer behind every ad." }
+    ]
+  },
+  "introHeader": {
+    "eyebrow": "What's Included",
+    "title": "Full Creative Pipeline for Franchise Brands",
+    "body": "Everything from briefing to deployment. You focus on running your business, we handle the creative."
+  },
+  "features": [
+    {
+      "eyebrow": "Authentic Beats Polished",
+      "title": "UGC Ad Creative",
+      "paragraph": "Stock creative stopped working years ago, but most franchise brands haven't caught up. Real franchisees, talking about real experiences at real locations is what converts in 2026. We brief your franchisees on exactly what to shoot, coach them through the capture, edit the raw footage into ad-ready clips, and deploy them into live campaigns. 3-4 fresh clips per cycle, optimized for every platform's native format.",
+      "bullets": [
+        { "label": "Detailed creative briefs", "rest": "that tell franchisees exactly what to shoot and how" },
+        { "label": "Professional editing", "rest": "with captions, music, and pacing tuned for each platform" },
+        { "label": "Weekly creative drops", "rest": "that prevent ad fatigue and keep CPL low" }
+      ],
+      "bgOff": true
+    },
+    {
+      "eyebrow": "One Message. Built for the Scroll.",
+      "title": "Static Ad Design",
+      "paragraph": "UGC is the engine, but static ads are the scaffolding. Clean, data-forward, dark-mode graphics that land a single message in under two seconds. We built a templatized design system for every campaign: brand colors locked in, typography tuned for mobile, one clear point per ad. No clutter, no generic stock aesthetic. Every static ad we ship looks like it came from a real company, not a generic template pack.",
+      "bullets": [
+        { "label": "Templatized design system", "rest": "built for speed without sacrificing quality" },
+        { "label": "Dark mode aesthetic", "rest": "that cuts through the feed and commands attention" },
+        { "label": "Hormozi-influenced", "rest": "data-forward style that signals confidence and clarity" }
+      ],
+      "reverse": true
+    },
+    {
+      "eyebrow": "Strategy Before Production",
+      "title": "Content Strategy & Calendar",
+      "paragraph": "Most franchise brands post what they feel like, when they feel like it. That's why nothing compounds. We plan your content months in advance: what to create, when to post, which platforms to prioritize, and how to repurpose a single shoot into 8+ pieces across Instagram, TikTok, YouTube, and LinkedIn. One content calendar, one creative system, every location consistent.",
+      "bullets": [
+        { "label": "90-day content roadmaps", "rest": "mapped to your seasonality and campaigns" },
+        { "label": "Multi-platform repurposing", "rest": "that turns one shoot into 8+ pieces of content" },
+        { "label": "Cross-location consistency", "rest": "so every franchisee posts on-brand every time" }
+      ],
+      "bgOff": true
+    },
+    {
+      "eyebrow": "Set Up for Success From Day One",
+      "title": "Franchisee Onboarding Guide",
+      "paragraph": "Most franchisees have never shot content before. Asking them to just \"post more\" is a recipe for inconsistency and burnout. Every new franchisee on our system gets our onboarding content guide: what angles actually work, how to light a shot without expensive gear, what to say, what to avoid, how to edit quickly, and which formats convert on which platforms. Franchisees become confident creators, not reluctant posters.",
+      "bullets": [
+        { "label": "Step-by-step shot guides", "rest": "for every franchise vertical and service type" },
+        { "label": "Mobile-first capture tips", "rest": "that use the phone they already have" },
+        { "label": "Do's and don'ts library", "rest": "built from 100+ franchise locations we've coached" }
+      ],
+      "reverse": true
+    },
+    {
+      "eyebrow": "Proof, On Repeat",
+      "title": "The Testimonial Engine",
+      "paragraph": "Client testimonials are the highest-converting content type in franchise marketing - and most franchises leave them to chance. We built the Testimonial Engine: automated triggers fire at key client milestones (day 14, day 90, big result moments, renewals) prompting clients to share their experience. We clip, edit, and deploy the best moments as ad creative on a rolling weekly cadence. Proof compounds. CPL drops.",
+      "bullets": [
+        { "label": "Milestone-triggered capture", "rest": "at 14 days, 90 days, and renewal moments" },
+        { "label": "Automated SMS & email prompts", "rest": "that get clients to share without friction" },
+        { "label": "Deploy-ready clips", "rest": "edited into ad creative and dropped into live campaigns" }
+      ],
+      "bgOff": true
+    },
+    {
+      "eyebrow": "Know What's Actually Working",
+      "title": "Creative Performance Tracking",
+      "paragraph": "Running creative at scale only works when you know what's converting and what's not. Our dashboard shows creative performance at the individual ad level across every location: which hooks are winning, which formats are fatiguing, which franchisees are producing the highest-performing UGC. No more guessing which ad to scale or kill. The data tells you where to double down and where to move on.",
+      "bullets": [
+        { "label": "Creative-level performance scoring", "rest": "across every location and platform" },
+        { "label": "Hook and format analysis", "rest": "that identifies what's driving conversions" },
+        { "label": "Fatigue alerts", "rest": "that flag when a creative is ready to be refreshed" }
+      ],
+      "reverse": true
+    }
+  ],
+  "testimonial": {
+    "quote": "Their data-driven, collaborative approach has been outstanding. The creative they produce actually looks and feels like our brand.",
+    "name": "Chris Johnson",
+    "meta": "Palm Beach Gardens, FL",
+    "avatar": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69b5f20ceaf0810bac666af2.jpeg"
+  },
+  "cta": {
+    "title": "Ready for Creative That Converts?",
+    "body": "Book your free audit and we'll show you exactly how to build a creative engine that compounds across every location."
+  }
+}

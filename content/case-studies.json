@@ -1,0 +1,64 @@
+{
+  "logos": [
+    { "src": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61c11861524201c5c5c6b.png", "alt": "IMAGE Studios", "big": false },
+    { "src": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61c1f9619acdae09d4701.svg", "alt": "BODY20", "big": false },
+    { "src": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61cd67794bf85bf5349a6.png", "alt": "Pilates Addiction", "big": true },
+    { "src": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61ce7861524e9a15c68c3.png", "alt": "beem Light Sauna", "big": false },
+    { "src": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61c507794bf3a895341c1.png", "alt": "iFlex", "big": true },
+    { "src": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61d157794bfb92e534d69.png", "alt": "Scramblers Golf", "big": true },
+    { "src": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61ced5ebd49328a7ad413.png", "alt": "Sequel Brands", "big": false }
+  ],
+  "cards": [
+    {
+      "id": "body20",
+      "logo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61c1f9619acdae09d4701.svg",
+      "logoSize": 48,
+      "brand": "BODY20",
+      "vertical": "EMS Fitness Franchise",
+      "quote": "We have been <strong>inundated with leads to the point we can barely keep up.</strong>",
+      "attrName": "Richard Mazzarino",
+      "attrLoc": "Houston, TX",
+      "highlights": ["150 Leads/Month", "$8.50 CPL", "UGC Creative"]
+    },
+    {
+      "id": "pilates-addiction",
+      "logo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61cd67794bf85bf5349a6.png",
+      "logoSize": 80,
+      "brand": "Pilates Addiction",
+      "vertical": "Pilates & Fitness Franchise",
+      "quote": "Their <strong>data-driven, collaborative approach</strong> has been outstanding - no cookie-cutter marketing, just constant optimization.",
+      "attrName": "Chris Johnson",
+      "attrLoc": "Palm Beach Gardens, FL",
+      "highlights": ["350 Leads/Month", "$9.80 CPL", "Hyper-Local Targeting"]
+    },
+    {
+      "id": "beem",
+      "logo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61ce7861524e9a15c68c3.png",
+      "logoSize": 48,
+      "brand": "beem Light Sauna",
+      "vertical": "Wellness & Recovery Franchise",
+      "quote": "<strong>You cannot go wrong with Fifth Element.</strong> Their targeting brought us high-quality leads that convert.",
+      "attrName": "Sierra Smith",
+      "attrLoc": "Boynton Beach, FL",
+      "highlights": ["High-Quality Leads", "UGC Pipeline", "Fast Response Time"]
+    },
+    {
+      "id": "iflex",
+      "logo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61c507794bf3a895341c1.png",
+      "logoSize": 80,
+      "brand": "iFlex",
+      "vertical": "Stretch & Recovery Franchise",
+      "description": "Hyper-local Meta Ads campaigns driving consistent lead flow across multiple locations. UGC creative pipeline producing authentic local content that resonates with the wellness audience.",
+      "highlights": ["Meta Ads", "UGC Creative", "Multi-Location"]
+    },
+    {
+      "id": "scramblers",
+      "logo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61d157794bfb92e534d69.png",
+      "logoSize": 80,
+      "brand": "Scramblers Golf Club",
+      "vertical": "Golf & Entertainment Franchise",
+      "description": "Targeted ad campaigns for a unique golf entertainment concept. Location-specific creative and audience targeting to drive memberships and event bookings.",
+      "highlights": ["Membership Growth", "Event Marketing", "Local Targeting"]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fitness-franchises",
+    "name": "Fitness Franchises",
+    "subtitle": "HIIT, EMS, Pilates, Yoga, CrossFit",
+    "description": "We know what converts for every fitness modality. From EMS to Pilates to HIIT, our playbook drives an abundance of leads per location per month.",
+    "image": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69df2ff9190683601a44ef63.jpg",
+    "href": "/fitness-franchises"
+  },
+  {
+    "id": "salon-suites",
+    "name": "Salon Suites",
+    "subtitle": "Hair, Nails, Barbershop, Beauty Pros",
+    "description": "Our #1 vertical by volume. We fill salon suites with qualified beauty professionals using hyper-local targeting and UGC creative.",
+    "image": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69df2ff9109243d2cce7763e.jpg",
+    "href": "/salon-suites"
+  },
+  {
+    "id": "wellness-franchises",
+    "name": "Wellness & Recovery",
+    "subtitle": "Cryo, Light Therapy, IV, Med Spa",
+    "description": "Premium wellness brands need premium marketing. We drive qualified leads for cryotherapy, light therapy, IV drips, and med spa concepts.",
+    "image": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69df2ff9243975ecf72e7b8f.jpg",
+    "href": "/wellness-franchises"
+  },
+  {
+    "id": "beauty-aesthetics",
+    "name": "Beauty & Aesthetics",
+    "subtitle": "Lashes, Skincare, Cosmetic Services",
+    "description": "Lashes, skincare, cosmetic services. We build campaigns that attract clients who value quality and are willing to invest in themselves.",
+    "image": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69df31a3190683601a453d5d.jpg",
+    "href": "/beauty-aesthetics"
+  },
+  {
+    "id": "home-services",
+    "name": "Home Services",
+    "subtitle": "Cleaning, Restoration, Landscaping",
+    "description": "Cleaning, restoration, landscaping. We generate local leads for home service franchises with proven geo-targeted campaigns.",
+    "image": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69df308d190683601a450c83.jpg",
+    "href": "/home-services"
+  },
+  {
+    "id": "lifestyle-entertainment",
+    "name": "Lifestyle & Entertainment",
+    "subtitle": "Golf, Recreation, Experiential",
+    "description": "Golf, recreation, experiential concepts. We help lifestyle brands build local awareness and drive memberships.",
+    "image": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69df2ff9190683601a44ef62.png",
+    "href": "/lifestyle-entertainment"
+  }
+]

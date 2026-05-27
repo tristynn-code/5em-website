@@ -1,0 +1,94 @@
+{
+  "hero": {
+    "eyebrow": "CRM & Automations",
+    "sub": "Leads contacted within 5 minutes are 10x more likely to convert than leads contacted after 30. Most franchisees can't hit that speed manually. We build the systems that do it for them - 24/7, across every location."
+  },
+  "why": {
+    "eyebrow": "Why Speed Matters",
+    "title": "The First Five Minutes Decide Everything.",
+    "body": "The data is unforgiving: leads contacted within 5 minutes are 10x more likely to convert than leads contacted after 30 minutes. Most franchise locations have a front desk team juggling walk-ins, existing members, phones, and administrative work. Asking them to also hit a 5-minute lead response window is setting them up to fail. We build automation systems that fire the instant a lead submits a form, so your team can focus on real human conversations - not racing the clock."
+  },
+  "introHeader": {
+    "eyebrow": "What We Build",
+    "title": "CRM Systems Built for Franchise Scale",
+    "body": "Every franchise location needs the same automated follow-up system. We build it once, deploy it everywhere, and customize it per market."
+  },
+  "features": [
+    {
+      "eyebrow": "The First 5 Minutes Decide Everything",
+      "title": "Speed to Lead Automation",
+      "paragraph": "Research from the Harvard Business Review shows that leads contacted within 5 minutes of submission are 10x more likely to convert than leads contacted even 30 minutes later. Most franchise locations can't hit that window consistently with a human team. We build automated SMS and email sequences that fire within 60 seconds of every form submission, so your prospect gets an instant response while your team focuses on the human follow-up that actually closes deals.",
+      "bullets": [
+        { "label": "60-second SMS & email automation", "rest": "that fires the instant a lead submits" },
+        { "label": "Personalized merge fields", "rest": "so every message feels human, not templated" },
+        { "label": "Escalation logic", "rest": "that flags leads needing manual follow-up within 15 minutes" }
+      ],
+      "bgOff": true
+    },
+    {
+      "eyebrow": "Every Lead. The Right Location. Instantly.",
+      "title": "Smart Lead Routing",
+      "paragraph": "The fastest way to kill franchise ROI is to let leads land in the wrong location's inbox or sit in a generic queue waiting for someone to sort them manually. We build zip-code-level routing rules that map every lead to the correct franchise location the moment they come in, with instant multi-channel notifications to the location's team. No more prospects going cold because nobody saw the submission.",
+      "bullets": [
+        { "label": "Zip-code-based routing", "rest": "that sends leads to the right franchise every time" },
+        { "label": "Multi-location support", "rest": "with custom fallback rules for out-of-territory leads" },
+        { "label": "Unassigned-lead alerts", "rest": "that escalate if a location doesn't respond within SLA" }
+      ],
+      "reverse": true
+    },
+    {
+      "eyebrow": "Visibility Across Every Stage",
+      "title": "Pipeline Management",
+      "paragraph": "Without a visual pipeline, nobody knows where opportunities actually stand. Did that lead from Tuesday ever get followed up? Is the Johnson consult confirmed for next week? How many deals are sitting in \"proposal sent\" right now across all your locations? We build Kanban-style pipelines that give you instant visibility into every opportunity across every location, so you always know exactly what's moving, what's stuck, and what needs attention.",
+      "bullets": [
+        { "label": "Customizable pipeline stages", "rest": "built around your exact sales process" },
+        { "label": "Drag-and-drop deal management", "rest": "that makes updates fast for location teams" },
+        { "label": "Cross-location rollup view", "rest": "showing every deal across your entire franchise network" }
+      ],
+      "bgOff": true
+    },
+    {
+      "eyebrow": "Every Team Member Alerted Instantly",
+      "title": "Multi-Channel Notifications",
+      "paragraph": "Front desk staff don't live in their email inbox - they're juggling walk-ins, phones, and existing members. So we fire lead notifications across every channel that gets attention: SMS to the team phone, email to the manager, push notification to the mobile app, and a Slack alert to the location's channel. The first team member available picks it up instantly, no matter where they are or what they're doing.",
+      "bullets": [
+        { "label": "SMS notifications", "rest": "delivered to team phones within 4 seconds" },
+        { "label": "Mobile push alerts", "rest": "via the GoHighLevel app for on-the-go responses" },
+        { "label": "Slack & email backups", "rest": "so at least one channel reaches every team member" }
+      ],
+      "reverse": true
+    },
+    {
+      "eyebrow": "24/7, No Human Required",
+      "title": "Workflow Automations",
+      "paragraph": "Beyond the first five minutes, there's a whole nurture sequence that most franchises leave to chance: booking confirmations, reminder sequences, no-show recovery, post-visit follow-up, review request automations, membership renewal nudges. We build all of it as automated workflows that run 24/7 across every location. Your team sleeps, the system keeps working. Your team goes to a conference, the system keeps working.",
+      "bullets": [
+        { "label": "Booking & reminder flows", "rest": "that reduce no-shows by 30-40%" },
+        { "label": "No-show recovery sequences", "rest": "that automatically re-engage missed appointments" },
+        { "label": "Review & referral automations", "rest": "that compound your reputation month over month" }
+      ],
+      "bgOff": true
+    },
+    {
+      "eyebrow": "The Infrastructure Behind It All",
+      "title": "GoHighLevel Setup & Management",
+      "paragraph": "GoHighLevel is the most powerful CRM platform for franchise brands - but only if it's built right. Most franchisees buy the software and then spend months figuring out how to actually use it. We handle the entire GHL environment: sub-accounts for every location, unified reporting for the franchisor, custom automations, integrations with your existing tech stack, and ongoing optimization as your network grows. You get enterprise-level CRM infrastructure without hiring an enterprise team.",
+      "bullets": [
+        { "label": "Sub-account architecture", "rest": "that scales from 1 location to 500 without breaking" },
+        { "label": "Unified franchisor reporting", "rest": "so brand leadership sees everything in one place" },
+        { "label": "Ongoing optimization", "rest": "as your network grows and your needs evolve" }
+      ],
+      "reverse": true
+    }
+  ],
+  "testimonial": {
+    "quote": "We have been inundated with leads to the point we can barely keep up. Their system just works.",
+    "name": "Richard Mazzarino",
+    "meta": "Houston, TX",
+    "avatar": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69b5f1ef87f0f23941f78333.jpeg"
+  },
+  "cta": {
+    "title": "Ready to Stop Losing Leads?",
+    "body": "Book your free audit and we'll show you exactly where your current CRM is leaking leads and how to plug the gaps."
+  }
+}

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fitness Franchise Marketing Agency | EMS, Pilates, HIIT, Gym Ads | 5th Element Media</title>
+<meta name="description" content="Franchise marketing built for fitness brands. We manage paid ads, UGC creative, and lead generation for EMS, Pilates, HIIT, and gym franchises across 100s of locations.">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--teal:#00BE9D;--tealh:#00D4AE;--tealbg:rgba(0,190,157,.06);--tealbd:rgba(0,190,157,.15);--dk:#0F1314;--wh:#FFFFFF;--off:#F7F7F7;--tx:#1a1a1a;--tx2:#444;--tx3:#777;--bd:rgba(0,0,0,.07);--glass:rgba(255,255,255,.55);--glassborder:rgba(255,255,255,.25);--r:16px;--rl:24px;--rs:12px;--f:'Plus Jakarta Sans',system-ui,sans-serif}
+html{scroll-behavior:smooth}body{font-family:var(--f);color:var(--tx);background:var(--wh);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block}a{text-decoration:none;color:inherit}.mx{max-width:1200px;margin:0 auto;padding:0 24px}.ctr{text-align:center}
+.nav{position:fixed;top:12px;left:50%;transform:translateX(-50%);width:calc(100% - 48px);max-width:1200px;z-index:100;padding:12px 24px;display:flex;align-items:center;justify-content:space-between;background:var(--glass);backdrop-filter:blur(24px) saturate(1.4);-webkit-backdrop-filter:blur(24px) saturate(1.4);border:1px solid var(--glassborder);border-radius:var(--r);box-shadow:0 4px 24px rgba(0,0,0,.04)}
+.nav img{height:26px;filter:brightness(0)}.navr{display:flex;gap:24px;align-items:center}.navr a{font-size:14px;font-weight:500;color:var(--tx2);transition:color .2s}.navr a:hover{color:var(--tx)}
+.bp{display:inline-flex;align-items:center;gap:8px;font-family:var(--f);font-weight:700;border:none;cursor:pointer;transition:all .2s;background:var(--teal);color:var(--dk);padding:12px 24px;border-radius:var(--rs);font-size:15px}.bp:hover{background:var(--tealh);transform:translateY(-1px);box-shadow:0 8px 24px rgba(0,190,157,.2)}
+.bpl{padding:16px 32px;font-size:16px}
+.sec{padding:100px 24px}
+.stag{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--teal);margin-bottom:16px}
+.sttl{font-size:clamp(32px,5vw,48px);font-weight:800;letter-spacing:-.03em;line-height:1.08;color:var(--tx);margin-bottom:20px}
+.ssub{font-size:18px;color:var(--tx2);line-height:1.6;max-width:640px}
+.hero-split{padding:140px 24px 80px;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;max-width:1200px;margin:0 auto}
+.hero-split h1{font-size:clamp(36px,5vw,56px);font-weight:800;letter-spacing:-.03em;line-height:1.08;margin-bottom:20px}
+.hero-split h1 em{font-style:normal;color:var(--teal)}
+.hero-split .hero-img{border-radius:var(--rl);overflow:hidden;aspect-ratio:4/5;box-shadow:0 24px 60px rgba(0,0,0,.12);position:relative}
+.hero-split .hero-slides{position:relative;width:100%;height:100%}
+.hero-split .hero-slide{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center center;opacity:0;transition:opacity 1.4s ease-in-out}
+.hero-split .hero-slide.active{opacity:1}
+.why{padding:100px 24px;background:var(--off)}
+.why .inner{max-width:960px;margin:0 auto;text-align:center}
+.fg{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:48px}
+.fc{padding:36px 28px;border:1px solid var(--bd);border-radius:var(--rl);transition:all .3s;background:var(--wh)}
+.fc:hover{border-color:var(--tealbd);box-shadow:0 12px 40px rgba(0,190,157,.06)}
+.fc .fi{width:48px;height:48px;border-radius:var(--rs);background:var(--tealbg);border:1px solid var(--tealbd);display:flex;align-items:center;justify-content:center;font-size:20px;margin-bottom:20px}
+.fc h3{font-size:18px;font-weight:700;margin-bottom:8px}.fc p{font-size:14px;color:var(--tx2);line-height:1.6}
+.brands{padding:80px 24px;text-align:center}
+.brand-row{display:flex;justify-content:center;align-items:center;gap:48px;flex-wrap:wrap;margin-top:32px}
+.brand-row img{height:60px;max-width:200px;object-fit:contain;transition:opacity .3s}
+.brand-row img:hover{opacity:.85}
+.testimonial{padding:100px 24px;background:var(--wh)}
+.testimonial .inner{max-width:960px;margin:0 auto}
+.testimonial .card{background:var(--dk);color:var(--wh);border-radius:var(--rl);padding:64px 56px;text-align:center;box-shadow:0 24px 60px rgba(0,0,0,.12);position:relative;overflow:hidden}
+.testimonial .card::before{content:'';position:absolute;top:-40px;right:-40px;width:200px;height:200px;border-radius:50%;background:radial-gradient(circle,rgba(0,190,157,.12),transparent 70%);pointer-events:none}
+.testimonial .stag{color:var(--teal);position:relative;z-index:1}
+.testimonial .quote{font-size:clamp(22px,3vw,30px);font-weight:600;line-height:1.35;letter-spacing:-.02em;margin:24px 0 32px;position:relative;z-index:1}
+.testimonial .quote::before{content:'\201C';color:var(--teal);font-size:64px;line-height:0;vertical-align:-24px;margin-right:8px}
+.testimonial .attr{display:flex;align-items:center;justify-content:center;gap:14px;position:relative;z-index:1}
+.testimonial .attr img{width:48px;height:48px;border-radius:50%;object-fit:cover;border:2px solid rgba(255,255,255,.1)}
+.testimonial .attr-text{text-align:left}
+.testimonial .attr-name{font-weight:700;font-size:15px}
+.testimonial .attr-meta{font-size:13px;color:rgba(255,255,255,.5)}
+@media(max-width:768px){.testimonial .card{padding:48px 28px}}
+.fcta{padding:80px 24px;text-align:center;background:var(--off)}
+.fcta h2{font-size:clamp(28px,4vw,40px);font-weight:800;letter-spacing:-.02em;margin-bottom:12px}.fcta p{font-size:16px;color:var(--tx2);margin-bottom:32px}
+.ft{background:var(--dk);padding:64px 24px 32px;color:rgba(255,255,255,.5);font-size:13px}
+.ftin{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:40px}
+.ftbr img{height:28px;filter:brightness(0) invert(1);margin-bottom:12px}.ftbr p{line-height:1.6;max-width:280px}
+.ftc h4{color:var(--wh);font-size:14px;font-weight:700;margin-bottom:16px}
+.ftc a{display:block;margin-bottom:10px;color:rgba(255,255,255,.5);transition:color .2s;font-size:13px}.ftc a:hover{color:var(--teal)}
+.ftbt{text-align:center;padding-top:32px;border-top:1px solid rgba(255,255,255,.06);max-width:1200px;margin:0 auto}
+@media(max-width:1024px){.fg{grid-template-columns:1fr 1fr}.hero-split{grid-template-columns:1fr;gap:40px}.hero-split .hero-img{aspect-ratio:16/10;max-width:520px;margin:0 auto}.ftin{grid-template-columns:1fr 1fr}}
+@media(max-width:768px){.navr a:not(.bp){display:none}.fg{grid-template-columns:1fr}.hero-split,.sec,.fcta,.why,.testimonial,.brands{padding-left:20px;padding-right:20px}.ftin{grid-template-columns:1fr}.brand-row{gap:32px}.brand-row img{height:36px}}
+.anim{opacity:0;transform:translateY(30px);transition:opacity .7s ease,transform .7s ease}.anim.visible{opacity:1;transform:translateY(0)}
+
+/* ============ DEEP-DIVE FEATURE SECTIONS ============ */
+.feat{padding:100px 24px;overflow:hidden}
+.feat-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;max-width:1200px;margin:0 auto}
+.feat-reverse .feat-text{order:2}.feat-reverse .feat-visual{order:1}
+.feat-eb{font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--teal);margin-bottom:14px}
+.feat-h{font-size:clamp(28px,3.5vw,40px);font-weight:800;letter-spacing:-.02em;line-height:1.1;margin-bottom:20px;color:var(--tx)}
+.feat-p{font-size:17px;color:var(--tx2);line-height:1.65;margin-bottom:24px}
+.feat-list{list-style:none;padding:0;margin:0}
+.feat-list li{position:relative;padding-left:28px;margin-bottom:14px;font-size:15px;color:var(--tx2);line-height:1.55}
+.feat-list li::before{content:'';position:absolute;left:0;top:8px;width:16px;height:16px;border-radius:50%;background:var(--tealbg);border:1.5px solid var(--teal);background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%2300BE9D' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round' d='M3 8.5l3 3 7-7'/></svg>");background-repeat:no-repeat;background-position:center}
+.feat-list li strong{color:var(--tx);font-weight:700}
+.feat-visual{display:flex;align-items:center;justify-content:center}
+
+/* === Mockup 1: Ad grid (Modality-Specific Creative) === */
+.mockup-ad-grid{display:grid;grid-template-columns:1fr;gap:16px;width:100%;max-width:380px}
+.mockup-ad{background:var(--wh);border:1px solid var(--bd);border-radius:var(--rs);overflow:hidden;box-shadow:0 12px 40px rgba(0,0,0,.08);transition:transform .3s}
+.mockup-ad:hover{transform:translateY(-4px)}
+.mockup-ad-tag{display:inline-block;padding:4px 10px;font-size:10px;font-weight:700;letter-spacing:.1em;border-radius:4px;margin:14px 14px 0}
+.mockup-ad-img{aspect-ratio:16/9;margin:10px 14px;border-radius:8px;position:relative;display:flex;align-items:flex-end;padding:16px}
+.mockup-ad-overlay{color:var(--wh);font-weight:700;font-size:15px;line-height:1.2;text-shadow:0 2px 8px rgba(0,0,0,.4)}
+.mockup-ad-footer{display:flex;justify-content:space-between;align-items:center;padding:10px 14px 14px;font-size:12px}
+.mockup-ad-brand{font-weight:700;color:var(--tx)}
+.mockup-ad-cta{background:var(--teal);color:var(--dk);padding:6px 12px;border-radius:6px;font-weight:700;font-size:11px}
+
+/* === Mockup 2: Map (Hyper-Local Targeting) === */
+.mockup-map{position:relative;width:100%;max-width:480px;aspect-ratio:4/3;background:linear-gradient(135deg,#f5f7fa,#e8edf2);border-radius:var(--rl);overflow:hidden;border:1px solid var(--bd);box-shadow:0 12px 40px rgba(0,0,0,.08)}
+.mockup-map-streets{position:absolute;inset:0;background-image:linear-gradient(90deg,transparent 48%,rgba(0,0,0,.06) 48%,rgba(0,0,0,.06) 52%,transparent 52%),linear-gradient(0deg,transparent 48%,rgba(0,0,0,.06) 48%,rgba(0,0,0,.06) 52%,transparent 52%),linear-gradient(45deg,transparent 49%,rgba(0,0,0,.04) 49%,rgba(0,0,0,.04) 51%,transparent 51%);background-size:80px 80px,80px 80px,120px 120px}
+.mockup-map-radius{position:absolute;top:50%;left:50%;width:280px;height:280px;transform:translate(-50%,-50%);border-radius:50%;background:radial-gradient(circle,rgba(0,190,157,.15) 0%,rgba(0,190,157,.05) 70%,transparent 100%);border:2px dashed rgba(0,190,157,.4)}
+.mockup-map-pin{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:3}
+.mockup-map-pin-dot{width:20px;height:20px;border-radius:50%;background:var(--teal);box-shadow:0 0 0 4px var(--wh),0 4px 12px rgba(0,190,157,.4);position:relative;z-index:3}
+.mockup-map-pin-ring,.mockup-map-pin-ring-2{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:20px;height:20px;border-radius:50%;border:2px solid var(--teal);opacity:.6;animation:pulseRing 2.4s ease-out infinite}
+.mockup-map-pin-ring-2{animation-delay:1.2s}
+@keyframes pulseRing{0%{transform:translate(-50%,-50%) scale(1);opacity:.6}100%{transform:translate(-50%,-50%) scale(3.5);opacity:0}}
+.mockup-map-label{position:absolute;bottom:20px;left:20px;background:var(--wh);padding:10px 14px;border-radius:8px;box-shadow:0 4px 16px rgba(0,0,0,.08);border:1px solid var(--bd)}
+.mockup-map-stats{position:absolute;top:20px;right:20px;background:var(--dk);padding:12px 16px;border-radius:8px;color:var(--wh);box-shadow:0 8px 24px rgba(0,0,0,.2)}
+.mockup-map-stat-num{font-size:20px;font-weight:800;color:var(--teal);letter-spacing:-.02em;line-height:1}
+.mockup-map-stat-lbl{font-size:11px;color:rgba(255,255,255,.6);margin-top:4px}
+
+/* === Mockup 3: Phone/Reel (UGC) === */
+.mockup-phone{width:260px;aspect-ratio:9/19;background:#111;border-radius:36px;padding:10px;box-shadow:0 24px 60px rgba(0,0,0,.25);position:relative;border:2px solid #2a2a2a}
+.mockup-phone-notch{position:absolute;top:18px;left:50%;transform:translateX(-50%);width:100px;height:22px;background:#000;border-radius:12px;z-index:2}
+.mockup-phone-screen{width:100%;height:100%;border-radius:28px;overflow:hidden;position:relative;background:#000}
+.mockup-reel{position:absolute;inset:0}
+.mockup-reel-bg{position:absolute;inset:0}
+.mockup-reel-top{position:absolute;top:50px;left:12px;right:12px;display:flex;justify-content:space-between;align-items:center;z-index:2}
+.mockup-reel-user{display:flex;align-items:center;gap:8px;color:var(--wh);font-size:11px;font-weight:600}
+.mockup-reel-avatar{width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,var(--teal),#00D4AE);border:2px solid var(--wh)}
+.mockup-reel-live{background:#ff3b30;color:var(--wh);font-size:9px;font-weight:700;padding:3px 8px;border-radius:4px;letter-spacing:.05em}
+.mockup-reel-caption{position:absolute;bottom:80px;left:14px;right:60px;color:var(--wh);font-size:12px;font-weight:500;line-height:1.4;text-shadow:0 1px 4px rgba(0,0,0,.5);z-index:2}
+.mockup-reel-bottom{position:absolute;bottom:20px;left:14px;right:14px;z-index:2}
+.mockup-reel-actions{display:flex;gap:16px;color:var(--wh);font-size:11px;font-weight:600;text-shadow:0 1px 4px rgba(0,0,0,.5)}
+
+/* === Mockup 4: Offers (Intro Offer Optimization) === */
+.mockup-offers{display:flex;flex-direction:column;gap:14px;width:100%;max-width:380px}
+.mockup-offer{background:var(--wh);border:1px solid var(--bd);border-radius:var(--rs);padding:20px;box-shadow:0 8px 24px rgba(0,0,0,.05);position:relative;transition:transform .3s}
+.mockup-offer:hover{transform:translateX(4px)}
+.mockup-offer-winner{border:2px solid var(--teal);box-shadow:0 12px 40px rgba(0,190,157,.15)}
+.mockup-offer-winner-tag{position:absolute;top:-10px;right:16px;background:var(--teal);color:var(--dk);font-size:10px;font-weight:800;letter-spacing:.08em;padding:4px 10px;border-radius:4px}
+.mockup-offer-label{font-size:10px;font-weight:700;letter-spacing:.1em;color:var(--tx3);margin-bottom:6px}
+.mockup-offer-title{font-size:18px;font-weight:800;color:var(--tx);margin-bottom:6px;letter-spacing:-.01em}
+.mockup-offer-meta{font-size:12px;color:var(--tx3);margin-bottom:12px}
+.mockup-offer-bar{height:6px;background:rgba(0,0,0,.05);border-radius:3px;overflow:hidden;margin-bottom:6px}
+.mockup-offer-bar-fill{height:100%;background:var(--tx3);border-radius:3px}
+.mockup-offer-metric{font-size:12px;font-weight:700;color:var(--tx2)}
+
+/* === Mockup 5: Timeline (Speed to Lead) === */
+.mockup-timeline{background:var(--wh);border:1px solid var(--bd);border-radius:var(--rl);padding:28px;width:100%;max-width:420px;box-shadow:0 12px 40px rgba(0,0,0,.06);position:relative}
+.mockup-timeline-item{display:flex;gap:16px;position:relative;padding-bottom:24px}
+.mockup-timeline-item:last-child{padding-bottom:0}
+.mockup-timeline-item::before{content:'';position:absolute;left:9px;top:20px;bottom:0;width:2px;background:var(--bd)}
+.mockup-timeline-item:last-child::before{display:none}
+.mockup-timeline-item-done::before{background:var(--teal)}
+.mockup-timeline-dot{width:20px;height:20px;border-radius:50%;border:2px solid var(--bd);background:var(--wh);flex-shrink:0;z-index:2;position:relative}
+.mockup-timeline-item-done .mockup-timeline-dot{border-color:var(--teal);background:var(--teal)}
+.mockup-timeline-item-done .mockup-timeline-dot::after{content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:8px;height:8px;border-radius:50%;background:var(--wh)}
+.mockup-timeline-item-active .mockup-timeline-dot{border-color:var(--teal);background:var(--tealbg);box-shadow:0 0 0 6px rgba(0,190,157,.12)}
+.mockup-timeline-item-active .mockup-timeline-dot::after{content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:8px;height:8px;border-radius:50%;background:var(--teal);animation:pulse 1.6s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:translate(-50%,-50%) scale(1)}50%{opacity:.5;transform:translate(-50%,-50%) scale(.8)}}
+.mockup-timeline-content{flex:1}
+.mockup-timeline-time{font-size:11px;font-weight:700;color:var(--teal);letter-spacing:.05em;margin-bottom:2px}
+.mockup-timeline-event{font-size:15px;font-weight:700;color:var(--tx);margin-bottom:2px}
+.mockup-timeline-detail{font-size:13px;color:var(--tx3);line-height:1.4}
+
+/* === Mockup 6: Dashboard (Multi-Location) === */
+.mockup-dash{background:var(--wh);border:1px solid var(--bd);border-radius:var(--rl);padding:24px;width:100%;max-width:460px;box-shadow:0 12px 40px rgba(0,0,0,.06)}
+.mockup-dash-header{display:flex;justify-content:space-between;align-items:center;padding-bottom:16px;border-bottom:1px solid var(--bd);margin-bottom:16px}
+.mockup-dash-title{font-size:14px;font-weight:800;color:var(--tx);letter-spacing:-.01em}
+.mockup-dash-filter{font-size:11px;color:var(--tx3);font-weight:500;padding:4px 10px;background:var(--off);border-radius:6px}
+.mockup-dash-row{margin-bottom:12px}
+.mockup-dash-loc{display:grid;grid-template-columns:1fr 2fr auto;gap:12px;align-items:center}
+.mockup-dash-loc-name{font-size:12px;font-weight:600;color:var(--tx2)}
+.mockup-dash-loc-bar{height:8px;background:var(--off);border-radius:4px;overflow:hidden}
+.mockup-dash-loc-bar-fill{height:100%;border-radius:4px}
+.mockup-dash-loc-val{font-size:13px;font-weight:700;color:var(--tx);font-variant-numeric:tabular-nums}
+.mockup-dash-alert{margin-top:16px;padding:10px 12px;background:rgba(239,159,39,.08);border:1px solid rgba(239,159,39,.2);border-radius:8px;font-size:11px;color:var(--tx2);display:flex;align-items:center;gap:8px;line-height:1.4}
+
+/* === Responsive === */
+@media(max-width:900px){
+  .feat-grid{grid-template-columns:1fr;gap:48px}
+  .feat-reverse .feat-text{order:1}.feat-reverse .feat-visual{order:2}
+  .feat{padding:72px 20px}
+  .feat-h{font-size:26px}.feat-p{font-size:15px}
+  .mockup-phone{width:220px}
+}
+
+</style>
+</head>
+<body>
+<nav class="nav"><a href="/homepage-v5"><img src="https://cdn.prod.website-files.com/68f669a6d79edc75f34470f3/6921faef19de659f7d5b81f6_FifthElement%207.png" alt="5th Element Media"></a><div class="navr"><a href="/about-v5">About</a><a href="/case-studies-v5">Case Studies</a><a href="/paid-ads-v5">Services</a><a href="/blog">Blog</a><a href="/contact-v5">Contact</a><a href="https://go.5them.com/free-franchise-lead-engine-audit" class="bp">Book Free Audit</a></div></nav>
+
+<!-- HERO SPLIT -->
+<section class="hero-split"><div><div class="stag">Fitness Franchises</div><h1>Marketing Built to Fill<br><em>Fitness Franchises.</em></h1><p class="ssub" style="margin-bottom:32px">From EMS studios to Pilates reformer classes to HIIT gyms, we know what converts for every fitness modality. Our playbook is built from real data across 100s of fitness franchise locations.</p><a href="https://go.5them.com/free-franchise-lead-engine-audit" class="bp bpl">Book Your Free Audit &rarr;</a></div><div class="hero-img"><div class="hero-slides"><img class="hero-slide active" src="https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69df2ff9190683601a44ef63.jpg" alt="Pilates Addiction studio"><img class="hero-slide" src="https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69df2ff9243975ecf72e7b90.jpg" alt="BODY20 studio"><img class="hero-slide" src="https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69e515ec2c135a8c835b2c5b.jpg" alt="Pilates Addiction studio interior"><img class="hero-slide" src="https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69e51580c56ad27908e910dd.jpg" alt="BODY20 training"></div></div></section>
+
+<!-- WHY DIFFERENT -->
+<section class="why"><div class="inner"><div class="stag">Why We're Different</div><h2 class="sttl">We Speak Fitness. Not Generic Marketing.</h2><p class="ssub" style="margin:0 auto">Most agencies run the same playbook for a Pilates studio that they do for a pizza franchise. That's why their ads don't work. Every fitness modality has its own audience psychology, its own offer structure, and its own creative language. We've tested it all, and we know what converts.</p></div></section>
+
+<!-- INTRO TO DEEP DIVE -->
+<section class="sec" style="padding:100px 24px 40px"><div class="mx ctr"><div class="stag">What We Deliver</div><h2 class="sttl">The Franchise Lead Engine for Fitness Brands</h2><p class="ssub" style="margin:0 auto">Every part of our system is tuned for fitness. No generic templates. No copy-paste campaigns.</p></div></section>
+
+<!-- FEATURE 1: MODALITY-SPECIFIC CREATIVE -->
+<section class="feat" style="background:var(--off)"><div class="feat-grid mx"><div class="feat-text"><div class="feat-eb">Creative That Converts</div><h3 class="feat-h">Modality-Specific Creative</h3><p class="feat-p">EMS leads with education. Pilates leads with aspirational lifestyle. HIIT leads with energy and urgency. We build the right creative language for each fitness modality because what converts for a reformer class will never convert for a boxing franchise.</p><ul class="feat-list"><li><strong>Hook libraries</strong> tuned per modality, tested across 100s of locations</li><li><strong>Creative testing cycles</strong> every 2 weeks so ads never go stale</li><li><strong>Brand-compliant design</strong> that still feels native to each platform</li></ul></div><div class="feat-visual"><div class="mockup-ad-grid"><div class="mockup-ad"><div class="mockup-ad-tag" style="background:rgba(0,190,157,.15);color:var(--teal)">EMS</div><div class="mockup-ad-img" style="background:linear-gradient(135deg,#1a2332,#2d4263)"><div class="mockup-ad-overlay">20 minutes.<br>Full-body results.</div></div><div class="mockup-ad-footer"><span class="mockup-ad-brand">BODY20</span><span class="mockup-ad-cta">Learn More</span></div></div><div class="mockup-ad"><div class="mockup-ad-tag" style="background:rgba(255,107,155,.15);color:#ff6b9b">PILATES</div><div class="mockup-ad-img" style="background:linear-gradient(135deg,#3d2645,#8a4d76)"><div class="mockup-ad-overlay">Stronger. Longer.<br>Leaner.</div></div><div class="mockup-ad-footer"><span class="mockup-ad-brand">Pilates Addiction</span><span class="mockup-ad-cta">Book Class</span></div></div><div class="mockup-ad"><div class="mockup-ad-tag" style="background:rgba(255,159,39,.15);color:#ff9f27">HIIT</div><div class="mockup-ad-img" style="background:linear-gradient(135deg,#2c1810,#8b3a1f)"><div class="mockup-ad-overlay">30 minutes.<br>Zero excuses.</div></div><div class="mockup-ad-footer"><span class="mockup-ad-brand">HIIT Studio</span><span class="mockup-ad-cta">Free Trial</span></div></div></div></div></div></section>
+
+<!-- FEATURE 2: HYPER-LOCAL TARGETING -->
+<section class="feat"><div class="feat-grid mx feat-reverse"><div class="feat-text"><div class="feat-eb">Right Audience, Right Zip Code</div><h3 class="feat-h">Hyper-Local Targeting</h3><p class="feat-p">Fitness is a proximity business. Nobody drives 20 miles to a Pilates class. We build campaigns with tight radius targeting tuned to each studio's real drive-time zone, layered with interest and behavioral signals that filter out tire-kickers.</p><ul class="feat-list"><li><strong>3-5 mile radius targeting</strong> calibrated per market density</li><li><strong>Behavioral signals</strong> filtered for purchase intent, not just interest</li><li><strong>Location-aware creative</strong> that references the neighborhood by name</li></ul></div><div class="feat-visual"><div class="mockup-map"><div class="mockup-map-pin"><div class="mockup-map-pin-dot"></div><div class="mockup-map-pin-ring"></div><div class="mockup-map-pin-ring mockup-map-pin-ring-2"></div></div><div class="mockup-map-radius"></div><div class="mockup-map-streets"></div><div class="mockup-map-label"><div style="font-size:11px;color:var(--tx3);font-weight:500">Studio location</div><div style="font-size:13px;color:var(--tx);font-weight:700;margin-top:2px">3-mile radius</div></div><div class="mockup-map-stats"><div class="mockup-map-stat"><div class="mockup-map-stat-num">14,280</div><div class="mockup-map-stat-lbl">In-market audience</div></div></div></div></div></div></section>
+
+<!-- FEATURE 3: UGC FROM REAL MEMBERS -->
+<section class="feat" style="background:var(--off)"><div class="feat-grid mx"><div class="feat-text"><div class="feat-eb">Authenticity Wins</div><h3 class="feat-h">UGC From Real Members</h3><p class="feat-p">Stock fitness photography is dead. Scrollers can smell it from a mile away. We coach your members, trainers, and franchisees to capture authentic content on their own phones, then we edit it into ad-ready creative that outperforms polished content every single time.</p><ul class="feat-list"><li><strong>We brief, they shoot, we edit</strong> — 3-4 new ad-ready clips every cycle</li><li><strong>Creative coaching guide</strong> so franchisees know exactly what to capture</li><li><strong>Testimonial pipeline</strong> turns happy members into your best salespeople</li></ul></div><div class="feat-visual"><div class="mockup-phone"><div class="mockup-phone-notch"></div><div class="mockup-phone-screen"><div class="mockup-reel"><div class="mockup-reel-bg" style="background:linear-gradient(135deg,#3d2645,#8a4d76)"></div><div class="mockup-reel-top"><div class="mockup-reel-user"><div class="mockup-reel-avatar"></div><span>pilatesaddiction_bk</span></div><div class="mockup-reel-live">LIVE</div></div><div class="mockup-reel-caption">Real class. Real members. Real results. &#127995;&#128168;</div><div class="mockup-reel-bottom"><div class="mockup-reel-actions"><span>&#10084;&#65039; 2.4K</span><span>&#128172; 89</span><span>&#10150; 340</span></div></div></div></div></div></div></div></section>
+
+<!-- FEATURE 4: INTRO OFFER OPTIMIZATION -->
+<section class="feat"><div class="feat-grid mx feat-reverse"><div class="feat-text"><div class="feat-eb">The Right Offer Converts 3x Higher</div><h3 class="feat-h">Intro Offer Optimization</h3><p class="feat-p">Free class, discounted first month, bundle packages, trial memberships. The offer is often more important than the ad itself. We've tested dozens of intro offers across every fitness modality and we know exactly which ones convert in your market.</p><ul class="feat-list"><li><strong>Offer testing framework</strong> across EMS, Pilates, HIIT, and hybrid concepts</li><li><strong>Price anchoring strategies</strong> that make your full membership feel like a deal</li><li><strong>Continuous optimization</strong> based on close rate, not just lead volume</li></ul></div><div class="feat-visual"><div class="mockup-offers"><div class="mockup-offer"><div class="mockup-offer-label">OPTION A</div><div class="mockup-offer-title">Free Intro Class</div><div class="mockup-offer-meta">Low commitment &middot; High lead volume</div><div class="mockup-offer-bar"><div class="mockup-offer-bar-fill" style="width:62%"></div></div><div class="mockup-offer-metric">62% lead-to-booked</div></div><div class="mockup-offer mockup-offer-winner"><div class="mockup-offer-winner-tag">WINNER</div><div class="mockup-offer-label" style="color:var(--teal)">OPTION B</div><div class="mockup-offer-title">3 Classes for $29</div><div class="mockup-offer-meta">Paid commitment &middot; Higher show rate</div><div class="mockup-offer-bar"><div class="mockup-offer-bar-fill" style="width:87%;background:var(--teal)"></div></div><div class="mockup-offer-metric" style="color:var(--teal)">87% lead-to-booked</div></div><div class="mockup-offer"><div class="mockup-offer-label">OPTION C</div><div class="mockup-offer-title">First Month $49</div><div class="mockup-offer-meta">Higher barrier &middot; Better LTV</div><div class="mockup-offer-bar"><div class="mockup-offer-bar-fill" style="width:41%"></div></div><div class="mockup-offer-metric">41% lead-to-booked</div></div></div></div></div></section>
+
+<!-- FEATURE 5: SPEED TO LEAD -->
+<section class="feat" style="background:var(--off)"><div class="feat-grid mx"><div class="feat-text"><div class="feat-eb">60 Seconds or Less</div><h3 class="feat-h">Speed to Lead</h3><p class="feat-p">Fitness leads go cold fast. A prospect fills out a form, then 30 seconds later they're looking at your competitor. Our automation contacts every lead within 60 seconds &mdash; SMS first, email second, booking link right in the message &mdash; so they book with you before they shop anyone else.</p><ul class="feat-list"><li><strong>Instant SMS + email</strong> triggered the moment a lead submits</li><li><strong>Automated booking links</strong> with calendar availability built in</li><li><strong>Multi-step nurture</strong> for leads that don't book on the first touch</li></ul></div><div class="feat-visual"><div class="mockup-timeline"><div class="mockup-timeline-item mockup-timeline-item-done"><div class="mockup-timeline-dot"></div><div class="mockup-timeline-content"><div class="mockup-timeline-time">0:00</div><div class="mockup-timeline-event">Lead submits form</div><div class="mockup-timeline-detail">sarah.j@email.com</div></div></div><div class="mockup-timeline-item mockup-timeline-item-done"><div class="mockup-timeline-dot"></div><div class="mockup-timeline-content"><div class="mockup-timeline-time">0:12</div><div class="mockup-timeline-event">SMS sent</div><div class="mockup-timeline-detail">&ldquo;Hey Sarah! Here's your booking link...&rdquo;</div></div></div><div class="mockup-timeline-item mockup-timeline-item-done"><div class="mockup-timeline-dot"></div><div class="mockup-timeline-content"><div class="mockup-timeline-time">0:34</div><div class="mockup-timeline-event">Email delivered</div><div class="mockup-timeline-detail">Intro offer + studio welcome</div></div></div><div class="mockup-timeline-item mockup-timeline-item-active"><div class="mockup-timeline-dot"></div><div class="mockup-timeline-content"><div class="mockup-timeline-time">2:47</div><div class="mockup-timeline-event">Class booked</div><div class="mockup-timeline-detail" style="color:var(--teal);font-weight:700">Saturday, 10am &check;</div></div></div></div></div></div></section>
+
+<!-- FEATURE 6: MULTI-LOCATION DASHBOARD -->
+<section class="feat"><div class="feat-grid mx feat-reverse"><div class="feat-text"><div class="feat-eb">See Everything at Once</div><h3 class="feat-h">Multi-Location Dashboard</h3><p class="feat-p">Running one studio is hard. Running 12 across three states without real-time visibility is impossible. Our dashboard shows performance across every location, every campaign, and every creative in a single view, with AI-driven flags that tell you exactly where to focus your attention.</p><ul class="feat-list"><li><strong>Live location-by-location view</strong> of CPL, lead volume, and show rates</li><li><strong>AI-flagged performance alerts</strong> when any location dips below benchmark</li><li><strong>Franchisor-level rollup</strong> with brand-wide reporting for corporate teams</li></ul></div><div class="feat-visual"><div class="mockup-dash"><div class="mockup-dash-header"><div class="mockup-dash-title">Network Performance</div><div class="mockup-dash-filter">Last 30 days</div></div><div class="mockup-dash-row"><div class="mockup-dash-loc"><div class="mockup-dash-loc-name">Nichols Hills, OK</div><div class="mockup-dash-loc-bar"><div class="mockup-dash-loc-bar-fill" style="width:92%;background:var(--teal)"></div></div><div class="mockup-dash-loc-val">$8.50</div></div></div><div class="mockup-dash-row"><div class="mockup-dash-loc"><div class="mockup-dash-loc-name">Bakersfield, CA</div><div class="mockup-dash-loc-bar"><div class="mockup-dash-loc-bar-fill" style="width:85%;background:var(--teal)"></div></div><div class="mockup-dash-loc-val">$11.40</div></div></div><div class="mockup-dash-row"><div class="mockup-dash-loc"><div class="mockup-dash-loc-name">Houston, TX</div><div class="mockup-dash-loc-bar"><div class="mockup-dash-loc-bar-fill" style="width:78%;background:var(--teal)"></div></div><div class="mockup-dash-loc-val">$9.80</div></div></div><div class="mockup-dash-row"><div class="mockup-dash-loc"><div class="mockup-dash-loc-name">Palm Beach, FL</div><div class="mockup-dash-loc-bar"><div class="mockup-dash-loc-bar-fill" style="width:48%;background:#EF9F27"></div></div><div class="mockup-dash-loc-val" style="color:#EF9F27">$18.20</div></div></div><div class="mockup-dash-alert"><span style="color:#EF9F27">&#9888;</span> <span>Palm Beach CPL above network avg &mdash; review creative</span></div></div></div></div></section>
+
+<!-- BRANDS -->
+<section class="brands"><div class="mx"><div class="stag">Fitness Brands We Work With</div><h2 class="sttl">Trusted by Leading Fitness Franchises</h2><div class="brand-row"><img src="https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61c1f9619acdae09d4701.svg" alt="BODY20"><img src="https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61cd67794bf85bf5349a6.png" alt="Pilates Addiction"></div></div></section>
+
+<!-- TESTIMONIAL -->
+<section class="testimonial"><div class="inner"><div class="card"><div class="stag">Real Results</div><div class="quote">We have been inundated with leads to the point we can barely keep up. The team at Fifth Element knows fitness inside and out.</div><div class="attr"><img src="https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69b5f1ef87f0f23941f78333.jpeg" alt="Richard Mazzarino"><div class="attr-text"><div class="attr-name">Richard Mazzarino</div><div class="attr-meta">Houston, TX</div></div></div></div></div></section>
+
+<!-- CTA -->
+<section class="fcta"><h2>Ready to Fill Your Fitness Franchise?</h2><p>Book your free audit and we'll show you exactly how we'd generate leads for your fitness brand.</p><a href="https://go.5them.com/free-franchise-lead-engine-audit" class="bp bpl">Book Your Free Audit &rarr;</a></section>
+
+<footer class="ft"><div class="ftin"><div class="ftbr"><img src="https://cdn.prod.website-files.com/68f669a6d79edc75f34470f3/6921faef19de659f7d5b81f6_FifthElement%207.png" alt="5th Element Media"><p>The franchise marketing agency behind 100s of franchise locations. Predictable lead flow, UGC creative, and AI-driven insights.</p></div><div class="ftc"><h4>Company</h4><a href="/about-v5">About</a><a href="/case-studies-v5">Case Studies</a><a href="/blog">Blog</a><a href="/contact-v5">Contact</a></div><div class="ftc"><h4>Services</h4><a href="/paid-ads-v5">Paid Ads</a><a href="/for-franchisors-v5">For Franchisors</a><a href="/for-franchisees-v5">For Franchisees</a><a href="/reporting-and-analytics">Analytics</a></div><div class="ftc"><h4>Connect</h4><a href="https://www.linkedin.com/company/5th-element-media">LinkedIn</a><a href="https://www.instagram.com/fifthelement.agency/">Instagram</a><a href="https://www.youtube.com/@Tristynn.McGowan">YouTube</a></div></div><div class="ftbt">&copy; 2026 5th Element Media LLC. All Rights Reserved.</div></footer>
+
+<script>
+const obs=new IntersectionObserver(e=>{e.forEach(el=>{if(el.isIntersecting)el.target.classList.add('visible')})},{threshold:.15,rootMargin:'0px 0px -40px 0px'});
+document.querySelectorAll('.stag,.sttl,.ssub,.fc,.quote,.attr,.hero-img,.feat-text,.feat-visual').forEach(el=>{el.classList.add('anim');obs.observe(el)});
+const nav=document.querySelector('.nav');window.addEventListener('scroll',()=>{nav.style.padding=window.scrollY>60?'8px 24px':'12px 24px';nav.style.boxShadow=window.scrollY>60?'0 4px 32px rgba(0,0,0,.06)':'0 4px 24px rgba(0,0,0,.04)'});
+const slides=document.querySelectorAll('.hero-slide');let si=0;if(slides.length>1){setInterval(()=>{slides[si].classList.remove('active');si=(si+1)%slides.length;slides[si].classList.add('active');},4000);}
+</script>
+</body></html>

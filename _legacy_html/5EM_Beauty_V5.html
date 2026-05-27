@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beauty Franchise Marketing Agency | Lash, Skincare, Aesthetics Ads | 5th Element Media</title>
+<meta name="description" content="Marketing for beauty and aesthetics franchises. Paid ads, UGC creative, and lead generation for lash studios, skincare clinics, cosmetic services, and beauty franchise brands.">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--teal:#00BE9D;--tealh:#00D4AE;--tealbg:rgba(0,190,157,.06);--tealbd:rgba(0,190,157,.15);--dk:#0F1314;--wh:#FFFFFF;--off:#F7F7F7;--tx:#1a1a1a;--tx2:#444;--tx3:#777;--bd:rgba(0,0,0,.07);--glass:rgba(255,255,255,.55);--glassborder:rgba(255,255,255,.25);--r:16px;--rl:24px;--rs:12px;--f:'Plus Jakarta Sans',system-ui,sans-serif}
+html{scroll-behavior:smooth}body{font-family:var(--f);color:var(--tx);background:var(--wh);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block}a{text-decoration:none;color:inherit}.mx{max-width:1200px;margin:0 auto;padding:0 24px}.ctr{text-align:center}
+.nav{position:fixed;top:12px;left:50%;transform:translateX(-50%);width:calc(100% - 48px);max-width:1200px;z-index:100;padding:12px 24px;display:flex;align-items:center;justify-content:space-between;background:var(--glass);backdrop-filter:blur(24px) saturate(1.4);-webkit-backdrop-filter:blur(24px) saturate(1.4);border:1px solid var(--glassborder);border-radius:var(--r);box-shadow:0 4px 24px rgba(0,0,0,.04)}
+.nav img{height:26px;filter:brightness(0)}.navr{display:flex;gap:24px;align-items:center}.navr a{font-size:14px;font-weight:500;color:var(--tx2);transition:color .2s}.navr a:hover{color:var(--tx)}
+.bp{display:inline-flex;align-items:center;gap:8px;font-family:var(--f);font-weight:700;border:none;cursor:pointer;transition:all .2s;background:var(--teal);color:var(--dk);padding:12px 24px;border-radius:var(--rs);font-size:15px}.bp:hover{background:var(--tealh);transform:translateY(-1px);box-shadow:0 8px 24px rgba(0,190,157,.2)}
+.bpl{padding:16px 32px;font-size:16px}
+.sec{padding:100px 24px}
+.stag{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--teal);margin-bottom:16px}
+.sttl{font-size:clamp(32px,5vw,48px);font-weight:800;letter-spacing:-.03em;line-height:1.08;color:var(--tx);margin-bottom:20px}
+.ssub{font-size:18px;color:var(--tx2);line-height:1.6;max-width:640px}
+.hero-split{padding:140px 24px 80px;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;max-width:1200px;margin:0 auto}
+.hero-split h1{font-size:clamp(36px,5vw,56px);font-weight:800;letter-spacing:-.03em;line-height:1.08;margin-bottom:20px}
+.hero-split h1 em{font-style:normal;color:var(--teal)}
+.hero-split .hero-img{border-radius:var(--rl);overflow:hidden;aspect-ratio:4/5;box-shadow:0 24px 60px rgba(0,0,0,.12);position:relative}
+.hero-split .hero-slides{position:relative;width:100%;height:100%}
+.hero-split .hero-slide{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center center;opacity:0;transition:opacity 1.4s ease-in-out}
+.hero-split .hero-slide.active{opacity:1}
+.why{padding:100px 24px;background:var(--off)}
+.why .inner{max-width:960px;margin:0 auto;text-align:center}
+.fg{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:48px}
+.fc{padding:36px 28px;border:1px solid var(--bd);border-radius:var(--rl);transition:all .3s;background:var(--wh)}
+.fc:hover{border-color:var(--tealbd);box-shadow:0 12px 40px rgba(0,190,157,.06)}
+.fc .fi{width:48px;height:48px;border-radius:var(--rs);background:var(--tealbg);border:1px solid var(--tealbd);display:flex;align-items:center;justify-content:center;font-size:20px;margin-bottom:20px}
+.fc h3{font-size:18px;font-weight:700;margin-bottom:8px}.fc p{font-size:14px;color:var(--tx2);line-height:1.6}
+.brands{padding:80px 24px;text-align:center}
+.brand-row{display:flex;justify-content:center;align-items:center;gap:48px;flex-wrap:wrap;margin-top:32px}
+.brand-row img{height:60px;max-width:200px;object-fit:contain;transition:opacity .3s}
+.brand-row img:hover{opacity:.85}
+.testimonial{padding:100px 24px;background:var(--wh)}
+.testimonial .inner{max-width:960px;margin:0 auto}
+.testimonial .card{background:var(--dk);color:var(--wh);border-radius:var(--rl);padding:64px 56px;text-align:center;box-shadow:0 24px 60px rgba(0,0,0,.12);position:relative;overflow:hidden}
+.testimonial .card::before{content:'';position:absolute;top:-40px;right:-40px;width:200px;height:200px;border-radius:50%;background:radial-gradient(circle,rgba(0,190,157,.12),transparent 70%);pointer-events:none}
+.testimonial .stag{color:var(--teal);position:relative;z-index:1}
+.testimonial .quote{font-size:clamp(22px,3vw,30px);font-weight:600;line-height:1.35;letter-spacing:-.02em;margin:24px 0 32px;position:relative;z-index:1}
+.testimonial .quote::before{content:'\201C';color:var(--teal);font-size:64px;line-height:0;vertical-align:-24px;margin-right:8px}
+.testimonial .attr{display:flex;align-items:center;justify-content:center;gap:14px;position:relative;z-index:1}
+.testimonial .attr img{width:48px;height:48px;border-radius:50%;object-fit:cover;border:2px solid rgba(255,255,255,.1)}
+.testimonial .attr-text{text-align:left}
+.testimonial .attr-name{font-weight:700;font-size:15px}
+.testimonial .attr-meta{font-size:13px;color:rgba(255,255,255,.5)}
+@media(max-width:768px){.testimonial .card{padding:48px 28px}}
+.fcta{padding:80px 24px;text-align:center;background:var(--off)}
+.fcta h2{font-size:clamp(28px,4vw,40px);font-weight:800;letter-spacing:-.02em;margin-bottom:12px}.fcta p{font-size:16px;color:var(--tx2);margin-bottom:32px}
+.ft{background:var(--dk);padding:64px 24px 32px;color:rgba(255,255,255,.5);font-size:13px}
+.ftin{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:40px}
+.ftbr img{height:28px;filter:brightness(0) invert(1);margin-bottom:12px}.ftbr p{line-height:1.6;max-width:280px}
+.ftc h4{color:var(--wh);font-size:14px;font-weight:700;margin-bottom:16px}
+.ftc a{display:block;margin-bottom:10px;color:rgba(255,255,255,.5);transition:color .2s;font-size:13px}.ftc a:hover{color:var(--teal)}
+.ftbt{text-align:center;padding-top:32px;border-top:1px solid rgba(255,255,255,.06);max-width:1200px;margin:0 auto}
+@media(max-width:1024px){.fg{grid-template-columns:1fr 1fr}.hero-split{grid-template-columns:1fr;gap:40px}.hero-split .hero-img{aspect-ratio:16/10;max-width:520px;margin:0 auto}.ftin{grid-template-columns:1fr 1fr}}
+@media(max-width:768px){.navr a:not(.bp){display:none}.fg{grid-template-columns:1fr}.hero-split,.sec,.fcta,.why,.testimonial,.brands{padding-left:20px;padding-right:20px}.ftin{grid-template-columns:1fr}.brand-row{gap:32px}.brand-row img{height:36px}}
+.anim{opacity:0;transform:translateY(30px);transition:opacity .7s ease,transform .7s ease}.anim.visible{opacity:1;transform:translateY(0)}
+
+/* ============ DEEP-DIVE FEATURE SECTIONS ============ */
+.feat{padding:100px 24px;overflow:hidden}
+.feat-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;max-width:1200px;margin:0 auto}
+.feat-reverse .feat-text{order:2}.feat-reverse .feat-visual{order:1}
+.feat-eb{font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--teal);margin-bottom:14px}
+.feat-h{font-size:clamp(28px,3.5vw,40px);font-weight:800;letter-spacing:-.02em;line-height:1.1;margin-bottom:20px;color:var(--tx)}
+.feat-p{font-size:17px;color:var(--tx2);line-height:1.65;margin-bottom:24px}
+.feat-list{list-style:none;padding:0;margin:0}
+.feat-list li{position:relative;padding-left:28px;margin-bottom:14px;font-size:15px;color:var(--tx2);line-height:1.55}
+.feat-list li::before{content:'';position:absolute;left:0;top:8px;width:16px;height:16px;border-radius:50%;background:var(--tealbg);border:1.5px solid var(--teal);background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='%2300BE9D' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round' d='M3 8.5l3 3 7-7'/></svg>");background-repeat:no-repeat;background-position:center}
+.feat-list li strong{color:var(--tx);font-weight:700}
+.feat-visual{display:flex;align-items:center;justify-content:center}
+
+/* === Mockup 1: Ad grid (Modality-Specific Creative) === */
+.mockup-ad-grid{display:grid;grid-template-columns:1fr;gap:16px;width:100%;max-width:380px}
+.mockup-ad{background:var(--wh);border:1px solid var(--bd);border-radius:var(--rs);overflow:hidden;box-shadow:0 12px 40px rgba(0,0,0,.08);transition:transform .3s}
+.mockup-ad:hover{transform:translateY(-4px)}
+.mockup-ad-tag{display:inline-block;padding:4px 10px;font-size:10px;font-weight:700;letter-spacing:.1em;border-radius:4px;margin:14px 14px 0}
+.mockup-ad-img{aspect-ratio:16/9;margin:10px 14px;border-radius:8px;position:relative;display:flex;align-items:flex-end;padding:16px}
+.mockup-ad-overlay{color:var(--wh);font-weight:700;font-size:15px;line-height:1.2;text-shadow:0 2px 8px rgba(0,0,0,.4)}
+.mockup-ad-footer{display:flex;justify-content:space-between;align-items:center;padding:10px 14px 14px;font-size:12px}
+.mockup-ad-brand{font-weight:700;color:var(--tx)}
+.mockup-ad-cta{background:var(--teal);color:var(--dk);padding:6px 12px;border-radius:6px;font-weight:700;font-size:11px}
+
+/* === Mockup 2: Map (Hyper-Local Targeting) === */
+.mockup-map{position:relative;width:100%;max-width:480px;aspect-ratio:4/3;background:linear-gradient(135deg,#f5f7fa,#e8edf2);border-radius:var(--rl);overflow:hidden;border:1px solid var(--bd);box-shadow:0 12px 40px rgba(0,0,0,.08)}
+.mockup-map-streets{position:absolute;inset:0;background-image:linear-gradient(90deg,transparent 48%,rgba(0,0,0,.06) 48%,rgba(0,0,0,.06) 52%,transparent 52%),linear-gradient(0deg,transparent 48%,rgba(0,0,0,.06) 48%,rgba(0,0,0,.06) 52%,transparent 52%),linear-gradient(45deg,transparent 49%,rgba(0,0,0,.04) 49%,rgba(0,0,0,.04) 51%,transparent 51%);background-size:80px 80px,80px 80px,120px 120px}
+.mockup-map-radius{position:absolute;top:50%;left:50%;width:280px;height:280px;transform:translate(-50%,-50%);border-radius:50%;background:radial-gradient(circle,rgba(0,190,157,.15) 0%,rgba(0,190,157,.05) 70%,transparent 100%);border:2px dashed rgba(0,190,157,.4)}
+.mockup-map-pin{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:3}
+.mockup-map-pin-dot{width:20px;height:20px;border-radius:50%;background:var(--teal);box-shadow:0 0 0 4px var(--wh),0 4px 12px rgba(0,190,157,.4);position:relative;z-index:3}
+.mockup-map-pin-ring,.mockup-map-pin-ring-2{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:20px;height:20px;border-radius:50%;border:2px solid var(--teal);opacity:.6;animation:pulseRing 2.4s ease-out infinite}
+.mockup-map-pin-ring-2{animation-delay:1.2s}
+@keyframes pulseRing{0%{transform:translate(-50%,-50%) scale(1);opacity:.6}100%{transform:translate(-50%,-50%) scale(3.5);opacity:0}}
+.mockup-map-label{position:absolute;bottom:20px;left:20px;background:var(--wh);padding:10px 14px;border-radius:8px;box-shadow:0 4px 16px rgba(0,0,0,.08);border:1px solid var(--bd)}
+.mockup-map-stats{position:absolute;top:20px;right:20px;background:var(--dk);padding:12px 16px;border-radius:8px;color:var(--wh);box-shadow:0 8px 24px rgba(0,0,0,.2)}
+.mockup-map-stat-num{font-size:20px;font-weight:800;color:var(--teal);letter-spacing:-.02em;line-height:1}
+.mockup-map-stat-lbl{font-size:11px;color:rgba(255,255,255,.6);margin-top:4px}
+
+/* === Mockup 3: Phone/Reel (UGC) === */
+.mockup-phone{width:260px;aspect-ratio:9/19;background:#111;border-radius:36px;padding:10px;box-shadow:0 24px 60px rgba(0,0,0,.25);position:relative;border:2px solid #2a2a2a}
+.mockup-phone-notch{position:absolute;top:18px;left:50%;transform:translateX(-50%);width:100px;height:22px;background:#000;border-radius:12px;z-index:2}
+.mockup-phone-screen{width:100%;height:100%;border-radius:28px;overflow:hidden;position:relative;background:#000}
+.mockup-reel{position:absolute;inset:0}
+.mockup-reel-bg{position:absolute;inset:0}
+.mockup-reel-top{position:absolute;top:50px;left:12px;right:12px;display:flex;justify-content:space-between;align-items:center;z-index:2}
+.mockup-reel-user{display:flex;align-items:center;gap:8px;color:var(--wh);font-size:11px;font-weight:600}
+.mockup-reel-avatar{width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,var(--teal),#00D4AE);border:2px solid var(--wh)}
+.mockup-reel-live{background:#ff3b30;color:var(--wh);font-size:9px;font-weight:700;padding:3px 8px;border-radius:4px;letter-spacing:.05em}
+.mockup-reel-caption{position:absolute;bottom:80px;left:14px;right:60px;color:var(--wh);font-size:12px;font-weight:500;line-height:1.4;text-shadow:0 1px 4px rgba(0,0,0,.5);z-index:2}
+.mockup-reel-bottom{position:absolute;bottom:20px;left:14px;right:14px;z-index:2}
+.mockup-reel-actions{display:flex;gap:16px;color:var(--wh);font-size:11px;font-weight:600;text-shadow:0 1px 4px rgba(0,0,0,.5)}
+
+/* === Mockup 4: Offers (Intro Offer Optimization) === */
+.mockup-offers{display:flex;flex-direction:column;gap:14px;width:100%;max-width:380px}
+.mockup-offer{background:var(--wh);border:1px solid var(--bd);border-radius:var(--rs);padding:20px;box-shadow:0 8px 24px rgba(0,0,0,.05);position:relative;transition:transform .3s}
+.mockup-offer:hover{transform:translateX(4px)}
+.mockup-offer-winner{border:2px solid var(--teal);box-shadow:0 12px 40px rgba(0,190,157,.15)}
+.mockup-offer-winner-tag{position:absolute;top:-10px;right:16px;background:var(--teal);color:var(--dk);font-size:10px;font-weight:800;letter-spacing:.08em;padding:4px 10px;border-radius:4px}
+.mockup-offer-label{font-size:10px;font-weight:700;letter-spacing:.1em;color:var(--tx3);margin-bottom:6px}
+.mockup-offer-title{font-size:18px;font-weight:800;color:var(--tx);margin-bottom:6px;letter-spacing:-.01em}
+.mockup-offer-meta{font-size:12px;color:var(--tx3);margin-bottom:12px}
+.mockup-offer-bar{height:6px;background:rgba(0,0,0,.05);border-radius:3px;overflow:hidden;margin-bottom:6px}
+.mockup-offer-bar-fill{height:100%;background:var(--tx3);border-radius:3px}
+.mockup-offer-metric{font-size:12px;font-weight:700;color:var(--tx2)}
+
+/* === Mockup 5: Timeline (Speed to Lead) === */
+.mockup-timeline{background:var(--wh);border:1px solid var(--bd);border-radius:var(--rl);padding:28px;width:100%;max-width:420px;box-shadow:0 12px 40px rgba(0,0,0,.06);position:relative}
+.mockup-timeline-item{display:flex;gap:16px;position:relative;padding-bottom:24px}
+.mockup-timeline-item:last-child{padding-bottom:0}
+.mockup-timeline-item::before{content:'';position:absolute;left:9px;top:20px;bottom:0;width:2px;background:var(--bd)}
+.mockup-timeline-item:last-child::before{display:none}
+.mockup-timeline-item-done::before{background:var(--teal)}
+.mockup-timeline-dot{width:20px;height:20px;border-radius:50%;border:2px solid var(--bd);background:var(--wh);flex-shrink:0;z-index:2;position:relative}
+.mockup-timeline-item-done .mockup-timeline-dot{border-color:var(--teal);background:var(--teal)}
+.mockup-timeline-item-done .mockup-timeline-dot::after{content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:8px;height:8px;border-radius:50%;background:var(--wh)}
+.mockup-timeline-item-active .mockup-timeline-dot{border-color:var(--teal);background:var(--tealbg);box-shadow:0 0 0 6px rgba(0,190,157,.12)}
+.mockup-timeline-item-active .mockup-timeline-dot::after{content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:8px;height:8px;border-radius:50%;background:var(--teal);animation:pulse 1.6s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:translate(-50%,-50%) scale(1)}50%{opacity:.5;transform:translate(-50%,-50%) scale(.8)}}
+.mockup-timeline-content{flex:1}
+.mockup-timeline-time{font-size:11px;font-weight:700;color:var(--teal);letter-spacing:.05em;margin-bottom:2px}
+.mockup-timeline-event{font-size:15px;font-weight:700;color:var(--tx);margin-bottom:2px}
+.mockup-timeline-detail{font-size:13px;color:var(--tx3);line-height:1.4}
+
+/* === Mockup 6: Dashboard (Multi-Location) === */
+.mockup-dash{background:var(--wh);border:1px solid var(--bd);border-radius:var(--rl);padding:24px;width:100%;max-width:460px;box-shadow:0 12px 40px rgba(0,0,0,.06)}
+.mockup-dash-header{display:flex;justify-content:space-between;align-items:center;padding-bottom:16px;border-bottom:1px solid var(--bd);margin-bottom:16px}
+.mockup-dash-title{font-size:14px;font-weight:800;color:var(--tx);letter-spacing:-.01em}
+.mockup-dash-filter{font-size:11px;color:var(--tx3);font-weight:500;padding:4px 10px;background:var(--off);border-radius:6px}
+.mockup-dash-row{margin-bottom:12px}
+.mockup-dash-loc{display:grid;grid-template-columns:1fr 2fr auto;gap:12px;align-items:center}
+.mockup-dash-loc-name{font-size:12px;font-weight:600;color:var(--tx2)}
+.mockup-dash-loc-bar{height:8px;background:var(--off);border-radius:4px;overflow:hidden}
+.mockup-dash-loc-bar-fill{height:100%;border-radius:4px}
+.mockup-dash-loc-val{font-size:13px;font-weight:700;color:var(--tx);font-variant-numeric:tabular-nums}
+.mockup-dash-alert{margin-top:16px;padding:10px 12px;background:rgba(239,159,39,.08);border:1px solid rgba(239,159,39,.2);border-radius:8px;font-size:11px;color:var(--tx2);display:flex;align-items:center;gap:8px;line-height:1.4}
+
+/* === Responsive === */
+@media(max-width:900px){
+  .feat-grid{grid-template-columns:1fr;gap:48px}
+  .feat-reverse .feat-text{order:1}.feat-reverse .feat-visual{order:2}
+  .feat{padding:72px 20px}
+  .feat-h{font-size:26px}.feat-p{font-size:15px}
+  .mockup-phone{width:220px}
+}
+
+
+/* === Audience Targeting (shared) === */
+.mockup-audience{background:var(--wh);border:1px solid var(--bd);border-radius:var(--rl);padding:24px;width:100%;max-width:400px;box-shadow:0 12px 40px rgba(0,0,0,.06)}
+.mockup-audience-title{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--tx3);margin-bottom:6px}
+.mockup-audience-size{font-size:24px;font-weight:800;color:var(--tx);letter-spacing:-.02em;margin-bottom:18px}
+.mockup-audience-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:18px}
+.mockup-audience-tag{font-size:12px;padding:6px 12px;border-radius:20px;background:var(--off);color:var(--tx3);border:1px solid var(--bd);font-weight:600}
+.mockup-audience-tag-active{background:var(--tealbg);color:var(--teal);border-color:var(--tealbd)}
+.mockup-audience-tag-excl{background:rgba(239,68,68,.06);color:#ef4444;border-color:rgba(239,68,68,.15);text-decoration:line-through;text-decoration-thickness:1.5px}
+.mockup-audience-excluded{padding-top:16px;border-top:1px solid var(--bd)}
+.mockup-audience-excl-label{font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--tx3);margin-bottom:8px}
+
+/* === Beauty Mockup 1: Before/After === */
+.mockup-ba{background:var(--wh);border:1px solid var(--bd);border-radius:var(--rl);padding:20px;width:100%;max-width:380px;box-shadow:0 12px 40px rgba(0,0,0,.06)}
+.mockup-ba-label{font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--tx3);margin-bottom:12px}
+.mockup-ba-split{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:14px}
+.mockup-ba-before,.mockup-ba-after{position:relative}
+.mockup-ba-tag{position:absolute;top:10px;left:10px;z-index:2;background:rgba(0,0,0,.6);color:var(--wh);font-size:10px;font-weight:800;letter-spacing:.1em;padding:4px 10px;border-radius:4px;backdrop-filter:blur(4px)}
+.mockup-ba-tag-after{background:var(--teal);color:var(--dk)}
+.mockup-ba-img{aspect-ratio:3/4;border-radius:8px;position:relative;overflow:hidden}
+.mockup-ba-img::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at center 70%,rgba(0,0,0,.15),transparent)}
+.mockup-ba-caption{font-size:13px;color:var(--tx);font-weight:500;font-style:italic;line-height:1.4;padding:4px 0;border-top:1px solid var(--bd);padding-top:12px}
+.mockup-ba-meta{display:flex;gap:14px;font-size:12px;color:var(--tx3);font-weight:600;margin-top:8px}
+
+/* === Beauty Mockup 4: Seasonal Calendar === */
+.mockup-seasonal{background:var(--wh);border:1px solid var(--bd);border-radius:var(--rl);padding:24px;width:100%;max-width:420px;box-shadow:0 12px 40px rgba(0,0,0,.06)}
+.mockup-seasonal-title{font-size:14px;font-weight:800;color:var(--tx);letter-spacing:-.01em;display:inline-block}
+.mockup-seasonal-year{font-size:12px;color:var(--tx3);font-weight:500;display:inline-block;margin-left:8px;padding:4px 10px;background:var(--off);border-radius:6px}
+.mockup-seasonal-row{display:grid;grid-template-columns:40px 1fr 80px;gap:14px;align-items:center;padding:12px 0;border-bottom:1px solid var(--bd)}
+.mockup-seasonal-row:last-child{border-bottom:none}
+.mockup-seasonal-row-active .mockup-seasonal-name{color:var(--teal)}
+.mockup-seasonal-month{font-size:12px;font-weight:800;color:var(--tx3);letter-spacing:.05em;text-transform:uppercase}
+.mockup-seasonal-name{font-size:14px;font-weight:700;color:var(--tx);letter-spacing:-.01em}
+.mockup-seasonal-status{font-size:11px;color:var(--tx3);margin-top:2px}
+.mockup-seasonal-row-active .mockup-seasonal-status{color:var(--teal);font-weight:600}
+.mockup-seasonal-bar{height:6px;background:var(--off);border-radius:3px;overflow:hidden}
+.mockup-seasonal-fill{height:100%;background:var(--teal);border-radius:3px;transition:width .8s ease}
+
+/* === Beauty Mockup 5: Reviews === */
+.mockup-reviews{background:var(--wh);border:1px solid var(--bd);border-radius:var(--rl);padding:24px;width:100%;max-width:420px;box-shadow:0 12px 40px rgba(0,0,0,.06)}
+.mockup-reviews-header{padding-bottom:18px;border-bottom:1px solid var(--bd);margin-bottom:18px}
+.mockup-reviews-rating{display:flex;align-items:center;gap:10px;margin-bottom:4px}
+.mockup-reviews-stars{color:#FFB800;font-size:18px;letter-spacing:.02em}
+.mockup-reviews-score{font-size:28px;font-weight:800;color:var(--tx);letter-spacing:-.02em;line-height:1}
+.mockup-reviews-count{font-size:12px;color:var(--tx3);font-weight:500}
+.mockup-reviews-growth{display:flex;align-items:flex-end;gap:8px;height:80px;margin-bottom:18px}
+.mockup-reviews-growth-bar{flex:1;height:100%;background:var(--off);border-radius:6px;position:relative;overflow:hidden;display:flex;align-items:flex-end}
+.mockup-reviews-growth-fill{width:100%;background:rgba(0,190,157,.3);border-radius:6px;position:relative;display:flex;align-items:flex-start;justify-content:center;padding-top:6px;transition:height .8s ease}
+.mockup-reviews-growth-fill span{font-size:10px;font-weight:800;color:var(--teal);letter-spacing:.05em}
+.mockup-reviews-preview{padding:14px;background:var(--off);border-radius:10px;border-left:3px solid var(--teal)}
+.mockup-reviews-quote{font-size:13px;color:var(--tx);font-style:italic;line-height:1.5;margin-bottom:8px}
+.mockup-reviews-author{font-size:11px;color:var(--tx3);font-weight:600}
+</style>
+</head>
+<body>
+<nav class="nav"><a href="/homepage-v5"><img src="https://cdn.prod.website-files.com/68f669a6d79edc75f34470f3/6921faef19de659f7d5b81f6_FifthElement%207.png" alt="5th Element Media"></a><div class="navr"><a href="/about-v5">About</a><a href="/case-studies-v5">Case Studies</a><a href="/paid-ads-v5">Services</a><a href="/blog">Blog</a><a href="/contact-v5">Contact</a><a href="https://go.5them.com/free-franchise-lead-engine-audit" class="bp">Book Free Audit</a></div></nav>
+
+<!-- HERO SPLIT -->
+<section class="hero-split"><div><div class="stag">Beauty &amp; Aesthetics</div><h1>Less Guessing.<br><em>More Bookings.</em></h1><p class="ssub" style="margin-bottom:32px">Lash studios, skincare clinics, cosmetic services, and aesthetics franchises. We build campaigns that attract clients who value quality and are willing to invest in themselves. Proven across 100s of beauty franchise locations.</p><a href="https://go.5them.com/free-franchise-lead-engine-audit" class="bp bpl">Book Your Free Audit &rarr;</a></div><div class="hero-img"><img src="https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69df31a3190683601a453d5d.jpg" alt="Beauty studio" style="width:100%;height:100%;object-fit:cover;object-position:center center"></div></section>
+
+<!-- WHY DIFFERENT -->
+<section class="why"><div class="inner"><div class="stag">Why We're Different</div><h2 class="sttl">We Speak Beauty. Not Generic Marketing.</h2><p class="ssub" style="margin:0 auto">In beauty, the creative is the campaign. Stock photos don't cut it. Your audience needs to see real results, real transformations, and real clients at your location. Most agencies run the same generic playbook for a lash studio that they run for a pizza franchise. We don't. Every beauty service has its own visual language, its own seasonal rhythm, and its own trust signals &mdash; and we know what converts.</p></div></section>
+
+<!-- INTRO TO DEEP DIVE -->
+<section class="sec" style="padding:100px 24px 80px;text-align:center"><div class="mx"><div class="stag" style="display:inline-block">What We Deliver</div><h2 class="sttl" style="text-align:center">The Franchise Lead Engine for Beauty Brands</h2><p class="ssub" style="margin:0 auto;text-align:center;max-width:680px">Every part of our system is tuned for beauty. Transformation-first creative. Visual proof. Seasonal strategy.</p></div></section>
+
+<!-- FEATURE 1: TRANSFORMATION CONTENT -->
+<section class="feat" style="background:var(--off)"><div class="feat-grid mx"><div class="feat-text"><div class="feat-eb">Proof You Can See</div><h3 class="feat-h">Transformation Content</h3><p class="feat-p">Before-and-after content is the number one converter in beauty marketing. A skeptical prospect scrolling through their feed doesn't care about claims. They care about results. We build creative pipelines around real client transformations at your location &mdash; because one authentic before-and-after outperforms a hundred stock photos.</p><ul class="feat-list"><li><strong>Before/after creative systems</strong> built around your real client results</li><li><strong>Consent-first capture process</strong> that respects client privacy</li><li><strong>Transformation storytelling</strong> that converts the skeptics on the fence</li></ul></div><div class="feat-visual"><div class="mockup-ba"><div class="mockup-ba-label">Real Client Result</div><div class="mockup-ba-split"><div class="mockup-ba-before"><div class="mockup-ba-tag">BEFORE</div><div class="mockup-ba-img" style="background:linear-gradient(135deg,#d4b5a0,#a88c75)"></div></div><div class="mockup-ba-after"><div class="mockup-ba-tag mockup-ba-tag-after">AFTER</div><div class="mockup-ba-img" style="background:linear-gradient(135deg,#e8d4c4,#d4b5a0)"></div></div></div><div class="mockup-ba-caption">&ldquo;I finally feel confident again.&rdquo; &mdash; Maya, member since March</div><div class="mockup-ba-meta"><span>&#10084;&#65039; 8.2K</span><span>&#128172; 341</span><span>&#10150; 1.2K</span></div></div></div></div></section>
+
+<!-- FEATURE 2: LOCAL BEAUTY AUDIENCE -->
+<section class="feat"><div class="feat-grid mx feat-reverse"><div class="feat-text"><div class="feat-eb">The Right Clients, Not Just Clicks</div><h3 class="feat-h">Local Beauty Audience</h3><p class="feat-p">Not all beauty traffic is equal. Someone casually browsing for lash extensions is different from someone actively ready to book an appointment. We target beauty-conscious consumers in your exact market by demographics, interests, and buying behaviors, filtering out the tire-kickers so your ad spend goes to real prospects.</p><ul class="feat-list"><li><strong>Interest-layered targeting</strong> beyond broad beauty audiences</li><li><strong>Purchase intent signals</strong> that identify ready-to-book prospects</li><li><strong>Radius precision</strong> tuned to your client's realistic drive time</li></ul></div><div class="feat-visual"><div class="mockup-audience"><div class="mockup-audience-title">Target Audience</div><div class="mockup-audience-size">18,460 beauty clients in market</div><div class="mockup-audience-tags"><div class="mockup-audience-tag mockup-audience-tag-active">Beauty enthusiasts</div><div class="mockup-audience-tag mockup-audience-tag-active">Self-care focused</div><div class="mockup-audience-tag mockup-audience-tag-active">Premium shoppers</div><div class="mockup-audience-tag mockup-audience-tag-active">Ages 25-54</div><div class="mockup-audience-tag mockup-audience-tag-active">Lash &amp; brow</div><div class="mockup-audience-tag mockup-audience-tag-active">Skincare buyers</div><div class="mockup-audience-tag">Casual browsers</div></div><div class="mockup-audience-excluded"><div class="mockup-audience-excl-label">Excluded</div><div class="mockup-audience-tags"><div class="mockup-audience-tag mockup-audience-tag-excl">Deal-only shoppers</div><div class="mockup-audience-tag mockup-audience-tag-excl">Out-of-market</div><div class="mockup-audience-tag mockup-audience-tag-excl">One-time buyers</div></div></div></div></div></div></section>
+
+<!-- FEATURE 3: UGC FROM REAL CLIENTS -->
+<section class="feat" style="background:var(--off)"><div class="feat-grid mx"><div class="feat-text"><div class="feat-eb">Authenticity Converts</div><h3 class="feat-h">UGC From Real Clients</h3><p class="feat-p">Beauty clients trust other beauty clients. Polished ads from the brand feel like marketing. Real clients showing their results, their experience, and their routine in their own words? That converts. We coach your existing clients to capture content we can deploy directly into ad campaigns that feel native to the feed.</p><ul class="feat-list"><li><strong>Client content pipeline</strong> that keeps fresh creative flowing every week</li><li><strong>Day-in-the-life reels</strong> showing the full client experience</li><li><strong>Review-to-reel system</strong> that turns happy clients into ad creative</li></ul></div><div class="feat-visual"><div class="mockup-phone"><div class="mockup-phone-notch"></div><div class="mockup-phone-screen"><div class="mockup-reel"><div class="mockup-reel-bg" style="background:linear-gradient(135deg,#e8c4b8,#c49789)"></div><div class="mockup-reel-top"><div class="mockup-reel-user"><div class="mockup-reel-avatar" style="background:linear-gradient(135deg,#f5d9cc,#c49789)"></div><span>mayabeauty_la</span></div><div class="mockup-reel-live" style="background:var(--teal);color:var(--dk)">&check; CLIENT</div></div><div class="mockup-reel-caption">My lash refill experience &mdash; obsessed with the results &#10024;</div><div class="mockup-reel-bottom"><div class="mockup-reel-actions"><span>&#10084;&#65039; 5.8K</span><span>&#128172; 227</span><span>&#10150; 840</span></div></div></div></div></div></div></div></section>
+
+<!-- FEATURE 4: SEASONAL CAMPAIGN STRATEGY -->
+<section class="feat"><div class="feat-grid mx feat-reverse"><div class="feat-text"><div class="feat-eb">Capture Demand When It Peaks</div><h3 class="feat-h">Seasonal Campaign Strategy</h3><p class="feat-p">Beauty is a seasonal business. Wedding season, prom, holidays, back-to-school, vacation prep. Demand spikes at specific times of year, and the brands that win are the ones ready to capture it. We plan campaigns around the calendar, pre-load creative for each seasonal moment, and ramp spend exactly when your audience is ready to buy.</p><ul class="feat-list"><li><strong>Annual content calendar</strong> mapped to seasonal demand spikes</li><li><strong>Pre-built campaign templates</strong> ready to deploy for each season</li><li><strong>Demand-based budget scaling</strong> that maximizes peak periods</li></ul></div><div class="feat-visual"><div class="mockup-seasonal"><div class="mockup-seasonal-title">Campaign Calendar</div><div class="mockup-seasonal-year">2026</div><div class="mockup-seasonal-row mockup-seasonal-row-active"><div class="mockup-seasonal-month">Feb</div><div class="mockup-seasonal-campaign"><div class="mockup-seasonal-name">Valentine's Glow</div><div class="mockup-seasonal-status">Live now</div></div><div class="mockup-seasonal-bar"><div class="mockup-seasonal-fill" style="width:78%"></div></div></div><div class="mockup-seasonal-row"><div class="mockup-seasonal-month">Apr</div><div class="mockup-seasonal-campaign"><div class="mockup-seasonal-name">Wedding Season</div><div class="mockup-seasonal-status">Scheduled</div></div><div class="mockup-seasonal-bar"><div class="mockup-seasonal-fill" style="width:0%"></div></div></div><div class="mockup-seasonal-row"><div class="mockup-seasonal-month">May</div><div class="mockup-seasonal-campaign"><div class="mockup-seasonal-name">Prom Week</div><div class="mockup-seasonal-status">Scheduled</div></div><div class="mockup-seasonal-bar"><div class="mockup-seasonal-fill" style="width:0%"></div></div></div><div class="mockup-seasonal-row"><div class="mockup-seasonal-month">Jun</div><div class="mockup-seasonal-campaign"><div class="mockup-seasonal-name">Summer Ready</div><div class="mockup-seasonal-status">Planning</div></div><div class="mockup-seasonal-bar"><div class="mockup-seasonal-fill" style="width:0%"></div></div></div></div></div></div></section>
+
+<!-- FEATURE 5: REVIEW GENERATION -->
+<section class="feat" style="background:var(--off)"><div class="feat-grid mx"><div class="feat-text"><div class="feat-eb">Reviews Are Everything</div><h3 class="feat-h">Automated Review Generation</h3><p class="feat-p">In beauty, reviews are the whole game. Prospects will read 20 Google reviews before booking their first appointment. Most salons leave this to chance &mdash; hoping happy clients remember to leave a review. We automate it. Post-visit review requests timed perfectly, synced to your booking system, rolling up into a review engine that compounds your social proof month over month.</p><ul class="feat-list"><li><strong>Post-visit automation</strong> triggered at the optimal response window</li><li><strong>Multi-channel requests</strong> across SMS, email, and booking system</li><li><strong>Review monitoring</strong> that flags negative reviews for immediate response</li></ul></div><div class="feat-visual"><div class="mockup-reviews"><div class="mockup-reviews-header"><div class="mockup-reviews-rating"><div class="mockup-reviews-stars">&starf;&starf;&starf;&starf;&starf;</div><div class="mockup-reviews-score">4.9</div></div><div class="mockup-reviews-count">487 Google reviews</div></div><div class="mockup-reviews-growth"><div class="mockup-reviews-growth-bar"><div class="mockup-reviews-growth-fill" style="width:32%"><span>Q1</span></div></div><div class="mockup-reviews-growth-bar"><div class="mockup-reviews-growth-fill" style="width:54%"><span>Q2</span></div></div><div class="mockup-reviews-growth-bar"><div class="mockup-reviews-growth-fill" style="width:78%"><span>Q3</span></div></div><div class="mockup-reviews-growth-bar"><div class="mockup-reviews-growth-fill" style="width:100%;background:var(--teal)"><span style="color:var(--dk)">Q4</span></div></div></div><div class="mockup-reviews-preview"><div class="mockup-reviews-quote">&ldquo;Best lash artist in the city. The whole experience is next level.&rdquo;</div><div class="mockup-reviews-author">Jessica R. &middot; 2 days ago</div></div></div></div></div></section>
+
+<!-- FEATURE 6: MULTI-LOCATION DASHBOARD -->
+<section class="feat"><div class="feat-grid mx feat-reverse"><div class="feat-text"><div class="feat-eb">See Everything at Once</div><h3 class="feat-h">Multi-Location Dashboard</h3><p class="feat-p">Running one beauty studio is hard. Running a network of locations across multiple markets without real-time visibility is impossible. Our dashboard shows performance across every location, every campaign, and every creative in a single view, with AI-driven flags that tell you exactly where to focus your attention.</p><ul class="feat-list"><li><strong>Live location-by-location view</strong> of CPL, bookings, and retention</li><li><strong>AI-flagged performance alerts</strong> when any location dips below benchmark</li><li><strong>Franchisor-level rollup</strong> with brand-wide reporting for corporate teams</li></ul></div><div class="feat-visual"><div class="mockup-dash"><div class="mockup-dash-header"><div class="mockup-dash-title">Network Performance</div><div class="mockup-dash-filter">Last 30 days</div></div><div class="mockup-dash-row"><div class="mockup-dash-loc"><div class="mockup-dash-loc-name">Beverly Hills, CA</div><div class="mockup-dash-loc-bar"><div class="mockup-dash-loc-bar-fill" style="width:91%;background:var(--teal)"></div></div><div class="mockup-dash-loc-val">$14.20</div></div></div><div class="mockup-dash-row"><div class="mockup-dash-loc"><div class="mockup-dash-loc-name">Nashville, TN</div><div class="mockup-dash-loc-bar"><div class="mockup-dash-loc-bar-fill" style="width:84%;background:var(--teal)"></div></div><div class="mockup-dash-loc-val">$16.80</div></div></div><div class="mockup-dash-row"><div class="mockup-dash-loc"><div class="mockup-dash-loc-name">Scottsdale, AZ</div><div class="mockup-dash-loc-bar"><div class="mockup-dash-loc-bar-fill" style="width:76%;background:var(--teal)"></div></div><div class="mockup-dash-loc-val">$18.40</div></div></div><div class="mockup-dash-row"><div class="mockup-dash-loc"><div class="mockup-dash-loc-name">Charlotte, NC</div><div class="mockup-dash-loc-bar"><div class="mockup-dash-loc-bar-fill" style="width:46%;background:#EF9F27"></div></div><div class="mockup-dash-loc-val" style="color:#EF9F27">$28.60</div></div></div><div class="mockup-dash-alert"><span style="color:#EF9F27">&#9888;</span> <span>Charlotte CPL above network avg &mdash; review creative</span></div></div></div></div></section>
+
+
+
+<!-- TESTIMONIAL -->
+<section class="testimonial"><div class="inner"><div class="card"><div class="stag">Real Results</div><div class="quote">Their data-driven, collaborative approach has been outstanding. They truly understand how to market a premium experience.</div><div class="attr"><img src="https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69b5f20ceaf0810bac666af2.jpeg" alt="Chris Johnson"><div class="attr-text"><div class="attr-name">Chris Johnson</div><div class="attr-meta">Palm Beach Gardens, FL</div></div></div></div></div></section>
+
+<!-- CTA -->
+<section class="fcta"><h2>Ready to Grow Your Beauty Franchise?</h2><p>Book your free audit and we'll show you how to attract beauty clients who value quality.</p><a href="https://go.5them.com/free-franchise-lead-engine-audit" class="bp bpl">Book Your Free Audit &rarr;</a></section>
+
+<footer class="ft"><div class="ftin"><div class="ftbr"><img src="https://cdn.prod.website-files.com/68f669a6d79edc75f34470f3/6921faef19de659f7d5b81f6_FifthElement%207.png" alt="5th Element Media"><p>The franchise marketing agency behind 100s of franchise locations. Predictable lead flow, UGC creative, and AI-driven insights.</p></div><div class="ftc"><h4>Company</h4><a href="/about-v5">About</a><a href="/case-studies-v5">Case Studies</a><a href="/blog">Blog</a><a href="/contact-v5">Contact</a></div><div class="ftc"><h4>Services</h4><a href="/paid-ads-v5">Paid Ads</a><a href="/for-franchisors-v5">For Franchisors</a><a href="/for-franchisees-v5">For Franchisees</a><a href="/reporting-and-analytics">Analytics</a></div><div class="ftc"><h4>Connect</h4><a href="https://www.linkedin.com/company/5th-element-media">LinkedIn</a><a href="https://www.instagram.com/fifthelement.agency/">Instagram</a><a href="https://www.youtube.com/@Tristynn.McGowan">YouTube</a></div></div><div class="ftbt">&copy; 2026 5th Element Media LLC. All Rights Reserved.</div></footer>
+
+<script>
+const obs=new IntersectionObserver(e=>{e.forEach(el=>{if(el.isIntersecting)el.target.classList.add('visible')})},{threshold:.15,rootMargin:'0px 0px -40px 0px'});
+document.querySelectorAll('.stag,.sttl,.ssub,.fc,.quote,.attr,.hero-img,.feat-text,.feat-visual').forEach(el=>{el.classList.add('anim');obs.observe(el)});
+const nav=document.querySelector('.nav');window.addEventListener('scroll',()=>{nav.style.padding=window.scrollY>60?'8px 24px':'12px 24px';nav.style.boxShadow=window.scrollY>60?'0 4px 32px rgba(0,0,0,.06)':'0 4px 24px rgba(0,0,0,.04)'});
+</script>
+</body></html>

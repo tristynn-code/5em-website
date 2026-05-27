@@ -1,0 +1,20 @@
+[
+  {
+    "id": "generic-ads",
+    "number": "1",
+    "title": "Same Ads, Every Market",
+    "description": "Corporate sends one-size-fits-all creative. Your franchisees in Phoenix and Portland get the same ad. That's why CPL keeps climbing."
+  },
+  {
+    "id": "no-visibility",
+    "number": "2",
+    "title": "No Visibility Into What Works",
+    "description": "Franchisors can't see which locations are winning or losing. Decisions are based on gut feeling, not data."
+  },
+  {
+    "id": "no-measurement",
+    "number": "3",
+    "title": "No Way to Measure What Works",
+    "description": "Your franchisees are spending money every month with no clear dashboard showing which locations are winning, which creative is converting, or where budget is being wasted."
+  }
+]
