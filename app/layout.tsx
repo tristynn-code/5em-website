@@ -4,8 +4,11 @@ import './globals.css';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 import JsonLd from '@/components/JsonLd';
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 import { SITE } from '@/lib/seo';
 import { organizationSchema, websiteSchema, reviewsSchema } from '@/lib/schema';
+
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ['latin'],
@@ -113,6 +116,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Nav />
         {children}
         <Footer />
+        {GA_ID && <GoogleAnalytics gaId={GA_ID} />}
       </body>
     </html>
   );
