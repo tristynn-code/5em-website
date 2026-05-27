@@ -1,16 +1,19 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { auditCTA } from '@/lib/site';
+import { pageMetadata } from '@/lib/seo';
 
-export const metadata: Metadata = {
-  title: 'Page Not Found | 5th Element Media',
+export const metadata: Metadata = pageMetadata({
+  title: 'Page Not Found',
   description:
     'The page you are looking for could not be found. Back to home or book a free franchise marketing audit.',
-};
+  path: '/404',
+  noindex: true,
+});
 
 const links = [
-  { label: 'For Franchisors →', href: '/franchisors' },
-  { label: 'For Franchisees →', href: '/franchisees' },
+  { label: 'For Franchisors →', href: '/for-franchisors' },
+  { label: 'For Franchisees →', href: '/for-franchisees' },
   { label: 'Paid Ads →', href: '/paid-ads' },
   { label: 'Case Studies →', href: '/case-studies' },
   { label: 'About Us →', href: '/about' },

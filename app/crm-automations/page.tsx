@@ -1,12 +1,25 @@
 import type { Metadata } from 'next';
 import ServicePageLayout from '@/components/ServicePageLayout';
 import data from '@/content/services/crm-automations.json';
+import JsonLd from '@/components/JsonLd';
+import { pageMetadata } from '@/lib/seo';
+import { serviceSchema, breadcrumbSchema } from '@/lib/schema';
 
-export const metadata: Metadata = {
-  title: 'Franchise CRM & Marketing Automation | GoHighLevel for Franchises | 5th Element Media',
+export const metadata: Metadata = pageMetadata({
+  title: 'Franchise CRM & Marketing Automation | GoHighLevel for Franchises',
   description:
     'Franchise CRM and marketing automation built on GoHighLevel. Speed-to-lead workflows, pipeline management, and lead routing that keep every franchisee booked and every lead warm.',
-};
+  path: '/crm-automations',
+  keywords: ['franchise CRM', 'GoHighLevel for franchises', 'franchise marketing automation', 'speed to lead', 'franchise pipeline management'],
+});
+
+const serviceLd = serviceSchema({
+  name: 'Franchise CRM & Marketing Automation',
+  description:
+    'CRM, speed-to-lead workflows, and pipeline automation built for multi-location franchise brands on GoHighLevel.',
+  path: '/crm-automations',
+  serviceType: 'CRM & Marketing Automation',
+});
 
 function TimelineDark() {
   const events = [
@@ -579,23 +592,33 @@ export default function CRMAutomationsPage() {
   const features = data.features.map((f, i) => ({ ...f, visual: visuals[i] }));
 
   return (
-    <ServicePageLayout
-      hero={{
-        eyebrow: data.hero.eyebrow,
-        headline: (
-          <>
-            Never Lose a Lead.<br />
-            <em className="not-italic text-teal">Automate Everything.</em>
-          </>
-        ),
-        sub: data.hero.sub,
-        visual: <TimelineDark />,
-      }}
+    <>
+      <JsonLd data={serviceLd} />
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: 'Home', path: '/' },
+          { name: 'Services', path: '/crm-automations' },
+          { name: 'CRM & Automations', path: '/crm-automations' },
+        ])}
+      />
+      <ServicePageLayout
+        hero={{
+          eyebrow: data.hero.eyebrow,
+          headline: (
+            <>
+              Never Lose a Lead.<br />
+              <em className="not-italic text-teal">Automate Everything.</em>
+            </>
+          ),
+          sub: data.hero.sub,
+          visual: <TimelineDark />,
+        }}
       why={data.why}
       introHeader={data.introHeader}
       features={features}
       testimonial={data.testimonial}
       cta={data.cta}
     />
+    </>
   );
 }

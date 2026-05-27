@@ -1,15 +1,36 @@
 import type { Metadata } from 'next';
 import VerticalPageLayout from '@/components/VerticalPageLayout';
+import JsonLd from '@/components/JsonLd';
+import { pageMetadata } from '@/lib/seo';
+import { serviceSchema, breadcrumbSchema } from '@/lib/schema';
 
-export const metadata: Metadata = {
-  title: 'Salon Suite Marketing Agency | Lease Salon Suites Faster | 5th Element Media',
+export const metadata: Metadata = pageMetadata({
+  title: 'Salon Suite Marketing Agency | Lease Salon Suites Faster',
   description:
     'Marketing for salon suite franchises. We help salon suite brands reach 100% occupancy with hyper-local ads, UGC creative, and automated lead nurture for beauty professionals.',
-};
+  path: '/salon-suites',
+  keywords: ['salon suite marketing', 'IMAGE Studios marketing', 'salon suite leasing', 'salon suite occupancy', 'beauty professional leads'],
+});
+
+const serviceLd = serviceSchema({
+  name: 'Salon Suite Franchise Marketing',
+  description: 'Marketing for salon suite franchise brands. Hyper-local ads and UGC creative that fills salon suites with qualified beauty professionals.',
+  path: '/salon-suites',
+  serviceType: 'Salon Suite Franchise Marketing',
+});
 
 export default function SalonSuitesPage() {
   return (
-    <VerticalPageLayout
+    <>
+      <JsonLd data={serviceLd} />
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: 'Home', path: '/' },
+          { name: 'Industries', path: '/salon-suites' },
+          { name: 'Salon Suites', path: '/salon-suites' },
+        ])}
+      />
+      <VerticalPageLayout
       heroTag="Salon Suites"
       heroHeading={
         <>
@@ -292,5 +313,6 @@ export default function SalonSuitesPage() {
         </div>
       </section>
     </VerticalPageLayout>
+    </>
   );
 }

@@ -1,14 +1,25 @@
 import type { Metadata } from 'next';
+import JsonLd from '@/components/JsonLd';
+import { pageMetadata } from '@/lib/seo';
+import { breadcrumbSchema } from '@/lib/schema';
 
-export const metadata: Metadata = {
-  title: 'Contact 5th Element Media | Franchise Marketing Agency',
+export const metadata: Metadata = pageMetadata({
+  title: 'Contact 5th Element Media',
   description:
-    "Get in touch with 5th Element Media. We help franchise brands generate predictable leads across every location. Reach out and let's talk franchise growth.",
-};
+    "Get in touch with 5th Element Media. We help franchise brands generate predictable leads across every location. Call (951) 618-1304 or book your free Franchise Lead Engine Audit.",
+  path: '/contact',
+  keywords: ['contact franchise marketing agency', '5th Element Media contact', 'franchise marketing consultation'],
+});
 
 export default function ContactPage() {
   return (
     <div className="max-w-[1200px] mx-auto px-6 md:px-10 pt-[140px] md:pt-[180px] pb-10 md:pb-20">
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: 'Home', path: '/' },
+          { name: 'Contact', path: '/contact' },
+        ])}
+      />
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.2fr] gap-12 lg:gap-20 items-start">
         {/* LEFT */}
         <div className="ct-left">

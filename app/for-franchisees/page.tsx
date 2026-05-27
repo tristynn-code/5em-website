@@ -1,16 +1,27 @@
 import type { Metadata } from 'next';
 import { auditCTA } from '@/lib/site';
 import '@/styles/audience.css';
+import JsonLd from '@/components/JsonLd';
+import { pageMetadata } from '@/lib/seo';
+import { breadcrumbSchema } from '@/lib/schema';
 
-export const metadata: Metadata = {
-  title: 'Franchise Marketing for Franchisees | Local Lead Generation | 5th Element Media',
+export const metadata: Metadata = pageMetadata({
+  title: 'Franchise Marketing for Franchisees | Local Lead Generation',
   description:
     'Stop leaving money on the table. Hyper-local ads, UGC creative, real-time dashboards, and automated follow-up for franchise owners who want predictable local lead flow.',
-};
+  path: '/for-franchisees',
+  keywords: ['marketing for franchisees', 'local franchise marketing', 'franchise owner marketing', 'single-location franchise marketing', 'franchisee leads'],
+});
 
 export default function ForFranchiseesPage() {
   return (
     <>
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: 'Home', path: '/' },
+          { name: 'For Franchisees', path: '/for-franchisees' },
+        ])}
+      />
       {/* HERO */}
       <section className="ap-hero-split">
         <div>

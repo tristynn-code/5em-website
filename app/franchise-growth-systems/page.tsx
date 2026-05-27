@@ -2,12 +2,25 @@ import type { Metadata } from 'next';
 import { auditCTA } from '@/lib/site';
 import ServicePageLayout from '@/components/ServicePageLayout';
 import data from '@/content/services/franchise-growth-systems.json';
+import JsonLd from '@/components/JsonLd';
+import { pageMetadata } from '@/lib/seo';
+import { serviceSchema, breadcrumbSchema } from '@/lib/schema';
 
-export const metadata: Metadata = {
-  title: 'Franchise Growth Systems | Complete Lead Engine for Multi-Location Brands | 5th Element Media',
+export const metadata: Metadata = pageMetadata({
+  title: 'Franchise Growth Systems | Complete Lead Engine for Multi-Location Brands',
   description:
     'The complete franchise growth system: paid ads, UGC creative, CRM automation, dashboards, and dedicated CSM support. One integrated engine built for multi-location franchise brands.',
-};
+  path: '/franchise-growth-systems',
+  keywords: ['franchise growth system', 'multi-location marketing engine', 'integrated franchise marketing', 'franchise lead engine', 'full-stack franchise marketing'],
+});
+
+const serviceLd = serviceSchema({
+  name: 'Franchise Growth Systems',
+  description:
+    'Complete integrated franchise marketing engine: paid ads, UGC creative, CRM automation, dashboards, and dedicated CSM.',
+  path: '/franchise-growth-systems',
+  serviceType: 'Integrated Franchise Marketing System',
+});
 
 function HeroSystemGrid() {
   const cells = [
@@ -904,18 +917,27 @@ export default function FranchiseGrowthSystemsPage() {
   const features = data.features.map((f, i) => ({ ...f, visual: visuals[i] }));
 
   return (
-    <ServicePageLayout
-      hero={{
-        eyebrow: data.hero.eyebrow,
-        headline: (
-          <>
-            One Integrated System.<br />
-            <em className="not-italic text-teal">Every Piece Connected.</em>
-          </>
-        ),
-        sub: data.hero.sub,
-        visual: <HeroSystemGrid />,
-      }}
+    <>
+      <JsonLd data={serviceLd} />
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: 'Home', path: '/' },
+          { name: 'Services', path: '/franchise-growth-systems' },
+          { name: 'Franchise Growth Systems', path: '/franchise-growth-systems' },
+        ])}
+      />
+      <ServicePageLayout
+        hero={{
+          eyebrow: data.hero.eyebrow,
+          headline: (
+            <>
+              One Integrated System.<br />
+              <em className="not-italic text-teal">Every Piece Connected.</em>
+            </>
+          ),
+          sub: data.hero.sub,
+          visual: <HeroSystemGrid />,
+        }}
       why={data.why}
       introHeader={{ ...data.introHeader, extra: <PillarCards /> }}
       features={features}
@@ -923,5 +945,6 @@ export default function FranchiseGrowthSystemsPage() {
       testimonial={data.testimonial}
       cta={data.cta}
     />
+    </>
   );
 }

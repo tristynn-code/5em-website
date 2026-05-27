@@ -1,10 +1,12 @@
 import type { Metadata } from 'next';
+import { pageMetadata } from '@/lib/seo';
 
-export const metadata: Metadata = {
-  title: 'Privacy Policy | 5th Element Media',
+export const metadata: Metadata = pageMetadata({
+  title: 'Privacy Policy',
   description:
     '5th Element Media privacy policy. How we collect, use, and protect your information when you visit our site or engage our franchise marketing services.',
-};
+  path: '/privacy',
+});
 
 export default function PrivacyPage() {
   return (

@@ -9,7 +9,11 @@ import TestimonialsGrid from '@/components/TestimonialsGrid';
 import AuditOffer from '@/components/AuditOffer';
 import WhoWeServe from '@/components/WhoWeServe';
 import FinalCTA from '@/components/FinalCTA';
+import FAQSection from '@/components/FAQSection';
+import JsonLd from '@/components/JsonLd';
 import { auditCTA } from '@/lib/site';
+import { faqSchema } from '@/lib/schema';
+import faqs from '@/content/faqs-home.json';
 
 export default function Home() {
   return (
@@ -48,6 +52,13 @@ export default function Home() {
       <TestimonialsGrid />
       <AuditOffer />
       <WhoWeServe />
+      <FAQSection
+        faqs={faqs}
+        tagline="FAQ"
+        title="Franchise Marketing Questions, Answered"
+        subtitle="The questions franchise owners and franchisors ask us the most, with straight answers in plain English."
+      />
+      <JsonLd data={faqSchema(faqs)} />
       <FinalCTA />
     </>
   );

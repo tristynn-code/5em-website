@@ -1,15 +1,36 @@
 import type { Metadata } from 'next';
 import VerticalPageLayout from '@/components/VerticalPageLayout';
+import JsonLd from '@/components/JsonLd';
+import { pageMetadata } from '@/lib/seo';
+import { serviceSchema, breadcrumbSchema } from '@/lib/schema';
 
-export const metadata: Metadata = {
-  title: 'Beauty Franchise Marketing | Lash, Skincare, Aesthetics Ads | 5th Element Media',
+export const metadata: Metadata = pageMetadata({
+  title: 'Beauty Franchise Marketing | Lash, Skincare, Aesthetics Ads',
   description:
     'Marketing for beauty and aesthetics franchises. Transformation-first creative, before/after content, seasonal campaigns, and review generation for lash, skincare, and cosmetic brands.',
-};
+  path: '/beauty-aesthetics',
+  keywords: ['beauty franchise marketing', 'lash franchise marketing', 'aesthetics franchise marketing', 'med spa franchise marketing', 'cosmetic services ads'],
+});
+
+const serviceLd = serviceSchema({
+  name: 'Beauty & Aesthetics Franchise Marketing',
+  description: 'Marketing for beauty and aesthetics franchise brands: lashes, skincare, cosmetic services, and med spa concepts.',
+  path: '/beauty-aesthetics',
+  serviceType: 'Beauty Franchise Marketing',
+});
 
 export default function BeautyAestheticsPage() {
   return (
-    <VerticalPageLayout
+    <>
+      <JsonLd data={serviceLd} />
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: 'Home', path: '/' },
+          { name: 'Industries', path: '/beauty-aesthetics' },
+          { name: 'Beauty & Aesthetics', path: '/beauty-aesthetics' },
+        ])}
+      />
+      <VerticalPageLayout
       heroTag="Beauty & Aesthetics"
       heroHeading={
         <>
@@ -296,5 +317,6 @@ export default function BeautyAestheticsPage() {
         </div>
       </section>
     </VerticalPageLayout>
+    </>
   );
 }

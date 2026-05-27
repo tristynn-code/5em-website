@@ -1,12 +1,17 @@
 import type { Metadata } from 'next';
 import { getValues, getTeam } from '@/lib/content';
 import FinalCTA from '@/components/FinalCTA';
+import JsonLd from '@/components/JsonLd';
+import { pageMetadata } from '@/lib/seo';
+import { personSchema, breadcrumbSchema } from '@/lib/schema';
 
-export const metadata: Metadata = {
-  title: 'About 5th Element Media | Franchise Marketing Experts',
+export const metadata: Metadata = pageMetadata({
+  title: 'About Us | Franchise Marketing Experts',
   description:
-    "We didn't stumble into franchise marketing. We chose it. Meet Tristynn McGowan and the team behind 5th Element Media — the franchise marketing agency that builds hyper-local lead engines for 100+ locations.",
-};
+    "We didn't stumble into franchise marketing. We chose it. Meet Tristynn McGowan and the team behind 5th Element Media, the franchise marketing agency that builds hyper-local lead engines for 100+ locations.",
+  path: '/about',
+  keywords: ['Tristynn McGowan', 'franchise marketing agency', 'about 5th Element Media', 'franchise marketing experts', 'Murrieta marketing agency'],
+});
 
 export default function AboutPage() {
   const values = getValues();
@@ -14,6 +19,13 @@ export default function AboutPage() {
 
   return (
     <>
+      <JsonLd data={personSchema()} />
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: 'Home', path: '/' },
+          { name: 'About', path: '/about' },
+        ])}
+      />
       <section className="pt-[160px] pb-20 px-6 text-center">
         <div className="stag inline-block">About Us</div>
         <h1 className="font-extrabold mb-5" style={{ fontSize: 'clamp(36px,5.5vw,56px)', letterSpacing: '-.03em', lineHeight: 1.08 }}>

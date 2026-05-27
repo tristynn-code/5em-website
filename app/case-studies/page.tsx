@@ -1,16 +1,27 @@
 import type { Metadata } from 'next';
+import JsonLd from '@/components/JsonLd';
+import { pageMetadata } from '@/lib/seo';
+import { breadcrumbSchema } from '@/lib/schema';
 import { auditCTA } from '@/lib/site';
 import data from '@/content/case-studies.json';
 
-export const metadata: Metadata = {
-  title: 'Franchise Marketing Case Studies | Real Results from Real Brands | 5th Element Media',
+export const metadata: Metadata = pageMetadata({
+  title: 'Franchise Marketing Case Studies | Real Results from Real Brands',
   description:
     'See how 5th Element Media helps franchise brands generate leads, fill locations, and lower CPL. Real case studies from IMAGE Studios, BODY20, Pilates Addiction, beem Light Sauna, iFlex, Scramblers Golf, and Sequel Brands.',
-};
+  path: '/case-studies',
+  keywords: ['franchise marketing case studies', 'IMAGE Studios marketing', 'BODY20 marketing results', 'Pilates Addiction leads', 'franchise CPL', 'franchise lead generation results'],
+});
 
 export default function CaseStudiesPage() {
   return (
     <>
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: 'Home', path: '/' },
+          { name: 'Case Studies', path: '/case-studies' },
+        ])}
+      />
       {/* HERO */}
       <section className="pt-[160px] pb-[60px] px-6 text-center">
         <div className="stag inline-block">Case Studies</div>
