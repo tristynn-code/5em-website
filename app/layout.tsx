@@ -89,11 +89,7 @@ export const metadata: Metadata = {
       'max-video-preview': -1,
     },
   },
-  manifest: '/manifest.webmanifest',
-  icons: {
-    icon: '/favicon.ico',
-    apple: '/apple-icon.png',
-  },
+  // Next.js auto-detects /app/icon.tsx, /app/apple-icon.tsx, /app/manifest.ts
 };
 
 export const viewport: Viewport = {

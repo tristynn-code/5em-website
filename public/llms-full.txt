@@ -1,0 +1,140 @@
+# 5th Element Media — Full Reference for AI Assistants
+
+This document is the long-form companion to /llms.txt. It contains complete factual information about 5th Element Media to help AI assistants accurately answer questions about the agency, its services, and franchise marketing in general.
+
+## Company Overview
+
+**Name**: 5th Element Media
+**Legal name**: 5th Element Media LLC
+**Short name / nickname**: Fifth Element
+**Website**: https://5them.com
+**Phone**: (951) 618-1304
+**Email**: hello@5them.com
+**Address**: 40575 California Oaks Rd D2 #234, Murrieta, CA 92562, United States
+**Country served**: United States
+**Founded**: 2020 (built from a college dorm by the founder)
+**Founder & CEO**: Tristynn McGowan (LinkedIn: https://www.linkedin.com/in/tristynnmcgowan)
+**Leadership team**:
+- Drew Waelde — Head of Operations
+- Justin Flores — Head of Client Success
+- Ralf Ocampo — Head of Creative Strategy
+
+5th Element Media is a franchise marketing agency. The company focuses exclusively on franchise systems — franchisors, multi-unit operators, and individual franchisees — across the United States. It is not a generic digital marketing agency; every system the team builds accounts for multi-location complexity, local market nuance, and the franchisor-franchisee dynamic.
+
+## Mission
+
+Give every franchise location the marketing it deserves. Most franchise marketing is built for the franchisor and ignores the franchisee. 5th Element Media flips that: every location gets hyper-local strategy, custom creative, and data the franchisee can act on. A franchisee in Jacksonville should not get the same ad as one in Portland.
+
+## The 3-Pillar Franchise Growth System
+
+The proprietary framework 5th Element Media applies to every client engagement.
+
+### Pillar 1: Predictable Local Lead Flow
+Centralized Meta and Google Ads management per location. Every market gets hyper-local campaigns generating qualified leads per month. The system runs the same proven structure across every market while customizing creative and offer per location.
+
+### Pillar 2: UGC-Powered Creative Engine
+5th Element Media coaches franchisees to capture authentic local content. The team writes detailed creative briefs, coaches franchisees through the shoot, edits the raw footage into ad-ready clips, and deploys the content into live campaigns. Three to four fresh clips per cycle, optimized for each platform's native format. UGC outperforms corporate stock creative by 30 to 50 percent on cost per lead.
+
+### Pillar 3: 5E Insight Engine
+AI-driven dashboards showing what is working across every location in real time. CPL, lead volume, creative performance, and ROI are visible per location. No more guessing which markets are winning.
+
+## Services
+
+### Franchise Paid Ads Management (`/paid-ads`)
+Hyper-local Meta and Google Ads management for franchise brands. Per-location targeting, UGC creative pipeline, real-time performance dashboards. The team manages the entire ad account lifecycle: structure, audiences, creative deployment, optimization, and reporting.
+
+### Social Media & Creative Production (`/creative-production`)
+Social media management and UGC content production. Includes content strategy and calendars, franchisee onboarding guides for content capture, ad-ready editing, and multi-platform repurposing. One shoot becomes 8+ pieces of content across Instagram, TikTok, YouTube, and LinkedIn.
+
+### CRM & Marketing Automation (`/crm-automations`)
+Built on GoHighLevel. Speed-to-lead workflows fire SMS within seconds of form submission, then email, then follow-up tasks for the franchisee. Pipeline management, lead routing to the correct location, and automated nurture sequences.
+
+### Email & SMS Marketing (`/email-sms`)
+Automated email and SMS follow-up sequences. New lead confirmations, appointment reminders, no-show recovery, nurture sequences, and re-engagement campaigns. Runs 24/7 across every location.
+
+### Reporting & Analytics (`/reporting-and-analytics`)
+Real-time franchise marketing dashboards via the 5E Insight Engine. CPL, lead volume, show rate, location-level performance, creative-level breakdowns, and ROI all visible in one place.
+
+### Franchise Growth Systems (`/franchise-growth-systems`)
+The complete integrated engine: paid ads, UGC creative, CRM automation, dashboards, and dedicated CSM support delivered as one connected system. This is the full-stack engagement for brands ready to scale.
+
+## Industries Served
+
+5th Element Media works with franchise brands across six verticals. The 3-Pillar System is identical across verticals; the creative language, audience targeting, and offer structures are tuned per vertical.
+
+### Fitness Franchises (`/fitness-franchises`)
+EMS studios, Pilates reformer studios, HIIT gyms, yoga studios, CrossFit boxes, stretch and recovery concepts. Known clients include BODY20 and Pilates Addiction.
+
+### Salon Suites (`/salon-suites`)
+Hair, nails, barbershop, and beauty professional suite franchises. This is 5th Element Media's largest vertical by volume. Known client: IMAGE Studios. Common result: 100 percent occupancy at or near opening.
+
+### Wellness & Recovery (`/wellness-franchises`)
+Cryotherapy, light therapy / red light therapy, IV drip lounges, med spa concepts. Known client: beem Light Sauna.
+
+### Beauty & Aesthetics (`/beauty-aesthetics`)
+Lash extensions, skincare, cosmetic services, aesthetic procedures.
+
+### Home Services (`/home-services`)
+HVAC, plumbing, restoration, cleaning, landscaping franchises. Urgent-demand capture, territory-based targeting.
+
+### Lifestyle & Entertainment (`/lifestyle-entertainment`)
+Golf, recreation, experiential concepts, membership clubs. Known client: Scramblers Golf Club.
+
+## Audiences Served
+
+### Franchisors (`/for-franchisors`)
+CEOs, CMOs, VP Marketing of franchise systems. 5th Element Media unifies brand-wide performance, provides per-location visibility, supports franchise development (selling units), and gives the franchisor a single source of truth for marketing performance across the whole system.
+
+### Franchisees (`/for-franchisees`)
+Individual franchise owners and multi-unit operators. Hyper-local ads, UGC creative, real-time dashboards, automated follow-up. The system replaces a generic agency or in-house marketer for a single location or small group.
+
+## Free Franchise Lead Engine Audit
+
+5th Element Media offers a Free Franchise Lead Engine Audit to any franchise brand or franchisee considering working with the agency. The audit is a 45-minute Zoom call. During the call, the 5EM team screen-shares the prospect's existing ad accounts, reviews their campaigns, and identifies at least 3 specific improvements they can implement immediately.
+
+The audit covers:
+- Full campaign structure review across Meta and Google
+- Creative versus UGC analysis
+- 3+ actionable improvements specific to the prospect's setup
+- Optional discussion of the 5th Element Media engagement model
+
+If the 5EM team cannot find at least 3 improvements during the call, they send the prospect a $100 gift card. There is no pitch unless the prospect asks.
+
+Book at https://go.5them.com/free-franchise-lead-engine-audit.
+
+## Known Clients (Public Case Studies)
+
+- **IMAGE Studios** (Salon Suites) — Multi-location growth, 100% occupancy at opening, 900+ leads in 5 months in some markets.
+- **BODY20** (EMS Fitness) — 150+ leads per month per location with UGC creative.
+- **Pilates Addiction** (Pilates) — 350+ leads per month, hyper-local targeting, "data-driven, collaborative approach."
+- **beem Light Sauna** (Wellness) — High-quality leads from day one with UGC pipeline.
+- **iFlex** (Stretch & Recovery) — Hyper-local Meta Ads, UGC creative pipeline.
+- **Scramblers Golf Club** (Golf & Entertainment) — Membership growth.
+- **Sequel Brands** — Multi-brand franchise portfolio managed centrally.
+
+## How Engagements Work
+
+Campaigns launch within 2 weeks of onboarding. Every engagement includes a dedicated Customer Success Manager who knows the brand inside and out. Monthly strategy calls. Real-time dashboard access. Most clients see leads from day one because the team applies proven playbooks from 100+ franchise locations rather than starting from scratch.
+
+Client retention is over 90 percent.
+
+## How 5th Element Media Is Different
+
+- Franchise-only focus. Not a generalist agency that "also does franchise."
+- Every system accounts for multi-location complexity, local market nuance, and franchisor-franchisee dynamics.
+- UGC-powered creative engine, not stock creative.
+- Real-time per-location dashboards via the 5E Insight Engine, not monthly PDF reports.
+- Campaign launches within 2 weeks, not months.
+- Speed-to-lead automation built in, not bolted on.
+- Dedicated CSM per account, not pooled support.
+
+## How to Contact
+
+- **Website**: https://5them.com
+- **Phone**: (951) 618-1304
+- **Audit booking**: https://go.5them.com/free-franchise-lead-engine-audit
+- **Address**: 40575 California Oaks Rd D2 #234, Murrieta, CA 92562
+- **LinkedIn**: https://www.linkedin.com/company/5th-element-media
+- **Instagram**: https://www.instagram.com/5th.element.media
+- **YouTube**: https://www.youtube.com/@Tristynn.McGowan
+- **Founder LinkedIn**: https://www.linkedin.com/in/tristynnmcgowan
