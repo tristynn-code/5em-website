@@ -44,3 +44,48 @@ export function jsonLd(data: object) {
     __html: JSON.stringify(data).replace(/</g, '\\u003c'),
   };
 }
+
+/**
+ * Build Next.js Metadata for a page with canonical, OG, and Twitter pre-wired.
+ * Pass title without site suffix — the root layout's title template handles that.
+ */
+export function pageMetadata({
+  title,
+  description,
+  path,
+  keywords,
+  noindex,
+  ogTitle,
+  ogDescription,
+}: {
+  title: string;
+  description: string;
+  path: string;
+  keywords?: string[];
+  noindex?: boolean;
+  ogTitle?: string;
+  ogDescription?: string;
+}) {
+  const url = canonical(path);
+  return {
+    title,
+    description,
+    keywords,
+    alternates: { canonical: url },
+    openGraph: {
+      type: 'website' as const,
+      url,
+      siteName: SITE.name,
+      title: ogTitle ?? title,
+      description: ogDescription ?? description,
+      images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: title }],
+    },
+    twitter: {
+      card: 'summary_large_image' as const,
+      title: ogTitle ?? title,
+      description: ogDescription ?? description,
+      images: ['/opengraph-image'],
+    },
+    robots: noindex ? { index: false, follow: false } : undefined,
+  };
+}
