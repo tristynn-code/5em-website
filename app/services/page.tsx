@@ -2,6 +2,9 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import JsonLd from '@/components/JsonLd';
 import FinalCTA from '@/components/FinalCTA';
+import ServiceMiniMockup from '@/components/services/ServiceMiniMockup';
+import { FranchisorVisual, FranchiseeVisual } from '@/components/services/AudienceVisual';
+import VerticalIcon from '@/components/services/VerticalIcon';
 import { services, industries, audience } from '@/lib/site';
 import { pageMetadata, SITE } from '@/lib/seo';
 import { breadcrumbSchema } from '@/lib/schema';
@@ -42,6 +45,13 @@ const collectionSchema = {
   })),
 };
 
+const audienceCopy = {
+  '/for-franchisors':
+    'Unify brand-wide performance, sell more units, and give every franchisee a system that actually generates leads.',
+  '/for-franchisees':
+    'Get the local lead engine that fills your location: hyper-local ads, UGC creative, real-time dashboards, automated follow-up.',
+} as const;
+
 export default function ServicesPage() {
   return (
     <>
@@ -71,7 +81,7 @@ export default function ServicesPage() {
         </p>
       </section>
 
-      {/* SERVICES GRID */}
+      {/* SERVICES GRID with interactive mini-mockups */}
       <section className="px-6 pb-24">
         <div className="max-w-mx mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           {services.map((s, i) => (
@@ -82,13 +92,17 @@ export default function ServicesPage() {
               style={{ transition: 'all .3s' }}
             >
               <div
-                className="absolute top-7 right-7 w-9 h-9 rounded-full bg-teal-bg border border-teal-bd flex items-center justify-center text-teal font-bold transition-all group-hover:bg-teal group-hover:text-dk group-hover:border-teal"
+                className="absolute top-7 right-7 w-9 h-9 rounded-full bg-teal-bg border border-teal-bd flex items-center justify-center text-teal font-bold transition-all group-hover:bg-teal group-hover:text-dk group-hover:border-teal z-[2]"
                 aria-hidden
               >
                 →
               </div>
-              <div className="text-[40px] font-extrabold text-teal mb-3" style={{ letterSpacing: '-.04em', opacity: 0.3, lineHeight: 1 }}>
+              <div className="text-[36px] font-extrabold text-teal leading-none mb-4" style={{ letterSpacing: '-.04em', opacity: 0.3 }}>
                 {String(i + 1).padStart(2, '0')}
+              </div>
+              {/* Interactive mini-mockup */}
+              <div className="mb-5">
+                <ServiceMiniMockup href={s.href} />
               </div>
               <h2
                 className="font-extrabold text-tx mb-2 leading-tight pr-12"
@@ -105,7 +119,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* WHO IT'S FOR */}
+      {/* WHO IT'S FOR with audience visuals */}
       <section className="sec bg-off">
         <div className="mx max-w-mx mx-auto">
           <div className="text-center mb-12">
@@ -115,21 +129,22 @@ export default function ServicesPage() {
               Whether you&apos;re a franchisor unifying performance across every market or a franchisee filling a single location, the engine flexes.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-[900px] mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-[980px] mx-auto">
             {audience.map(a => (
               <Link
                 key={a.href}
                 href={a.href}
                 className="block p-8 bg-wh border border-bd rounded-l transition-all hover:border-teal-bd hover:-translate-y-0.5 hover:shadow-[0_12px_32px_rgba(0,0,0,.04)] group"
               >
+                <div className="mb-5">
+                  {a.href === '/for-franchisors' ? <FranchisorVisual /> : <FranchiseeVisual />}
+                </div>
                 <div className="stag">For Your Role</div>
                 <h3 className="text-[24px] font-extrabold text-tx mb-2" style={{ letterSpacing: '-.02em' }}>
                   {a.label}
                 </h3>
                 <p className="text-sm text-tx-2 leading-relaxed mb-4">
-                  {a.label === 'For Franchisors'
-                    ? 'Unify brand-wide performance, sell more units, and give every franchisee a system that actually generates leads.'
-                    : 'Get the local lead engine that fills your location: hyper-local ads, UGC creative, real-time dashboards, automated follow-up.'}
+                  {audienceCopy[a.href as keyof typeof audienceCopy]}
                 </p>
                 <span className="inline-flex items-center gap-1 text-[14px] font-bold text-teal group-hover:gap-2 transition-all">
                   Explore →
@@ -140,7 +155,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* INDUSTRIES STRIP */}
+      {/* INDUSTRIES STRIP with icons */}
       <section className="sec">
         <div className="mx max-w-mx mx-auto text-center">
           <div className="stag inline-block">Industries</div>
@@ -148,14 +163,23 @@ export default function ServicesPage() {
           <p className="ssub mx-auto mb-10">
             We don&apos;t do generic. Every vertical has its own audience psychology, offer structure, and creative language. We know what converts in each.
           </p>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-3 max-w-[820px] mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 max-w-[920px] mx-auto">
             {industries.map(ind => (
               <Link
                 key={ind.href}
                 href={ind.href}
-                className="block px-5 py-4 border border-bd rounded text-sm font-bold text-tx hover:border-teal hover:text-teal hover:-translate-y-0.5 transition-all"
+                className="group flex items-center gap-3 px-5 py-4 border border-bd rounded bg-wh hover:border-teal hover:bg-teal-bg hover:-translate-y-0.5 transition-all text-left"
               >
-                {ind.label} →
+                <span
+                  className="w-10 h-10 rounded-full bg-teal-bg border border-teal-bd flex items-center justify-center text-teal flex-shrink-0 transition-all group-hover:bg-teal group-hover:text-dk"
+                  aria-hidden
+                >
+                  <VerticalIcon href={ind.href} />
+                </span>
+                <span className="flex-1 text-sm font-bold text-tx">{ind.label}</span>
+                <span className="text-teal opacity-0 group-hover:opacity-100 transition-opacity" aria-hidden>
+                  →
+                </span>
               </Link>
             ))}
           </div>
