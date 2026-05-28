@@ -78,4 +78,21 @@
   .stagger.visible .anim:nth-child(4) { transition-delay: .26s; }
   .stagger.visible .anim:nth-child(5) { transition-delay: .33s; }
   .stagger.visible .anim:nth-child(6) { transition-delay: .4s; }
+
+  /* Smooth panel-swap animation used by the tabbed pillars variant
+     (3-Pillar System Variant B). Triggers on mount via React's key remount. */
+  .tab-panel-in {
+    animation: panelIn .55s cubic-bezier(.65, .05, .36, 1) both;
+  }
+}
+
+@keyframes panelIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(.985);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }

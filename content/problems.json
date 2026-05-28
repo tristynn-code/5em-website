@@ -8,13 +8,13 @@
   {
     "id": "no-visibility",
     "number": "2",
-    "title": "No Visibility Into What Works",
-    "description": "Franchisors can't see which locations are winning or losing. Decisions are based on gut feeling, not data."
+    "title": "No Cross-Location Visibility",
+    "description": "You can't see which locations are winning, which creative is converting, or where the budget is leaking. Decisions get made on gut feeling instead of data."
   },
   {
-    "id": "no-measurement",
+    "id": "slow-lead-response",
     "number": "3",
-    "title": "No Way to Measure What Works",
-    "description": "Your franchisees are spending money every month with no clear dashboard showing which locations are winning, which creative is converting, or where budget is being wasted."
+    "title": "Speed-to-Lead Is Killing Conversion",
+    "description": "Most franchise leads sit in a CRM for hours, sometimes days, before anyone reaches out. By the time you call, they've already booked with a competitor. You pay for the lead and lose the sale."
   }
 ]
