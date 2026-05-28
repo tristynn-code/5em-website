@@ -126,14 +126,15 @@ export default function ThreePillarSystemB() {
           ))}
         </div>
 
-        {/* Demo panel */}
+        {/* Demo panel - fixed height so the tallest pillar (#2) doesn't shift the page;
+            tab-panel-in keyframe runs on each active change via the key remount. */}
         <div
           key={current.id}
-          className="rounded-l overflow-hidden grid grid-cols-1 lg:grid-cols-5"
+          className="rounded-l overflow-hidden grid grid-cols-1 lg:grid-cols-5 tab-panel-in"
           style={{
             background: 'linear-gradient(135deg, #0F1314 0%, #1D2637 100%)',
             border: '1px solid rgba(255,255,255,.08)',
-            minHeight: 440,
+            height: 520,
             boxShadow: '0 16px 48px rgba(0,0,0,.12)',
           }}
         >
@@ -170,15 +171,17 @@ export default function ThreePillarSystemB() {
             </div>
           </div>
 
-          {/* Right demo */}
-          <div className="lg:col-span-3 p-8 flex items-center justify-center relative" style={{ background: 'rgba(0,0,0,.15)' }}>
+          {/* Right demo - overflow-hidden so Pillar 2's UGC grid doesn't push panel taller */}
+          <div className="lg:col-span-3 p-8 flex items-center justify-center relative overflow-hidden" style={{ background: 'rgba(0,0,0,.15)' }}>
             <div
               className="absolute inset-0 pointer-events-none"
               style={{ background: 'radial-gradient(ellipse at 50% 50%, rgba(0,190,157,.08) 0%, transparent 70%)' }}
             />
-            {current.viz === 'line' && <DemoLeadFlow />}
-            {current.viz === 'creative' && <DemoUgcGrid />}
-            {current.viz === 'bars' && <DemoInsight />}
+            <div className="w-full max-h-full flex items-center justify-center">
+              {current.viz === 'line' && <DemoLeadFlow />}
+              {current.viz === 'creative' && <DemoUgcGrid />}
+              {current.viz === 'bars' && <DemoInsight />}
+            </div>
           </div>
         </div>
       </div>
