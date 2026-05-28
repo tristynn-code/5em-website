@@ -262,7 +262,7 @@ export default function SampleBlogA() {
         </div>
 
         {/* AUTHOR BIO CARD - end of post */}
-        <div className="px-6 mt-20">
+        <div className="px-6 mt-20 mb-24">
           <div className="mx max-w-[760px] mx-auto">
             <div className="rounded-l border border-bd bg-off p-8 md:p-10">
               <div className="flex flex-col md:flex-row gap-6">
