@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { SITE } from '@/lib/seo';
+import { posts } from './blog/posts';
 
 const ROUTES: Array<{
   path: string;
@@ -11,7 +12,7 @@ const ROUTES: Array<{
   { path: '/case-studies', priority: 0.9, changeFrequency: 'monthly' },
   { path: '/contact', priority: 0.8, changeFrequency: 'monthly' },
   { path: '/testimonials', priority: 0.8, changeFrequency: 'monthly' },
-  { path: '/blog', priority: 0.5, changeFrequency: 'weekly' },
+  { path: '/blog', priority: 0.8, changeFrequency: 'weekly' },
   { path: '/privacy', priority: 0.3, changeFrequency: 'yearly' },
 
   // Services
@@ -38,10 +39,19 @@ const ROUTES: Array<{
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
-  return ROUTES.map(r => ({
+  const staticEntries = ROUTES.map(r => ({
     url: `${SITE.url}${r.path === '/' ? '' : r.path}`,
     lastModified: now,
     changeFrequency: r.changeFrequency,
     priority: r.priority,
   }));
+  // Auto-include every blog post from app/blog/posts.ts so new posts hit the
+  // sitemap the moment they ship - no manual update required.
+  const blogEntries = posts.map(p => ({
+    url: `${SITE.url}/blog/${p.slug}`,
+    lastModified: new Date(p.date),
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }));
+  return [...staticEntries, ...blogEntries];
 }
