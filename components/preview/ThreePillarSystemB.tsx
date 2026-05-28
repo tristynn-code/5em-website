@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { getPillars, type Pillar } from '@/lib/content';
 
 /**
@@ -20,6 +20,32 @@ export default function ThreePillarSystemB() {
     return () => clearInterval(id);
   }, [paused, pillars.length]);
 
+  // Sliding active-tab indicator - measures the active button's position and
+  // animates a single pill element between tabs so the user gets a visual
+  // prompt that the section is interactive (per Tristynn's feedback).
+  const tabBarRef = useRef<HTMLDivElement>(null);
+  const buttonRefs = useRef<(HTMLButtonElement | null)[]>([]);
+  const [indicator, setIndicator] = useState<{ left: number; top: number; width: number; height: number } | null>(null);
+
+  useEffect(() => {
+    const measure = () => {
+      const bar = tabBarRef.current;
+      const btn = buttonRefs.current[active];
+      if (!bar || !btn) return;
+      const barRect = bar.getBoundingClientRect();
+      const btnRect = btn.getBoundingClientRect();
+      setIndicator({
+        left: btnRect.left - barRect.left,
+        top: btnRect.top - barRect.top,
+        width: btnRect.width,
+        height: btnRect.height,
+      });
+    };
+    measure();
+    window.addEventListener('resize', measure);
+    return () => window.removeEventListener('resize', measure);
+  }, [active]);
+
   return (
     <section className="py-[100px] px-6 bg-off">
       <div className="mx">
@@ -31,28 +57,50 @@ export default function ThreePillarSystemB() {
           </p>
         </div>
 
-        {/* Tab bar */}
+        {/* Tab bar with sliding active indicator */}
         <div
-          className="grid grid-cols-1 md:grid-cols-3 gap-2 mb-6 p-2 rounded-l"
+          ref={tabBarRef}
+          className="relative grid grid-cols-1 md:grid-cols-3 gap-2 mb-6 p-2 rounded-l"
           style={{
             background: 'rgba(0,0,0,.02)',
             border: '1px solid rgba(0,0,0,.05)',
           }}
         >
+          {/* Sliding pill that visually moves between tabs */}
+          {indicator && (
+            <div
+              aria-hidden
+              className="absolute pointer-events-none rounded bg-wh overflow-hidden"
+              style={{
+                left: indicator.left,
+                top: indicator.top,
+                width: indicator.width,
+                height: indicator.height,
+                border: '1px solid rgba(0,190,157,.25)',
+                boxShadow: '0 6px 24px rgba(0,190,157,.1)',
+                transition: 'left .55s cubic-bezier(.65,.05,.36,1), top .55s cubic-bezier(.65,.05,.36,1), width .55s cubic-bezier(.65,.05,.36,1), height .55s cubic-bezier(.65,.05,.36,1)',
+                zIndex: 0,
+              }}
+            >
+              {!paused && (
+                <div
+                  key={active}
+                  className="absolute bottom-0 left-0 h-[2px] bg-teal"
+                  style={{ animation: 'gr 6s linear forwards', width: '100%' }}
+                />
+              )}
+            </div>
+          )}
+
           {pillars.map((p, i) => (
             <button
               key={p.id}
+              ref={(el) => { buttonRefs.current[i] = el; }}
               onClick={() => {
                 setActive(i);
                 setPaused(true);
               }}
-              className={`text-left rounded p-4 transition-all relative overflow-hidden ${
-                i === active ? 'bg-wh' : 'bg-transparent hover:bg-wh/60'
-              }`}
-              style={{
-                border: i === active ? '1px solid rgba(0,190,157,.25)' : '1px solid transparent',
-                boxShadow: i === active ? '0 6px 24px rgba(0,190,157,.1)' : 'none',
-              }}
+              className="text-left rounded p-4 transition-colors relative bg-transparent z-[1]"
             >
               <div className="flex items-center gap-3">
                 <div
@@ -66,15 +114,14 @@ export default function ThreePillarSystemB() {
                   <div className="text-[10px] uppercase font-extrabold text-teal mb-0.5" style={{ letterSpacing: '.1em' }}>
                     {p.label}
                   </div>
-                  <div className={`text-sm font-extrabold leading-tight ${i === active ? 'text-tx' : 'text-tx-2'}`} style={{ letterSpacing: '-.01em' }}>
+                  <div
+                    className={`text-sm font-extrabold leading-tight transition-colors ${i === active ? 'text-tx' : 'text-tx-2'}`}
+                    style={{ letterSpacing: '-.01em' }}
+                  >
                     {p.title}
                   </div>
                 </div>
               </div>
-              {/* Progress indicator on active */}
-              {i === active && !paused && (
-                <div className="absolute bottom-0 left-0 h-[2px] bg-teal" style={{ animation: 'gr 6s linear forwards', width: '100%' }} />
-              )}
             </button>
           ))}
         </div>

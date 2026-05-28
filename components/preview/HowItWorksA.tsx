@@ -47,20 +47,22 @@ export default function HowItWorksA() {
                 transition: 'all .3s',
               }}
             >
-              {/* Mockup */}
+              {/* Mockup - fixed height so the copy block below aligns across all 3 cards */}
               <div
-                className="relative px-6 py-7 flex items-center justify-center"
+                className="relative px-6 py-7 flex items-center justify-center overflow-hidden"
                 style={{
-                  minHeight: 260,
+                  height: 320,
                   background: i === 2
                     ? 'linear-gradient(135deg, #0F1314 0%, #1D2637 100%)'
                     : 'linear-gradient(135deg, #FAFAFA 0%, #F2F2F2 100%)',
                   borderBottom: '1px solid rgba(0,0,0,.06)',
                 }}
               >
-                {i === 0 && <MockCalendar />}
-                {i === 1 && <MockStrategyDoc />}
-                {i === 2 && <MockLeadsDash />}
+                <div className="w-full max-h-full flex items-center justify-center">
+                  {i === 0 && <MockCalendar />}
+                  {i === 1 && <MockStrategyDoc />}
+                  {i === 2 && <MockLeadsDash />}
+                </div>
               </div>
 
               {/* Copy */}
