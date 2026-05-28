@@ -59,7 +59,7 @@ export default function SampleBlogA() {
 
       {/* HEADER */}
       <article className="pt-[120px]">
-        <div className="mx max-w-[760px] mx-auto px-6">
+        <div className="mx max-w-[880px] mx-auto px-6">
           {/* Breadcrumb */}
           <div className="flex items-center gap-2 text-[13px] font-semibold text-tx-3 mb-8">
             <Link href="/" className="hover:text-teal transition-colors">Home</Link>
@@ -263,7 +263,7 @@ export default function SampleBlogA() {
 
         {/* AUTHOR BIO CARD - end of post */}
         <div className="px-6 mt-20 mb-24">
-          <div className="mx max-w-[760px] mx-auto">
+          <div className="mx max-w-[880px] mx-auto">
             <div className="rounded-l border border-bd bg-off p-8 md:p-10">
               <div className="flex flex-col md:flex-row gap-6">
                 <img src={authorPhoto} alt="Tristynn McGowan" className="w-24 h-24 rounded-full object-cover flex-shrink-0" />
