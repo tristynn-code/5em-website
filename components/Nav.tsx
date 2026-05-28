@@ -74,11 +74,11 @@ export default function Nav() {
             style={{
               transitionDuration: '180ms',
               padding: '14px',
-              // Same frosted-glass recipe as the nav bar itself
-              background: 'rgba(255,255,255,.72)',
-              backdropFilter: 'blur(28px) saturate(1.6)',
-              WebkitBackdropFilter: 'blur(28px) saturate(1.6)',
-              borderColor: 'rgba(255,255,255,.4)',
+              // Denser frosted glass — readable text contrast while keeping the premium feel
+              background: 'rgba(255,255,255,.94)',
+              backdropFilter: 'blur(40px) saturate(1.8)',
+              WebkitBackdropFilter: 'blur(40px) saturate(1.8)',
+              borderColor: 'rgba(0,0,0,.06)',
             }}
           >
             <div className="flex flex-col">
