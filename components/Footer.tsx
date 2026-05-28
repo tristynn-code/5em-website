@@ -5,6 +5,7 @@ export default function Footer() {
   return (
     <footer className="py-14 px-8 border-t border-bd bg-wh">
       <div className="max-w-mx mx-auto grid grid-cols-1 md:grid-cols-12 gap-10">
+        {/* BRAND COLUMN */}
         <div className="md:col-span-4">
           <img
             src={brand.logo}
@@ -27,10 +28,37 @@ export default function Footer() {
             </a>
           </div>
         </div>
+
+        {/* LINK COLUMNS */}
         <FooterColumn className="md:col-span-2" title="Company" links={footerLinks.company} />
         <FooterColumn className="md:col-span-3" title="Services" links={footerLinks.services} />
-        <FooterColumn className="md:col-span-3" title="For Your Brand" links={footerLinks.forYou} />
+        <FooterColumn className="md:col-span-3" title="Industries" links={footerLinks.industries} />
       </div>
+
+      {/* WHO WE SERVE — standalone row, prominent */}
+      <div className="max-w-mx mx-auto mt-12 pt-8 border-t border-bd">
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-5">
+          <div>
+            <h4 className="text-xs text-tx-3 font-semibold uppercase tracking-wider mb-1.5">Who We Serve</h4>
+            <p className="text-sm text-tx-3">
+              Built for both sides of the franchise. Pick your role.
+            </p>
+          </div>
+          <div className="flex flex-wrap gap-3">
+            {footerLinks.audience.map(a => (
+              <Link
+                key={a.href}
+                href={a.href}
+                className="inline-flex items-center gap-2 px-5 py-3 border border-bd rounded-s text-sm font-bold text-tx hover:border-teal hover:text-teal hover:-translate-y-0.5 transition-all bg-off"
+              >
+                {a.label} →
+              </Link>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* BOTTOM BAR */}
       <div className="max-w-mx mx-auto mt-12 pt-6 border-t border-bd flex flex-col md:flex-row md:justify-between items-center gap-4 text-[13px] text-tx-3">
         <div>© {new Date().getFullYear()} 5th Element Media LLC. All Rights Reserved.</div>
         <div className="flex gap-5">
@@ -57,7 +85,7 @@ function FooterColumn({
   className = '',
 }: {
   title: string;
-  links: { label: string; href: string }[];
+  links: readonly { label: string; href: string }[];
   className?: string;
 }) {
   return (

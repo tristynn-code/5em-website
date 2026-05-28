@@ -15,6 +15,7 @@ const ROUTES: Array<{
   { path: '/privacy', priority: 0.3, changeFrequency: 'yearly' },
 
   // Services
+  { path: '/services', priority: 0.9, changeFrequency: 'monthly' },
   { path: '/paid-ads', priority: 0.9, changeFrequency: 'monthly' },
   { path: '/creative-production', priority: 0.9, changeFrequency: 'monthly' },
   { path: '/crm-automations', priority: 0.9, changeFrequency: 'monthly' },
