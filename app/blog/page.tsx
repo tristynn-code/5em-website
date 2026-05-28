@@ -1,198 +1,187 @@
 import type { Metadata } from 'next';
-import { WaitlistButton, NewsletterToast } from '@/components/BlogWaitlistButton';
-import upcoming from '@/content/upcoming-posts.json';
+import Link from 'next/link';
 import JsonLd from '@/components/JsonLd';
-import { pageMetadata } from '@/lib/seo';
+import { pageMetadata, SITE } from '@/lib/seo';
 import { breadcrumbSchema } from '@/lib/schema';
+import { posts } from './posts';
 
 export const metadata: Metadata = pageMetadata({
-  title: 'Franchise Marketing Blog (Launching Soon)',
+  title: 'Franchise Marketing Blog | 5th Element Media',
   description:
-    'The 5th Element Media blog launches soon. Real franchise marketing insights, tactical breakdowns, and case studies from 100+ locations. Join the waitlist.',
+    'Real franchise marketing insights from the agency behind 100+ franchise locations. Tactical breakdowns of paid ads, UGC creative, CRM automation, and franchise growth systems - no fluff.',
   path: '/blog',
-  keywords: ['franchise marketing blog', 'franchise lead generation tips', 'multi-location marketing insights'],
+  keywords: [
+    'franchise marketing blog',
+    'franchise lead generation tips',
+    'multi-location marketing insights',
+    'franchise marketing strategy',
+    'franchise ads',
+    'franchise CPL',
+  ],
 });
+
+const featured = posts[0];
+const rest = posts.slice(1);
+
+const blogSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Blog',
+  '@id': `${SITE.url}/blog#blog`,
+  url: `${SITE.url}/blog`,
+  name: 'Franchise Marketing Blog | 5th Element Media',
+  description:
+    'Real franchise marketing insights from the agency behind 100+ franchise locations.',
+  publisher: { '@id': `${SITE.url}#organization` },
+  blogPost: posts.map(p => ({
+    '@type': 'BlogPosting',
+    '@id': `${SITE.url}/blog/${p.slug}#article`,
+    headline: p.title,
+    description: p.excerpt,
+    datePublished: p.date,
+    url: `${SITE.url}/blog/${p.slug}`,
+    image: p.cover,
+    articleSection: p.category,
+    author: {
+      '@type': 'Person',
+      '@id': `${SITE.url}/about#tristynn`,
+      name: 'Tristynn McGowan',
+    },
+  })),
+};
 
 export default function BlogPage() {
   return (
     <>
+      <JsonLd data={blogSchema} />
       <JsonLd
         data={breadcrumbSchema([
           { name: 'Home', path: '/' },
           { name: 'Blog', path: '/blog' },
         ])}
       />
+
       {/* HERO */}
       <section
-        className="px-6 pt-[100px] pb-[60px]"
+        className="px-6 pt-[140px] pb-[60px]"
         style={{ background: 'linear-gradient(180deg,#F7F7F7 0%,#FFFFFF 100%)' }}
       >
-        <div className="max-w-[820px] mx-auto text-center">
+        <div className="max-w-[1200px] mx-auto text-center">
           <div className="stag inline-block">The 5EM Blog</div>
           <h1
-            className="font-extrabold text-tx mb-5 mt-5"
-            style={{ fontSize: 'clamp(38px,5.5vw,62px)', letterSpacing: '-.03em', lineHeight: 1.08 }}
+            className="font-extrabold mb-5"
+            style={{ fontSize: 'clamp(40px,5.5vw,64px)', letterSpacing: '-.04em', lineHeight: 1.05 }}
           >
-            Franchise Marketing, Decoded.
+            Franchise Marketing,<br />
+            <em className="not-italic text-teal">Unfiltered.</em>
           </h1>
-          <p className="text-[18px] leading-[1.55] text-tx-2 font-medium max-w-[640px] mx-auto">
-            Tactical breakdowns, data-driven insights, and real-world playbooks from managing 100+ franchise locations. No fluff. Just what&apos;s working right now.
+          <p
+            className="text-tx-2 mx-auto max-w-[640px]"
+            style={{ fontSize: 'clamp(17px,1.7vw,19px)', lineHeight: 1.6 }}
+          >
+            Tactical breakdowns from the agency behind 100+ franchise locations. Paid ads, UGC creative, CRM automation, and franchise growth systems. No fluff.
           </p>
         </div>
       </section>
 
-      {/* COMING SOON HERO CARD */}
-      <section className="px-6 bg-wh pt-10 pb-20">
-        <div className="mx max-w-mx mx-auto">
-          <div
-            className="max-w-[880px] mx-auto rounded-[22px] relative overflow-hidden"
-            style={{
-              background: 'linear-gradient(135deg,#0F1314 0%,#1D2637 100%)',
-              border: '1px solid rgba(0,190,157,.2)',
-              boxShadow: '0 20px 60px rgba(0,0,0,.1)',
-              padding: 'clamp(36px,5vw,56px) clamp(24px,4vw,48px)',
-            }}
+      {/* FEATURED POST */}
+      <section className="px-6 pb-16">
+        <div className="max-w-[1200px] mx-auto">
+          <Link
+            href={`/blog/${featured.slug}`}
+            className="group grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-center bg-wh border border-bd rounded-l p-6 lg:p-10 transition-all hover:border-teal-bd hover:-translate-y-1 hover:shadow-[0_24px_60px_rgba(0,0,0,.06)]"
           >
-            <div
-              className="absolute pointer-events-none"
-              style={{
-                top: -60,
-                right: -60,
-                width: 220,
-                height: 220,
-                background: 'radial-gradient(circle,rgba(0,190,157,.15) 0%,transparent 70%)',
-              }}
-            />
-            <div
-              className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-[11px] font-extrabold uppercase mb-5 relative z-10"
-              style={{
-                background: 'rgba(0,190,157,.12)',
-                border: '1px solid rgba(0,190,157,.35)',
-                color: '#00BE9D',
-                letterSpacing: '.14em',
-              }}
-            >
-              <span className="w-[7px] h-[7px] rounded-full bg-teal animate-pu" />
-              In Production
+            <div className="rounded-l overflow-hidden bg-off order-first lg:order-last" style={{ aspectRatio: '16 / 10' }}>
+              <img
+                src={featured.cover}
+                alt={featured.title}
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
             </div>
-            <h2
-              className="font-extrabold text-white mb-4 relative z-10"
-              style={{ fontSize: 'clamp(34px,4.5vw,52px)', letterSpacing: '-.03em', lineHeight: 1.1 }}
-            >
-              The Blog Is Brewing.
-            </h2>
-            <p
-              className="text-[17px] leading-[1.55] font-medium max-w-[640px] mb-9 relative z-10"
-              style={{ color: 'rgba(255,255,255,.75)' }}
-            >
-              We&apos;re writing tactical breakdowns, real case studies, and franchise marketing playbooks built from what actually works across our 100+ franchise locations. Launching soon. No fluff, no recycled AI slop - just the real stuff.
-            </p>
-
-            <div
-              className="p-7 rounded-[14px] mb-8 relative z-10"
-              style={{ background: 'rgba(255,255,255,.04)', border: '1px solid rgba(255,255,255,.08)' }}
-            >
-              <div
-                className="text-[11px] font-extrabold text-teal mb-4 uppercase"
-                style={{ letterSpacing: '.14em' }}
-              >
-                Coming up first:
-              </div>
-              <div className="flex flex-col gap-3.5">
-                {upcoming.map(item => (
-                  <div
-                    key={item.num}
-                    className="flex gap-4 items-start p-3.5 rounded-[10px] transition-all"
-                    style={{ background: 'rgba(255,255,255,.03)', border: '1px solid rgba(255,255,255,.06)' }}
-                  >
-                    <div
-                      className="text-[13px] font-extrabold text-teal flex-shrink-0 w-7 tabular-nums"
-                      style={{ letterSpacing: '.04em', paddingTop: 1 }}
-                    >
-                      {item.num}
-                    </div>
-                    <div className="flex-1 min-w-0">
-                      <div
-                        className="text-[14px] font-bold text-white mb-1"
-                        style={{ letterSpacing: '-.01em', lineHeight: 1.35 }}
-                      >
-                        {item.title}
-                      </div>
-                      <div
-                        className="text-[11px] font-bold uppercase"
-                        style={{ color: 'rgba(255,255,255,.55)', letterSpacing: '.04em' }}
-                      >
-                        {item.category}
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            <div
-              className="flex items-center justify-between gap-5 flex-wrap pt-7 relative z-10"
-              style={{ borderTop: '1px solid rgba(255,255,255,.08)' }}
-            >
-              <div
-                className="text-[15px] font-semibold flex-1 min-w-[200px]"
-                style={{ color: 'rgba(255,255,255,.85)', letterSpacing: '-.01em' }}
-              >
-                Want these in your inbox the moment they drop?
-              </div>
-              <WaitlistButton className="bp bpl">Join the Waitlist →</WaitlistButton>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* NEWSLETTER CTA */}
-      <section className="px-6 bg-wh py-20">
-        <div className="mx max-w-mx mx-auto">
-          <div
-            className="rounded-[20px] max-w-[1100px] mx-auto grid grid-cols-1 md:grid-cols-[1.3fr_1fr] gap-10 items-center"
-            style={{
-              background: 'linear-gradient(135deg,#0F1314 0%,#1D2637 100%)',
-              padding: 'clamp(36px,4vw,52px) clamp(28px,4vw,48px)',
-            }}
-          >
             <div>
-              <div
-                className="stag inline-block"
-                style={{
-                  color: '#fff',
-                  background: 'rgba(0,190,157,.2)',
-                  border: '1px solid rgba(0,190,157,.4)',
-                  padding: '4px 12px',
-                  borderRadius: 100,
-                }}
-              >
-                Weekly Newsletter
+              <div className="flex items-center gap-3 mb-4">
+                <span
+                  className="text-[11px] uppercase font-extrabold text-teal"
+                  style={{ letterSpacing: '.12em' }}
+                >
+                  Latest
+                </span>
+                <span className="text-tx-3" aria-hidden>·</span>
+                <span className="text-[12px] uppercase font-bold text-tx-2" style={{ letterSpacing: '.08em' }}>
+                  {featured.category}
+                </span>
               </div>
               <h2
-                className="font-extrabold text-white mt-4 mb-3.5"
-                style={{ fontSize: 'clamp(26px,3vw,38px)', letterSpacing: '-.02em', lineHeight: 1.15 }}
+                className="font-extrabold text-tx mb-4 group-hover:text-teal transition-colors"
+                style={{ fontSize: 'clamp(26px,3.2vw,36px)', letterSpacing: '-.025em', lineHeight: 1.1 }}
               >
-                Get The Franchise Marketing Insider
+                {featured.title}
               </h2>
-              <p
-                className="text-[15px] leading-[1.55] font-medium"
-                style={{ color: 'rgba(255,255,255,.7)' }}
-              >
-                Tactical breakdowns, what&apos;s working right now, and the playbooks we use with 100+ franchise locations. Delivered every Wednesday.
+              <p className="text-tx-2 mb-6" style={{ fontSize: 17, lineHeight: 1.6 }}>
+                {featured.excerpt}
               </p>
-            </div>
-            <div className="flex flex-col gap-2.5 items-start">
-              <WaitlistButton className="bp bpl">Subscribe Free →</WaitlistButton>
-              <div className="text-[12px] font-semibold" style={{ color: 'rgba(255,255,255,.5)' }}>
-                No spam. Unsubscribe any time.
+              <div className="flex items-center gap-3 text-[13px] text-tx-3 font-medium">
+                <span>{featured.dateDisplay}</span>
+                <span aria-hidden>·</span>
+                <span>{featured.readTime} read</span>
+              </div>
+              <div className="mt-6 inline-flex items-center gap-1 text-[14px] font-bold text-teal group-hover:gap-2 transition-all">
+                Read article →
               </div>
             </div>
-          </div>
+          </Link>
         </div>
       </section>
 
-      <NewsletterToast />
+      {/* REST OF POSTS */}
+      <section className="px-6 pb-24">
+        <div className="max-w-[1200px] mx-auto">
+          <div className="flex items-end justify-between mb-8 flex-wrap gap-4">
+            <div>
+              <div className="stag inline-block">More articles</div>
+              <h2 className="font-extrabold text-tx" style={{ fontSize: 'clamp(28px,3.5vw,38px)', letterSpacing: '-.02em' }}>
+                Recent Posts
+              </h2>
+            </div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {rest.map(p => (
+              <Link
+                key={p.slug}
+                href={`/blog/${p.slug}`}
+                className="group bg-wh border border-bd rounded-l overflow-hidden flex flex-col transition-all hover:-translate-y-1 hover:shadow-[0_16px_48px_rgba(0,0,0,.06)] hover:border-teal-bd"
+              >
+                <div className="aspect-[16/10] overflow-hidden bg-off">
+                  <img
+                    src={p.cover}
+                    alt={p.title}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                </div>
+                <div className="p-6 flex flex-col flex-1">
+                  <div
+                    className="text-[11px] uppercase font-extrabold text-teal mb-3"
+                    style={{ letterSpacing: '.12em' }}
+                  >
+                    {p.category}
+                  </div>
+                  <h3
+                    className="font-extrabold text-tx mb-3 leading-tight group-hover:text-teal transition-colors"
+                    style={{ fontSize: 20, letterSpacing: '-.015em' }}
+                  >
+                    {p.title}
+                  </h3>
+                  <p className="text-[14px] text-tx-2 leading-relaxed flex-1 mb-4">{p.excerpt}</p>
+                  <div className="text-[12px] text-tx-3 font-medium flex items-center gap-2">
+                    <span>{p.dateDisplay}</span>
+                    <span aria-hidden>·</span>
+                    <span>{p.readTime} read</span>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
     </>
   );
 }
