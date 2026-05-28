@@ -1,9 +1,38 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import JsonLd from '@/components/JsonLd';
+import MediaEmbed from '@/components/MediaEmbed';
+import RelatedPosts from '@/components/blog/RelatedPosts';
 import { pageMetadata } from '@/lib/seo';
 import { breadcrumbSchema } from '@/lib/schema';
 import { auditCTA } from '@/lib/site';
+
+const relatedPosts = [
+  {
+    href: '/blog/sample-a',
+    category: 'Paid Ads',
+    title: 'Why Your Franchise Brand Pays 3x More for Leads Than It Should',
+    readTime: '5 min',
+    date: 'May 1, 2026',
+    cover: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80',
+  },
+  {
+    href: '/blog/sample-a',
+    category: 'Creative',
+    title: 'The 4 UGC Hooks That Are Outperforming Stock Video Right Now',
+    readTime: '7 min',
+    date: 'April 22, 2026',
+    cover: 'https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=1200&q=80',
+  },
+  {
+    href: '/blog/sample-a',
+    category: 'Franchise Growth',
+    title: 'How IMAGE Studios Hit 100% Occupancy in 2 Months',
+    readTime: '6 min',
+    date: 'April 10, 2026',
+    cover: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&q=80',
+  },
+];
 
 export const metadata: Metadata = pageMetadata({
   title: 'How to Cut Franchise CPL by 40% with UGC (Template A)',
@@ -141,6 +170,14 @@ export default function SampleBlogA() {
             </figcaption>
           </figure>
 
+          {/* DEMO: YouTube video embed - large size. Drop this in the real CMS too. */}
+          <MediaEmbed
+            src="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            alt="Sample YouTube embed - replace with the real recording for the post"
+            size="lg"
+            caption="Large YouTube embed - use this for a hero recording at the top of a post or a key walkthrough."
+          />
+
           {/* H2 */}
           <h2 className="font-extrabold mt-4 mb-5 text-tx" style={{ fontSize: 'clamp(26px,3vw,34px)', letterSpacing: '-.025em', lineHeight: 1.2 }}>
             The UGC Pipeline That Actually Scales
@@ -159,6 +196,14 @@ export default function SampleBlogA() {
           <p className="mb-8 text-tx-2" style={{ fontSize: 18, lineHeight: 1.7 }}>
             Every Monday, we send each franchisee a one-page brief - hook angle, target objection, three sample lines they can riff on. They film three takes on their phone, drop it in a shared folder, and our editors handle hooks, captions, and platform-specific cuts. By Wednesday, the new variants are in the ad account.
           </p>
+
+          {/* DEMO: Loom video embed - medium size, inline with body */}
+          <MediaEmbed
+            src="https://www.loom.com/share/d04dee69b56e4b50abc2dd4f0b29e1b8"
+            alt="Sample Loom embed - replace with the real screen recording"
+            size="md"
+            caption="Medium Loom embed - perfect for a screen-recorded walkthrough sized to match body type."
+          />
 
           {/* MID-ARTICLE CTA CARD */}
           <div className="my-14 rounded-l p-8 md:p-10 relative overflow-hidden" style={{ background: 'linear-gradient(135deg,#0F1314 0%,#1D2637 100%)' }}>
@@ -240,17 +285,8 @@ export default function SampleBlogA() {
         </div>
       </article>
 
-      {/* NEXT POST / FOOTER NAV */}
-      <section className="px-6 pt-16 pb-24">
-        <div className="mx max-w-[760px] mx-auto flex justify-between items-center pt-8 border-t border-bd">
-          <Link href="/blog" className="text-[15px] font-semibold text-tx-2 hover:text-teal transition-colors">
-            ← All Posts
-          </Link>
-          <Link href="/blog/sample-b" className="text-[15px] font-semibold text-tx-2 hover:text-teal transition-colors">
-            View Layout B →
-          </Link>
-        </div>
-      </section>
+      {/* KEEP READING - related posts rail */}
+      <RelatedPosts posts={relatedPosts} />
     </>
   );
 }

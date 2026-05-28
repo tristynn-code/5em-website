@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import JsonLd from '@/components/JsonLd';
+import MediaEmbed from '@/components/MediaEmbed';
 import { pageMetadata } from '@/lib/seo';
 import { breadcrumbSchema } from '@/lib/schema';
 import { auditCTA } from '@/lib/site';
@@ -196,6 +197,23 @@ export default function SampleCaseStudyA() {
             </div>
           </div>
 
+          {/* MID-ARTICLE CTA CARD */}
+          <div className="my-14 rounded-l p-8 md:p-10 relative overflow-hidden" style={{ background: 'linear-gradient(135deg,#0F1314 0%,#1D2637 100%)' }}>
+            <div className="absolute -top-20 -right-20 w-[260px] h-[260px] pointer-events-none" style={{ background: 'radial-gradient(circle,rgba(0,190,157,.18) 0%,transparent 70%)' }} />
+            <div className="relative z-10 flex flex-col md:flex-row md:items-center gap-6">
+              <div className="flex-1">
+                <div className="text-[11px] uppercase font-extrabold text-teal mb-3" style={{ letterSpacing: '.12em' }}>Free Audit</div>
+                <div className="text-white font-extrabold mb-2" style={{ fontSize: 'clamp(22px,2.5vw,28px)', letterSpacing: '-.02em', lineHeight: 1.2 }}>
+                  Want us to audit your franchise ad account?
+                </div>
+                <div className="text-white/70 text-[15px] leading-snug">
+                  45 minutes. 3+ improvements. $100 gift card guarantee if we can&apos;t find them.
+                </div>
+              </div>
+              <a href={auditCTA.href} className="bp bpl flex-shrink-0">Book Free Audit →</a>
+            </div>
+          </div>
+
           {/* Results section */}
           <div className="stag">The Results</div>
           <h2 className="font-extrabold mb-6" style={{ fontSize: 'clamp(28px,3.5vw,40px)', letterSpacing: '-.025em', lineHeight: 1.15 }}>
@@ -239,7 +257,7 @@ export default function SampleCaseStudyA() {
         </div>
       </section>
 
-      {/* TESTIMONIAL - editorial pull quote, light */}
+      {/* TESTIMONIAL - editorial pull quote + video embed, light */}
       <section className="px-6 py-24 bg-off">
         <div className="mx max-w-[900px] mx-auto text-center">
           <div className="text-teal font-extrabold mb-6" style={{ fontSize: 72, lineHeight: 0.5 }}>&ldquo;</div>
@@ -253,6 +271,14 @@ export default function SampleCaseStudyA() {
               <div className="text-[13px] text-tx-3">Franchisee &middot; IMAGE Studios Jacksonville</div>
             </div>
           </div>
+
+          {/* DEMO: Testimonial video embed - large size. Drop a real YouTube/Loom URL here in the real CMS. */}
+          <MediaEmbed
+            src="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            alt="Elizabeth Cassutti video testimonial - IMAGE Studios Jacksonville"
+            size="lg"
+            caption="Watch Elizabeth share the full story - 8 months from launch audit to 100% occupancy."
+          />
         </div>
       </section>
 
@@ -301,9 +327,9 @@ export default function SampleCaseStudyA() {
           <Link href="/case-studies" className="text-[15px] font-semibold text-tx-2 hover:text-teal transition-colors">
             ← All Case Studies
           </Link>
-          <Link href="/case-studies/sample-b" className="text-[15px] font-semibold text-tx-2 hover:text-teal transition-colors">
-            View Layout B →
-          </Link>
+          <a href={auditCTA.href} className="text-[15px] font-semibold text-teal hover:gap-2 inline-flex items-center gap-1 transition-all">
+            Book Your Free Audit →
+          </a>
         </div>
       </section>
     </>
