@@ -11,25 +11,32 @@ export const metadata: Metadata = pageMetadata({
 
 const variants = [
   {
-    href: '/preview/hero-ai/variant-a',
-    label: 'Variant A',
-    title: 'Split layout',
+    href: '/preview/hero-ai/variant-a-light',
+    label: 'Variant A · Light (latest)',
+    title: 'Split layout - rebuilt light theme',
     description:
-      "Data view on the left cycles through Lead Flow → Creative Library → Audience Targeting → Performance. AI agent panel on the right types out the insight that explains the view. Auto-spawning creative variants stack underneath.",
+      "Tristynn's feedback iteration. Crisp white card, teal accents, larger type. Each insight drives a brand-specific visualization on the left so the AI claim is visibly supported. Stripe-clean.",
+  },
+  {
+    href: '/preview/hero-ai/variant-a',
+    label: 'Variant A · Dark (original)',
+    title: 'Split layout - original',
+    description:
+      "Dark theme version. Data view on the left cycles through Lead Flow / Creative Library / Audience Targeting / Performance. AI agent panel on the right types out the insight.",
   },
   {
     href: '/preview/hero-ai/variant-b',
     label: 'Variant B',
     title: 'Stacked (closest to current)',
     description:
-      "Keeps the original 4-tile metric grid + live bar chart on top, then adds a dark AI agent ribbon below: brand mark + typing insight + spawning creative. Minimal disruption, easiest to read at a glance.",
+      "Keeps the original 4-tile metric grid + live bar chart on top, then adds a dark AI agent ribbon below. Minimal disruption.",
   },
   {
     href: '/preview/hero-ai/variant-c',
     label: 'Variant C',
     title: 'Closed-loop ecosystem',
     description:
-      "The full machine. Ingest → Think → Create → Deploy → Feedback. Each station lights up in sequence with its own mini-mockup. Shows the loop of how data becomes insights becomes new ads. Most ambitious.",
+      "The full machine. Ingest → Think → Create → Deploy → Feedback. Each station lights up in sequence. Most ambitious.",
   },
 ];
 
