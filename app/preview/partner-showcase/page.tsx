@@ -13,16 +13,16 @@ const variants = [
   {
     href: '/preview/partner-showcase/variant-a',
     label: 'Variant A',
-    title: 'Spotlight - one card, cross-fade',
+    title: 'Final Spotlight - current height (440px)',
     description:
-      'One wide rounded card at a time. Full-bleed brand photo with a slow cinematic drift, gradient anchored bottom-left with the white logo + "Partnered with X" + tagline. Cross-fades every 6s. Arrows on hover, progress dots bottom-right.',
+      'All edits applied: your curated brand photos with subject-centered crops, official brand logos normalized to equal visual size, and every "Partnered with" eyebrow in that brand\'s own color. Same aspect ratio as the version you picked.',
   },
   {
     href: '/preview/partner-showcase/variant-b',
     label: 'Variant B',
-    title: 'Peek - track physically slides',
+    title: 'Same thing, a skosh taller (520px)',
     description:
-      'Active card centered with the next/previous cards peeking in from the edges, so it is obvious there is more. The whole track slides left-to-right on auto-advance - real lateral motion, like he described. Click a peeking card to jump.',
+      'Identical to Variant A - same photos, logos, colors, width - but the window is 80px taller so you can see more of each photo. Pick whichever height feels right.',
   },
 ];
 
@@ -41,7 +41,7 @@ export default function PartnerShowcaseIndex() {
           The wide photo-background partner card for the &ldquo;Franchise Brands That Trust Us&rdquo; section. Each preview shows the carousel in context with the existing logo marquee below it, the way it would actually sit on the homepage.
         </p>
         <p className="text-tx-3 max-w-[720px] mb-12" style={{ fontSize: 14 }}>
-          Photos are placeholders from the existing CDN library - swap-ready the moment you hand over the curated brand photography. ULC uses the typographic stand-in wordmark until the real logo lands.
+          Now using your curated brand photography and the official logo lockups from each brand&apos;s kit. Scramblers Golf wears their white wordmark for now - easy swap when the new logo lands.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           {variants.map(v => (

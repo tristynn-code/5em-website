@@ -10,23 +10,29 @@ interface Partner {
   tagline: string;
   logo: string;
   photo: string;
+  /** object-position keeping the photo's subject centered in the wide crop */
+  photoPosition?: string;
+  /** Partner's own brand accent - used on the "Partnered with" eyebrow */
   accent: string;
-  /** Official white logo asset. When present, rendered directly; otherwise the black logo is CSS-inverted. */
+  /** Official white/on-dark logo asset. When present, rendered directly; otherwise the logo is CSS-inverted. */
   logoWhite?: string;
+  /** Per-brand logo height (px). Logos vary wildly in aspect ratio - equal
+      heights read as unequal sizes, so each brand gets a height tuned for
+      equal visual mass on the card. */
+  logoHeight?: number;
 }
 const partners = partnersData as Partner[];
 
 /**
- * Variant A - Spotlight carousel.
+ * Spotlight carousel - Tristynn's pick (Variant A).
  * One wide rounded card at a time. Full-bleed brand photo with a slow
- * Ken Burns drift, gradient anchored bottom-left where the white brand
- * logo + "Partnered with X" headline + tagline sit. Auto-advances with
- * a cross-fade; progress dots + arrows; pauses on hover.
+ * Ken Burns drift, gradient anchored bottom-left where the official brand
+ * logo + "Partnered with X" eyebrow (in the partner's own brand color) +
+ * tagline sit. Auto-advances with a cross-fade; arrows on hover; dots.
  *
- * PLACEHOLDER PHOTOS: using existing CDN imagery until Tristynn supplies
- * the curated brand photos. Swap the `photo` URLs in content/partners.json.
+ * `height` lets preview pages compare card heights (A = 440, B = taller).
  */
-export default function PartnerSpotlightA() {
+export default function PartnerSpotlightA({ height = 440 }: { height?: number }) {
   const [idx, setIdx] = useState(0);
   const [paused, setPaused] = useState(false);
   const count = partners.length;
@@ -42,7 +48,7 @@ export default function PartnerSpotlightA() {
   return (
     <div
       className="relative max-w-mx mx-auto rounded-l overflow-hidden group"
-      style={{ height: 440, boxShadow: '0 32px 90px rgba(0,0,0,.12)' }}
+      style={{ height, boxShadow: '0 32px 90px rgba(0,0,0,.12)' }}
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
@@ -52,6 +58,7 @@ export default function PartnerSpotlightA() {
           src={p.photo}
           alt={`${p.name} location`}
           className="w-full h-full object-cover kenburns"
+          style={{ objectPosition: p.photoPosition ?? '50% 50%' }}
         />
       </div>
 
@@ -70,11 +77,14 @@ export default function PartnerSpotlightA() {
         <img
           src={p.logoWhite ?? p.logo}
           alt={p.name}
-          className="h-9 lg:h-11 w-auto object-contain object-left mb-5"
-          style={{ filter: p.logoWhite ? 'none' : 'brightness(0) invert(1)', maxWidth: 240 }}
+          className="w-auto object-contain object-left mb-5"
+          style={{
+            height: p.logoHeight ?? 44,
+            maxWidth: 320,
+            filter: p.logoWhite ? 'none' : 'brightness(0) invert(1)',
+          }}
         />
-        {/* Eyebrow takes the partner's own accent color (ULC Yellow for ULC) -
-            respecting their brand inside ours, per Tristynn. */}
+        {/* Eyebrow in the partner's own brand color - their brand inside ours */}
         <div
           className="text-[11px] font-extrabold uppercase mb-2"
           style={{ letterSpacing: '.16em', color: p.accent }}

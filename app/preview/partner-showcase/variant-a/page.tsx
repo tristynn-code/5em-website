@@ -20,10 +20,10 @@ export default function VariantAPreview() {
         </Link>
         <div className="stag inline-block">Variant A</div>
         <h1 className="font-extrabold text-tx mb-3" style={{ fontSize: 'clamp(30px,4vw,44px)', letterSpacing: '-.03em', lineHeight: 1.05 }}>
-          Spotlight - one card, cinematic cross-fade
+          The final Spotlight - all edits applied
         </h1>
         <p className="text-tx-2 max-w-[680px] mb-6" style={{ fontSize: 15, lineHeight: 1.55 }}>
-          Auto-advances every 6 seconds with a slow photo drift. Hover for arrows; dots bottom-right. Shown below in full homepage context with the logo marquee.
+          Your curated photos with subject-centered crops, official brand logos sized for equal visual weight, and every &ldquo;Partnered with&rdquo; eyebrow in that partner&apos;s own brand color. Same 440px height and width as before.
         </p>
       </div>
       <ShowcaseSectionFrame>

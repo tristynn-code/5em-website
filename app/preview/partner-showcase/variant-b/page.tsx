@@ -1,11 +1,11 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import PartnerPeekB from '@/components/preview/partners/PartnerPeekB';
+import PartnerSpotlightA from '@/components/preview/partners/PartnerSpotlightA';
 import ShowcaseSectionFrame from '@/components/preview/partners/ShowcaseSectionFrame';
 import { pageMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = pageMetadata({
-  title: 'Partner Showcase - Variant B (Peek)',
+  title: 'Partner Showcase - Variant B (Spotlight, taller)',
   description: 'Internal preview - partner showcase variant B.',
   path: '/preview/partner-showcase/variant-b',
   noindex: true,
@@ -20,14 +20,14 @@ export default function VariantBPreview() {
         </Link>
         <div className="stag inline-block">Variant B</div>
         <h1 className="font-extrabold text-tx mb-3" style={{ fontSize: 'clamp(30px,4vw,44px)', letterSpacing: '-.03em', lineHeight: 1.05 }}>
-          Peek - the track physically slides
+          The final Spotlight - a little taller
         </h1>
         <p className="text-tx-2 max-w-[680px] mb-6" style={{ fontSize: 15, lineHeight: 1.55 }}>
-          Active card centered, neighbors peeking from the edges. Real left-to-right slide on auto-advance (5.5s). Click a peeking card to jump. Shown in full homepage context with the logo marquee.
+          Identical to Variant A in every way - same photos, logos, brand colors - but the window is 520px tall instead of 440px, so more of each photo breathes. Same width, so it stays in line with the rest of the site.
         </p>
       </div>
       <ShowcaseSectionFrame>
-        <PartnerPeekB />
+        <PartnerSpotlightA height={520} />
       </ShowcaseSectionFrame>
       <div className="h-24" />
     </main>
