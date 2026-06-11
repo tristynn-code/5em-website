@@ -79,7 +79,8 @@ export default function PartnerPeekB() {
                   className="h-8 lg:h-10 w-auto object-contain object-left mb-4"
                   style={{ filter: 'brightness(0) invert(1)', maxWidth: 220 }}
                 />
-                <div className="text-[11px] font-extrabold text-teal uppercase mb-1.5" style={{ letterSpacing: '.16em' }}>
+                {/* Eyebrow in the partner's own accent color (ULC Yellow for ULC) */}
+                <div className="text-[11px] font-extrabold uppercase mb-1.5" style={{ letterSpacing: '.16em', color: p.accent }}>
                   Partnered with {p.name}
                 </div>
                 <div

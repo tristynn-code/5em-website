@@ -60,9 +60,11 @@ export default function PartnerSpotlightA() {
           className="h-9 lg:h-11 w-auto object-contain object-left mb-5"
           style={{ filter: 'brightness(0) invert(1)', maxWidth: 240 }}
         />
+        {/* Eyebrow takes the partner's own accent color (ULC Yellow for ULC) -
+            respecting their brand inside ours, per Tristynn. */}
         <div
-          className="text-[11px] font-extrabold text-teal uppercase mb-2"
-          style={{ letterSpacing: '.16em' }}
+          className="text-[11px] font-extrabold uppercase mb-2"
+          style={{ letterSpacing: '.16em', color: p.accent }}
         >
           Partnered with {p.name}
         </div>

@@ -4,8 +4,9 @@
     "name": "Ultimate Longevity Center",
     "vertical": "Longevity & Wellness",
     "tagline": "Launching the first Ultimate Longevity Center in Boulder, CO",
-    "logo": "/logos/ulc-wordmark.svg",
-    "photo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69df31a3190683601a453d5d.jpg"
+    "logo": "/logos/ulc-horizontal.png",
+    "photo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69df31a3190683601a453d5d.jpg",
+    "accent": "#fdfb5c"
   },
   {
     "id": "image-studios",
@@ -13,7 +14,8 @@
     "vertical": "Salon Suites",
     "tagline": "Filling salon suites to 100% occupancy before opening day",
     "logo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61c11861524201c5c5c6b.png",
-    "photo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69df2ff9109243d2cce7763e.jpg"
+    "photo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69df2ff9109243d2cce7763e.jpg",
+    "accent": "#00BE9D"
   },
   {
     "id": "pilates-addiction",
@@ -21,7 +23,8 @@
     "vertical": "Pilates & Fitness",
     "tagline": "Hyper-local campaigns for every studio, every market",
     "logo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61cd67794bf85bf5349a6.png",
-    "photo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69e515ec2c135a8c835b2c5b.jpg"
+    "photo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69e515ec2c135a8c835b2c5b.jpg",
+    "accent": "#00BE9D"
   },
   {
     "id": "body20",
@@ -29,7 +32,8 @@
     "vertical": "EMS Fitness",
     "tagline": "UGC-powered lead flow for EMS fitness studios",
     "logo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61c1f9619acdae09d4701.svg",
-    "photo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69e51580c56ad27908e910dd.jpg"
+    "photo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69e51580c56ad27908e910dd.jpg",
+    "accent": "#00BE9D"
   },
   {
     "id": "beem-light-sauna",
@@ -37,7 +41,8 @@
     "vertical": "Wellness & Recovery",
     "tagline": "Leads from day one for every new location",
     "logo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61ce7861524e9a15c68c3.png",
-    "photo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69df2ff9243975ecf72e7b8f.jpg"
+    "photo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69df2ff9243975ecf72e7b8f.jpg",
+    "accent": "#00BE9D"
   },
   {
     "id": "iflex",
@@ -45,7 +50,8 @@
     "vertical": "Stretch & Recovery",
     "tagline": "A UGC creative pipeline built for stretch and recovery",
     "logo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61c507794bf3a895341c1.png",
-    "photo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69df2ff9190683601a44ef63.jpg"
+    "photo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69df2ff9190683601a44ef63.jpg",
+    "accent": "#00BE9D"
   },
   {
     "id": "scramblers-golf",
@@ -53,6 +59,7 @@
     "vertical": "Golf & Entertainment",
     "tagline": "Driving memberships for golf and entertainment",
     "logo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61d157794bfb92e534d69.png",
-    "photo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69df2ff9190683601a44ef62.png"
+    "photo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69df2ff9190683601a44ef62.png",
+    "accent": "#00BE9D"
   }
 ]
