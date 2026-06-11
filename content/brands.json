@@ -48,6 +48,14 @@
     "displaySize": "xl"
   },
   {
+    "id": "ultimate-longevity-center",
+    "name": "Ultimate Longevity Center",
+    "category": "Longevity & Wellness",
+    "logo": "/logos/ulc-wordmark.svg",
+    "tag": "Launching Boulder, CO",
+    "displaySize": "xl"
+  },
+  {
     "id": "sequel-brands",
     "name": "Sequel Brands",
     "category": "Parent Brand",
