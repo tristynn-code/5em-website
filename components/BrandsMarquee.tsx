@@ -2,8 +2,26 @@ import { getBrands } from '@/lib/content';
 
 export default function BrandsMarquee() {
   const brands = getBrands();
-  // Duplicate for seamless loop
-  const items = [...brands, ...brands];
+
+  // One self-contained strip of all logos. Each strip carries its own
+  // trailing gap (pr equals the inter-logo gap), so N strips tile with
+  // perfectly even spacing and translateX(-50%) lands exactly on a strip
+  // boundary - the old flat [...brands, ...brands] + flex gap version
+  // drifted off-boundary and exposed a blank stretch on wide screens
+  // before the loop reset.
+  const Strip = ({ ariaHidden }: { ariaHidden?: boolean }) => (
+    <div className="flex items-center gap-[72px] pr-[72px] flex-none" aria-hidden={ariaHidden}>
+      {brands.map(b => (
+        <img
+          key={b.id}
+          src={b.logo}
+          alt={ariaHidden ? '' : b.name}
+          className="h-auto flex-shrink-0 object-contain opacity-100 hover:opacity-70 transition-opacity"
+          style={{ width: '140px' }}
+        />
+      ))}
+    </div>
+  );
 
   return (
     <section className="sec" style={{ background: 'var(--off, #F7F7F7)' }}>
@@ -23,16 +41,17 @@ export default function BrandsMarquee() {
           className="absolute inset-y-0 right-0 w-[120px] z-[2] pointer-events-none"
           style={{ background: 'linear-gradient(to left, #F7F7F7, transparent)' }}
         />
-        <div className="flex gap-[72px] items-center animate-brandscroll w-max">
-          {items.map((b, i) => (
-            <img
-              key={`${b.id}-${i}`}
-              src={b.logo}
-              alt={b.name}
-              className="h-auto flex-shrink-0 object-contain opacity-100 hover:opacity-70 transition-opacity"
-              style={{ width: '140px' }}
-            />
-          ))}
+        {/* 6 strips; -50% scrolls exactly 3 of them (a strip boundary), so the
+            wrap is seamless. 3 strips (~4400px+) also exceed even ultrawide
+            viewports, so the tail never runs dry like the old 2x version.
+            Duration scaled 3x vs the old 35s to keep the same px/sec pace. */}
+        <div className="flex animate-brandscroll w-max" style={{ animationDuration: '105s' }}>
+          <Strip />
+          <Strip ariaHidden />
+          <Strip ariaHidden />
+          <Strip ariaHidden />
+          <Strip ariaHidden />
+          <Strip ariaHidden />
         </div>
       </div>
     </section>
