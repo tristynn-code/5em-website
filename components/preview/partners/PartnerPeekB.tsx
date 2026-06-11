@@ -1,7 +1,20 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import partners from '@/content/partners.json';
+import partnersData from '@/content/partners.json';
+
+interface Partner {
+  id: string;
+  name: string;
+  vertical: string;
+  tagline: string;
+  logo: string;
+  photo: string;
+  accent: string;
+  /** Official white logo asset. When present, rendered directly; otherwise the black logo is CSS-inverted. */
+  logoWhite?: string;
+}
+const partners = partnersData as Partner[];
 
 /**
  * Variant B - Peek carousel.
@@ -74,10 +87,10 @@ export default function PartnerPeekB() {
               />
               <div className="absolute left-0 bottom-0 p-7 lg:p-9 max-w-[600px]">
                 <img
-                  src={p.logo}
+                  src={p.logoWhite ?? p.logo}
                   alt={p.name}
                   className="h-8 lg:h-10 w-auto object-contain object-left mb-4"
-                  style={{ filter: 'brightness(0) invert(1)', maxWidth: 220 }}
+                  style={{ filter: p.logoWhite ? 'none' : 'brightness(0) invert(1)', maxWidth: 220 }}
                 />
                 {/* Eyebrow in the partner's own accent color (ULC Yellow for ULC) */}
                 <div className="text-[11px] font-extrabold uppercase mb-1.5" style={{ letterSpacing: '.16em', color: p.accent }}>

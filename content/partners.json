@@ -4,9 +4,10 @@
     "name": "Ultimate Longevity Center",
     "vertical": "Longevity & Wellness",
     "tagline": "Launching the first Ultimate Longevity Center in Boulder, CO",
-    "logo": "/logos/ulc-horizontal.png",
+    "logo": "/logos/ulc-main-black.png",
     "photo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69df31a3190683601a453d5d.jpg",
-    "accent": "#fdfb5c"
+    "accent": "#fdfb5c",
+    "logoWhite": "/logos/ulc-main-white.png"
   },
   {
     "id": "image-studios",

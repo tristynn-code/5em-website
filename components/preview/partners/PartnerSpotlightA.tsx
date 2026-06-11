@@ -1,7 +1,20 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import partners from '@/content/partners.json';
+import partnersData from '@/content/partners.json';
+
+interface Partner {
+  id: string;
+  name: string;
+  vertical: string;
+  tagline: string;
+  logo: string;
+  photo: string;
+  accent: string;
+  /** Official white logo asset. When present, rendered directly; otherwise the black logo is CSS-inverted. */
+  logoWhite?: string;
+}
+const partners = partnersData as Partner[];
 
 /**
  * Variant A - Spotlight carousel.
@@ -55,10 +68,10 @@ export default function PartnerSpotlightA() {
       {/* Copy block bottom-left */}
       <div key={`copy-${p.id}`} className="absolute left-0 bottom-0 p-8 lg:p-10 view-in max-w-[640px]">
         <img
-          src={p.logo}
+          src={p.logoWhite ?? p.logo}
           alt={p.name}
           className="h-9 lg:h-11 w-auto object-contain object-left mb-5"
-          style={{ filter: 'brightness(0) invert(1)', maxWidth: 240 }}
+          style={{ filter: p.logoWhite ? 'none' : 'brightness(0) invert(1)', maxWidth: 240 }}
         />
         {/* Eyebrow takes the partner's own accent color (ULC Yellow for ULC) -
             respecting their brand inside ours, per Tristynn. */}
