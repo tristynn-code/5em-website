@@ -24,15 +24,14 @@ interface Partner {
 const partners = partnersData as Partner[];
 
 /**
- * Spotlight carousel - Tristynn's pick (Variant A).
+ * Partner Spotlight carousel - the production showcase card.
  * One wide rounded card at a time. Full-bleed brand photo with a slow
  * Ken Burns drift, gradient anchored bottom-left where the official brand
  * logo + "Partnered with X" eyebrow (in the partner's own brand color) +
  * tagline sit. Auto-advances with a cross-fade; arrows on hover; dots.
- *
- * `height` lets preview pages compare card heights (A = 440, B = taller).
+ * Shipped at 520 tall (Tristynn picked the taller window, June 2026).
  */
-export default function PartnerSpotlightA({ height = 440 }: { height?: number }) {
+export default function PartnerSpotlight({ height = 520 }: { height?: number }) {
   const [idx, setIdx] = useState(0);
   const [paused, setPaused] = useState(false);
   const count = partners.length;

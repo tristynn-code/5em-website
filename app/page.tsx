@@ -1,5 +1,5 @@
 import HeroDashboard from '@/components/HeroDashboard';
-import BrandsMarquee from '@/components/BrandsMarquee';
+import PartnerShowcase from '@/components/PartnerShowcase';
 import ProblemSection from '@/components/ProblemSection';
 import ThreePillarSystem from '@/components/ThreePillarSystem';
 import HowItWorks from '@/components/HowItWorks';
@@ -43,7 +43,7 @@ export default function Home() {
         <HeroDashboard />
       </section>
 
-      <BrandsMarquee />
+      <PartnerShowcase />
       <ProblemSection />
       <ThreePillarSystem />
       <HowItWorks />

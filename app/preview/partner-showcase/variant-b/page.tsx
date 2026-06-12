@@ -1,12 +1,11 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import PartnerSpotlightA from '@/components/preview/partners/PartnerSpotlightA';
-import ShowcaseSectionFrame from '@/components/preview/partners/ShowcaseSectionFrame';
+import PartnerShowcase from '@/components/PartnerShowcase';
 import { pageMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = pageMetadata({
-  title: 'Partner Showcase - Variant B (Spotlight, taller)',
-  description: 'Internal preview - partner showcase variant B.',
+  title: 'Partner Showcase - Variant B (520px, shipped)',
+  description: 'Internal preview - the shipped partner showcase.',
   path: '/preview/partner-showcase/variant-b',
   noindex: true,
 });
@@ -18,17 +17,15 @@ export default function VariantBPreview() {
         <Link href="/preview/partner-showcase" className="text-[13px] font-bold text-tx-3 hover:text-teal transition-colors inline-flex items-center gap-1 mb-6">
           ← All showcase variants
         </Link>
-        <div className="stag inline-block">Variant B</div>
+        <div className="stag inline-block">Variant B - shipped</div>
         <h1 className="font-extrabold text-tx mb-3" style={{ fontSize: 'clamp(30px,4vw,44px)', letterSpacing: '-.03em', lineHeight: 1.05 }}>
-          The final Spotlight - a little taller
+          The Spotlight as it ships - 520px
         </h1>
         <p className="text-tx-2 max-w-[680px] mb-6" style={{ fontSize: 15, lineHeight: 1.55 }}>
-          Identical to Variant A in every way - same photos, logos, brand colors - but the window is 520px tall instead of 440px, so more of each photo breathes. Same width, so it stays in line with the rest of the site.
+          This is exactly what the live homepage renders: Tristynn&apos;s pick. Taller window, curated photos, official brand logos and colors, approved captions.
         </p>
       </div>
-      <ShowcaseSectionFrame>
-        <PartnerSpotlightA height={520} />
-      </ShowcaseSectionFrame>
+      <PartnerShowcase />
       <div className="h-24" />
     </main>
   );

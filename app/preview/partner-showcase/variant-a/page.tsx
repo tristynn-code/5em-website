@@ -1,12 +1,11 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import PartnerSpotlightA from '@/components/preview/partners/PartnerSpotlightA';
-import ShowcaseSectionFrame from '@/components/preview/partners/ShowcaseSectionFrame';
+import PartnerShowcase from '@/components/PartnerShowcase';
 import { pageMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = pageMetadata({
-  title: 'Partner Showcase - Variant A (Spotlight)',
-  description: 'Internal preview - partner showcase variant A.',
+  title: 'Partner Showcase - Variant A (440px)',
+  description: 'Internal preview - partner showcase at the original 440px height.',
   path: '/preview/partner-showcase/variant-a',
   noindex: true,
 });
@@ -20,15 +19,13 @@ export default function VariantAPreview() {
         </Link>
         <div className="stag inline-block">Variant A</div>
         <h1 className="font-extrabold text-tx mb-3" style={{ fontSize: 'clamp(30px,4vw,44px)', letterSpacing: '-.03em', lineHeight: 1.05 }}>
-          The final Spotlight - all edits applied
+          The Spotlight at the original 440px
         </h1>
         <p className="text-tx-2 max-w-[680px] mb-6" style={{ fontSize: 15, lineHeight: 1.55 }}>
-          Your curated photos with subject-centered crops, official brand logos sized for equal visual weight, and every &ldquo;Partnered with&rdquo; eyebrow in that partner&apos;s own brand color. Same 440px height and width as before.
+          Kept for comparison. The shipped homepage version is the taller one (Variant B, 520px) - this is the same section at the height the first draft used.
         </p>
       </div>
-      <ShowcaseSectionFrame>
-        <PartnerSpotlightA />
-      </ShowcaseSectionFrame>
+      <PartnerShowcase height={440} />
       <div className="h-24" />
     </main>
   );

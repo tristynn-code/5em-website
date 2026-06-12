@@ -1,16 +1,20 @@
-import { ReactNode } from 'react';
+import PartnerSpotlight from '@/components/PartnerSpotlight';
 import { getBrands } from '@/lib/content';
 
 /**
- * Wraps a showcase carousel variant in the real homepage section context:
- * the "Franchise Brands That Trust Us" header above, the auto-scrolling
- * logo marquee below - exactly how it would sit on the live homepage.
+ * "Franchise Brands That Trust Us" homepage section: the partner Spotlight
+ * carousel with the auto-scrolling logo marquee sliding underneath it.
+ * Replaces the old marquee-only BrandsMarquee section.
+ *
+ * `height` is passed through to the Spotlight so the preview pages can
+ * compare card heights against the shipped 520.
  */
-export default function ShowcaseSectionFrame({ children }: { children: ReactNode }) {
+export default function PartnerShowcase({ height }: { height?: number }) {
   const brands = getBrands();
 
-  // Self-contained strip with its own trailing gap - same seamless-loop fix
-  // as BrandsMarquee (PR #12): -50% lands exactly on a strip boundary.
+  // Self-contained strip with its own trailing gap: 6 strips and a -50%
+  // keyframe means the wrap lands exactly on a strip boundary (seamless),
+  // and 3 strips out-span even ultrawide viewports.
   const Strip = ({ ariaHidden }: { ariaHidden?: boolean }) => (
     <div className="flex items-center gap-[72px] pr-[72px] flex-none" aria-hidden={ariaHidden}>
       {brands.map(b => (
@@ -35,10 +39,10 @@ export default function ShowcaseSectionFrame({ children }: { children: ReactNode
         </p>
       </div>
 
-      {/* The carousel variant under review */}
-      <div className="mt-12 px-6">{children}</div>
+      <div className="mt-12 px-6">
+        <PartnerSpotlight height={height} />
+      </div>
 
-      {/* Existing logo marquee below, per Tristynn: showcase rides "along with the sliding logos" */}
       <div className="overflow-hidden mt-12 py-8 relative">
         <div className="absolute inset-y-0 left-0 w-[120px] z-[2] pointer-events-none" style={{ background: 'linear-gradient(to right, #F7F7F7, transparent)' }} />
         <div className="absolute inset-y-0 right-0 w-[120px] z-[2] pointer-events-none" style={{ background: 'linear-gradient(to left, #F7F7F7, transparent)' }} />
