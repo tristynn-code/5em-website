@@ -1,0 +1,86 @@
+[
+  {
+    "id": "ultimate-longevity-center",
+    "name": "Ultimate Longevity Center",
+    "vertical": "Longevity & Wellness",
+    "tagline": "Bringing longevity and wellness to the world, one city at a time",
+    "logo": "/logos/ulc-main-black.png",
+    "logoWhite": "/logos/ulc-main-white.png",
+    "logoHeight": 42,
+    "photo": "/partners/ultimate-longevity-center.jpg",
+    "photoPosition": "50% 20%",
+    "accent": "#fdfb5c"
+  },
+  {
+    "id": "image-studios",
+    "name": "IMAGE Studios",
+    "vertical": "Salon Suites",
+    "tagline": "Connecting beauty professionals with their perfect suite, coast to coast",
+    "logo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61c11861524201c5c5c6b.png",
+    "logoWhite": "/logos/partners/image-studios-white.png",
+    "logoHeight": 36,
+    "photo": "/partners/image-studios.jpg",
+    "photoPosition": "50% 45%",
+    "accent": "#F03898"
+  },
+  {
+    "id": "pilates-addiction",
+    "name": "Pilates Addiction",
+    "vertical": "Pilates & Fitness",
+    "tagline": "Packing every reformer with campaigns built studio by studio",
+    "logo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61cd67794bf85bf5349a6.png",
+    "logoWhite": "/logos/partners/pilates-addiction-white.png",
+    "logoHeight": 50,
+    "photo": "/partners/pilates-addiction.jpg",
+    "photoPosition": "50% 40%",
+    "accent": "#C2A049"
+  },
+  {
+    "id": "body20",
+    "name": "BODY20",
+    "vertical": "EMS Fitness",
+    "tagline": "Powering member growth for the future of fitness",
+    "logo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61c1f9619acdae09d4701.svg",
+    "logoWhite": "/logos/partners/body20-white-blue.svg",
+    "logoHeight": 38,
+    "photo": "/partners/body20.jpg",
+    "photoPosition": "42% 30%",
+    "accent": "#0FE7FF"
+  },
+  {
+    "id": "beem-light-sauna",
+    "name": "beem Light Sauna",
+    "vertical": "Wellness & Recovery",
+    "tagline": "Helping communities find recovery and wellness across the country",
+    "logo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61ce7861524e9a15c68c3.png",
+    "logoWhite": "/logos/partners/beem-white.png",
+    "logoHeight": 52,
+    "photo": "/partners/beem-light-sauna.jpg",
+    "photoPosition": "50% 52%",
+    "accent": "#FF3D37"
+  },
+  {
+    "id": "iflex",
+    "name": "iFlex Stretch Studios",
+    "vertical": "Stretch & Recovery",
+    "tagline": "Helping every body move better, one stretch at a time",
+    "logo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61c507794bf3a895341c1.png",
+    "logoWhite": "/logos/partners/iflex-white-yellow.svg",
+    "logoHeight": 56,
+    "photo": "/partners/iflex.jpg",
+    "photoPosition": "45% 35%",
+    "accent": "#FFD100"
+  },
+  {
+    "id": "scramblers-golf",
+    "name": "Scramblers Golf Club",
+    "vertical": "Golf & Entertainment",
+    "tagline": "Driving memberships for the future of golf entertainment",
+    "logo": "https://assets.cdn.filesafe.space/Bvl8985Bn5drFTi6qZJM/media/69c61d157794bfb92e534d69.png",
+    "logoWhite": "/logos/partners/scramblers-white.png",
+    "logoHeight": 52,
+    "photo": "/partners/scramblers-golf.jpg",
+    "photoPosition": "50% 42%",
+    "accent": "#80B0D8"
+  }
+]
