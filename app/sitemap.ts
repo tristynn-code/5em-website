@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { SITE } from '@/lib/seo';
 import { posts } from './blog/posts';
+import { getOpenRoles } from './careers/roles';
 
 const ROUTES: Array<{
   path: string;
@@ -13,6 +14,7 @@ const ROUTES: Array<{
   { path: '/contact', priority: 0.8, changeFrequency: 'monthly' },
   { path: '/testimonials', priority: 0.8, changeFrequency: 'monthly' },
   { path: '/blog', priority: 0.8, changeFrequency: 'weekly' },
+  { path: '/careers', priority: 0.7, changeFrequency: 'weekly' },
   { path: '/privacy', priority: 0.3, changeFrequency: 'yearly' },
 
   // Services
@@ -53,5 +55,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: 'monthly' as const,
     priority: 0.7,
   }));
-  return [...staticEntries, ...blogEntries];
+  // Each open role gets its own indexable URL with JobPosting structured data -
+  // exactly what Google wants in the sitemap for job indexing.
+  const roleEntries = getOpenRoles().map(r => ({
+    url: `${SITE.url}/careers/${r.slug}`,
+    lastModified: new Date(r.datePosted),
+    changeFrequency: 'weekly' as const,
+    priority: 0.6,
+  }));
+  return [...staticEntries, ...blogEntries, ...roleEntries];
 }

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "emp-1",
+    "name": "Sample Employee",
+    "role": "Senior Media Buyer",
+    "photo": "",
+    "quote": "The pace here is unreal, but so is the support. I have grown more in a year at 5th Element than I did in three anywhere else."
+  },
+  {
+    "id": "emp-2",
+    "name": "Sample Employee",
+    "role": "Creative Producer",
+    "photo": "",
+    "quote": "We actually get to make work we are proud of. Leadership trusts us to take swings, and the wins feel like everyone's."
+  },
+  {
+    "id": "emp-3",
+    "name": "Sample Employee",
+    "role": "Client Success Manager",
+    "photo": "",
+    "quote": "Every client feels like our own business. When their leads jump, the whole team celebrates - that energy is hard to find."
+  },
+  {
+    "id": "emp-4",
+    "name": "Sample Employee",
+    "role": "Automation Specialist",
+    "photo": "",
+    "quote": "Remote-friendly, results-focused, zero busywork. I am judged on what I ship, not how many hours I sat at a desk."
+  }
+]
