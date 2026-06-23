@@ -11,7 +11,15 @@ const fieldClass =
   'w-full rounded-s border border-bd bg-wh px-4 py-3 text-[15px] text-tx placeholder:text-tx-3 outline-none transition-colors focus:border-teal focus:ring-2 focus:ring-teal-bd';
 const labelClass = 'block text-[13px] font-bold text-tx mb-1.5';
 
-export default function ApplyForm({ roleTitle, roleSlug }: { roleTitle: string; roleSlug: string }) {
+export default function ApplyForm({
+  roleTitle,
+  roleSlug,
+  applyNote,
+}: {
+  roleTitle: string;
+  roleSlug: string;
+  applyNote?: string;
+}) {
   const [status, setStatus] = useState<Status>('idle');
   const [error, setError] = useState<string>('');
   const [fileName, setFileName] = useState<string>('');
@@ -87,6 +95,15 @@ export default function ApplyForm({ roleTitle, roleSlug }: { roleTitle: string; 
         Tell us about yourself. Fields marked with <span className="text-teal">*</span> are required.
       </p>
 
+      {applyNote && (
+        <div
+          className="rounded-s px-4 py-3.5 mb-7 text-[14px] text-tx-2 leading-relaxed"
+          style={{ background: 'rgba(0,190,157,.06)', border: '1px solid rgba(0,190,157,.16)' }}
+        >
+          {applyNote}
+        </div>
+      )}
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
         <div>
           <label className={labelClass} htmlFor="fullName">Full name <span className="text-teal">*</span></label>
@@ -138,8 +155,13 @@ export default function ApplyForm({ roleTitle, roleSlug }: { roleTitle: string; 
       </div>
 
       <div className="mt-5">
-        <label className={labelClass} htmlFor="coverNote">Why 5th Element? (optional)</label>
-        <textarea id="coverNote" name="coverNote" rows={4} maxLength={5000} className={fieldClass} style={{ resize: 'vertical' }} placeholder="A few sentences on why you’d be a great fit." />
+        <label className={labelClass} htmlFor="videoLink">Video introduction link</label>
+        <input id="videoLink" name="videoLink" type="url" maxLength={500} className={fieldClass} placeholder="https://drive.google.com/… (Google Drive, Loom, YouTube, etc.)" />
+      </div>
+
+      <div className="mt-5">
+        <label className={labelClass} htmlFor="coverNote">Cover note (optional)</label>
+        <textarea id="coverNote" name="coverNote" rows={4} maxLength={5000} className={fieldClass} style={{ resize: 'vertical' }} placeholder="Anything you want us to know - your background, your experience, why you’d be a great fit." />
       </div>
 
       <div className="mt-5">

@@ -22,7 +22,8 @@ var SHARE_RESUMES_WITH = [];
 
 var HEADERS = [
   'Submitted At', 'Role', 'Full Name', 'Email', 'Phone', 'Based In',
-  'LinkedIn / Portfolio', 'Resume (Drive)', 'Resume Link', 'Why 5EM', 'How They Heard',
+  'LinkedIn / Portfolio', 'Resume (Drive)', 'Resume Link', 'Video Intro',
+  'Cover Note', 'How They Heard',
 ];
 
 function doPost(e) {
@@ -51,6 +52,7 @@ function doPost(e) {
       body.linkedin || '',
       driveUrl,
       body.resumeLink || '',
+      body.videoLink || '',
       body.coverNote || '',
       body.howHeard || '',
     ]);

@@ -29,6 +29,7 @@ interface Application {
   basedLocation: string;
   linkedin: string;
   resumeLink: string;
+  videoLink: string;
   coverNote: string;
   howHeard: string;
   submittedAt: string;
@@ -88,6 +89,7 @@ async function sendEmail(
           ${row('LinkedIn / portfolio', app.linkedin)}
           ${row('Resume link', app.resumeLink)}
           ${resumeRow}
+          ${row('Video intro', app.videoLink)}
           ${row('How they heard', app.howHeard)}
         </table>
         ${app.coverNote ? `<div style="margin-top:18px;padding-top:16px;border-top:1px solid rgba(0,0,0,.07)"><div style="color:#777;font-size:13px;margin-bottom:6px">Why 5th Element</div><div style="color:#444;font-size:14px;line-height:1.6">${escapeHtml(app.coverNote)}</div></div>` : ''}
@@ -148,6 +150,7 @@ export async function POST(req: Request) {
     basedLocation: get('basedLocation', 160),
     linkedin: get('linkedin', 500),
     resumeLink: get('resumeLink', 500),
+    videoLink: get('videoLink', 500),
     coverNote: get('coverNote', 5000),
     howHeard: get('howHeard', 300),
     submittedAt: new Date().toISOString(),

@@ -1,11 +1,9 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import JsonLd from '@/components/JsonLd';
-import Avatar from '@/components/careers/Avatar';
 import { pageMetadata, SITE } from '@/lib/seo';
 import { breadcrumbSchema } from '@/lib/schema';
 import { getOpenRoles } from '@/app/careers/roles';
-import employees from '@/content/employee-testimonials.json';
 
 export const metadata: Metadata = pageMetadata({
   title: 'Careers at 5th Element Media',
@@ -108,38 +106,8 @@ export default function CareersPage() {
         </div>
       </section>
 
-      {/* TEAM TESTIMONIALS */}
-      <section className="sec">
-        <div className="mx ctr">
-          <div className="stag">From the team</div>
-          <h2 className="sttl">In their words</h2>
-          <p className="ssub" style={{ margin: '0 auto' }}>
-            The people who make 5th Element run, on why they stay.
-          </p>
-        </div>
-        <div className="mx mt-14 grid grid-cols-1 md:grid-cols-2 gap-5">
-          {employees.map(emp => (
-            <figure key={emp.id} className="rounded-l border border-bd bg-wh p-8">
-              <blockquote
-                className="text-tx-2 mb-6"
-                style={{ fontSize: 17, lineHeight: 1.6 }}
-              >
-                “{emp.quote}”
-              </blockquote>
-              <figcaption className="flex items-center gap-3.5">
-                <Avatar name={emp.name} photo={emp.photo} size={52} />
-                <div>
-                  <div className="font-bold text-tx text-[15px]">{emp.name}</div>
-                  <div className="text-[13px] text-tx-3">{emp.role}</div>
-                </div>
-              </figcaption>
-            </figure>
-          ))}
-        </div>
-      </section>
-
       {/* OPEN ROLES */}
-      <section id="open-roles" className="sec bg-off scroll-mt-24">
+      <section id="open-roles" className="sec scroll-mt-24">
         <div className="mx ctr">
           <div className="stag">Open roles</div>
           <h2 className="sttl">Come build with us</h2>
