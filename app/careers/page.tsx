@@ -1,9 +1,11 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import JsonLd from '@/components/JsonLd';
+import Avatar from '@/components/careers/Avatar';
 import { pageMetadata, SITE } from '@/lib/seo';
 import { breadcrumbSchema } from '@/lib/schema';
 import { getOpenRoles } from '@/app/careers/roles';
+import employees from '@/content/employee-testimonials.json';
 
 export const metadata: Metadata = pageMetadata({
   title: 'Careers at 5th Element Media',
@@ -106,8 +108,63 @@ export default function CareersPage() {
         </div>
       </section>
 
+      {/* TEAM TESTIMONIALS */}
+      <section className="sec">
+        <div className="mx ctr">
+          <div className="stag">From the team</div>
+          <h2 className="sttl">In their words</h2>
+          <p className="ssub" style={{ margin: '0 auto' }}>
+            The people who make 5th Element run, on why they stay.
+          </p>
+        </div>
+
+        {employees.length === 1 ? (
+          // Featured single voice - reads as intentional, not a lonely card.
+          <figure className="mx max-w-[820px] mx-auto mt-14 rounded-l border border-bd bg-off p-9 md:p-12 text-center">
+            <div aria-hidden className="text-teal font-extrabold mb-3" style={{ fontSize: 56, lineHeight: 1 }}>
+              &ldquo;
+            </div>
+            <blockquote
+              className="text-tx font-extrabold mx-auto max-w-[680px]"
+              style={{ fontSize: 'clamp(20px,2.4vw,26px)', lineHeight: 1.4, letterSpacing: '-.01em' }}
+            >
+              {employees[0].quote}
+            </blockquote>
+            {employees[0].secondary && (
+              <p className="text-tx-2 mx-auto max-w-[620px] mt-6" style={{ fontSize: 16, lineHeight: 1.65 }}>
+                {employees[0].secondary}
+              </p>
+            )}
+            <figcaption className="flex items-center justify-center gap-3.5 mt-9">
+              <Avatar name={employees[0].name} photo={employees[0].photo} size={56} />
+              <div className="text-left">
+                <div className="font-bold text-tx text-[15px]">{employees[0].name}</div>
+                <div className="text-[13px] text-tx-3">{employees[0].role}</div>
+              </div>
+            </figcaption>
+          </figure>
+        ) : (
+          <div className="mx mt-14 grid grid-cols-1 md:grid-cols-2 gap-5">
+            {employees.map(emp => (
+              <figure key={emp.id} className="rounded-l border border-bd bg-off p-8">
+                <blockquote className="text-tx-2 mb-6" style={{ fontSize: 17, lineHeight: 1.6 }}>
+                  &ldquo;{emp.quote}&rdquo;
+                </blockquote>
+                <figcaption className="flex items-center gap-3.5">
+                  <Avatar name={emp.name} photo={emp.photo} size={52} />
+                  <div>
+                    <div className="font-bold text-tx text-[15px]">{emp.name}</div>
+                    <div className="text-[13px] text-tx-3">{emp.role}</div>
+                  </div>
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+        )}
+      </section>
+
       {/* OPEN ROLES */}
-      <section id="open-roles" className="sec scroll-mt-24">
+      <section id="open-roles" className="sec bg-off scroll-mt-24">
         <div className="mx ctr">
           <div className="stag">Open roles</div>
           <h2 className="sttl">Come build with us</h2>

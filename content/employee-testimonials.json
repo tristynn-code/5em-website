@@ -1,30 +1,10 @@
 [
   {
-    "id": "emp-1",
-    "name": "Sample Employee",
-    "role": "Senior Media Buyer",
-    "photo": "",
-    "quote": "The pace here is unreal, but so is the support. I have grown more in a year at 5th Element than I did in three anywhere else."
-  },
-  {
-    "id": "emp-2",
-    "name": "Sample Employee",
-    "role": "Creative Producer",
-    "photo": "",
-    "quote": "We actually get to make work we are proud of. Leadership trusts us to take swings, and the wins feel like everyone's."
-  },
-  {
-    "id": "emp-3",
-    "name": "Sample Employee",
-    "role": "Client Success Manager",
-    "photo": "",
-    "quote": "Every client feels like our own business. When their leads jump, the whole team celebrates - that energy is hard to find."
-  },
-  {
-    "id": "emp-4",
-    "name": "Sample Employee",
-    "role": "Automation Specialist",
-    "photo": "",
-    "quote": "Remote-friendly, results-focused, zero busywork. I am judged on what I ship, not how many hours I sat at a desk."
+    "id": "drew-waelde",
+    "name": "Drew Waelde",
+    "role": "Head of Agency Operations",
+    "photo": "https://cdn.prod.website-files.com/68f669a6d79edc75f34470f3/693281b05ea7776acb200dda_IMG_6549-2.jpg",
+    "quote": "This team knows how to have fun while still holding each other accountable. We joke around and genuinely like being around each other, but when it is time to get something done, everyone puts their heads down and works as a team. That balance is what makes us so effective.",
+    "secondary": "The most rewarding part is hearing directly from clients about the impact we are making on their businesses. Those moments reinforce that the work we do matters and that the effort we put in every day makes a real difference."
   }
 ]
