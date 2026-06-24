@@ -208,7 +208,7 @@ export default function CareersPage() {
           <div className="rounded-l border border-dashed border-bd bg-wh/60 p-7 text-center">
             <p className="text-[15px] text-tx-2">
               Don’t see your role?{' '}
-              <a href={`mailto:${SITE.email}?subject=Open application`} className="font-bold text-teal hover:underline">
+              <a href="mailto:careers@5them.com?subject=Open application - 5th Element Media" className="font-bold text-teal hover:underline">
                 Send us your info
               </a>{' '}
               and we will keep you in mind.
