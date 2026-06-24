@@ -179,6 +179,90 @@ export function personSchema() {
   };
 }
 
+/** JobPosting schema - makes a role eligible for Google's job rich results. */
+export function jobPostingSchema(role: {
+  slug: string;
+  title: string;
+  description: string;
+  datePosted: string;
+  closeDate?: string;
+  employmentTypeSchema: string;
+  workStyle: 'In-person' | 'Hybrid' | 'Remote';
+  location: string;
+  payMin?: number;
+  payMax?: number;
+  payUnit?: 'YEAR' | 'MONTH' | 'HOUR';
+}) {
+  // Google strongly recommends validThrough so it retires the listing on time.
+  // Default to 60 days after datePosted when no explicit close date is set.
+  const validThrough =
+    role.closeDate ??
+    new Date(new Date(role.datePosted).getTime() + 60 * 24 * 60 * 60 * 1000)
+      .toISOString()
+      .slice(0, 10);
+
+  const base: Record<string, unknown> = {
+    '@context': 'https://schema.org',
+    '@type': 'JobPosting',
+    '@id': `${SITE.url}/careers/${role.slug}#jobposting`,
+    title: role.title,
+    description: role.description,
+    datePosted: role.datePosted,
+    validThrough,
+    // Stable per-role id helps Google de-duplicate the posting across crawls.
+    identifier: {
+      '@type': 'PropertyValue',
+      name: SITE.name,
+      value: role.slug,
+    },
+    employmentType: role.employmentTypeSchema,
+    hiringOrganization: {
+      '@type': 'Organization',
+      name: SITE.name,
+      sameAs: SITE.url,
+      logo: SITE.logo,
+    },
+    directApply: true,
+    url: `${SITE.url}/careers/${role.slug}`,
+  };
+
+  // Remote roles use applicantLocationRequirements + TELECOMMUTE; on-site/hybrid
+  // get a physical jobLocation built from the company address.
+  if (role.workStyle === 'Remote') {
+    base.jobLocationType = 'TELECOMMUTE';
+    base.applicantLocationRequirements = {
+      '@type': 'Country',
+      name: 'United States',
+    };
+  } else {
+    base.jobLocation = {
+      '@type': 'Place',
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: SITE.address.addressLocality,
+        addressRegion: SITE.address.addressRegion,
+        postalCode: SITE.address.postalCode,
+        addressCountry: SITE.address.addressCountry,
+      },
+    };
+  }
+
+  if (role.payMin && role.payUnit) {
+    base.baseSalary = {
+      '@type': 'MonetaryAmount',
+      currency: 'USD',
+      value: {
+        '@type': 'QuantitativeValue',
+        minValue: role.payMin,
+        maxValue: role.payMax ?? role.payMin,
+        unitText: role.payUnit,
+      },
+    };
+  }
+
+  return base;
+}
+
 /** FAQPage schema. */
 export function faqSchema(faqs: { question: string; answer: string }[]) {
   return {
