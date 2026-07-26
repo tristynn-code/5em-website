@@ -22,7 +22,7 @@ export default function PrivacyPage() {
             Privacy Policy
           </h1>
           <p className="text-sm text-tx-3 font-semibold">
-            Effective Date: April 20, 2026 &middot; Last Updated: April 20, 2026
+            Effective Date: April 20, 2026 &middot; Last Updated: July 26, 2026
           </p>
         </div>
       </section>
@@ -72,7 +72,40 @@ export default function PrivacyPage() {
             <li><strong>Business transfers</strong> in connection with a merger, acquisition, or asset sale</li>
           </LegalUL>
 
-          <LegalH2>4. Cookies and Tracking Technologies</LegalH2>
+          <LegalH2>4. Advertising Data We Process for Clients</LegalH2>
+          <LegalP>
+            As a marketing agency, we access and process advertising data belonging to our clients through the official APIs of advertising platforms, including the Meta Marketing API and the Google Ads API. This includes campaign performance metrics, ad creative, and audience delivery statistics for the ad accounts our clients authorize us to manage.
+          </LegalP>
+          <LegalUL>
+            <li><strong>We act as a service provider</strong> to our clients for this data. The client remains the controller of their own advertising data.</li>
+            <li><strong>We access only accounts we are granted access to</strong>, through each platform&rsquo;s own permission system, and only for the purpose of operating and reporting on campaigns.</li>
+            <li><strong>We use platform data solely to deliver our services</strong> to the client it belongs to: reporting, optimization, and creative analysis. We do not sell it, and we do not use one client&rsquo;s data to benefit an unrelated third party.</li>
+            <li><strong>Aggregated and de-identified insights</strong> may be used to improve our own methods and benchmarks. These never identify an individual person.</li>
+            <li><strong>Retention follows the client relationship.</strong> Advertising data is retained while we service the account and for a reasonable period afterwards for reporting continuity, then deleted on request.</li>
+          </LegalUL>
+          <LegalP>
+            Our use of information received from Meta APIs adheres to the{' '}
+            <a
+              href="https://developers.facebook.com/terms/"
+              target="_blank"
+              rel="noopener"
+              className="text-teal underline underline-offset-2 font-semibold hover:text-tx"
+            >
+              Meta Platform Terms
+            </a>
+            , and our use of information received from Google APIs adheres to the{' '}
+            <a
+              href="https://developers.google.com/terms/api-services-user-data-policy"
+              target="_blank"
+              rel="noopener"
+              className="text-teal underline underline-offset-2 font-semibold hover:text-tx"
+            >
+              Google API Services User Data Policy
+            </a>
+            , including their Limited Use requirements.
+          </LegalP>
+
+          <LegalH2>5. Cookies and Tracking Technologies</LegalH2>
           <LegalP>
             We use cookies, pixels, and similar technologies to improve your experience and measure our marketing. You can disable cookies through your browser settings, but some Site features may not function properly.
           </LegalP>
@@ -94,7 +127,7 @@ export default function PrivacyPage() {
       {/* Body - mid */}
       <section className="px-6 bg-wh">
         <div className="max-w-[780px] mx-auto">
-          <LegalH2 first>5. Your Rights and Choices</LegalH2>
+          <LegalH2 first>6. Your Rights and Choices</LegalH2>
           <LegalP>Depending on where you live, you may have the right to:</LegalP>
           <LegalUL>
             <li>Access, correct, or delete your personal information</li>
@@ -113,7 +146,7 @@ export default function PrivacyPage() {
             .
           </LegalP>
 
-          <LegalH2>6. California Residents</LegalH2>
+          <LegalH2>7. California Residents</LegalH2>
           <LegalP>
             California residents have specific rights under the California Consumer Privacy Act (CCPA) and CPRA, including the right to know what personal information we collect, the right to delete, and the right to opt out of certain data uses. Contact us at{' '}
             <a
@@ -125,17 +158,17 @@ export default function PrivacyPage() {
             to exercise these rights.
           </LegalP>
 
-          <LegalH2>7. Data Security</LegalH2>
+          <LegalH2>8. Data Security</LegalH2>
           <LegalP>
             We use reasonable administrative, technical, and physical safeguards to protect your information. However, no system is 100% secure, and we cannot guarantee absolute security.
           </LegalP>
 
-          <LegalH2>8. Data Retention</LegalH2>
+          <LegalH2>9. Data Retention</LegalH2>
           <LegalP>
             We retain personal information only as long as necessary to fulfill the purposes described in this policy, comply with legal obligations, resolve disputes, and enforce agreements.
           </LegalP>
 
-          <LegalH2>9. Children&rsquo;s Privacy</LegalH2>
+          <LegalH2>10. Children&rsquo;s Privacy</LegalH2>
           <LegalP>
             Our Site is not directed to individuals under 18. We do not knowingly collect personal information from children.
           </LegalP>
@@ -145,17 +178,17 @@ export default function PrivacyPage() {
       {/* Body - last */}
       <section className="px-6 bg-wh pb-[100px]">
         <div className="max-w-[780px] mx-auto">
-          <LegalH2 first>10. Third-Party Links</LegalH2>
+          <LegalH2 first>11. Third-Party Links</LegalH2>
           <LegalP>
             Our Site may contain links to third-party websites. We are not responsible for the privacy practices of those sites. Please review their privacy policies.
           </LegalP>
 
-          <LegalH2>11. Changes to This Policy</LegalH2>
+          <LegalH2>12. Changes to This Policy</LegalH2>
           <LegalP>
             We may update this Privacy Policy from time to time. The updated version will be posted on this page with a revised &ldquo;Last Updated&rdquo; date. Your continued use of the Site constitutes acceptance of the updated policy.
           </LegalP>
 
-          <LegalH2>12. Contact Us</LegalH2>
+          <LegalH2>13. Contact Us</LegalH2>
           <LegalP>If you have questions about this Privacy Policy or our data practices, contact us at:</LegalP>
           <div className="mt-3 px-6 py-5 bg-off border border-bd rounded-[10px] text-[15px] leading-[1.7] text-tx-2 font-medium">
             <div className="mb-1"><strong className="text-tx font-bold">5th Element Media LLC</strong></div>
@@ -180,12 +213,6 @@ export default function PrivacyPage() {
             </div>
           </div>
 
-          <div
-            className="mt-10 px-[22px] py-[18px] rounded-lg text-[13px] leading-[1.5] font-medium"
-            style={{ background: '#fff9e6', border: '1px solid #f0d878', color: '#7a5a00' }}
-          >
-            <strong>Disclaimer:</strong> This privacy policy is a template and should be reviewed by qualified legal counsel before publication to ensure compliance with applicable laws in your jurisdiction.
-          </div>
         </div>
       </section>
     </>
