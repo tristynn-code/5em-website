@@ -7,8 +7,8 @@ import { breadcrumbSchema } from '@/lib/schema';
 import type { Post } from '@/app/blog/posts';
 import { getOtherPosts } from '@/app/blog/posts';
 
-const AUTHOR_PHOTO =
-  'https://cdn.prod.website-files.com/68f669a6d79edc75f34470f3/693381ab68f812e3e12cf6fa__DSC1638%20Large.jpeg';
+/** Square face-centered crop - the author photo renders as a circle. */
+const AUTHOR_PHOTO = '/team/tristynn-avatar.jpg';
 
 interface Props {
   post: Post;
