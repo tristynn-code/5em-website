@@ -19,6 +19,18 @@ export interface Post {
 
 export const posts: Post[] = [
   {
+    slug: 'ultimate-longevity-center-partnership',
+    title: "We're Helping Launch the First Ultimate Longevity Center in Boulder, Colorado",
+    category: 'News',
+    date: '2026-06-11',
+    dateDisplay: 'June 11, 2026',
+    readTime: '4 min',
+    excerpt:
+      '5th Element Media just signed on as the launch marketing partner for Ultimate Longevity Center. First location: Boulder, CO. Here is why we are all-in on longevity, and the exact playbook we are bringing from the rest of the Sequel Brands portfolio.',
+    cover: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=1600&q=80',
+    coverAlt: 'Modern wellness and recovery treatment space',
+  },
+  {
     slug: 'franchise-marketing-metrics',
     title: 'The 5 Metrics Every Franchise Owner Should Check Every Week',
     category: 'Analytics',
