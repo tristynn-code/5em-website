@@ -174,7 +174,7 @@ export function personSchema() {
     description:
       'Founder and CEO of 5th Element Media. Built the agency from a college dorm into a franchise marketing firm serving 100+ franchise locations across the United States.',
     sameAs: [SITE.founder.sameAs, SITE.social.youtube],
-    image: 'https://cdn.prod.website-files.com/68f669a6d79edc75f34470f3/693381ab68f812e3e12cf6fa__DSC1638%20Large.jpeg',
+    image: `${SITE.url}/team/tristynn-headshot.jpg`,
     url: `${SITE.url}/about`,
   };
 }

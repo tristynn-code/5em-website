@@ -43,7 +43,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="rounded-l overflow-hidden bg-off" style={{ aspectRatio: '4 / 5' }}>
               <img
-                src="https://cdn.prod.website-files.com/68f669a6d79edc75f34470f3/693381ab68f812e3e12cf6fa__DSC1638%20Large.jpeg"
+                src="/team/tristynn-headshot.jpg"
                 alt="Tristynn McGowan — Founder & CEO, 5th Element Media"
                 className="w-full h-full object-cover"
               />
