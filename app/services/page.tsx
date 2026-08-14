@@ -12,7 +12,7 @@ import { breadcrumbSchema } from '@/lib/schema';
 export const metadata: Metadata = pageMetadata({
   title: 'Franchise Marketing Services | All Services',
   description:
-    'Every service 5th Element Media offers franchise brands: paid ads, UGC creative, CRM automation, email and SMS, real-time dashboards, and the complete franchise growth system.',
+    'Every service Fifth Element offers franchise brands: paid ads, UGC creative, CRM automation, email and SMS, real-time dashboards, and the complete franchise growth system.',
   path: '/services',
   keywords: [
     'franchise marketing services',
@@ -32,7 +32,7 @@ const collectionSchema = {
   '@id': `${SITE.url}/services#collection`,
   url: `${SITE.url}/services`,
   name: 'Franchise Marketing Services',
-  description: 'All services offered by 5th Element Media.',
+  description: 'All services offered by Fifth Element.',
   isPartOf: { '@id': `${SITE.url}#website` },
   about: { '@id': `${SITE.url}#organization` },
   hasPart: services.map(s => ({

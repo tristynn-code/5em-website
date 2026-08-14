@@ -82,7 +82,7 @@ export default function ForFranchiseesPage() {
           <div className="transform-grid">
             <div className="tfm-card tfm-card-before">
               <div className="tfm-header">
-                <div className="tfm-label">Before 5th Element</div>
+                <div className="tfm-label">Before Fifth Element</div>
                 <div className="tfm-tag">Sound familiar?</div>
               </div>
               <ul className="tfm-list">
@@ -97,7 +97,7 @@ export default function ForFranchiseesPage() {
             <div className="tfm-arrow"><span>→</span></div>
             <div className="tfm-card tfm-card-after">
               <div className="tfm-header">
-                <div className="tfm-label tfm-label-after">After 5th Element</div>
+                <div className="tfm-label tfm-label-after">After Fifth Element</div>
                 <div className="tfm-tag tfm-tag-after">This is what&apos;s possible</div>
               </div>
               <ul className="tfm-list">

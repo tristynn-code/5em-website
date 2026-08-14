@@ -8,11 +8,11 @@ import { getOpenRoles } from '@/app/careers/roles';
 import employees from '@/content/employee-testimonials.json';
 
 export const metadata: Metadata = pageMetadata({
-  title: 'Careers at 5th Element Media',
+  title: 'Careers at Fifth Element',
   description:
-    'Join the franchise marketing agency behind 100+ locations. See what it is like to work at 5th Element Media, hear from the team, and apply for an open role.',
+    'Join the franchise marketing agency behind 300+ locations. See what it is like to work at Fifth Element, hear from the team, and apply for an open role.',
   path: '/careers',
-  keywords: ['5th Element Media careers', 'franchise marketing jobs', 'marketing agency careers', 'client success manager job'],
+  keywords: ['Fifth Element careers', 'franchise marketing jobs', 'marketing agency careers', 'client success manager job'],
 });
 
 const values = [
@@ -50,7 +50,7 @@ export default function CareersPage() {
           '@context': 'https://schema.org',
           '@type': 'CollectionPage',
           '@id': `${SITE.url}/careers#page`,
-          name: 'Careers at 5th Element Media',
+          name: 'Careers at Fifth Element',
           url: `${SITE.url}/careers`,
           isPartOf: { '@id': `${SITE.url}#website` },
           about: { '@id': `${SITE.url}#organization` },
@@ -79,7 +79,7 @@ export default function CareersPage() {
           className="text-tx-2 mx-auto max-w-[620px] mb-10"
           style={{ fontSize: 'clamp(17px,1.8vw,20px)', lineHeight: 1.6 }}
         >
-          We are the marketing engine behind 100+ franchise locations - and we are growing fast. If you want real ownership, real mentorship, and work you are proud of, you will fit right in.
+          We are the marketing engine behind 300+ franchise locations - and we are growing fast. If you want real ownership, real mentorship, and work you are proud of, you will fit right in.
         </p>
         <div className="flex gap-3 justify-center flex-wrap">
           <a href="#open-roles" className="bp bpl">See open roles →</a>
@@ -90,7 +90,7 @@ export default function CareersPage() {
       {/* WHY 5EM - culture cards */}
       <section className="sec bg-off">
         <div className="mx ctr">
-          <div className="stag">Why 5th Element</div>
+          <div className="stag">Why Fifth Element</div>
           <h2 className="sttl">What it’s like to work here</h2>
           <p className="ssub" style={{ margin: '0 auto' }}>
             A small, sharp team that moves fast and actually likes working together.
@@ -114,7 +114,7 @@ export default function CareersPage() {
           <div className="stag">From the team</div>
           <h2 className="sttl">In their words</h2>
           <p className="ssub" style={{ margin: '0 auto' }}>
-            The people who make 5th Element run, on why they stay.
+            The people who make Fifth Element run, on why they stay.
           </p>
         </div>
 
@@ -208,7 +208,7 @@ export default function CareersPage() {
           <div className="rounded-l border border-dashed border-bd bg-wh/60 p-7 text-center">
             <p className="text-[15px] text-tx-2">
               Don’t see your role?{' '}
-              <a href="mailto:careers@5them.com?subject=Open application - 5th Element Media" className="font-bold text-teal hover:underline">
+              <a href="mailto:careers@5them.com?subject=Open application - Fifth Element" className="font-bold text-teal hover:underline">
                 Send us your info
               </a>{' '}
               and we will keep you in mind.

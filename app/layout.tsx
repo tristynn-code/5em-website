@@ -20,11 +20,11 @@ const jakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: '5th Element Media | Franchise Marketing Agency | 100+ Locations Managed',
-    template: '%s | 5th Element Media',
+    default: 'Fifth Element | Franchise Marketing Agency | 300+ Locations Managed',
+    template: '%s | Fifth Element',
   },
   description:
-    'Franchise marketing agency behind 100+ franchise locations. Predictable local lead flow, UGC-powered creative, and AI-driven insights for franchisors and franchisees. Book a free Franchise Lead Engine Audit.',
+    'Franchise marketing agency behind 300+ franchise locations. Predictable local lead flow, UGC-powered creative, and AI-driven insights for franchisors and franchisees. Book a free Franchise Lead Engine Audit.',
   applicationName: SITE.name,
   authors: [{ name: SITE.founder.name, url: SITE.founder.sameAs }],
   generator: 'Next.js',
@@ -62,23 +62,23 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: SITE.url,
     siteName: SITE.name,
-    title: '5th Element Media | Franchise Marketing Agency',
+    title: 'Fifth Element | Franchise Marketing Agency',
     description:
-      'Franchise marketing agency behind 100+ franchise locations. Predictable local lead flow, UGC creative, and AI-driven insights. Book a free audit.',
+      'Franchise marketing agency behind 300+ franchise locations. Predictable local lead flow, UGC creative, and AI-driven insights. Book a free audit.',
     images: [
       {
         url: '/opengraph-image',
         width: 1200,
         height: 630,
-        alt: '5th Element Media — Franchise Marketing Agency',
+        alt: 'Fifth Element — Franchise Marketing Agency',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: '5th Element Media | Franchise Marketing Agency',
+    title: 'Fifth Element | Franchise Marketing Agency',
     description:
-      'Franchise marketing agency behind 100+ franchise locations. Book your free Franchise Lead Engine Audit.',
+      'Franchise marketing agency behind 300+ franchise locations. Book your free Franchise Lead Engine Audit.',
     images: ['/opengraph-image'],
   },
   robots: {

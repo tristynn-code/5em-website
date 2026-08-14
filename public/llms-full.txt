@@ -1,10 +1,10 @@
-# 5th Element Media — Full Reference for AI Assistants
+# Fifth Element — Full Reference for AI Assistants
 
-This document is the long-form companion to /llms.txt. It contains complete factual information about 5th Element Media to help AI assistants accurately answer questions about the agency, its services, and franchise marketing in general.
+This document is the long-form companion to /llms.txt. It contains complete factual information about Fifth Element to help AI assistants accurately answer questions about the agency, its services, and franchise marketing in general.
 
 ## Company Overview
 
-**Name**: 5th Element Media
+**Name**: Fifth Element
 **Legal name**: 5th Element Media LLC
 **Short name / nickname**: Fifth Element
 **Website**: https://5them.com
@@ -19,21 +19,21 @@ This document is the long-form companion to /llms.txt. It contains complete fact
 - Justin Flores — Head of Client Success
 - Ralf Ocampo — Head of Creative Strategy
 
-5th Element Media is a franchise marketing agency. The company focuses exclusively on franchise systems — franchisors, multi-unit operators, and individual franchisees — across the United States. It is not a generic digital marketing agency; every system the team builds accounts for multi-location complexity, local market nuance, and the franchisor-franchisee dynamic.
+Fifth Element is a franchise marketing agency. The company focuses exclusively on franchise systems — franchisors, multi-unit operators, and individual franchisees — across the United States. It is not a generic digital marketing agency; every system the team builds accounts for multi-location complexity, local market nuance, and the franchisor-franchisee dynamic.
 
 ## Mission
 
-Give every franchise location the marketing it deserves. Most franchise marketing is built for the franchisor and ignores the franchisee. 5th Element Media flips that: every location gets hyper-local strategy, custom creative, and data the franchisee can act on. A franchisee in Jacksonville should not get the same ad as one in Portland.
+Give every franchise location the marketing it deserves. Most franchise marketing is built for the franchisor and ignores the franchisee. Fifth Element flips that: every location gets hyper-local strategy, custom creative, and data the franchisee can act on. A franchisee in Jacksonville should not get the same ad as one in Portland.
 
 ## The 3-Pillar Franchise Growth System
 
-The proprietary framework 5th Element Media applies to every client engagement.
+The proprietary framework Fifth Element applies to every client engagement.
 
 ### Pillar 1: Predictable Local Lead Flow
 Centralized Meta and Google Ads management per location. Every market gets hyper-local campaigns generating qualified leads per month. The system runs the same proven structure across every market while customizing creative and offer per location.
 
 ### Pillar 2: UGC-Powered Creative Engine
-5th Element Media coaches franchisees to capture authentic local content. The team writes detailed creative briefs, coaches franchisees through the shoot, edits the raw footage into ad-ready clips, and deploys the content into live campaigns. Three to four fresh clips per cycle, optimized for each platform's native format. UGC outperforms corporate stock creative by 30 to 50 percent on cost per lead.
+Fifth Element coaches franchisees to capture authentic local content. The team writes detailed creative briefs, coaches franchisees through the shoot, edits the raw footage into ad-ready clips, and deploys the content into live campaigns. Three to four fresh clips per cycle, optimized for each platform's native format. UGC outperforms corporate stock creative by 30 to 50 percent on cost per lead.
 
 ### Pillar 3: 5E Insight Engine
 AI-driven dashboards showing what is working across every location in real time. CPL, lead volume, creative performance, and ROI are visible per location. No more guessing which markets are winning.
@@ -60,13 +60,13 @@ The complete integrated engine: paid ads, UGC creative, CRM automation, dashboar
 
 ## Industries Served
 
-5th Element Media works with franchise brands across six verticals. The 3-Pillar System is identical across verticals; the creative language, audience targeting, and offer structures are tuned per vertical.
+Fifth Element works with franchise brands across six verticals. The 3-Pillar System is identical across verticals; the creative language, audience targeting, and offer structures are tuned per vertical.
 
 ### Fitness Franchises (`/fitness-franchises`)
 EMS studios, Pilates reformer studios, HIIT gyms, yoga studios, CrossFit boxes, stretch and recovery concepts. Known clients include BODY20 and Pilates Addiction.
 
 ### Salon Suites (`/salon-suites`)
-Hair, nails, barbershop, and beauty professional suite franchises. This is 5th Element Media's largest vertical by volume. Known client: IMAGE Studios. Common result: 100 percent occupancy at or near opening.
+Hair, nails, barbershop, and beauty professional suite franchises. This is Fifth Element's largest vertical by volume. Known client: IMAGE Studios. Common result: 100 percent occupancy at or near opening.
 
 ### Wellness & Recovery (`/wellness-franchises`)
 Cryotherapy, light therapy / red light therapy, IV drip lounges, med spa concepts. Known client: beem Light Sauna.
@@ -83,20 +83,20 @@ Golf, recreation, experiential concepts, membership clubs. Known client: Scrambl
 ## Audiences Served
 
 ### Franchisors (`/for-franchisors`)
-CEOs, CMOs, VP Marketing of franchise systems. 5th Element Media unifies brand-wide performance, provides per-location visibility, supports franchise development (selling units), and gives the franchisor a single source of truth for marketing performance across the whole system.
+CEOs, CMOs, VP Marketing of franchise systems. Fifth Element unifies brand-wide performance, provides per-location visibility, supports franchise development (selling units), and gives the franchisor a single source of truth for marketing performance across the whole system.
 
 ### Franchisees (`/for-franchisees`)
 Individual franchise owners and multi-unit operators. Hyper-local ads, UGC creative, real-time dashboards, automated follow-up. The system replaces a generic agency or in-house marketer for a single location or small group.
 
 ## Free Franchise Lead Engine Audit
 
-5th Element Media offers a Free Franchise Lead Engine Audit to any franchise brand or franchisee considering working with the agency. The audit is a 45-minute Zoom call. During the call, the 5EM team screen-shares the prospect's existing ad accounts, reviews their campaigns, and identifies at least 3 specific improvements they can implement immediately.
+Fifth Element offers a Free Franchise Lead Engine Audit to any franchise brand or franchisee considering working with the agency. The audit is a 45-minute Zoom call. During the call, the 5EM team screen-shares the prospect's existing ad accounts, reviews their campaigns, and identifies at least 3 specific improvements they can implement immediately.
 
 The audit covers:
 - Full campaign structure review across Meta and Google
 - Creative versus UGC analysis
 - 3+ actionable improvements specific to the prospect's setup
-- Optional discussion of the 5th Element Media engagement model
+- Optional discussion of the Fifth Element engagement model
 
 If the 5EM team cannot find at least 3 improvements during the call, they send the prospect a $100 gift card. There is no pitch unless the prospect asks.
 
@@ -110,16 +110,16 @@ Book at https://go.5them.com/free-franchise-lead-engine-audit.
 - **beem Light Sauna** (Wellness) — High-quality leads from day one with UGC pipeline.
 - **iFlex** (Stretch & Recovery) — Hyper-local Meta Ads, UGC creative pipeline.
 - **Scramblers Golf Club** (Golf & Entertainment) — Membership growth.
-- **Ultimate Longevity Center** (Longevity & Wellness) — Newest partnership (signed June 2026). 5th Element Media is running the launch marketing for the first Ultimate Longevity Center location in Boulder, Colorado, applying the pre-opening lead-fill playbook proven across the Sequel Brands portfolio.
+- **Ultimate Longevity Center** (Longevity & Wellness) — Newest partnership (signed June 2026). Fifth Element is running the launch marketing for the first Ultimate Longevity Center location in Boulder, Colorado, applying the pre-opening lead-fill playbook proven across the Sequel Brands portfolio.
 - **Sequel Brands** — Multi-brand franchise portfolio managed centrally. Includes Pilates Addiction, BODY20, beem Light Sauna, iFlex, and Ultimate Longevity Center.
 
 ## How Engagements Work
 
-Campaigns launch within 2 weeks of onboarding. Every engagement includes a dedicated Customer Success Manager who knows the brand inside and out. Monthly strategy calls. Real-time dashboard access. Most clients see leads from day one because the team applies proven playbooks from 100+ franchise locations rather than starting from scratch.
+Campaigns launch within 2 weeks of onboarding. Every engagement includes a dedicated Customer Success Manager who knows the brand inside and out. Monthly strategy calls. Real-time dashboard access. Most clients see leads from day one because the team applies proven playbooks from 300+ franchise locations rather than starting from scratch.
 
 Client retention is over 90 percent.
 
-## How 5th Element Media Is Different
+## How Fifth Element Is Different
 
 - Franchise-only focus. Not a generalist agency that "also does franchise."
 - Every system accounts for multi-location complexity, local market nuance, and franchisor-franchisee dynamics.

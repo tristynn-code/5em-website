@@ -4,7 +4,7 @@ import { pageMetadata } from '@/lib/seo';
 export const metadata: Metadata = pageMetadata({
   title: 'Privacy Policy',
   description:
-    '5th Element Media privacy policy. How we collect, use, and protect your information when you visit our site or engage our franchise marketing services.',
+    'Fifth Element privacy policy. How we collect, use, and protect your information when you visit our site or engage our franchise marketing services.',
   path: '/privacy',
 });
 
@@ -32,7 +32,7 @@ export default function PrivacyPage() {
         <div className="max-w-[780px] mx-auto">
           <div className="mb-10 pb-8 border-b border-bd">
             <p className="text-[17px] leading-[1.65] text-tx-2 mb-4 font-medium">
-              5th Element Media LLC (&ldquo;5th Element,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;) respects your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website <strong className="text-tx font-bold">5them.com</strong> (the &ldquo;Site&rdquo;) or engage with our services.
+              5th Element Media LLC (&ldquo;Fifth Element,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;) respects your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website <strong className="text-tx font-bold">5them.com</strong> (the &ldquo;Site&rdquo;) or engage with our services.
             </p>
             <p className="text-[17px] leading-[1.65] text-tx-2 mb-4 font-medium">
               By using our Site, you agree to the collection and use of information in accordance with this policy. If you do not agree, please do not use the Site.

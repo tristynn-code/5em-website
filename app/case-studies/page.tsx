@@ -8,7 +8,7 @@ import data from '@/content/case-studies.json';
 export const metadata: Metadata = pageMetadata({
   title: 'Franchise Marketing Case Studies | Real Results from Real Brands',
   description:
-    'See how 5th Element Media helps franchise brands generate leads, fill locations, and lower CPL. Real case studies from IMAGE Studios, BODY20, Pilates Addiction, beem Light Sauna, iFlex, Scramblers Golf, and Sequel Brands.',
+    'See how Fifth Element helps franchise brands generate leads, fill locations, and lower CPL. Real case studies from IMAGE Studios, BODY20, Pilates Addiction, beem Light Sauna, iFlex, Scramblers Golf, and Sequel Brands.',
   path: '/case-studies',
   keywords: ['franchise marketing case studies', 'IMAGE Studios marketing', 'BODY20 marketing results', 'Pilates Addiction leads', 'franchise CPL', 'franchise lead generation results'],
 });
@@ -88,7 +88,7 @@ export default function CaseStudiesPage() {
                   className="text-teal font-extrabold leading-none"
                   style={{ fontSize: 72, letterSpacing: '-.04em' }}
                 >
-                  100+
+                  300+
                 </div>
                 <div className="text-xs mt-1" style={{ color: 'rgba(255,255,255,.5)' }}>
                   Studios Managed Across the United States

@@ -6,9 +6,9 @@ import { breadcrumbSchema } from '@/lib/schema';
 import { posts } from './posts';
 
 export const metadata: Metadata = pageMetadata({
-  title: 'Franchise Marketing Blog | 5th Element Media',
+  title: 'Franchise Marketing Blog | Fifth Element',
   description:
-    'Real franchise marketing insights from the agency behind 100+ franchise locations. Tactical breakdowns of paid ads, UGC creative, CRM automation, and franchise growth systems - no fluff.',
+    'Real franchise marketing insights from the agency behind 300+ franchise locations. Tactical breakdowns of paid ads, UGC creative, CRM automation, and franchise growth systems - no fluff.',
   path: '/blog',
   keywords: [
     'franchise marketing blog',
@@ -28,9 +28,9 @@ const blogSchema = {
   '@type': 'Blog',
   '@id': `${SITE.url}/blog#blog`,
   url: `${SITE.url}/blog`,
-  name: 'Franchise Marketing Blog | 5th Element Media',
+  name: 'Franchise Marketing Blog | Fifth Element',
   description:
-    'Real franchise marketing insights from the agency behind 100+ franchise locations.',
+    'Real franchise marketing insights from the agency behind 300+ franchise locations.',
   publisher: { '@id': `${SITE.url}#organization` },
   blogPost: posts.map(p => ({
     '@type': 'BlogPosting',
@@ -78,7 +78,7 @@ export default function BlogPage() {
             className="text-tx-2 mx-auto max-w-[640px]"
             style={{ fontSize: 'clamp(17px,1.7vw,19px)', lineHeight: 1.6 }}
           >
-            Tactical breakdowns from the agency behind 100+ franchise locations. Paid ads, UGC creative, CRM automation, and franchise growth systems. No fluff.
+            Tactical breakdowns from the agency behind 300+ franchise locations. Paid ads, UGC creative, CRM automation, and franchise growth systems. No fluff.
           </p>
         </div>
       </section>

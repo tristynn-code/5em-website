@@ -4,11 +4,11 @@ import { pageMetadata } from '@/lib/seo';
 import { breadcrumbSchema } from '@/lib/schema';
 
 export const metadata: Metadata = pageMetadata({
-  title: 'Contact 5th Element Media',
+  title: 'Contact Fifth Element',
   description:
-    "Get in touch with 5th Element Media. We help franchise brands generate predictable leads across every location. Call (951) 618-1304 or book your free Franchise Lead Engine Audit.",
+    "Get in touch with Fifth Element. We help franchise brands generate predictable leads across every location. Call (951) 618-1304 or book your free Franchise Lead Engine Audit.",
   path: '/contact',
-  keywords: ['contact franchise marketing agency', '5th Element Media contact', 'franchise marketing consultation'],
+  keywords: ['contact franchise marketing agency', 'Fifth Element contact', 'franchise marketing consultation'],
 });
 
 export default function ContactPage() {

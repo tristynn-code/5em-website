@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: `${role.title} - Careers`,
     description: role.summary,
     path: `/careers/${role.slug}`,
-    keywords: [role.title, `${role.title} job`, '5th Element Media careers', 'franchise marketing jobs'],
+    keywords: [role.title, `${role.title} job`, 'Fifth Element careers', 'franchise marketing jobs'],
   });
 }
 
