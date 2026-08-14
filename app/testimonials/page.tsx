@@ -8,9 +8,9 @@ import { breadcrumbSchema } from '@/lib/schema';
 export const metadata: Metadata = pageMetadata({
   title: 'Franchise Owner Testimonials | Real Results',
   description:
-    '24+ real franchise owners share their results with 5th Element Media. 100% occupancy at opening, 900+ leads in 5 months, and stories from IMAGE Studios locations nationwide.',
+    '24+ real franchise owners share their results with Fifth Element. 100% occupancy at opening, 900+ leads in 5 months, and stories from IMAGE Studios locations nationwide.',
   path: '/testimonials',
-  keywords: ['5th Element Media reviews', 'franchise marketing testimonials', 'franchise owner reviews', 'IMAGE Studios testimonials', 'BODY20 reviews'],
+  keywords: ['Fifth Element reviews', 'franchise marketing testimonials', 'franchise owner reviews', 'IMAGE Studios testimonials', 'BODY20 reviews'],
 });
 
 export default function TestimonialsPage() {

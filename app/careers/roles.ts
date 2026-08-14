@@ -70,19 +70,19 @@ export const roles: Role[] = [
     payUnit: 'HOUR',
     datePosted: '2026-06-23',
     summary:
-      'Be the face of 5th Element to a portfolio of 50 to 75 franchisee accounts. Own the relationship, lead your pod, and keep clients renewing.',
+      'Be the face of Fifth Element to a portfolio of 50 to 75 franchisee accounts. Own the relationship, lead your pod, and keep clients renewing.',
     applyNote:
       'Heads up: this role requires a 60 to 90 second video introduction. Record a quick selfie video (your phone is perfect) and paste the link in the form below. No video, no interview - it is that simple.',
     intro: [
-      'The Client Success Manager is the face of 5th Element to our clients, and one of the most important roles in the company. You are not a support rep, and you are not an ad manager. You are the person our clients trust - you walk them through their numbers, field the hard questions, catch problems before they become churn, and make every client feel like they are our only client.',
+      'The Client Success Manager is the face of Fifth Element to our clients, and one of the most important roles in the company. You are not a support rep, and you are not an ad manager. You are the person our clients trust - you walk them through their numbers, field the hard questions, catch problems before they become churn, and make every client feel like they are our only client.',
       'This is a high-visibility, high-trust role. You will own a portfolio of 50 to 75 franchisee accounts, from single-unit owners to multi-unit operators running a dozen or more locations, from onboarding through every renewal. You run recurring performance calls, translate campaign data into plain English, advocate for clients inside our team, and keep retention high.',
       'You also lead your pod. Each pod pairs you with an ad manager who runs the media buying and a creative team member who produces the ads and content. You set the strategy, direct the work clearly, hold the timeline, and make sure what you promise the client actually gets executed. You are the bridge between the client and the people doing the work - the results and the relationship are yours to own. When a client is happy, it is largely because of you. When a client is frustrated, you are the one who turns it around.',
     ],
     sections: [
       {
-        heading: 'About 5th Element Media',
+        heading: 'About Fifth Element',
         body: [
-          '5th Element Media is a franchise-focused marketing agency. We build and run the Franchise Lead Engine, a full-service paid lead generation system for franchise brands and multi-unit operators. We manage paid ads on Meta, Google, and TikTok, organic social, content coaching and creation, and performance reporting across hundreds of franchise locations for recognizable national brands in fitness, wellness, beauty, and lifestyle.',
+          'Fifth Element is a franchise-focused marketing agency. We build and run the Franchise Lead Engine, a full-service paid lead generation system for franchise brands and multi-unit operators. We manage paid ads on Meta, Google, and TikTok, organic social, content coaching and creation, and performance reporting across hundreds of franchise locations for recognizable national brands in fitness, wellness, beauty, and lifestyle.',
           'Our clients pay us every month because we deliver leads that turn into tours, bookings, members, and revenue. That means relationships are everything. We are a tight, high-output team that cares about results and treats clients like partners, not ticket numbers.',
         ],
       },
@@ -139,7 +139,7 @@ export const roles: Role[] = [
         heading: 'Work arrangement and home office',
         body: [
           'This is a hybrid role, in-person first: four days per week in our office in Temecula, CA, and one day per week working from home. You must live within commuting distance of Temecula and be able to be in our office four days a week. This is not a remote position, so please only apply if you can reliably be in-office.',
-          'Because you will be on camera with clients regularly, your work-from-home day requires a professional setup. On every client call you represent 5th Element, so your audio, video, and background need to look and sound polished. In-office equipment is provided; your home setup is on you, and it matters.',
+          'Because you will be on camera with clients regularly, your work-from-home day requires a professional setup. On every client call you represent Fifth Element, so your audio, video, and background need to look and sound polished. In-office equipment is provided; your home setup is on you, and it matters.',
         ],
         bullets: [
           'Reliable high-speed internet with strong upload and download speeds for clean video calls',
@@ -150,7 +150,7 @@ export const roles: Role[] = [
         ],
       },
       {
-        heading: 'Why join 5th Element Media',
+        heading: 'Why join Fifth Element',
         bullets: [
           'Own one of the most important and most visible roles in a fast-growing franchise marketing agency.',
           'Work with real clients getting real results, not vanity metrics.',

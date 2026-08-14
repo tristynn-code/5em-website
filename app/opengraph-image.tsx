@@ -1,7 +1,7 @@
 import { ImageResponse } from 'next/og';
 
 export const runtime = 'edge';
-export const alt = '5th Element Media — Franchise Marketing Agency';
+export const alt = 'Fifth Element — Franchise Marketing Agency';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 
@@ -120,7 +120,7 @@ export default async function OpenGraphImage() {
                   display: 'flex',
                 }}
               >
-                5th Element Media
+                Fifth Element
               </span>
               <span
                 style={{
@@ -215,7 +215,7 @@ export default async function OpenGraphImage() {
               maxWidth: 850,
             }}
           >
-            Predictable local lead flow, UGC-powered creative, and AI-driven insights for 100+ franchise locations.
+            Predictable local lead flow, UGC-powered creative, and AI-driven insights for 300+ franchise locations.
           </div>
         </div>
 

@@ -7,10 +7,12 @@ const BAR_OPACITY = (h: number) => (h >= 70 ? 0.85 : h >= 55 ? 0.8 : h >= 35 ? 0
 
 export default function HeroDashboard() {
   const [metrics, setMetrics] = useState({
-    leads: 2847,
-    cpl: 11.4,
-    showRate: 78,
-    locations: 107,
+    leads: 8347,
+    cpl: 9.84,
+    showRate: 81,
+    locations: 312,
+    speedToLead: 42,
+    booked: 6761,
   });
   const [heights, setHeights] = useState<number[]>(BAR_HEIGHTS);
   const [dateLabels, setDateLabels] = useState<string[]>([]);
@@ -30,11 +32,13 @@ export default function HeroDashboard() {
 
   useEffect(() => {
     const metricsTick = setInterval(() => {
-      setMetrics(prev => ({
-        leads: Math.round(2847 + (Math.random() - 0.5) * 24),
-        cpl: +(11.4 + (Math.random() - 0.5) * 0.6).toFixed(2),
-        showRate: Math.round(78 + (Math.random() - 0.5) * 4),
-        locations: 107,
+      setMetrics(() => ({
+        leads: Math.round(8347 + (Math.random() - 0.5) * 60),
+        cpl: +(9.84 + (Math.random() - 0.5) * 0.5).toFixed(2),
+        showRate: Math.round(81 + (Math.random() - 0.5) * 4),
+        locations: 312,
+        speedToLead: Math.round(42 + (Math.random() - 0.5) * 8),
+        booked: Math.round(6761 + (Math.random() - 0.5) * 50),
       }));
     }, 2800);
 
@@ -72,21 +76,23 @@ export default function HeroDashboard() {
         </h3>
         <span className="text-xs font-semibold text-tx-3">LIVE DASHBOARD</span>
       </div>
-      <div className="grid grid-cols-2 lg:grid-cols-4">
-        <MetricCell label="Total Leads (30d)" value={metrics.leads.toLocaleString()} delta="+23%" deltaDir="up" />
-        <MetricCell label="Avg Cost Per Lead" value={`$${metrics.cpl.toFixed(2)}`} delta="↓31%" deltaDir="dn" />
+      <div className="grid grid-cols-2 lg:grid-cols-3">
+        <MetricCell label="Total Leads (30d)" value={metrics.leads.toLocaleString()} delta="+34%" deltaDir="up" />
+        <MetricCell label="Avg Cost Per Lead" value={`$${metrics.cpl.toFixed(2)}`} delta="↓38%" deltaDir="dn" />
+        <MetricCell label="Active Locations" value={`${metrics.locations}`} delta="+41%" deltaDir="up" />
+        <MetricCell label="Appointments Booked" value={metrics.booked.toLocaleString()} delta="+29%" deltaDir="up" />
         <MetricCell label="Show Rate" value={`${metrics.showRate}%`} delta="+12%" deltaDir="up" />
-        <MetricCell label="Active Locations" value={`${metrics.locations}`} last />
+        <MetricCell label="Avg Speed to Lead" value={`${metrics.speedToLead}s`} delta="↓64%" deltaDir="dn" />
       </div>
       <div className="px-7 py-5">
         <div className="flex items-center justify-between mb-5">
           <span className="text-[13px] font-semibold text-tx-2">Lead Flow — Last 30 Days</span>
           <div className="flex items-center gap-2">
             <span className="text-[22px] font-extrabold text-tx">{metrics.leads.toLocaleString()}</span>
-            <span className="text-xs font-bold text-teal bg-teal-bg px-2 py-0.5 rounded">▲ 23%</span>
+            <span className="text-xs font-bold text-teal bg-teal-bg px-2 py-0.5 rounded">▲ 34%</span>
           </div>
         </div>
-        <div ref={chartRef} className="flex items-end gap-1 h-20">
+        <div ref={chartRef} className="flex items-end gap-1 h-28">
           {heights.map((h, i) => (
             <div
               key={i}
@@ -107,23 +113,25 @@ export default function HeroDashboard() {
         </div>
       </div>
       <div className="flex items-center justify-between px-7 py-3.5 border-t border-bd">
-        <span className="text-[11px] text-tx-3 font-medium">5th Element Media © 2026</span>
+        <span className="text-[11px] text-tx-3 font-medium">Fifth Element © 2026</span>
         <span className="text-[11px] text-tx-3 font-medium">Powered by Fifth Element</span>
       </div>
     </div>
   );
 }
 
-function MetricCell({ label, value, delta, deltaDir, last }: { label: string; value: string; delta?: string; deltaDir?: 'up' | 'dn'; last?: boolean }) {
+/** Every cell carries a right + bottom hairline; the card's overflow-hidden
+    clips the ones that land on the outer edge, so this works at any column count. */
+function MetricCell({ label, value, delta, deltaDir }: { label: string; value: string; delta?: string; deltaDir?: 'up' | 'dn' }) {
   return (
-    <div className={`p-6 border-b border-bd ${last ? '' : 'border-r border-bd'}`}>
+    <div className="p-6 border-b border-r border-bd">
       <div className="text-[10px] text-tx-3 uppercase font-semibold mb-2.5" style={{ letterSpacing: '.12em' }}>
         {label}
       </div>
-      <div className="text-[30px] font-extrabold text-tx leading-none flex items-center gap-2" style={{ letterSpacing: '-.02em' }}>
+      <div className="text-[32px] font-extrabold text-tx leading-none flex items-baseline gap-2 flex-wrap" style={{ letterSpacing: '-.025em' }}>
         {value}
         {delta && (
-          <em className={`not-italic text-xs font-bold px-2 py-0.5 rounded ${deltaDir === 'up' ? 'text-teal bg-teal-bg' : 'text-teal bg-teal-bg'}`}>
+          <em className={`not-italic text-xs font-bold px-2 py-0.5 rounded text-teal bg-teal-bg ${deltaDir === 'dn' ? '' : ''}`}>
             {delta}
           </em>
         )}

@@ -4,7 +4,7 @@ import { pageMetadata } from '@/lib/seo';
 export const metadata: Metadata = pageMetadata({
   title: 'Data Deletion Instructions',
   description:
-    'How to request deletion of your personal data or your advertising data from 5th Element Media.',
+    'How to request deletion of your personal data or your advertising data from Fifth Element.',
   path: '/data-deletion',
 });
 
@@ -61,7 +61,7 @@ export default function DataDeletionPage() {
 
           <LegalH2>If You Are a Lead or a Customer of One of Our Clients</LegalH2>
           <LegalP>
-            5th Element Media runs advertising on behalf of franchise brands and their local owners. If you filled in a form or clicked an ad for one of those businesses, your information typically belongs to <strong className="text-tx font-bold">that business</strong>, not to us. They are the controller of it; we process it on their behalf.
+            Fifth Element runs advertising on behalf of franchise brands and their local owners. If you filled in a form or clicked an ad for one of those businesses, your information typically belongs to <strong className="text-tx font-bold">that business</strong>, not to us. They are the controller of it; we process it on their behalf.
           </LegalP>
           <LegalP>
             You can still email us and we will act on it. We will delete what we hold, and we will forward your request to the business your information belongs to so they can delete their copy. If you already know which location or brand it was, telling us speeds this up considerably.

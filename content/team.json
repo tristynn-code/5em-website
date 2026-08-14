@@ -2,21 +2,31 @@
   {
     "name": "Tristynn McGowan",
     "role": "Founder & CEO",
-    "photo": "/team/tristynn-avatar.jpg"
+    "photo": "/team/tristynn.jpg"
   },
   {
     "name": "Drew Waelde",
-    "role": "Head of Operations",
-    "photo": "https://cdn.prod.website-files.com/68f669a6d79edc75f34470f3/693281b05ea7776acb200dda_IMG_6549-2.jpg"
-  },
-  {
-    "name": "Justin Flores",
-    "role": "Head of Client Success",
-    "photo": "https://cdn.prod.website-files.com/68f669a6d79edc75f34470f3/69327546bc54d1e8a0e7281f_DSC01565%20Large.jpeg"
+    "role": "Head of Agency Operations",
+    "photo": "/team/drew-waelde.jpg"
   },
   {
     "name": "Ralf Ocampo",
-    "role": "Head of Creative Strategy",
-    "photo": "https://cdn.prod.website-files.com/68f669a6d79edc75f34470f3/6927bb2b1435de823539443b_Fifth%20Element%20Headshots-2.jpeg"
+    "role": "Creative Director",
+    "photo": "/team/ralf-ocampo.jpg"
+  },
+  {
+    "name": "David Lee",
+    "role": "Director of Client Success",
+    "photo": "/team/david-lee.jpg"
+  },
+  {
+    "name": "Justin Flores",
+    "role": "Client Success Manager",
+    "photo": "/team/justin-flores.jpg"
+  },
+  {
+    "name": "David Castro",
+    "role": "Digital Marketing Specialist",
+    "photo": "/team/david-castro.jpg"
   }
 ]

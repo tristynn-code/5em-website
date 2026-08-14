@@ -92,14 +92,14 @@ async function sendEmail(
           ${row('Video intro', app.videoLink)}
           ${row('How they heard', app.howHeard)}
         </table>
-        ${app.coverNote ? `<div style="margin-top:18px;padding-top:16px;border-top:1px solid rgba(0,0,0,.07)"><div style="color:#777;font-size:13px;margin-bottom:6px">Why 5th Element</div><div style="color:#444;font-size:14px;line-height:1.6">${escapeHtml(app.coverNote)}</div></div>` : ''}
+        ${app.coverNote ? `<div style="margin-top:18px;padding-top:16px;border-top:1px solid rgba(0,0,0,.07)"><div style="color:#777;font-size:13px;margin-bottom:6px">Why Fifth Element</div><div style="color:#444;font-size:14px;line-height:1.6">${escapeHtml(app.coverNote)}</div></div>` : ''}
       </div>
       <div style="text-align:center;color:#777;font-size:12px;margin-top:16px">Submitted ${escapeHtml(app.submittedAt)} via 5them.com/careers</div>
     </div>
   </body></html>`;
 
   const payload: Record<string, unknown> = {
-    from: `5th Element Careers <${CAREERS_FROM}>`,
+    from: `Fifth Element Careers <${CAREERS_FROM}>`,
     to: [CAREERS_INBOX],
     reply_to: app.email,
     subject: `New application: ${app.role} - ${app.fullName}`,

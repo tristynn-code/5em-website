@@ -86,7 +86,7 @@ export default function BlogPostLayout({ post, children }: Props) {
               <img src={AUTHOR_PHOTO} alt="Tristynn McGowan" className="w-12 h-12 rounded-full object-cover" />
               <div>
                 <div className="font-bold text-tx text-[14px]">Tristynn McGowan</div>
-                <div className="text-[12px] text-tx-3">Founder &amp; CEO, 5th Element Media</div>
+                <div className="text-[12px] text-tx-3">Founder &amp; CEO, Fifth Element</div>
               </div>
             </div>
             <span aria-hidden className="text-tx-3">·</span>
@@ -129,10 +129,10 @@ export default function BlogPostLayout({ post, children }: Props) {
                     Tristynn McGowan
                   </div>
                   <div className="text-[13px] text-tx-3 font-semibold mb-4">
-                    Founder &amp; CEO, 5th Element Media
+                    Founder &amp; CEO, Fifth Element
                   </div>
                   <p className="text-[15px] text-tx-2 leading-relaxed mb-5">
-                    Tristynn built 5th Element Media from a college dorm into a franchise marketing agency
+                    Tristynn built Fifth Element from a college dorm into a franchise marketing agency
                     serving 100+ franchise locations across the United States. He writes about what is actually
                     working in paid social, UGC, and franchise growth - not what sounds clever in a pitch deck.
                   </p>

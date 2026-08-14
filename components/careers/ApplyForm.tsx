@@ -192,7 +192,7 @@ export default function ApplyForm({
         {status === 'submitting' ? 'Submitting…' : 'Submit application →'}
       </button>
       <p className="mt-3 text-[12px] text-tx-3 text-center">
-        By applying you consent to 5th Element Media storing your application for hiring purposes.
+        By applying you consent to Fifth Element storing your application for hiring purposes.
       </p>
     </form>
   );

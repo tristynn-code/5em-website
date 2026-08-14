@@ -1,8 +1,11 @@
 export const SITE = {
   url: 'https://5them.com',
-  name: '5th Element Media',
+  name: 'Fifth Element',
   legalName: '5th Element Media LLC',
   shortName: 'Fifth Element',
+  /** Prior brand name - kept in schema so existing "5th Element Media" search
+      equity still resolves to this site after the rebrand. */
+  formerName: '5th Element Media',
   tagline: 'The franchise marketing agency behind 100+ franchise locations',
   description:
     'Franchise marketing agency for franchisors, multi-unit operators, and franchisees. We deliver predictable local lead flow, UGC-powered creative, and AI-driven insights across every location.',

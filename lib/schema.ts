@@ -9,7 +9,7 @@ export function organizationSchema() {
     '@id': `${SITE.url}#organization`,
     name: SITE.name,
     legalName: SITE.legalName,
-    alternateName: SITE.shortName,
+    alternateName: [SITE.formerName, '5EM'],
     description: SITE.description,
     url: SITE.url,
     logo: {
@@ -172,7 +172,7 @@ export function personSchema() {
     jobTitle: SITE.founder.role,
     worksFor: { '@id': `${SITE.url}#organization` },
     description:
-      'Founder and CEO of 5th Element Media. Built the agency from a college dorm into a franchise marketing firm serving 100+ franchise locations across the United States.',
+      'Founder and CEO of Fifth Element. Built the agency from a college dorm into a franchise marketing firm serving 100+ franchise locations across the United States.',
     sameAs: [SITE.founder.sameAs, SITE.social.youtube],
     image: `${SITE.url}/team/tristynn-headshot.jpg`,
     url: `${SITE.url}/about`,

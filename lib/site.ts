@@ -91,7 +91,7 @@ export const footerLinks = {
 };
 
 export const brand = {
-  name: '5th Element Media',
+  name: 'Fifth Element',
   shortName: 'Fifth Element',
   logo: 'https://cdn.prod.website-files.com/68f669a6d79edc75f34470f3/6921faef19de659f7d5b81f6_FifthElement%207.png',
   description: 'The franchise marketing agency behind 100s of franchise locations. Predictable lead flow, UGC creative, and AI-driven insights.',

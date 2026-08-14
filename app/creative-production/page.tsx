@@ -357,7 +357,7 @@ function MockupStaticAd() {
           UGC Brief Template
         </div>
         <div style={{ fontSize: 12, color: '#6B7585', lineHeight: 1.4 }}>
-          The exact format we use with 100+ franchise locations
+          The exact format we use with 300+ franchise locations
         </div>
       </div>
       <div
