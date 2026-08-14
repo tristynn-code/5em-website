@@ -6,13 +6,11 @@ const BAR_HEIGHTS = [18, 35, 28, 42, 55, 48, 38, 52, 60, 45, 58, 50, 65, 55, 72,
 const BAR_OPACITY = (h: number) => (h >= 70 ? 0.85 : h >= 55 ? 0.8 : h >= 35 ? 0.75 : 0.7);
 
 export default function HeroDashboard() {
+  // 312 locations averaging ~88 leads each per 30 days.
   const [metrics, setMetrics] = useState({
-    leads: 8347,
+    leads: 27456,
     cpl: 9.84,
-    showRate: 81,
     locations: 312,
-    speedToLead: 42,
-    booked: 6761,
   });
   const [heights, setHeights] = useState<number[]>(BAR_HEIGHTS);
   const [dateLabels, setDateLabels] = useState<string[]>([]);
@@ -33,12 +31,9 @@ export default function HeroDashboard() {
   useEffect(() => {
     const metricsTick = setInterval(() => {
       setMetrics(() => ({
-        leads: Math.round(8347 + (Math.random() - 0.5) * 60),
+        leads: Math.round(27456 + (Math.random() - 0.5) * 180),
         cpl: +(9.84 + (Math.random() - 0.5) * 0.5).toFixed(2),
-        showRate: Math.round(81 + (Math.random() - 0.5) * 4),
         locations: 312,
-        speedToLead: Math.round(42 + (Math.random() - 0.5) * 8),
-        booked: Math.round(6761 + (Math.random() - 0.5) * 50),
       }));
     }, 2800);
 
@@ -76,13 +71,10 @@ export default function HeroDashboard() {
         </h3>
         <span className="text-xs font-semibold text-tx-3">LIVE DASHBOARD</span>
       </div>
-      <div className="grid grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 sm:grid-cols-3">
         <MetricCell label="Total Leads (30d)" value={metrics.leads.toLocaleString()} delta="+34%" deltaDir="up" />
         <MetricCell label="Avg Cost Per Lead" value={`$${metrics.cpl.toFixed(2)}`} delta="↓38%" deltaDir="dn" />
         <MetricCell label="Active Locations" value={`${metrics.locations}`} delta="+41%" deltaDir="up" />
-        <MetricCell label="Appointments Booked" value={metrics.booked.toLocaleString()} delta="+29%" deltaDir="up" />
-        <MetricCell label="Show Rate" value={`${metrics.showRate}%`} delta="+12%" deltaDir="up" />
-        <MetricCell label="Avg Speed to Lead" value={`${metrics.speedToLead}s`} delta="↓64%" deltaDir="dn" />
       </div>
       <div className="px-7 py-5">
         <div className="flex items-center justify-between mb-5">
