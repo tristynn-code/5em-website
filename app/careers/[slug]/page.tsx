@@ -140,7 +140,7 @@ export default async function RolePage({ params }: { params: Promise<{ slug: str
 
           {/* APPLY */}
           <div id="apply" className="scroll-mt-24 mt-20 max-w-[760px]">
-            <ApplyForm roleTitle={role.title} roleSlug={role.slug} applyNote={role.applyNote} />
+            <ApplyForm roleTitle={role.title} roleSlug={role.slug} applyNote={role.applyNote} requestVideo={role.requestVideo} />
           </div>
 
           {/* Back link */}

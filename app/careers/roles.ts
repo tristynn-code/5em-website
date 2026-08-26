@@ -34,7 +34,7 @@ export interface Role {
   /** Human location, e.g. "Temecula, CA" or "Remote (US)". */
   location: string;
   employmentType: EmploymentType;
-  /** Display pay string, e.g. "$30 - $35 / hour". Optional. */
+  /** Display pay string, e.g. "$29 - $35 / hour". Optional. */
   payDisplay?: string;
   /** Structured pay for JobPosting schema (optional, drives Google rich result). */
   payMin?: number;
@@ -47,8 +47,11 @@ export interface Role {
   closeDate?: string;
   /** One-line hook shown on the careers index card. */
   summary: string;
-  /** Optional callout shown above the apply form (extra steps, e.g. a video). */
+  /** Optional callout shown above the apply form (extra steps, deadlines, etc). */
   applyNote?: string;
+  /** Show the "Video introduction link" field on the apply form. Off unless a
+      role actually asks for a video, so applicants are not prompted for one. */
+  requestVideo?: boolean;
   /** Opening paragraphs at the top of the detail page body. */
   intro: string[];
   /** The full job description, as titled sections. */
@@ -59,124 +62,71 @@ export interface Role {
 export const roles: Role[] = [
   {
     slug: 'client-success-manager',
-    title: 'Client Success Manager',
+    title: 'Jr. Client Success Manager',
     team: 'Client Success',
     workStyle: 'Hybrid',
     location: 'Temecula, CA',
     employmentType: 'Full-time',
-    payDisplay: '$30 - $35 / hour, depending on experience',
-    payMin: 30,
+    payDisplay: '$29 - $35 / hour ($60,000 - $72,000 annually)',
+    payMin: 29,
     payMax: 35,
     payUnit: 'HOUR',
-    datePosted: '2026-06-23',
+    datePosted: '2026-08-26',
     summary:
-      'Be the face of Fifth Element to a portfolio of 50 to 75 franchisee accounts. Own the relationship, lead your pod, and keep clients renewing.',
-    applyNote:
-      'Heads up: this role requires a 60 to 90 second video introduction. Record a quick selfie video (your phone is perfect) and paste the link in the form below. No video, no interview - it is that simple.',
+      'Build trusted, long-term partnerships across a portfolio of 50+ franchisee accounts. Lead your pod, turn performance data into strategy, and drive measurable client growth.',
     intro: [
-      'The Client Success Manager is the face of Fifth Element to our clients, and one of the most important roles in the company. You are not a support rep, and you are not an ad manager. You are the person our clients trust - you walk them through their numbers, field the hard questions, catch problems before they become churn, and make every client feel like they are our only client.',
-      'This is a high-visibility, high-trust role. You will own a portfolio of 50 to 75 franchisee accounts, from single-unit owners to multi-unit operators running a dozen or more locations, from onboarding through every renewal. You run recurring performance calls, translate campaign data into plain English, advocate for clients inside our team, and keep retention high.',
-      'You also lead your pod. Each pod pairs you with an ad manager who runs the media buying and a creative team member who produces the ads and content. You set the strategy, direct the work clearly, hold the timeline, and make sure what you promise the client actually gets executed. You are the bridge between the client and the people doing the work - the results and the relationship are yours to own. When a client is happy, it is largely because of you. When a client is frustrated, you are the one who turns it around.',
+      'As a results-driven Jr. Client Success Manager at Fifth Element, you will build trusted, long-term partnerships with our clients by delivering proactive, strategic support that helps them achieve their marketing goals. You will leverage campaign performance data, lead quality insights, and strategic marketing recommendations to uncover growth opportunities, optimize campaign performance, and ensure every program delivers measurable business results.',
     ],
     sections: [
       {
         heading: 'About Fifth Element',
         body: [
-          'Fifth Element is a franchise-focused marketing agency. We build and run the Franchise Lead Engine, a full-service paid lead generation system for franchise brands and multi-unit operators. We manage paid ads on Meta, Google, and TikTok, organic social, content coaching and creation, and performance reporting across hundreds of franchise locations for recognizable national brands in fitness, wellness, beauty, and lifestyle.',
-          'Our clients pay us every month because we deliver leads that turn into tours, bookings, members, and revenue. That means relationships are everything. We are a tight, high-output team that cares about results and treats clients like partners, not ticket numbers.',
+          'Fifth Element is a franchise-focused marketing agency that helps franchise brands and multi-unit operators drive predictable growth through our proprietary Franchise Lead Engine. Fifth Element’s fully managed lead generation system is designed to deliver qualified leads and measurable business results.',
+          'Our team manages every aspect of a client’s digital marketing strategy, including paid advertising across Meta, Google, and TikTok, organic social media management, content strategy and creative development, and performance reporting. We support hundreds of franchise locations across nationally recognized brands in the fitness, wellness, beauty, and lifestyle industries.',
+          'Our clients partner with us because we consistently deliver more than leads. We generate qualified opportunities that convert into tours, appointments, memberships, and revenue.',
+          'At Fifth Element, client relationships are at the center of everything we do. We are a collaborative, high-performing team that takes ownership, communicates proactively, and serves as a trusted extension of our clients’ businesses. We do not just manage campaigns, we help our clients grow.',
         ],
       },
       {
         heading: 'Key responsibilities',
         bullets: [
-          'Own the client relationship. Be the primary point of contact for the franchisees you manage, across a book of 50 to 75 accounts, and build real trust with the decision-makers behind each one.',
-          'Lead your pod. Direct the work for your accounts to your ad manager and creative team member, set clear priorities, hold timelines, and make sure the strategy you promise actually gets executed.',
-          'Run recurring performance calls. Walk clients through cost per lead, lead volume, tour and conversion trends, and exactly what the team is doing to improve them.',
-          'Turn data into a story. Pull insights from our reporting tools, then explain what the numbers mean and what happens next. No jargon dumps - clients should leave every call knowing more than when they joined.',
-          'Drive retention. Spot at-risk accounts early, address concerns before they escalate, and keep clients renewing month after month.',
-          'Be the bridge. Translate client needs into clear direction for your pod, relay feedback in Asana and Slack, and follow up so nothing slips through the cracks.',
-          'Lead onboarding. Take new clients through a smooth first 30 to 60 days so they understand exactly what we do and feel confident fast.',
-          'Handle the hard conversations. Performance dips, expectation resets, scope questions - stay calm, honest, and focused on solutions.',
-          'Keep the system tight. Document calls, log action items, and maintain accurate client records and pipeline notes in Asana and GoHighLevel.',
+          'Own the client relationship. Serve as the primary point of contact for a portfolio of 50+ franchisee accounts, ranging from single-unit owners to multi-unit operators. Build trusted relationships with key decision-makers and serve as a strategic partner focused on their growth and success.',
+          'Lead your pod. Direct the day-to-day execution for your accounts, working closely with your Ad Manager and Creative team member. Establish clear priorities, manage timelines, and ensure the strategy communicated to the client is executed effectively. Orchestration is a skill you enjoy.',
+          'Lead performance conversations. Facilitate recurring client calls that are organized, insightful, and action-oriented. Clearly communicate performance across cost per lead, lead volume, tour activity, conversion trends, and other key metrics, while outlining the team’s strategy for continued improvement.',
+          'Turn data into strategy. Leverage reporting tools and dashboards to identify meaningful insights and translate performance data into clear recommendations. Help clients understand not only what the numbers say, but what they mean and what actions we are taking next.',
+          'Drive client retention. Proactively monitor account health, identify risks early, and address concerns before they escalate. Build the trust and demonstrate the value that keeps clients engaged and partnered with Fifth Element month after month.',
+          'Be the bridge. Translate client goals, feedback, and requests into a clear direction for your pod. Maintain strong communication across Asana and Slack, follow through on commitments, and ensure nothing falls through the cracks.',
+          'Lead client onboarding. Guide new clients through a seamless first 30 to 60 days, setting clear expectations, establishing strong communication, and ensuring they quickly understand the value of our programs.',
+          'Handle challenging conversations. Navigate performance concerns, expectation resets, scope questions, and other difficult conversations with confidence and professionalism. Communicate openly, stay solution-oriented, and maintain trust even when conversations are challenging.',
+          'Keep the system tight. Maintain accurate client records, document meeting notes and action items, manage follow-ups, and hold your pod accountable to timelines and commitments across Asana and GoHighLevel.',
+          'Educate and add value. Stay current on franchise marketing trends, strategies, and best practices. Bring proactive insights and provide consultative recommendations.',
         ],
       },
       {
-        heading: 'Who you are',
+        heading: 'What we’re looking for',
         bullets: [
-          'You stay calm under pressure and you genuinely like people.',
-          'You can read a performance report and explain it to a busy franchise owner in two sentences.',
-          'You follow up before anyone has to ask.',
-          'You take ownership of outcomes instead of pointing at other teams.',
-          'You write and speak clearly, professionally, and like a real person.',
-        ],
-      },
-      {
-        heading: 'Soft skills',
-        bullets: [
-          'Emotional intelligence. You read the room, manage your own reactions, and navigate other people’s emotions well.',
-          'Empathy. A client-first mindset and an understanding of the pressure franchise owners are under.',
-          'Exceptional communication. Clear, concise, professional writing and speaking.',
-          'Adaptability. Comfort with shifting priorities in a fast-paced environment.',
-          'Relationship building. A proven ability to earn trust with clients and teammates.',
-          'Problem-solving. You identify the real issue quickly and move toward a fix.',
-          'Time management. You juggle 50 to 75 accounts without dropping a ball.',
-          'Conflict resolution. You address tough client moments while protecting the relationship.',
-        ],
-      },
-      {
-        heading: 'Qualifications',
-        bullets: [
-          'Experience: 3+ years in client success, account management, or a client-facing role. Marketing, media, or agency experience strongly preferred.',
-          'Project management: a strong sense of project management - you keep clients and work on pace, hold timelines, and make sure nothing falls behind.',
-          'Comfort with data: you can interpret performance metrics and present them with confidence.',
-          'Communication: excellent written and verbal communication is non-negotiable for this role.',
-          'Relationship management: a track record of building and keeping long-term client relationships.',
-          'Organization: highly organized, able to prioritize and manage a large portfolio of accounts at once.',
-          'Technical fluency: comfortable with Google Workspace, Slack, Asana, and reporting tools. A background in Meta or Google Ads, media buying, GoHighLevel, or the franchise industry is a strong bonus.',
-        ],
-      },
-      {
-        heading: 'Work arrangement and home office',
-        body: [
-          'This is a hybrid role, in-person first: four days per week in our office in Temecula, CA, and one day per week working from home. You must live within commuting distance of Temecula and be able to be in our office four days a week. This is not a remote position, so please only apply if you can reliably be in-office.',
-          'Because you will be on camera with clients regularly, your work-from-home day requires a professional setup. On every client call you represent Fifth Element, so your audio, video, and background need to look and sound polished. In-office equipment is provided; your home setup is on you, and it matters.',
-        ],
-        bullets: [
-          'Reliable high-speed internet with strong upload and download speeds for clean video calls',
-          'A quiet, distraction-free, professional-looking space',
-          'A high-quality camera and microphone, or a quality headset, for clear audio and video',
-          'A computer powerful enough to run reporting tools, dashboards, and video calls at the same time without lag',
-          'Dual monitors strongly preferred',
+          'Digital marketing experience: 1 to 2 years of experience in digital marketing, advertising, or a related field.',
+          'Client relationship management: proven ability to build, maintain, and grow long-term client relationships, with a focus on retention, renewals, and expansion.',
+          'In-person, high-accountability environment: this is a hybrid role with an in-person-first approach, requiring one day remote and four days per week in our Temecula, CA office.',
+          'Data and analytics: comfortable interpreting performance data, identifying trends, and confidently translating insights into clear, actionable recommendations.',
+          'Communication: exceptional written and verbal communication skills, with the ability to communicate effectively with everyone from General Managers to multi-unit franchise owners.',
+          'Project management: highly organized and proactive, able to manage multiple accounts, priorities, and timelines while ensuring nothing falls behind.',
+          'Leadership and accountability: calm under pressure, takes ownership, and proactively addresses challenges to ensure client satisfaction and success.',
+          'Marketing knowledge: strong conceptual understanding of digital marketing strategies; experience with Meta Ads, Google Ads, media buying, or franchise marketing is a strong plus.',
+          'Technology and organization: comfortable with Google Workspace, Slack, Asana, reporting and presentation tools, and platforms such as GoHighLevel.',
         ],
       },
       {
         heading: 'Why join Fifth Element',
-        bullets: [
-          'Own one of the most important and most visible roles in a fast-growing franchise marketing agency.',
-          'Work with real clients getting real results, not vanity metrics.',
-          'Join a tight, collaborative, high-output team that values your ideas.',
-          'Enjoy hybrid flexibility with a real in-office culture in the Temecula Valley.',
-          'Grow with us as we scale, including a clear path toward senior client management and leadership roles.',
-        ],
-      },
-      {
-        heading: 'Compensation and benefits',
-        bullets: [
-          'Pay: $30 to $35 per hour depending on experience, with performance-based reviews and room for raises tied to your results and the company’s growth.',
-          'Benefits: a full benefits package is in active development and will be shared during the interview process.',
-          'Growth: a clear path to senior client management and leadership roles as we scale.',
-          'Culture: a tight-knit, fast-paced, in-person team where your work has a direct, visible impact.',
-        ],
-      },
-      {
-        heading: 'How to apply',
         body: [
-          'Apply with the form below. We need three things, and all three matter:',
+          'At Fifth Element, you will have the opportunity to play a highly visible and impactful role within a young, energetic, and rapidly growing franchise marketing agency. You will work directly with clients, influence meaningful business outcomes, and help drive results that go far beyond vanity metrics, all while working alongside a collaborative team that values initiative, ideas, and accountability.',
+          'With a hybrid, in-office-first culture in the Temecula Valley, this is an exciting time to join us before we substantially scale our teams and operations, giving you the opportunity to make an immediate impact, grow your expertise, take on greater responsibility, and grow with the company.',
         ],
-        bullets: [
-          'Your resume.',
-          'A short cover note. Tell us anything you want us to know - your background, your experience. If you want a prompt: tell us about a time you kept a client from walking away and what you did to turn it around.',
-          'A 60 to 90 second video introduction. This is the most important part. The role is client-facing and on camera every single week, so we want to see and hear you before we ever meet. Tell us who you are, why this role fits you, and how you think about taking care of clients. A selfie video or quick screen recording is perfect - record it on your phone if you want. We are not looking for studio production. We are looking for someone warm, clear, and confident on camera, because that is the job. Upload it to Google Drive or any link we can open, and paste the link in the form. No video, no interview.',
+      },
+      {
+        heading: 'Compensation and transparency',
+        body: [
+          'Compensation: $29 to $35 per hour ($60,000 to $72,000 annually) with clear opportunities to advance into senior client management and leadership roles as we scale. A comprehensive benefits package is currently in development and will be shared during the interview process.',
         ],
       },
     ],
