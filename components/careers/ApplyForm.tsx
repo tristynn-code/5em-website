@@ -15,10 +15,13 @@ export default function ApplyForm({
   roleTitle,
   roleSlug,
   applyNote,
+  requestVideo,
 }: {
   roleTitle: string;
   roleSlug: string;
   applyNote?: string;
+  /** Only roles that actually ask for a video intro show that field. */
+  requestVideo?: boolean;
 }) {
   const [status, setStatus] = useState<Status>('idle');
   const [error, setError] = useState<string>('');
@@ -154,10 +157,12 @@ export default function ApplyForm({
         </div>
       </div>
 
-      <div className="mt-5">
-        <label className={labelClass} htmlFor="videoLink">Video introduction link</label>
-        <input id="videoLink" name="videoLink" type="url" maxLength={500} className={fieldClass} placeholder="https://drive.google.com/… (Google Drive, Loom, YouTube, etc.)" />
-      </div>
+      {requestVideo && (
+        <div className="mt-5">
+          <label className={labelClass} htmlFor="videoLink">Video introduction link</label>
+          <input id="videoLink" name="videoLink" type="url" maxLength={500} className={fieldClass} placeholder="https://drive.google.com/… (Google Drive, Loom, YouTube, etc.)" />
+        </div>
+      )}
 
       <div className="mt-5">
         <label className={labelClass} htmlFor="coverNote">Cover note (optional)</label>
