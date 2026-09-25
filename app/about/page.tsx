@@ -129,7 +129,7 @@ export default function AboutPage() {
           <p className="ssub mx-auto">
             Every person on our team works directly with your brand. No handoffs. No junior reps. Senior-level execution from day one.
           </p>
-          <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 mt-12">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mt-12">
             {team.map(m => (
               <figure
                 key={m.name}

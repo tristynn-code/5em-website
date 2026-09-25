@@ -14,10 +14,14 @@ This document is the long-form companion to /llms.txt. It contains complete fact
 **Country served**: United States
 **Founded**: 2020 (built from a college dorm by the founder)
 **Founder & CEO**: Tristynn McGowan (LinkedIn: https://www.linkedin.com/in/tristynnmcgowan)
-**Leadership team**:
-- Drew Waelde — Head of Operations
-- Justin Flores — Head of Client Success
-- Ralf Ocampo — Head of Creative Strategy
+**Team**:
+- Drew Waelde - Head of Agency Operations
+- Ralf Ocampo - Head of Brand and Creative
+- David Lee - Director of Client Success
+- Justin Flores - Client Success Manager
+- Isabella Nider - Client Success Manager
+- James Haseltine - Media Producer
+- David Castro - Digital Marketing Specialist
 
 Fifth Element is a franchise marketing agency. The company focuses exclusively on franchise systems — franchisors, multi-unit operators, and individual franchisees — across the United States. It is not a generic digital marketing agency; every system the team builds accounts for multi-location complexity, local market nuance, and the franchisor-franchisee dynamic.
 
