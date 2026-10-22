@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 import { SITE } from '@/lib/seo';
 import { posts } from './blog/posts';
 import { getOpenRoles } from './careers/roles';
+import { studies } from './case-studies/studies';
 
 const ROUTES: Array<{
   path: string;
@@ -63,5 +64,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: 'weekly' as const,
     priority: 0.6,
   }));
-  return [...staticEntries, ...blogEntries, ...roleEntries];
+  // Every case study gets its own indexable URL, straight from studies.ts.
+  const studyEntries = studies.map(s => ({
+    url: `${SITE.url}/case-studies/${s.slug}`,
+    lastModified: new Date(s.published),
+    changeFrequency: 'monthly' as const,
+    priority: 0.8,
+  }));
+  return [...staticEntries, ...blogEntries, ...roleEntries, ...studyEntries];
 }
