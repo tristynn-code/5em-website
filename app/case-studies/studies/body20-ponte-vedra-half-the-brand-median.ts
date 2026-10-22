@@ -14,6 +14,11 @@ export const study: CaseStudy = {
     'BODY20 Ponte Vedra, a corporate studio launched in May 2026, bought Meta leads at $17.08 from Jul 23 to Oct 20, 2026, 52.7% under the $36.13 median of the 12 BODY20 locations we run with at least $500 spend and 30 days of data in that window.',
   published: '2026-10-22',
   readTime: '6 min',
+  cover: {
+    src: '/case-studies/body20-ponte-vedra-half-the-brand-median/cover.jpg',
+    alt: 'A man in an EMS suit does a dumbbell press while a coach spots him, a frame from the Future of fitness ad that ran in Ponte Vedra’s account',
+    position: '50% 40%',
+  },
   heroStats: [
     {
       value: '$17.08',
@@ -105,6 +110,22 @@ export const study: CaseStudy = {
         {
           title: 'Review it with corporate every week',
           text: 'From May 21, Tristynn McGowan, our Founder and CEO, took the lead on the account, with a weekly review of tests and results alongside Sequel and BODY20. Steve worked from the same report we did.',
+        },
+      ],
+    },
+    {
+      type: 'creative',
+      title: 'The video that ran most in Ponte Vedra’s account',
+      caption:
+        'Filmed at another BODY20 studio (its name is blurred) and live in Ponte Vedra’s account during the June 9 to early August lockout and after it. Its headline in Ponte Vedra’s account: “20 Minutes = Hours in the Gym.” Ad-level data on record starts July 13, 2026, so these numbers do not cover May or June.',
+      items: [
+        {
+          kind: 'image',
+          src: '/case-studies/body20-ponte-vedra-half-the-brand-median/ad-1.jpg',
+          alt: 'Frame from the Future of fitness video ad: a man in an EMS suit does a dumbbell press while a coach spots the weight; the studio name on the windows is blurred',
+          label: 'Future of fitness video ad (frame)',
+          stat: '270 leads at $17.21',
+          note: 'Meta, Jul 13 to Oct 20, 2026, across the 10 ads that used this video; 63 of these leads, at $21.00, came Jul 13 to Aug 4, while the ads could not be edited',
         },
       ],
     },

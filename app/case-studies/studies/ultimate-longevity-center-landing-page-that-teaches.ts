@@ -15,6 +15,11 @@ export const study: CaseStudy = {
     'An education-first page took our first ULC center from 2.89% to 8.80% lead conversion (Jun 15 to Jul 31, 2026), then drew 11,715 Meta leads at $10.87 across 20 centers, Jul 1 to Oct 21.',
   published: '2026-10-22',
   readTime: '6 min',
+  cover: {
+    src: '/case-studies/ultimate-longevity-center-landing-page-that-teaches/cover.jpg',
+    alt: 'A clinician draws blood from a seated client in a lit arch, the Lab photo from the Ultimate Longevity Center landing page',
+    position: '45% 30%',
+  },
   heroStats: [
     {
       value: '8.80%',
@@ -124,6 +129,34 @@ export const study: CaseStudy = {
       ],
     },
     {
+      type: 'creative',
+      title: 'From the ad to a page that explains first',
+      caption:
+        'Chandler, AZ, a later center on the same page, as live on Oct 22, 2026; the first center is not shown. Chandler drew 1,286 leads at $7.94 from this page, Jun 1 to Oct 21, 2026.',
+      items: [
+        {
+          kind: 'image',
+          src: '/case-studies/ultimate-longevity-center-landing-page-that-teaches/ad-1.jpg',
+          alt: 'Vertical Ultimate Longevity Center ad for Chandler with Gary Brecka in a sauna and the line Join the VIP List',
+          label: 'Gary Brecka VIP list ad, Chandler',
+          stat: '35 leads at $5.94',
+          note: 'Meta, Jul 13 to Oct 21, 2026, one of 3 ad sets that ran this image. 13.31% of link clicks became leads on the landing page',
+        },
+        {
+          kind: 'image',
+          src: '/case-studies/ultimate-longevity-center-landing-page-that-teaches/page-1.jpg',
+          alt: 'Chandler landing page on a phone: The Future of Longevity, with a plain paragraph on what Ultimate Longevity Center is and no price or form on the first screen',
+          label: 'First screen after the click: what ULC is',
+        },
+        {
+          kind: 'image',
+          src: '/case-studies/ultimate-longevity-center-landing-page-that-teaches/page-2.jpg',
+          alt: 'Chandler landing page on a phone: Understand. Restore. Optimize., explaining how the three spaces work, starting with The Lab',
+          label: 'Then the three spaces, starting with the Lab',
+        },
+      ],
+    },
+    {
       type: 'p',
       text: 'Leaving prices off was ULC’s call as much as ours. Elise Budowanec, ULC’s Director of Marketing, put it plainly on June 29: "The primary goal of the page is lead generation, not to close the sale."',
     },
@@ -188,6 +221,26 @@ export const study: CaseStudy = {
     {
       type: 'p',
       text: 'Our weekly performance alert caught it. On October 13, Drew Waelde, Head of Agency Operations, wrote to ULC that "asking for $99 down upfront is too big of a commitment at this point in the funnel." Elise answered the next morning: "I think we should switch the landing page back as soon as possible." That day the page was re-led with "Lock in 20% off for life" and "no payment needed," with the $99 still on the page, further down. What changed was what came first. The next week the 7 centers converted at **9.26%**.',
+    },
+    {
+      type: 'creative',
+      title: 'The re-led page: 20% off for life first, the $99 further down',
+      caption:
+        'Chapel Hill, NC, one of the 7 test centers, as live on Oct 22, 2026, after the Oct 14 change. The $99-led version that ran there Oct 6 to 14 was not kept, so it is not shown.',
+      items: [
+        {
+          kind: 'page',
+          src: '/case-studies/ultimate-longevity-center-landing-page-that-teaches/page-3.jpg',
+          alt: 'Chapel Hill landing page hero reading Lock in 20% off for life, with Claim your spot in 30 seconds, no payment needed, next to an empty sign-up form',
+          label: 'Hero after the fix: 20% off, no payment needed',
+        },
+        {
+          kind: 'page',
+          src: '/case-studies/ultimate-longevity-center-landing-page-that-teaches/page-4.jpg',
+          alt: 'How it works card: claim your spot with no payment, the team reaches out, then step 3, reserve your founding spot with $99 down',
+          label: 'Step 3: the $99 deposit, after the form',
+        },
+      ],
     },
     {
       type: 'p',

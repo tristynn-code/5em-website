@@ -14,6 +14,11 @@ export const study: CaseStudy = {
   summary: `iFlex Highland Greenspot drew 358 leads from our ads at an $8.75 cost per lead in its first 30 days of presale. iFlex corporate also asked for the same launch budget at later studios.`,
   published: '2026-10-22',
   readTime: '5 min',
+  cover: {
+    src: '/case-studies/iflex-highland-greenspot-launch/cover.jpg',
+    alt: 'Alexander Mattison, owner of iFlex Stretch Studios Highland Greenspot, smiling outside the studio next to its iFlex window poster, from a September 2026 founding membership ad',
+    position: '50% 40%',
+  },
   heroStats: [
     {
       value: '358',
@@ -105,6 +110,30 @@ export const study: CaseStudy = {
       ],
     },
     {
+      type: 'creative',
+      title: 'The launch ad and the page every click went to',
+      caption:
+        'The info ad was finished Jun 12, five days before launch, from iFlex brand footage. Ralf cut it with two callouts, Highland, CA and Highland Greenspot; this is the Highland, CA cut. The page is the studio\'s presale page on lp.iflexoffers.com. Ad-level results start Jul 13, 2026, so the launch weeks are not in the ad\'s numbers.',
+      items: [
+        {
+          kind: 'video',
+          src: '/case-studies/iflex-highland-greenspot-launch/ad-1.mp4',
+          poster: '/case-studies/iflex-highland-greenspot-launch/ad-1.jpg',
+          alt: 'iFlex brand video ad with the words Highland, CA over a stretch studio interior, followed by assisted stretching footage and a Join the VIP List line',
+          label: 'Info ad with the Highland callout',
+          stat: '212 leads at $16.38, 2.57% CTR',
+          note: 'Meta, both ad sets, Jul 13 to Sep 22, 2026, after the launch weeks',
+        },
+        {
+          kind: 'page',
+          src: '/case-studies/iflex-highland-greenspot-launch/page-1.jpg',
+          alt: 'The iFlex Highland Greenspot presale landing page: Coming soon to Highland Greenspot, CA, the headline Recovery, Redefined, three benefits, a Join the VIP List button, a section explaining assisted stretching, two session lengths and a three-step how a session works section, with no prices',
+          label: 'Highland Greenspot presale page',
+          note: 'As live on Oct 22, 2026',
+        },
+      ],
+    },
+    {
       type: 'quote',
       text: "The fact that you guys are providing coaching is, I would say, something I haven't seen from other agencies.",
       name: 'Gabi Khowploum',
@@ -175,6 +204,46 @@ export const study: CaseStudy = {
       text: `The third piece came later in the launch, and it did not need a finished studio: the owner on camera. He recorded his first takes before our guide reached him, and from mid-July his face and his neighborhood were in the ads.`,
     },
     {
+      type: 'creative',
+      title: 'His first takes, the ads cut from them, and his first coaching guide',
+      caption:
+        'He filmed outside the empty storefront on Jul 5, the day before his first coaching guide arrived. Fifth Element edited the takes into ads with captions and stretching footage. The guide, the same one every iFlex presale owner gets, set up his next round.',
+      items: [
+        {
+          kind: 'video',
+          src: '/case-studies/iflex-highland-greenspot-launch/ad-2.mp4',
+          poster: '/case-studies/iflex-highland-greenspot-launch/ad-2.jpg',
+          alt: 'The owner filming himself outside the empty retail space that became the studio, naming the shopping center and the Highland and Greenspot intersection',
+          label: 'Owner\'s raw take, Jul 5',
+          note: 'Filmed Jul 5, 2026. Unedited, first 21 seconds',
+        },
+        {
+          kind: 'image',
+          src: '/case-studies/iflex-highland-greenspot-launch/ad-4.jpg',
+          alt: 'Still from the finished ad cut from that take: the owner outside the future studio with the caption If you heard it here',
+          label: 'Neighborhood hook ad, still',
+          stat: '147 leads at $14.90, 4.77% CTR',
+          note: 'Meta, this ad, Jul 14 to Sep 22, 2026',
+        },
+        {
+          kind: 'video',
+          src: '/case-studies/iflex-highland-greenspot-launch/ad-3.mp4',
+          poster: '/case-studies/iflex-highland-greenspot-launch/ad-3.jpg',
+          alt: 'Finished ad: the owner outside the future studio says this location is the home of an iFlex Stretch Studios, here in Highland, California, with captions',
+          label: 'Home of iFlex ad',
+          stat: '48 leads at $12.75, 5.26% CTR',
+          note: 'Meta, both ad sets, Jul 13 to Sep 22, 2026',
+        },
+        {
+          kind: 'document',
+          src: '/case-studies/iflex-highland-greenspot-launch/doc-1.jpg',
+          alt: 'Page from the iFlex presale content guide: every clip is about the community, film vertically, audio first, and 20 city-first hooks such as [City], iFlex is coming',
+          label: 'iFlex presale content guide',
+          note: 'Sent to the owner Jul 6, 2026',
+        },
+      ],
+    },
+    {
       type: 'callout',
       title: 'The lesson',
       text: 'Set the launch budget before there is data to justify it. By the time the data arrives, the cheapest weeks are over.',
@@ -190,7 +259,7 @@ export const study: CaseStudy = {
     },
   ],
   sources:
-    'Meta Ads Manager data via Fifth Element reporting (dashboards): first 30 days Jun 17 to Jul 16, 2026; best 90 days Jun 17 to Sep 14, 2026; weekly chart Jun 17 to Sep 8, 2026; click-through rate before and after Jul 13, 2026, seven days each side (Jul 6 to 12 and Jul 13 to 19, 2026). Dashboard totals include 29 leads from a pixel outage on Jun 17 to 18, 2026, restored by a manual correction and booked to Jun 17. The 15 first-hours leads were counted in the studio CRM during that outage and reported to iFlex corporate by email on Jun 18, 2026. First-14-day and landing-page rates: Meta landing-page ad sets, Jun 17 to 30, 2026 and Oct 1 to 21, 2026. iFlex launch curve: six iFlex launches with first spend Jun 3 to Jul 21, 2026, pooled by campaign age, data through Oct 20, 2026; the first-14-day figure ($15.73) excludes the 29 manual-correction leads ($14.95 with them). iFlex brand click-through rate: all iFlex locations, Jan 1, 2025 to Oct 20, 2026. Leads are leads from our ads, not memberships. iFlex lead forms fire a Lead event on the form and again on the thank-you page, so iFlex lead counts here may count some submissions twice; the size of that effect has not been measured.',
+    'Meta Ads Manager data via Fifth Element reporting (dashboards): first 30 days Jun 17 to Jul 16, 2026; best 90 days Jun 17 to Sep 14, 2026; weekly chart Jun 17 to Sep 8, 2026; click-through rate before and after Jul 13, 2026, seven days each side (Jul 6 to 12 and Jul 13 to 19, 2026). Dashboard totals include 29 leads from a pixel outage on Jun 17 to 18, 2026, restored by a manual correction and booked to Jun 17. The 15 first-hours leads were counted in the studio CRM during that outage and reported to iFlex corporate by email on Jun 18, 2026. First-14-day and landing-page rates: Meta landing-page ad sets, Jun 17 to 30, 2026 and Oct 1 to 21, 2026. iFlex launch curve: six iFlex launches with first spend Jun 3 to Jul 21, 2026, pooled by campaign age, data through Oct 20, 2026; the first-14-day figure ($15.73) excludes the 29 manual-correction leads ($14.95 with them). iFlex brand click-through rate: all iFlex locations, Jan 1, 2025 to Oct 20, 2026. Leads are leads from our ads, not memberships. iFlex lead forms fire a Lead event on the form and again on the thank-you page, so iFlex lead counts here may count some submissions twice; the size of that effect has not been measured. Results under each ad: Meta ad-level data (Fifth Element reporting), available from Jul 13, 2026; windows as noted under each ad.',
   order: 1,
   seoKeywords: [
     'iFlex Stretch Studios presale',

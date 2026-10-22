@@ -14,6 +14,11 @@ export const study: CaseStudy = {
     'At two IMAGE presale studios, fewer ad sets, no intro screen and one form question instead of two each cut cost per lead by more than half (Jul to Oct 2026). The rules we use to fill salon suites on small budgets, judged on tours.',
   published: '2026-10-22',
   readTime: '7 min',
+  cover: {
+    src: '/case-studies/image-studios-small-budget-playbook/cover.jpg',
+    alt: 'An open salon suite at IMAGE Studios Myrtle Beach, SC, with a shampoo bowl, styling chair and round mirror by a window',
+    position: '50% 50%',
+  },
   heroStats: [
     {
       value: '5 to 13',
@@ -206,6 +211,29 @@ export const study: CaseStudy = {
       ],
     },
     {
+      type: 'creative',
+      title: 'Two of the rules on real accounts',
+      caption:
+        'A reel of the hair suites we made for Rock Hill, SC in June 2025, after the studio was down to six suites, all for hair, and the weekly form owners fill in to report suites filled, tours scheduled and completed, applications and new leases. No ad stats for either.',
+      items: [
+        {
+          kind: 'video',
+          src: '/case-studies/image-studios-small-budget-playbook/ad-3.mp4',
+          poster: '/case-studies/image-studios-small-budget-playbook/ad-3.jpg',
+          alt: 'Vertical reel titled IMAGE Studios Rock Hill, walking down the suite hallway and through furnished hair suites',
+          label: 'Hair suites reel, Rock Hill',
+          note: 'Reel dated Jun 18, 2025',
+        },
+        {
+          kind: 'page',
+          src: '/case-studies/image-studios-small-budget-playbook/page-1.jpg',
+          alt: 'IMAGE Studios weekly form asking for total suites, occupied suites, tours scheduled and completed, applications and new leases in the past 7 days',
+          label: 'Weekly tour and occupancy form',
+          note: 'Sent to owners every week',
+        },
+      ],
+    },
+    {
       type: 'quote',
       text: 'The best time that I found to start working with Fifth Element was about six months before I opened my studios. This allowed us an opportunity to become known in the local market.',
       name: 'Chris Chamberlin',
@@ -227,6 +255,30 @@ export const study: CaseStudy = {
         {
           title: 'Richardson West, TX: a late start, shared credit',
           text: 'The owner signed with us on November 18, 2025, about two months before a January 2026 opening, and reported 37 of 38 suites leased by August 4, 2026. Credit is shared: he had messaged local pros himself for four months and hosted a mixer that drew more than 25 pros. A late start can work when the owner has already done the construction-phase outreach.',
+        },
+      ],
+    },
+    {
+      type: 'creative',
+      title: 'Myrtle Beach reels from the weeks it was filling suites',
+      caption:
+        'Weekly reels we made for the studio in March 2026, while it still had suites to fill. No ad stats are attached to these reels.',
+      items: [
+        {
+          kind: 'video',
+          src: '/case-studies/image-studios-small-budget-playbook/ad-1.mp4',
+          poster: '/case-studies/image-studios-small-budget-playbook/ad-1.jpg',
+          alt: 'Vertical reel opening on the IMAGE Studios Myrtle Beach building, then walking through an empty suite captioned The views of your work day',
+          label: 'Open suite walkthrough',
+          note: 'Delivered Mar 10, 2026',
+        },
+        {
+          kind: 'video',
+          src: '/case-studies/image-studios-small-budget-playbook/ad-2.mp4',
+          poster: '/case-studies/image-studios-small-budget-playbook/ad-2.jpg',
+          alt: 'Vertical reel titled IMAGE Studios Myrtle Beach, walking through hair and esthetics suites',
+          label: 'Suite tour reel',
+          note: 'Delivered Mar 4, 2026',
         },
       ],
     },

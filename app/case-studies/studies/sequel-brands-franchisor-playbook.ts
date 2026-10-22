@@ -13,6 +13,11 @@ export const study: CaseStudy = {
     'One Pilates Addiction studio ran with Fifth Element in January 2026; 59 had ad spend through us Sep 21 to Oct 20, among 100 Sequel Brands locations. What the franchisor gets.',
   published: '2026-10-22',
   readTime: '7 min',
+  cover: {
+    src: '/case-studies/sequel-brands-franchisor-playbook/cover.jpg',
+    alt: 'Three frames from the footage behind a Pilates Addiction Yorba Linda presale ad: a gold Pilates Addiction key fob hanging in front of the Coming Soon storefront, a woman reaching for the keys, and the same woman holding the studio door open.',
+    position: '50% 50%',
+  },
   heroStats: [
     {
       value: '1 to 59',
@@ -142,6 +147,50 @@ export const study: CaseStudy = {
         {
           title: 'Creative the franchisor can hand to the network',
           text: 'Because we run many locations inside the same brand, we see which formats win across markets, and corporate can push those to everyone. Reviewing a new Pilates Addiction studio’s campaign in September, Sequel’s CGO wrote: “I like the grab the keys and open the door creative. We should encourage more studios to use that.” The same month, BODY20’s Chief Marketing Officer took our two slides of creative that works and shared them with his owners.',
+        },
+      ],
+    },
+    {
+      type: 'creative',
+      title: 'The Pilates Addiction roll-up view we showed every agency in September',
+      caption:
+        'From the deck Fifth Element presented on Sequel’s all-agency call on September 16, 2026. The roll-up view covers the 30 days to September 14.',
+      items: [
+        {
+          kind: 'document',
+          src: '/case-studies/sequel-brands-franchisor-playbook/doc-1.jpg',
+          alt: 'Pilates Addiction brand roll-up view for 58 studios: $137.4k spend, 9,430 leads and a $14.57 cost per lead, with CTR, CPC, CPM and lead submission rate against the prior period, a collapsed What Changed insights panel, and a daily lead-flow chart from August 16 to September 14.',
+          label: 'Pilates Addiction roll-up view',
+          note: 'Meta, 30 days to Sep 14, 2026, against the 30 days before. 58 studios on the roll-up, 50 with spend in the window.',
+        },
+      ],
+    },
+    {
+      type: 'creative',
+      title: 'The ad Sequel’s CGO asked more studios to copy',
+      caption:
+        'From the Pilates Addiction Yorba Linda presale campaign, live from September 10, 2026. This is the ad the CGO’s September note refers to.',
+      items: [
+        {
+          kind: 'video',
+          src: '/case-studies/sequel-brands-franchisor-playbook/ad-1.mp4',
+          poster: '/case-studies/sequel-brands-franchisor-playbook/ad-1.jpg',
+          alt: 'Pilates Addiction Yorba Linda presale video ad: a woman reaches for a gold Pilates Addiction key fob in front of the Coming Soon storefront, walks to the gold front door and opens it, then studio shots captioned Yorba Linda, CA, opening soon, and a Join the VIP list end card.',
+          label: 'Grab the keys and open the door ad',
+          note: 'Pilates Addiction Yorba Linda presale, September 2026',
+        },
+      ],
+    },
+    {
+      type: 'creative',
+      title: 'A BODY20 creative slide we showed every agency in September',
+      caption: 'Also from the September 16, 2026 deck.',
+      items: [
+        {
+          kind: 'document',
+          src: '/case-studies/sequel-brands-franchisor-playbook/doc-2.jpg',
+          alt: 'BODY20 Top Creatives slide showing two ads: a “the future of fitness is here” studio video and a static ad offering BODY20 for $49.',
+          label: 'BODY20 top creatives slide',
         },
       ],
     },

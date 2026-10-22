@@ -16,6 +16,11 @@ export const study: CaseStudy = {
     'Pilates Addiction Pacifica signed 165 members on Founders Day, per the owner, after 1,076 Meta leads at $4.97 from Jun 11 to Jul 9, 2026. His first studio went in with 637 at $9.57.',
   published: '2026-10-22',
   readTime: '6 min',
+  cover: {
+    src: '/case-studies/pilates-addiction-pacifica-165-members-31k/cover.jpg',
+    alt: 'A studio team member smiles while holding a Pilates Addiction Pacifica Coming Soon flyer in a shopping center parking lot',
+    position: '50% 15%',
+  },
   heroStats: [
     {
       value: '165',
@@ -111,6 +116,43 @@ export const study: CaseStudy = {
         {
           title: 'Refresh with owner footage, then add the date',
           text: 'The refresh with that footage went live on July 6. The nine-day gap was on our side, and the slump ran almost exactly across it: 96 leads at $10.15 from June 26 to July 5. That day Ralf asked for the close the first studio had used: "Just like we did with [your first studio], I\'d love to get some simple hooks announcing the date of Founders 50." The point was "to announce the launch date this week to maximize urgency." The owner\'s team filmed them the next day, and the drop-date ads went live July 8.',
+        },
+      ],
+    },
+    {
+      type: 'creative',
+      title: 'What we asked the owner\'s team to film',
+      caption: 'The local-shots section of our Pilates Addiction filming guide.',
+      items: [
+        {
+          kind: 'document',
+          src: '/case-studies/pilates-addiction-pacifica-165-members-31k/doc-1.jpg',
+          alt: 'Filming guide section titled Localized Areas Around Our Location: film wide shots near the future studio, pan the street, point to the area',
+          label: 'Our filming guide: local shots',
+        },
+      ],
+    },
+    {
+      type: 'creative',
+      title: 'The refresh ad the owner\'s team filmed, and the drop-date ad',
+      caption:
+        'The clip the owner\'s team filmed on June 26, which ran as the refresh ad, and the ad that announced the Founders Day date. The campaign launched on corporate presale creative, not shown here; this footage went live in the final four days.',
+      items: [
+        {
+          kind: 'video',
+          src: '/case-studies/pilates-addiction-pacifica-165-members-31k/ad-1.mp4',
+          poster: '/case-studies/pilates-addiction-pacifica-165-members-31k/ad-1.jpg',
+          alt: 'A studio team member walks a Pilates Addiction Pacifica Coming Soon flyer past nearby shops and tapes it to the studio window',
+          label: 'Refresh ad, filmed by the owner\'s team',
+          note: 'Filmed Jun 26, live Jul 6, 2026',
+        },
+        {
+          kind: 'video',
+          src: '/case-studies/pilates-addiction-pacifica-165-members-31k/ad-2.mp4',
+          poster: '/case-studies/pilates-addiction-pacifica-165-members-31k/ad-2.jpg',
+          alt: 'A studio team member announces Founders Day, Friday, July 10th, intercut with Pilates Addiction class footage',
+          label: 'Founders Day drop-date ad',
+          note: 'Filmed Jul 7, live Jul 8, 2026',
         },
       ],
     },

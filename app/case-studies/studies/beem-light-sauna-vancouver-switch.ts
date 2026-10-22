@@ -14,6 +14,11 @@ export const study: CaseStudy = {
     'beem corporate referred Vancouver Grand Central to Fifth Element. Its first 13 days brought 62 Meta leads at $11.48. The owner reported 46 at $31.62 in his last 30 days with the previous agency.',
   published: '2026-10-22',
   readTime: '6 min',
+  cover: {
+    src: '/case-studies/beem-light-sauna-vancouver-switch/cover.jpg',
+    alt: 'A beem infrared suite at Vancouver Grand Central glowing red, with a guest seated inside',
+    position: '50% 50%',
+  },
   heroStats: [
     {
       value: '62',
@@ -142,6 +147,21 @@ export const study: CaseStudy = {
       text: "The first 13 days of delivery, Sep 3 to 15, produced **62 leads at $11.48 per lead**, with 15.82% of link clicks becoming leads. The previous agency's last 30 days had produced 46. That is the launch the referral was counting on, and it came from ads already proven at other beem studios.",
     },
     {
+      type: 'creative',
+      title: 'The launch ad behind the first 13 days',
+      caption: 'Still from the top launch ad, as Meta shows it. It brought 47 of the 62 leads from Sep 3 to 15.',
+      items: [
+        {
+          kind: 'image',
+          src: '/case-studies/beem-light-sauna-vancouver-switch/ad-1.jpg',
+          alt: 'A woman opens the glass door of a blue-lit beem infrared sauna suite under the caption Today we are visiting',
+          label: 'Studio visit video ad, still',
+          stat: '47 leads at $10.88',
+          note: 'Meta, Sep 3 to 15, 2026',
+        },
+      ],
+    },
+    {
       type: 'p',
       text: 'The first two weeks of any new campaign are its cheapest. Across 35 Pilates Addiction launches in our network (first spend Mar 28 to Aug 20, 2026), pooled cost per lead went from $7.17 in days 1 to 14 to $11.00 in days 15 to 28, as click-through and click-to-lead fell while cost per thousand impressions (CPM) held flat. Vancouver followed the same curve: $12.09 per lead in days 1 to 14 and $20.70 in days 15 to 28, with CPM at $22.81 and $23.30. That is why the fairer test is the full 30 days:',
     },
@@ -184,6 +204,29 @@ export const study: CaseStudy = {
       type: 'p',
       text: 'The anniversary ads went live on Oct 9, still on $50 a day. The seven days to Oct 14 produced 19 leads at $18.36, against 16 at $22.01 the week before. The budget doubled on Oct 15, and the seven days to Oct 21 produced **53 leads at $12.27** on $650.31. We cannot separate how much of that came from the anniversary offer, the new creatives due that week, and the higher budget. It is not the usual result: across 29 budget sprints in our network, pooled cost per lead rose 14.8%, and it fell in only 7. Here spend rose from $348.81 to $650.31 and cost per lead still fell, from $18.36 to $12.27.',
     },
+    {
+      type: 'creative',
+      title: 'Two of the anniversary ads built on beem\'s playbook',
+      caption: 'These ads were delivered Oct 9 and started spending on Tuesday, Oct 13. Stats run Oct 13 to 21 and cover one version of each ad.',
+      items: [
+        {
+          kind: 'image',
+          src: '/case-studies/beem-light-sauna-vancouver-switch/ad-3.jpg',
+          alt: 'A beem Vancouver Grand Central ad reading Oct 21, It is our anniversary, Celebrate with special anniversary pricing',
+          label: 'Oct 21 anniversary ad',
+          stat: '21 leads at $6.01',
+          note: 'Meta, Oct 13 to 21, 2026',
+        },
+        {
+          kind: 'image',
+          src: '/case-studies/beem-light-sauna-vancouver-switch/ad-4.jpg',
+          alt: 'A beem ad with a large 3 and the words Free Sessions beside a woman relaxing in an infrared sauna',
+          label: '3 free sessions ad',
+          stat: '17 leads at $5.53',
+          note: 'Meta, Oct 13 to 21, 2026',
+        },
+      ],
+    },
     { type: 'cta' },
     { type: 'h2', kicker: 'Why It Worked', text: "A referral is a loan against other studios' numbers" },
     {
@@ -217,6 +260,35 @@ export const study: CaseStudy = {
     {
       type: 'p',
       text: "The part to do faster is the hand-off. Our own launch data says a new campaign's cheapest leads come in its first 14 days, so the studio's own footage should be in the account before day 15. In Vancouver it was still being uploaded at the Oct 14 review.",
+    },
+    {
+      type: 'creative',
+      title: 'The content guide we sent, and what the studio filmed',
+      caption: 'The guide went to the studio after the Sep 16 review. The clip is raw footage the studio uploaded around the Oct 14 review; it had not run as an ad by Oct 21.',
+      items: [
+        {
+          kind: 'document',
+          src: '/case-studies/beem-light-sauna-vancouver-switch/doc-1.jpg',
+          alt: 'Page one of the Red Light Content Guide, with filming tips and content concepts with shot lists',
+          label: 'Red Light Content Guide, page 1',
+          note: 'Sent to the studio Sep 22, 2026',
+        },
+        {
+          kind: 'document',
+          src: '/case-studies/beem-light-sauna-vancouver-switch/doc-2.jpg',
+          alt: 'Page two of the Red Light Content Guide, with a recovery routine concept and 12 hooks to film',
+          label: 'Red Light Content Guide, hooks page',
+          note: 'Sent to the studio Sep 22, 2026',
+        },
+        {
+          kind: 'video',
+          src: '/case-studies/beem-light-sauna-vancouver-switch/ad-5.mp4',
+          poster: '/case-studies/beem-light-sauna-vancouver-switch/ad-5.jpg',
+          alt: 'Two studio team members step into a purple-lit infrared suite at beem Vancouver Grand Central and sit down',
+          label: 'Studio footage, first session concept',
+          note: 'Raw clip uploaded Oct 14, 2026',
+        },
+      ],
     },
     {
       type: 'p',

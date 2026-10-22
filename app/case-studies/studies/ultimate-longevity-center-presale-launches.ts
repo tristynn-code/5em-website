@@ -12,6 +12,11 @@ export const study: CaseStudy = {
   summary: 'From June 18 to October 20, 2026, 19 Ultimate Longevity Center presales drew 12,420 leads at a $10.82 cost per lead. Fourteen launches in, ULC corporate called them successful.',
   published: '2026-10-22',
   readTime: '6 min',
+  cover: {
+    src: '/case-studies/ultimate-longevity-center-presale-launches/cover.jpg',
+    alt: 'Palm trees against a clear Arizona sky, from the Chandler owners\' own footage that opened the ULC Chandler Coming Soon ad',
+    position: '50% 40%',
+  },
   heroStats: [
     {
       value: '12,420',
@@ -156,6 +161,45 @@ export const study: CaseStudy = {
       name: 'Elise Budowanec',
       role: 'Director of Marketing, Ultimate Longevity Center',
     },
+    {
+      type: 'creative',
+      title: 'From the filming guide to a finished ad in Chandler',
+      caption: 'The guide we sent the Chandler owners in August, a clip they filmed three days later, the ad we cut from it, and one of the owners on camera.',
+      items: [
+        {
+          kind: 'document',
+          src: '/case-studies/ultimate-longevity-center-presale-launches/doc-1.jpg',
+          alt: 'First page of the VIP List Content Filming Guide written for ULC Chandler, with filming tips and the first content concept',
+          label: 'Chandler VIP list filming guide',
+          note: 'Page 1 of 3, Aug 14, 2026',
+        },
+        {
+          kind: 'video',
+          src: '/case-studies/ultimate-longevity-center-presale-launches/ad-4.mp4',
+          poster: '/case-studies/ultimate-longevity-center-presale-launches/ad-4.jpg',
+          alt: 'Raw phone clip from the Chandler owners: a slow pan across the ASU Research Park sign, its fountain and palm trees',
+          label: 'Owners\' raw clip of a local landmark',
+          note: 'Filmed Aug 17, 2026, three days after the guide',
+        },
+        {
+          kind: 'video',
+          src: '/case-studies/ultimate-longevity-center-presale-launches/ad-2.mp4',
+          poster: '/case-studies/ultimate-longevity-center-presale-launches/ad-2.jpg',
+          alt: 'The finished ad: the same ASU Research Park shot with Ultimate Longevity Center and Coming Soon to Chandler over it',
+          label: 'Coming Soon to Chandler ad cut from that clip',
+          stat: '187 leads at $9.17',
+          note: 'One ad copy, Meta, Sep 1 to Oct 21, 2026',
+        },
+        {
+          kind: 'video',
+          src: '/case-studies/ultimate-longevity-center-presale-launches/ad-3.mp4',
+          poster: '/case-studies/ultimate-longevity-center-presale-launches/ad-3.jpg',
+          alt: 'One of the ULC Chandler owners speaking to camera and inviting people to the VIP list',
+          label: 'Owner on camera, Chandler',
+          note: 'Opening of the owner video, delivered Oct 6, 2026',
+        },
+      ],
+    },
 
     { type: 'h2', kicker: 'The Result', text: 'The strongest launches did their work in the first 30 days' },
     {
@@ -178,6 +222,30 @@ export const study: CaseStudy = {
     {
       type: 'p',
       text: 'The owners\' own targets show the size of those bursts. At Five Points Raleigh the target was 500 leads before presale; the center had **792 in its first 30 days**. Cherry Knolls\' owner set a goal of 300 leads by July 31. On July 14 she posted that they had already passed it and that she was "making it a challenge 700 by 7/31." July closed at 709 Meta leads at $6.42.',
+    },
+    {
+      type: 'creative',
+      title: 'The two ads that led Five Points Raleigh',
+      caption: 'The center\'s two highest-volume ads, from launch to the day before founding sales opened on September 4.',
+      items: [
+        {
+          kind: 'image',
+          src: '/case-studies/ultimate-longevity-center-presale-launches/ad-5.jpg',
+          alt: 'Static ad reading Coming Soon, Five Points, Raleigh, NC, Join the VIP list for early access, over a view from inside a recovery chamber',
+          label: 'Coming Soon presale ad',
+          stat: '450 leads at $7.09',
+          note: 'Meta, Jul 27 to Sep 3, 2026',
+        },
+        {
+          kind: 'video',
+          src: '/case-studies/ultimate-longevity-center-presale-launches/ad-1.mp4',
+          poster: '/case-studies/ultimate-longevity-center-presale-launches/ad-1.jpg',
+          alt: 'Gary Brecka speaking to camera, opening with Hey Five Points, Raleigh, North Carolina',
+          label: 'Gary Brecka calls out Five Points',
+          stat: '343 leads at $7.18',
+          note: 'Meta, Aug 11 to Sep 3, 2026',
+        },
+      ],
     },
     { type: 'h3', text: 'What the leads turned into' },
     {

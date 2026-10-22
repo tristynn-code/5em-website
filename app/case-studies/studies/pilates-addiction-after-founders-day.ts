@@ -12,6 +12,11 @@ export const study: CaseStudy = {
   summary: 'Across 35 new Pilates Addiction campaigns, cost per lead more than doubled within 16 weeks. Davie ran $8.56 per lead in its first 30 days and $8.96 six months later.',
   published: '2026-10-22',
   readTime: '7 min',
+  cover: {
+    src: '/case-studies/pilates-addiction-after-founders-day/cover.jpg',
+    alt: 'A Pilates Addiction Davie team member at the Welcome to the Town of Davie sign, from the studio\'s June sign footage',
+    position: '50% 40%',
+  },
   heroStats: [
     {
       value: '$8.96',
@@ -156,8 +161,61 @@ export const study: CaseStudy = {
       text: 'Davie\'s first 30 days ran $4,718.70, 551 leads, **$8.56 CPL**. The first coaching document went out Apr 30, and on Founders 50 day, Jun 12, the owner reported "over 70 memberships so far."',
     },
     {
+      type: 'creative',
+      title: 'The hook scripts we sent on Apr 30, and two ads the studio filmed from them',
+      caption: 'A page from the Pilates Addiction filming coaching guide we sent the Davie owner in Slack on Apr 30, 2026, and two Founders 50 ads the studio filmed from its hook scripts, approved by the owner on Jun 9. The class footage in both ads is Pilates Addiction brand footage, not Davie, which had not opened.',
+      items: [
+        {
+          kind: 'document',
+          src: '/case-studies/pilates-addiction-after-founders-day/doc-3.jpg',
+          alt: 'Hook scripts page with lines such as "Founders 50 drops on [Date]. Get on the list today." and "[City], we are bringing Pilates to you."',
+          label: 'Hook scripts, including #2 and #5',
+        },
+        {
+          kind: 'video',
+          src: '/case-studies/pilates-addiction-after-founders-day/ad-3.mp4',
+          poster: '/case-studies/pilates-addiction-after-founders-day/ad-3.jpg',
+          alt: 'A Pilates Addiction Davie team member at the Welcome to the Town of Davie sign asking Davie if it has heard of Pilates Addiction',
+          label: 'Hook #5, filmed at the Davie sign',
+          note: 'Founders 50 ad, delivered Jun 8, 2026',
+        },
+        {
+          kind: 'video',
+          src: '/case-studies/pilates-addiction-after-founders-day/ad-4.mp4',
+          poster: '/case-studies/pilates-addiction-after-founders-day/ad-4.jpg',
+          alt: 'A Pilates Addiction Davie team member at the Pine Island Plaza sign announcing the Jun 12 Founders 50 drop',
+          label: 'Hook #2, filmed at Pine Island Plaza',
+          note: 'Founders 50 ad, delivered Jun 8, 2026',
+        },
+      ],
+    },
+    {
       type: 'p',
       text: 'Then Davie followed the curve. Still in presale, it had no Founders 50 deadline and no open studio to show. By days 91 to 120 (Jul 21 to Aug 19), CPL reached $19.80. A new local video went live Aug 28, and on Aug 31 it was relaunched in four new ad sets alongside the "Do you shop here?" and "Do you bank here?" cuts already running.',
+    },
+    {
+      type: 'creative',
+      title: 'The local footage in Davie\'s late-August relaunch',
+      caption: 'The sign ad is a new cut of the studio\'s June sign footage, shown above. The "Do you shop here?" ad uses clips the studio filmed in early August; Davie had not opened yet, so the class footage in it is not from Davie. Stats are Meta leads for each ad across the four relaunch ad sets.',
+      items: [
+        {
+          kind: 'image',
+          src: '/case-studies/pilates-addiction-after-founders-day/ad-1.jpg',
+          alt: 'A Pilates Addiction Davie team member at the Welcome to the Town of Davie sign',
+          label: 'Welcome to Davie sign ad',
+          stat: '393 leads at $7.04',
+          note: 'Meta, four relaunch ad sets, Aug 31 to Oct 20, 2026',
+        },
+        {
+          kind: 'video',
+          src: '/case-studies/pilates-addiction-after-founders-day/ad-2.mp4',
+          poster: '/case-studies/pilates-addiction-after-founders-day/ad-2.jpg',
+          alt: 'A Pilates Addiction Davie team member outside the Davie coming soon storefront',
+          label: '"Do you shop here?" ad',
+          stat: '55 leads at $9.09',
+          note: 'Meta, four relaunch ad sets, Aug 31 to Oct 20, 2026',
+        },
+      ],
     },
     {
       type: 'chart',
@@ -234,7 +292,7 @@ export const study: CaseStudy = {
     },
   ],
   sources:
-    'Meta Ads Manager data via Fifth Element reporting: Davie 30-day windows and September, Apr 22 to Oct 20, 2026; Davie ad-level, Jul 27 to Sep 30, 2026; Davie best 90 days Jul 23 to Oct 20, 2026; Dallas White Rock May 24 to Oct 20, 2026; Alamo Heights monthly Jun to Oct 20, 2026 and 14-day comparison Jul 14 to Aug 10, 2026; Pilates Addiction brand months Mar and Sep 2026; Vintage Park ad-level Jul 13 to Oct 21, 2026. Campaign-age curves (Pilates Addiction first spend Mar 28 to Aug 20, 2026; Ultimate Longevity Center first spend Jun 18 to Aug 3, 2026), Founders 50 comparison (17 Pilates Addiction studios on the old single-campaign structure, Apr 24 to Jul 17, 2026 sales), weekly CPL pairs and budget sprint analysis from Fifth Element\'s client dashboards (hiring campaigns excluded), Mar 21 to Oct 20, 2026. Member counts for Alamo Heights, Middletown, White Rock and Davie reported by the owners and studios to Fifth Element. Repeat-owner count from Fifth Element billing records, Oct 21, 2026. Leads are Meta-attributed leads.',
+    'Meta Ads Manager data via Fifth Element reporting: Davie 30-day windows and September, Apr 22 to Oct 20, 2026; Davie ad-level, Jul 27 to Sep 30, 2026, and relaunch ads Aug 31 to Oct 20, 2026; Davie best 90 days Jul 23 to Oct 20, 2026; Dallas White Rock May 24 to Oct 20, 2026; Alamo Heights monthly Jun to Oct 20, 2026 and 14-day comparison Jul 14 to Aug 10, 2026; Pilates Addiction brand months Mar and Sep 2026; Vintage Park ad-level Jul 13 to Oct 21, 2026. Campaign-age curves (Pilates Addiction first spend Mar 28 to Aug 20, 2026; Ultimate Longevity Center first spend Jun 18 to Aug 3, 2026), Founders 50 comparison (17 Pilates Addiction studios on the old single-campaign structure, Apr 24 to Jul 17, 2026 sales), weekly CPL pairs and budget sprint analysis from Fifth Element\'s client dashboards (hiring campaigns excluded), Mar 21 to Oct 20, 2026. Member counts for Alamo Heights, Middletown, White Rock and Davie reported by the owners and studios to Fifth Element. Repeat-owner count from Fifth Element billing records, Oct 21, 2026. Leads are Meta-attributed leads.',
   order: 6,
   seoKeywords: [
     'Pilates studio marketing after presale',

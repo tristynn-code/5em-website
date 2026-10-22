@@ -13,6 +13,11 @@ export const study: CaseStudy = {
   summary: 'IMAGE Studios Rock Hill opened at 33% occupancy in July 2023 and reached 100% in June 2026. The same owner took Myrtle Beach from 22 to 28 of 33 suites in 12 weeks.',
   published: '2026-10-22',
   readTime: '6 min',
+  cover: {
+    src: '/case-studies/image-studios-rock-hill-myrtle-beach/cover.jpg',
+    alt: "The hallway of suites at IMAGE Studios Rock Hill, from b-roll in the owner's April 2025 video testimonial",
+    position: '50% 50%',
+  },
   heroStats: [
     {
       value: '100%',
@@ -126,6 +131,37 @@ export const study: CaseStudy = {
       name: 'Chris Chamberlin',
       role: 'Owner, IMAGE Studios Rock Hill, video testimonial, April 2025',
     },
+    {
+      type: 'creative',
+      title: 'Rock Hill: creative that followed the vacancy list',
+      caption:
+        "Chris saying the line quoted above, in his April 2025 video testimonial; the reel delivered two days after Rock Hill's ads switched to hair pros only; and a June 2026 reel of tenant-furnished suites, after he asked for reels that feature occupied studios.",
+      items: [
+        {
+          kind: 'video',
+          src: '/case-studies/image-studios-rock-hill-myrtle-beach/ad-1.mp4',
+          poster: '/case-studies/image-studios-rock-hill-myrtle-beach/ad-1.jpg',
+          alt: 'Chris Chamberlin, owner of IMAGE Studios Rock Hill, seated on a leather sofa in the studio lobby, explaining how his posts and ads follow the vacancy list',
+          label: 'Owner on the vacancy list',
+          note: 'Video testimonial, April 2025',
+        },
+        {
+          kind: 'image',
+          src: '/case-studies/image-studios-rock-hill-myrtle-beach/ad-5.jpg',
+          alt: "IMAGE Studios Rock Hill reel reading Welcome to IMAGE Studios Rock Hill and Let's find your dream hair studio today, over a photo of a stylist at work",
+          label: 'Hair-only reel',
+          note: 'Delivered May 29, 2025, two days after the switch',
+        },
+        {
+          kind: 'video',
+          src: '/case-studies/image-studios-rock-hill-myrtle-beach/ad-2.mp4',
+          poster: '/case-studies/image-studios-rock-hill-myrtle-beach/ad-2.jpg',
+          alt: 'Walkthrough of IMAGE Studios Rock Hill: the hallway, the lobby and suites furnished and decorated by their tenants, with a Tour With Us button',
+          label: 'Occupied-studio reel',
+          note: 'Delivered June 2, 2026',
+        },
+      ],
+    },
     { type: 'h2', kicker: 'The Result', text: 'Rock Hill full, Myrtle Beach at its main goal' },
     {
       type: 'p',
@@ -153,6 +189,22 @@ export const study: CaseStudy = {
     {
       type: 'p',
       text: 'Myrtle Beach moved faster: it had 11 open suites instead of six, a number to hit, and an owner committed to weekly tours. **It reached 28 of 33 suites on April 28, 2026, 12 weeks after Chris set the goal** (owner-reported). On May 12, Chris agreed to move it to maintenance with leasing goals essentially met; lead ads ran until May 18.',
+    },
+    {
+      type: 'creative',
+      title: 'A Myrtle Beach reel from the 12-week push',
+      caption:
+        'Delivered in March 2026, during the climb from 22 to 28 suites: open suites, a leased suite, then the building.',
+      items: [
+        {
+          kind: 'video',
+          src: '/case-studies/image-studios-rock-hill-myrtle-beach/ad-3.mp4',
+          poster: '/case-studies/image-studios-rock-hill-myrtle-beach/ad-3.jpg',
+          alt: 'Reel moving through IMAGE Studios Myrtle Beach: an open suite, a tenant at work in her decorated suite, then the building exterior with its IMAGE Studios sign',
+          label: 'Suites and building reel',
+          note: 'Delivered Mar 17, 2026',
+        },
+      ],
     },
     {
       type: 'table',

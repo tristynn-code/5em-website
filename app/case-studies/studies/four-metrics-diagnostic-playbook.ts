@@ -14,6 +14,11 @@ export const study: CaseStudy = {
     'Two Pilates Addiction studios, May 12 to 18, 2026, same budget: 106 leads vs 26. The four-number ladder we use to find the broken step, the fix for each, and benchmarks by brand.',
   published: '2026-10-22',
   readTime: '8 min',
+  cover: {
+    src: '/case-studies/four-metrics-diagnostic-playbook/cover.jpg',
+    alt: 'A full reformer class under lit arches and the Pilates Addiction wall sign, a frame from a Pilates Addiction studio-tour ad',
+    position: '50% 50%',
+  },
   heroStats: [
     {
       value: '106 vs 26',
@@ -138,6 +143,21 @@ export const study: CaseStudy = {
       text: 'The four numbers are one equation: **CPL = CPM / (1,000 x link CTR x LSR)**. Studio A paid $740.61 for 38,088 impressions, a $19.44 CPM. The ads drew 389 link clicks, a 1.02% link CTR, and 26 leads, a 6.68% LSR: $28.49 per lead. **CPL tells you something is wrong. The other three tell you what.**',
     },
     {
+      type: 'creative',
+      title: 'The math, as we teach it to our own team',
+      caption:
+        'A slide from The Four Metrics, the Fifth Element team training deck (September 2026). It uses round example numbers, not client data. CTR here means link CTR, as in the formula above.',
+      items: [
+        {
+          kind: 'document',
+          src: '/case-studies/four-metrics-diagnostic-playbook/doc-2.jpg',
+          alt: 'Training slide table showing that halving CPM, CTR or LSR each doubles cost per lead from $5 to $10',
+          label: 'Halving any one rung doubles the cost per lead',
+          note: 'Team training deck, slide 6',
+        },
+      ],
+    },
+    {
       type: 'quote',
       text: 'There\'s four metrics to track. CPL is the fourth, but CPL doesn\'t do anything. It\'s just a conclusion of the other three. So you really only need to know three: CPM, click rate, and lead submission rate.',
       name: 'Tristynn McGowan',
@@ -208,6 +228,21 @@ export const study: CaseStudy = {
       text: 'Studio A (Studio 3 in our Instant Forms playbook) was one of eight Pilates Addiction studios where we added an Instant Form while LSR sat under 10%. Pooled over up to 14 days either side of changes dated April 20 to August 22, 2026, LSR went from 7.64% to 14.38% and cost per lead from $20.79 to $13.99, while CPM and CTR got slightly worse. At three studios already at 10% or better, pooled conversion barely moved (12.48% to 12.69%) and pooled cost per lead rose from $11.42 to $15.56, though one of the three was in a Founders 50 sprint during that window.',
     },
     {
+      type: 'creative',
+      title: 'A practice card from our team training',
+      caption:
+        'Ladder card numbers are illustrative practice numbers inside Pilates Addiction\'s real bands, not a client\'s results.',
+      items: [
+        {
+          kind: 'document',
+          src: '/case-studies/four-metrics-diagnostic-playbook/doc-4.jpg',
+          alt: 'Practice ladder card for a Pilates Addiction presale in week 3: CPM $23, CTR 2.1%, LSR 6%, CPL $18, with blanks for rung, owner, first check and first hypothesis',
+          label: 'Ladder card 1: a 3-day readout drill',
+          note: 'Practice card. LSR at 6% is the broken rung, as at Studio A',
+        },
+      ],
+    },
+    {
       type: 'p',
       text: 'On a custom page, the lever is the page, and the words matter. On September 18, 2026, three Ultimate Longevity Center centers swapped "Only the first 50 members get the founding rate" for "Founding memberships are now open." On landing-page ad sets, their LSR fell from 11.98% to 8.72% and cost per lead rose from $11.48 to $16.07 (Sep 4 to 17 vs Sep 19 to Oct 4), while 11 unchanged centers went from 10.40% to 10.05%. The page host also changed that day, with the same pixel and form.',
     },
@@ -258,11 +293,39 @@ export const study: CaseStudy = {
       type: 'p',
       text: 'Radius requests land on the franchisor\'s desk. Here, Sequel approved one that worked through CTR, BODY20 corporate approved another, and we approved one that hurt. The ladder turns each request into two questions: is CPM above the brand band, and is the audience genuinely small? Two yeses, widen. If the audience already reaches hundreds of thousands, fix the creative first. Then hold each location\'s last 90 days against the table above and mark the rung outside your brand\'s band.',
     },
+    {
+      type: 'creative',
+      title: 'The cheat sheet our team trains on',
+      caption: 'From the Fifth Element Four Metrics cheat sheet, September 2026.',
+      items: [
+        {
+          kind: 'document',
+          src: '/case-studies/four-metrics-diagnostic-playbook/doc-3.jpg',
+          alt: 'Fifth Element Four Metrics cheat sheet: eight steps to read a campaign in order, and a table of what each pair of metrics usually means and where to look',
+          label: 'Four Metrics cheat sheet: the eight steps and the pairs',
+          note: 'The eight steps we read in order, every time',
+        },
+      ],
+    },
 
     { type: 'h2', kicker: 'The Discipline', text: 'No silent changes, and a 3-day cycle' },
     {
       type: 'p',
       text: 'Our change-log SOP requires a four-field entry for every budget, targeting, creative, optimization or structure change: there are no silent changes permitted. The fields are the change made ("Increased daily budget from $40 to $55 in Leads campaign," never "Adjusted budget"), the reason, the expected impact and the monitoring plan, so nobody stacks a second change on the first.',
+    },
+    {
+      type: 'creative',
+      title: 'The change-log rule, from our SOP',
+      caption: 'From the Fifth Element Meta Ads Change Log SOP.',
+      items: [
+        {
+          kind: 'document',
+          src: '/case-studies/four-metrics-diagnostic-playbook/doc-5.jpg',
+          alt: 'Change log SOP table of good and vague examples: "Increased daily budget from $40 to $55 in Leads campaign" versus "Adjusted budget"',
+          label: 'Change log SOP: good vs vague entries',
+          note: 'Every entry starts with the mechanical change',
+        },
+      ],
     },
     {
       type: 'p',

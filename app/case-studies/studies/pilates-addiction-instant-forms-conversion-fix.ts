@@ -14,6 +14,11 @@ export const study: CaseStudy = {
     'At 8 Pilates Addiction studios where under 10% of ad clicks became leads, adding an Instant Form beside the page lifted that rate from 7.64% to 14.38% and cut cost per lead from $20.79 to $13.99.',
   published: '2026-10-22',
   readTime: '7 min',
+  cover: {
+    src: '/case-studies/pilates-addiction-instant-forms-conversion-fix/cover.jpg',
+    alt: 'Two Pilates Addiction Southwest Las Vegas team members smiling in studio shirts, from a May 2026 local ad',
+    position: '50% 40%',
+  },
   heroStats: [
     {
       value: '14.38%',
@@ -76,6 +81,30 @@ export const study: CaseStudy = {
     {
       type: 'p',
       text: 'In the four days ending June 11, 2026, a Pilates Addiction studio in southwest Las Vegas spent $391.61 on Meta ads and got 7 leads. People were still clicking its ads, at a 3.12% click-through rate over the prior two weeks. The step after the click had stalled. The usual agency reflex is to pull the nearest big lever: raise the budget, widen the radius, swap the creative, or move every ad to Meta Instant Forms because they are "cheaper." Each can work, and each can make things worse, because none starts by asking which part of the funnel broke.',
+    },
+    {
+      type: 'creative',
+      title: 'Local ads made for Southwest Las Vegas in May',
+      caption:
+        'Fifth Element finished these VIP list ads for the studio on May 15, 2026, ten days before our ads started on May 25. Our ad-level data for this studio starts July 13, so no results are shown, and we cannot confirm which of them ran in May or June.',
+      items: [
+        {
+          kind: 'video',
+          src: '/case-studies/pilates-addiction-instant-forms-conversion-fix/ad-1.mp4',
+          poster: '/case-studies/pilates-addiction-instant-forms-conversion-fix/ad-1.jpg',
+          alt: 'Two Southwest Las Vegas team members in Pilates Addiction shirts cheering outside a Las Vegas building, with the caption Las Vegas',
+          label: 'Studio team welcome ad',
+          note: 'Finished May 15, 2026',
+        },
+        {
+          kind: 'video',
+          src: '/case-studies/pilates-addiction-instant-forms-conversion-fix/ad-2.mp4',
+          poster: '/case-studies/pilates-addiction-instant-forms-conversion-fix/ad-2.jpg',
+          alt: 'A Southwest Las Vegas team member in a Pilates Addiction shirt outside a Las Vegas building, with the caption Hey Vegas, ready',
+          label: 'Hey Vegas local hook ad',
+          note: 'Finished May 15, 2026',
+        },
+      ],
     },
     {
       type: 'p',
@@ -190,6 +219,32 @@ export const study: CaseStudy = {
     {
       type: 'p',
       text: 'CPM was flat, $23.08 before and $23.03 after, and CTR slipped from 3.12% to 2.75%. Our June 18 status update also credited a targeting refresh and the removal of weaker ad sets in the same stretch. Refreshed creative was not previewed until June 22, so it cannot explain the day-one jump, though it may have run in the final days of the after window.',
+    },
+    {
+      type: 'creative',
+      title: 'The refreshed local ads previewed June 22',
+      caption:
+        'Previewed to the studio on June 22, 2026, 11 days after the form went live. Results are totals for every ad that ran each video, from July 13, when our ad-level data starts, to October 21. They come from later windows and do not describe the June comparison.',
+      items: [
+        {
+          kind: 'video',
+          src: '/case-studies/pilates-addiction-instant-forms-conversion-fix/ad-3.mp4',
+          poster: '/case-studies/pilates-addiction-instant-forms-conversion-fix/ad-3.jpg',
+          alt: 'A Southwest Las Vegas team member outside a nearby Walmart with the caption Southwest Vegas, the hook of a local landmark ad',
+          label: 'Local landmark hook ad',
+          stat: '273 leads at $14.32',
+          note: 'Meta, 12 ads running this video, Jul 13 to Oct 21, 2026',
+        },
+        {
+          kind: 'video',
+          src: '/case-studies/pilates-addiction-instant-forms-conversion-fix/ad-4.mp4',
+          poster: '/case-studies/pilates-addiction-instant-forms-conversion-fix/ad-4.jpg',
+          alt: 'A Southwest Las Vegas team member in a Blue Diamond shirt in front of the studio under construction, with the caption Hey Vegas',
+          label: 'Build-out sneak peek ad',
+          stat: '348 leads at $14.60',
+          note: 'Meta, 12 ads running this video, Jul 13 to Oct 21, 2026',
+        },
+      ],
     },
     { type: 'cta' },
 

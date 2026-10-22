@@ -15,6 +15,11 @@ export const study: CaseStudy = {
     'When 7 ULC centers led their page and new ads with a $99 deposit, conversion fell from 8.87% to 4.44% in a week while 8 control centers held at 10.92%. Five more rules from 28 studios.',
   published: '2026-10-22',
   readTime: '7 min',
+  cover: {
+    src: '/case-studies/landing-page-tests-playbook/cover.jpg',
+    alt: 'The Playground photo from the Ultimate Longevity Center presale pages: a hyperbaric chamber opening onto a lit hallway with the Ultimate Longevity Center sign',
+    position: '50% 50%',
+  },
   heroStats: [
     {
       value: '4.44%',
@@ -122,6 +127,30 @@ export const study: CaseStudy = {
       type: 'p',
       text: 'Drew Waelde, our Head of Agency Operations, flagged it to ULC on October 13: "asking for $99 down upfront is too big of a commitment at this point in the funnel." Elise Budowanec, Director of Marketing at Ultimate Longevity Center, replied the next morning: "I think we should switch the landing page back as soon as possible." That day the page was re-led with "Lock in 20% off for life" and "no payment needed," with the $99 further down. From October 15 to 21, ads without $99 in the copy converted at **11.66%** at a $12.06 CPL, above the control’s 9.74% (some were new ad sets from October 9 and 12). Ads with "$99" in the copy reached only 5.76%.',
     },
+    {
+      type: 'creative',
+      title: 'Same center, same pages: a $99 ad and a VIP list ad',
+      caption:
+        'Both ran in landing page ad sets at East Boca, one of the 7 test centers, every day from Oct 9 to 21, 2026, so their clicks reached the same page on the same days. They sat in different ad sets. Meta-reported leads.',
+      items: [
+        {
+          kind: 'image',
+          src: '/case-studies/landing-page-tests-playbook/ad-1.jpg',
+          alt: 'Vertical Ultimate Longevity Center ad for Boca Raton: a man having a scan with a handheld device, with $99 Down founding memberships',
+          label: '"$99 Down" ad',
+          stat: '19 leads at $20.89',
+          note: 'Meta, Oct 9 to 21, 2026, this ad only. 6.07% of link clicks became leads',
+        },
+        {
+          kind: 'image',
+          src: '/case-studies/landing-page-tests-playbook/ad-2.jpg',
+          alt: 'Vertical Ultimate Longevity Center ad: a hyperbaric chamber opening onto a lit hallway, Coming Soon Boca Raton, Join the VIP list for early access',
+          label: 'VIP list ad, no price',
+          stat: '37 leads at $14.16',
+          note: 'Meta, Oct 9 to 21, 2026, this ad only. 10.63% of link clicks became leads',
+        },
+      ],
+    },
     { type: 'h2', kicker: 'Lesson 2', text: 'Teach before you ask' },
     {
       type: 'p',
@@ -140,6 +169,27 @@ export const study: CaseStudy = {
     {
       type: 'p',
       text: 'iFlex pointed the same way, on weaker evidence. At a studio in North Carolina, a June 12 rebuild that taught assisted stretching before the form took conversion from 7.98% (13 leads, June 3 to 11) to 19.05% (44 leads, June 12 to 25); Instant Forms in the same campaign rose 1.37x. But the radius widened from 2 to 4 miles that day, tracking changed with the rebuild, and iFlex counts may be inflated up to 2x by a duplicate Lead event. Treat it as directional.',
+    },
+    {
+      type: 'creative',
+      title: 'Teaching the category before the form',
+      caption: 'Live pages we built, Oct 22, 2026. Neither is the first ULC center or the North Carolina iFlex studio described above.',
+      items: [
+        {
+          kind: 'page',
+          src: '/case-studies/landing-page-tests-playbook/page-1.jpg',
+          alt: 'ULC page section Understand. Restore. Optimize., opening with The Lab: precision diagnostics, a biomarker panel, hormonal assessment and IV therapy, beside a photo of a clinician with a client',
+          label: 'ULC: what a visit covers, before the form',
+          note: 'ULC Overland Park, below the hero and above the form',
+        },
+        {
+          kind: 'page',
+          src: '/case-studies/landing-page-tests-playbook/page-2.jpg',
+          alt: 'iFlex Richmond Broad Street page section: So, what exactly is assisted stretching? with the 50-minute Full-Body Reset and the 25-minute Targeted Tune-Up',
+          label: 'iFlex: what assisted stretching is',
+          note: 'iFlex Richmond Broad Street, on the original iFlex page',
+        },
+      ],
     },
     { type: 'h2', kicker: 'Lesson 3', text: 'A specific offer beats a vague one' },
     {

@@ -13,6 +13,11 @@ export const study: CaseStudy = {
   summary: "IMAGE Studios Bakersfield opened 92% leased in July 2024, second of 78 IMAGE launches with a recorded value on corporate's sheet, and was 100% full before its May 2025 grand opening.",
   published: '2026-10-22',
   readTime: '5 min',
+  cover: {
+    src: '/case-studies/image-studios-bakersfield-full-before-grand-opening/cover.jpg',
+    alt: 'Jarrett Jamieson cuts the ribbon with a line of guests outside IMAGE Studios Bakersfield at its May 2025 grand opening',
+    position: '50% 50%',
+  },
   heroStats: [
     { value: '92%', label: 'Leased at opening', sub: 'Within 30 days of opening, July 2024, per IMAGE corporate' },
     {
@@ -109,10 +114,57 @@ export const study: CaseStudy = {
       ],
     },
     {
+      type: 'creative',
+      title: 'The outreach script, in rounds',
+      caption:
+        "Page one of our outreach team's IMAGE DM script, as last edited on January 12, 2024, the day after we started on Bakersfield. Round one is a compliment and an intro; round two, two weeks later, invites the pro to tour.",
+      items: [
+        {
+          kind: 'document',
+          src: '/case-studies/image-studios-bakersfield-full-before-grand-opening/doc-1.jpg',
+          alt: 'Fifth Element IMAGE DM script: round one is a compliment and a genuine intro, and round two, two weeks later, reaches back out and invites the pro to tour the new location',
+          label: 'Instagram DM script, rounds one and two',
+          note: 'Fifth Element outreach team, last edited Jan 12, 2024',
+        },
+      ],
+    },
+    {
       type: 'quote',
       text: 'They were able to really identify the salon pros that are in Bakersfield and create a great way of communicating through Instagram and through our social media posts, which were really impressive, and people really got a good sense of what IMAGE Studios was going to be like, which was really important, since we were actually building it under construction.',
       name: 'Jarrett Jamieson',
       role: 'Owner, IMAGE Studios Bakersfield, video testimonial, March 2025',
+    },
+    {
+      type: 'creative',
+      title: 'From the construction site to the last esthetician suite',
+      caption:
+        "Two videos from the build in May and June 2024, and an esthetician suite ad cut in March 2025 from the studio's content day footage. They predate Fifth Element's ad-level reporting, so no per-ad numbers are shown.",
+      items: [
+        {
+          kind: 'video',
+          src: '/case-studies/image-studios-bakersfield-full-before-grand-opening/ad-1.mp4',
+          poster: '/case-studies/image-studios-bakersfield-full-before-grand-opening/ad-1.jpg',
+          alt: 'Jarrett Jamieson with a pink hard hat inside the unfinished studio, holding a floor plan and pointing out the one esthetician room left in phase one',
+          label: 'Owner on the construction site',
+          note: 'Delivered May 17, 2024',
+        },
+        {
+          kind: 'video',
+          src: '/case-studies/image-studios-bakersfield-full-before-grand-opening/ad-2.mp4',
+          poster: '/case-studies/image-studios-bakersfield-full-before-grand-opening/ad-2.jpg',
+          alt: 'An installer on a lift putting up the IMAGE Studios letters on the Bakersfield building, captioned Our sign is going up',
+          label: 'Sign going up',
+          note: 'Delivered June 18, 2024',
+        },
+        {
+          kind: 'video',
+          src: '/case-studies/image-studios-bakersfield-full-before-grand-opening/ad-3.mp4',
+          poster: '/case-studies/image-studios-bakersfield-full-before-grand-opening/ad-3.jpg',
+          alt: 'Jarrett Jamieson in the finished lobby, between shots of an esthetician suite with a treatment bed and sink',
+          label: 'Esthetician suite ad',
+          note: 'Cut March 6, 2025 from content day footage',
+        },
+      ],
     },
     { type: 'h2', kicker: 'The Result', text: "Second-highest opening occupancy on IMAGE corporate's sheet" },
     {

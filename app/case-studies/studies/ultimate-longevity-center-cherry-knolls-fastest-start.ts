@@ -13,6 +13,11 @@ export const study: CaseStudy = {
   summary: "ULC Cherry Knolls drew 268 leads in barely over a week at $3.61 each and 749 in its first 30 days at $6.64, then passed the owners' own 700-lead challenge for July.",
   published: '2026-10-22',
   readTime: '6 min',
+  cover: {
+    src: '/case-studies/ultimate-longevity-center-cherry-knolls-fastest-start/cover.jpg',
+    alt: 'The Ultimate Longevity Center wall and treatment chairs, from ULC footage in the Cherry Knolls flyover ad',
+    position: '50% 50%',
+  },
   heroStats: [
     { value: '268', label: 'Leads in barely over a week', sub: 'Ads live Jul 6 at $100 a day; reported midday Jul 14, 2026' },
     { value: '$3.61', label: 'Cost per lead', sub: 'Jul 6 to 14, 2026, as reported by Fifth Element' },
@@ -95,6 +100,19 @@ export const study: CaseStudy = {
       ],
     },
     {
+      type: 'creative',
+      title: 'The Cherry Knolls page the ads ran on from day one',
+      caption: 'Rendered from the July 2, 2026 build of the page, which ran unchanged through launch week. The live page has since changed its offer.',
+      items: [
+        {
+          kind: 'page',
+          src: '/case-studies/ultimate-longevity-center-cherry-knolls-fastest-start/page-1.jpg',
+          alt: 'Two parts of the Cherry Knolls landing page: the Coming Soon, Cherry Knolls, Centennial, CO tag at the top, and a section titled World-class longevity, finally on South University Boulevard',
+          label: 'Location tag and the South University Boulevard section',
+        },
+      ],
+    },
+    {
       type: 'quote',
       text: "We have already surpassed our 300 by 7/31, so now I'm making it a challenge 700 by 7/31.",
       name: 'Ashley Papp',
@@ -103,6 +121,29 @@ export const study: CaseStudy = {
     {
       type: 'p',
       text: `Her tally was the owners' own. By our count of Meta leads, the center passed 300 on July 15 and 700 on July 31. In the same message, she asked whether we had launched a new ad, because leads had ticked up over a weekend when the owners ran a booth at a local farmers market. Three or four people at the booth told them they had seen the ads. Drew's answer was plain: "We haven't launched anything new. The existing campaigns and original ads are simply performing exceptionally well right now." The work had been done before July 6.`,
+    },
+    {
+      type: 'creative',
+      title: 'Ads that ran for Cherry Knolls from ULC\'s pages',
+      caption: "Seven launch ads were cut for Cherry Knolls, largely from ULC corporate footage, including the flyover. Gary Brecka's video calling out Cherry Knolls joined the campaign after launch, once ULC sent it. Meta ad-level data for this account starts July 13, and on July 13 and 14, the two days before the sprint, Gary's video brought in all 66 leads.",
+      items: [
+        {
+          kind: 'image',
+          src: '/case-studies/ultimate-longevity-center-cherry-knolls-fastest-start/ad-5.jpg',
+          alt: 'Still from a video ad: Gary Brecka speaking to camera with the caption Hey Cherry Knolls',
+          label: 'Gary Brecka\'s Hey Cherry Knolls video',
+          stat: '518 of 619 leads at $7.38',
+          note: 'Same video in 4 ads, out of all Meta leads; Jul 13 to Aug 13, 2026',
+        },
+        {
+          kind: 'video',
+          src: '/case-studies/ultimate-longevity-center-cherry-knolls-fastest-start/ad-1.mp4',
+          poster: '/case-studies/ultimate-longevity-center-cherry-knolls-fastest-start/ad-1.jpg',
+          alt: 'Video ad that opens on a drone shot of Centennial homes with the words Cherry Knolls Centennial, then cuts to ULC treatment footage and a VIP list call to action',
+          label: 'Cherry Knolls flyover ad',
+          note: 'This ad first spent Jul 15, 2026, day one of the sprint',
+        },
+      ],
     },
     { type: 'h2', kicker: 'The Result', text: 'A 700-lead challenge, met by the last day of July' },
     {
@@ -139,6 +180,20 @@ export const study: CaseStudy = {
     {
       type: 'p',
       text: 'Of the 843 leads on the list when founding weekend opened, 488 came in the first 14 days, at $4.75 each, against the pooled $5.87 for the first 14 days of those 10 ULC launches. The 25 days after that added 355, at $9.95. That is what a fast start buys a presale: more than half the list, at less than half the later price, before the expensive weeks arrive. The 749 leads in the first 30 days are the second-most of any ULC center we have launched; only Five Points Raleigh (792) had more. Founding memberships are sold by the center\'s own team, so this study reports the list the ads built going into founding weekend.',
+    },
+    {
+      type: 'creative',
+      title: 'The owner\'s founding weekend ad',
+      caption: 'We sent the owners a founding weekend content brief on August 7. The owner filmed her clips the next day, and the finished ad went to the owners for review on August 11, three days before founding weekend.',
+      items: [
+        {
+          kind: 'video',
+          src: '/case-studies/ultimate-longevity-center-cherry-knolls-fastest-start/ad-3.mp4',
+          poster: '/case-studies/ultimate-longevity-center-cherry-knolls-fastest-start/ad-3.jpg',
+          alt: 'Finished video ad of the Cherry Knolls owner in a ULC cap, smiling, with the caption Finally here',
+          label: 'Founding weekend ad, as delivered Aug 11',
+        },
+      ],
     },
     { type: 'cta' },
     { type: 'h2', kicker: 'Why It Worked', text: 'Launch week is not a test period' },

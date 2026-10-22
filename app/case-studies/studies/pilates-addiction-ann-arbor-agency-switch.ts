@@ -13,6 +13,11 @@ export const study: CaseStudy = {
   summary: 'Our first month running this open Pilates Addiction studio, July 2026, brought 107 leads at $27.58 each. After we rebuilt the ads from the studio\'s new uploads, August brought 212 at $14.75.',
   published: '2026-10-22',
   readTime: '6 min',
+  cover: {
+    src: '/case-studies/pilates-addiction-ann-arbor-agency-switch/cover.jpg',
+    alt: 'A large group class stretching on the field at Michigan Stadium, from the Ann Arbor event ad',
+    position: '50% 50%',
+  },
   heroStats: [
     {
       value: '212',
@@ -92,6 +97,40 @@ export const study: CaseStudy = {
       type: 'p',
       text: 'An open studio is a harder problem than a presale. There is no drop date and no founding rate to create urgency. Ann Arbor\'s first month with us, Jul 2 to 31, was $2,950.55 of spend for 107 leads, a $27.58 CPL.',
     },
+    {
+      type: 'creative',
+      title: 'Three of the launch ads from our first month',
+      caption: 'Videos from our Jul 2 launch. Stats run from Jul 13, when our ad-level data starts, to Aug 3, and combine each ad\'s copies across ad sets.',
+      items: [
+        {
+          kind: 'video',
+          src: '/case-studies/pilates-addiction-ann-arbor-agency-switch/ad-1.mp4',
+          poster: '/case-studies/pilates-addiction-ann-arbor-agency-switch/ad-1.jpg',
+          alt: 'A young man in a white T-shirt on a reformer with the captions my first time trying Pilates and Now open in Ann Arbor',
+          label: 'First Pilates class UGC ad',
+          stat: '11 leads at $28.28',
+          note: 'Meta, Jul 13 to Aug 3, 2026',
+        },
+        {
+          kind: 'video',
+          src: '/case-studies/pilates-addiction-ann-arbor-agency-switch/ad-2.mp4',
+          poster: '/case-studies/pilates-addiction-ann-arbor-agency-switch/ad-2.jpg',
+          alt: 'Members on reformers under red light with Pilates Addiction signs on the wall and the caption POV: You have the gold membership at Pilates Addiction Ann Arbor',
+          label: 'Gold membership POV ad',
+          stat: '24 leads at $28.57',
+          note: 'Meta, Jul 13 to Aug 3, 2026',
+        },
+        {
+          kind: 'video',
+          src: '/case-studies/pilates-addiction-ann-arbor-agency-switch/ad-3.mp4',
+          poster: '/case-studies/pilates-addiction-ann-arbor-agency-switch/ad-3.jpg',
+          alt: 'A reformer room under orange light with Pilates Addiction signs and the captions Now open in Ann Arbor and Schedule your first class',
+          label: 'Now Open ad',
+          stat: '13 leads at $33.13',
+          note: 'Meta, Jul 13 to Aug 3, 2026',
+        },
+      ],
+    },
     { type: 'h2', kicker: 'What We Did', text: 'We fixed the form, then followed the numbers to the ads' },
     {
       type: 'p',
@@ -123,6 +162,30 @@ export const study: CaseStudy = {
         {
           title: 'Run the August ideas as tests (Aug 6 to 28)',
           text: 'The studio asked about targeting the top 1 to 5% of incomes, hoping for better-qualified leads. We ran it as its own ad set. It came in at about $58 per lead on little volume, and we turned it off; the radius already reached higher-income people. Sequel Brands flagged the University of Michigan return, and the owner told us many of her members are students, so the Aug 18 plan was a welcome-back angle and a minimum age of 18 instead of 25. Michigan-themed ads went live on Aug 28.',
+        },
+      ],
+    },
+    {
+      type: 'creative',
+      title: 'Two of the refreshed ads, side by side',
+      caption: 'Results from Aug 4 to 18, the window in the step above. The event ad spent $8.61 from Aug 6 to 13; all 47 of its leads came Aug 14 to 18.',
+      items: [
+        {
+          kind: 'video',
+          src: '/case-studies/pilates-addiction-ann-arbor-agency-switch/ad-4.mp4',
+          poster: '/case-studies/pilates-addiction-ann-arbor-agency-switch/ad-4.jpg',
+          alt: 'Pilates Addiction\'s pop-up tent and a large group class on the field at Michigan Stadium, with the captions Pilates Addiction Pop-Up Community Event and Book your Ignite class',
+          label: 'Stadium pop-up event ad',
+          stat: '47 leads at $5.18',
+          note: 'Meta, Aug 4 to 18, 2026, on $243.65 of spend (all leads Aug 14 to 18)',
+        },
+        {
+          kind: 'image',
+          src: '/case-studies/pilates-addiction-ann-arbor-agency-switch/ad-5.jpg',
+          alt: 'Two Pilates Addiction team members waving from the open door of the Ann Arbor studio beside a You Belong Here sign',
+          label: 'Educators ad, still from the video',
+          stat: '33 leads at $18.47',
+          note: 'Meta, Aug 4 to 18, 2026, on $609.65 of spend',
         },
       ],
     },

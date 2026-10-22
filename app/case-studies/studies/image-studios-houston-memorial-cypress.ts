@@ -15,6 +15,11 @@ export const study: CaseStudy = {
     'IMAGE Studios Houston Memorial ran at or under the median cost per lead of the IMAGE studios we run in 16 of 16 qualifying months, Jan 2025 to Sep 2026. Cypress: 18 of 19.',
   published: '2026-10-22',
   readTime: '6 min',
+  cover: {
+    src: '/case-studies/image-studios-houston-memorial-cypress/cover.jpg',
+    alt: 'Esther Mazzarino and a member of the IMAGE Studios Houston Memorial team with two members of the Fifth Element team in the studio lobby, June 2024',
+    position: '50% 35%',
+  },
   heroStats: [
     {
       value: '16 of 16',
@@ -94,6 +99,21 @@ export const study: CaseStudy = {
       type: 'p',
       text: 'What tipped it, in Esther\'s telling, was focus. "The minute they said they eat, breathe and sleep, marketing and IMAGE Studios, I was like, sold," she said in her 2024 testimonial video.',
     },
+    {
+      type: 'creative',
+      title: 'Esther Mazzarino on why they switched',
+      caption: 'From her 2024 testimonial video, filmed at Memorial.',
+      items: [
+        {
+          kind: 'video',
+          src: '/case-studies/image-studios-houston-memorial-cypress/ad-5.mp4',
+          poster: '/case-studies/image-studios-houston-memorial-cypress/ad-5.jpg',
+          alt: 'Esther Mazzarino, in a pink IMAGE Studios polo, says the minute Fifth Element said they eat, breathe and sleep marketing and IMAGE Studios, she was sold',
+          label: 'Esther Mazzarino, owner',
+          note: '2024 testimonial video',
+        },
+      ],
+    },
     { type: 'h2', kicker: 'What We Did', text: 'Lease the building before it opens, then keep refilling it' },
     {
       type: 'p',
@@ -117,8 +137,60 @@ export const study: CaseStudy = {
       ],
     },
     {
+      type: 'creative',
+      title: 'The build-out videos that showed Memorial taking shape',
+      caption: 'Three of the build-out reels, filmed inside the Memorial building from the concrete pour in October 2023 to suites nearly finished in March 2024, days before it opened.',
+      items: [
+        {
+          kind: 'video',
+          src: '/case-studies/image-studios-houston-memorial-cypress/ad-1.mp4',
+          poster: '/case-studies/image-studios-houston-memorial-cypress/ad-1.jpg',
+          alt: 'Phone video of the Coming Soon storefront and a concrete truck, then the open floor of the Memorial building as concrete is poured',
+          label: 'The concrete is coming in',
+          note: 'Build-out reel, Oct 2023',
+        },
+        {
+          kind: 'video',
+          src: '/case-studies/image-studios-houston-memorial-cypress/ad-2.mp4',
+          poster: '/case-studies/image-studios-houston-memorial-cypress/ad-2.jpg',
+          alt: 'Glass suite fronts newly installed at IMAGE Studios Houston Memorial, with paper and tape still on the floors and captions reading Our glass doors are installed, Message us to book your tour today',
+          label: 'Glass suite fronts going in',
+          note: 'Build-out reel, Mar 11, 2024',
+        },
+        {
+          kind: 'video',
+          src: '/case-studies/image-studios-houston-memorial-cypress/ad-3.mp4',
+          poster: '/case-studies/image-studios-houston-memorial-cypress/ad-3.jpg',
+          alt: 'Near-finished suites at IMAGE Studios Houston Memorial: cabinets with a sink, glass suite fronts and the black marble lobby wall, ending on Book your tour today',
+          label: 'Suites nearly finished',
+          note: 'Build-out reel, Mar 21, 2024, days before opening',
+        },
+      ],
+    },
+    {
       type: 'p',
       text: "Then the building started to turn over. Suites open up as leases end and pros move on. By the owners' count on our check-in calls, Memorial went from 39 of 40 leased on Feb 26, 2025 to an expected 10 open suites within a couple of weeks of May 29, 2025, and had 8 open on Nov 5, 2025. Cypress, a 42-suite building that opened Jan 14, 2025, stood at 15 of 42 that February. **From then on, the job was refilling suites every month, in two buildings.**",
+    },
+    {
+      type: 'creative',
+      title: 'Cypress before it opened',
+      caption: 'Frames from two reels filmed inside the second building before its Jan 14, 2025 opening: still under construction in November, finished by early January.',
+      items: [
+        {
+          kind: 'image',
+          src: '/case-studies/image-studios-houston-memorial-cypress/ad-4.jpg',
+          alt: 'A curved glass suite entrance at IMAGE Studios Cypress under construction, with paper and tape on the floor and open ceiling grid',
+          label: 'Suite entrance under construction',
+          note: 'Build-out reel, Nov 25, 2024',
+        },
+        {
+          kind: 'image',
+          src: '/case-studies/image-studios-houston-memorial-cypress/ad-6.jpg',
+          alt: 'Finished hallway at IMAGE Studios Cypress with a crystal chandelier and curved glass suite fronts',
+          label: 'Finished hallway, weeks before opening',
+          note: 'Opening reel, Jan 2, 2025',
+        },
+      ],
     },
     {
       type: 'steps',

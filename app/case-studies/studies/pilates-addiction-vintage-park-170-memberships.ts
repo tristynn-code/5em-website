@@ -13,6 +13,11 @@ export const study: CaseStudy = {
   summary: 'Owner footage filmed before launch and budget sprints in week one built a list of 2,023 leads from our ads in 45 days. Founders Day sold 170 memberships, a new Pilates Addiction record.',
   published: '2026-10-22',
   readTime: '6 min',
+  cover: {
+    src: '/case-studies/pilates-addiction-vintage-park-170-memberships/cover.jpg',
+    alt: 'The Pilates Addiction Vintage Park storefront with its Coming Soon banner, fall 2026',
+    position: '50% 45%',
+  },
   heroStats: [
     {
       value: '170',
@@ -116,6 +121,27 @@ export const study: CaseStudy = {
         {
           title: 'Work the list',
           text: 'Lacey worked through the lead list in the week before, and a new studio manager with a membership sales background started June 22. On the day, the studio texted its list of about 2,000.',
+        },
+      ],
+    },
+    {
+      type: 'creative',
+      title: 'The coaching the owners filmed from',
+      caption: 'Ralf sent both documents to the owners in Slack, the first four days before the ads went live and the second ten days before Founders Day.',
+      items: [
+        {
+          kind: 'document',
+          src: '/case-studies/pilates-addiction-vintage-park-170-memberships/doc-1.jpg',
+          alt: 'Page two of the Fifth Element filming guide, with content concepts for the VIP list, local areas near the studio and a Founders 50 roll call',
+          label: 'First coaching document, May 8',
+          note: 'Sent four days before the ads went live',
+        },
+        {
+          kind: 'document',
+          src: '/case-studies/pilates-addiction-vintage-park-170-memberships/doc-2.jpg',
+          alt: 'Pre Founders 50 Date Teaser Hooks document: recording tips and the first on-camera urgency hook',
+          label: 'Drop-date hooks, June 16',
+          note: 'Scripts the owners read on camera ten days out',
         },
       ],
     },

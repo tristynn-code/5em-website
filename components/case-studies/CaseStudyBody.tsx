@@ -1,6 +1,7 @@
 import type { Block } from '@/app/case-studies/types';
 import { auditCTA } from '@/lib/site';
 import BarChart from './BarChart';
+import CreativeGallery from './CreativeGallery';
 import RichText from './RichText';
 
 const P_STYLE = { fontSize: 18, lineHeight: 1.75 } as const;
@@ -40,7 +41,7 @@ export default function CaseStudyBody({ blocks }: { blocks: Block[] }) {
                   <li key={j} className="flex gap-4">
                     <span className="text-teal font-extrabold flex-shrink-0">→</span>
                     <span>
-                      {it.title && <strong className="font-bold text-tx">{it.title}. </strong>}
+                      {it.title && <strong className="font-bold text-tx">{/[.?!:]$/.test(it.title) ? it.title : `${it.title}.`} </strong>}
                       <RichText text={it.text} />
                     </span>
                   </li>
@@ -114,6 +115,8 @@ export default function CaseStudyBody({ blocks }: { blocks: Block[] }) {
             );
           case 'chart':
             return <BarChart key={i} {...b} />;
+          case 'creative':
+            return <CreativeGallery key={i} title={b.title} caption={b.caption} items={b.items} />;
           case 'table':
             return (
               <figure key={i} className="my-12 overflow-x-auto">

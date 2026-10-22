@@ -13,6 +13,11 @@ export const study: CaseStudy = {
   summary: 'An IMAGE Studios owner hired us about two months before opening, with the new studio 50% leased. By August 2026, Richardson West was at 37 of 38 suites, owner-reported.',
   published: '2026-10-22',
   readTime: '6 min',
+  cover: {
+    src: '/case-studies/image-studios-richardson-west-37-of-38/cover.jpg',
+    alt: 'IMAGE Studios Richardson West sign below a glass office tower, from a video that ran in the ads',
+    position: '80% 50%',
+  },
   heroStats: [
     {
       value: '37 of 38',
@@ -91,6 +96,20 @@ export const study: CaseStudy = {
       text: 'We launched on brand-standard creative: IMAGE pink, with a folder of photography our Head of Brand and Creative chose to match the owner\'s description of the space. It got awareness ads live on Nov 26, eight days after he signed, but it could only approximate this building. Lonnie had designed West differently from his first studio, in nude and earthy tones with 12-foot glass and lots of window suites, and he was posting about the build in his Instagram stories. Normally we coach owners to film new footage for the ads. With his time that limited, we went to footage that already existed.',
     },
     {
+      type: 'creative',
+      title: 'Footage that already existed: his first studio',
+      caption: 'A still from one of the reels the owner uploaded on Dec 27, 2025, which we slated for future ad creative. It shows his original Richardson studio, not West.',
+      items: [
+        {
+          kind: 'image',
+          src: '/case-studies/image-studios-richardson-west-37-of-38/clip-2.jpg',
+          alt: 'A suite at the original IMAGE Studios Richardson with a pink lips mural, pink shelves and a gold-framed chair',
+          label: 'A suite from a reel he sent',
+          note: 'Still from his Dec 27, 2025 upload',
+        },
+      ],
+    },
+    {
       type: 'steps',
       items: [
         {
@@ -108,6 +127,29 @@ export const study: CaseStudy = {
         {
           title: 'Put a local creator\'s videos of West in the ads (from Apr 2, 2026)',
           text: 'By spring the studio\'s Instagram was running videos from a local content creator who had offered to film for him. He asked us to use them because the videos were, in his words, "unique to our location," and getting great feedback. On the Apr 2 call we agreed to test localized content showing both studios, the local culture and the difference between his original and West locations, alongside the best-performing existing ads. He uploaded four videos that day, and on Apr 3 we confirmed we were launching some of them. Our Head of Brand and Creative had already been watching them.',
+        },
+      ],
+    },
+    {
+      type: 'creative',
+      title: 'The West videos that went into the ads',
+      caption: 'Two of the four videos the owner uploaded on Apr 2, 2026, as they ran in the Meta lead ads. Shown here without sound; Main vs West is trimmed to 23 seconds.',
+      items: [
+        {
+          kind: 'video',
+          src: '/case-studies/image-studios-richardson-west-37-of-38/ad-1.mp4',
+          poster: '/case-studies/image-studios-richardson-west-37-of-38/ad-1.jpg',
+          alt: 'Vertical video tour of IMAGE Studios West: storefront, lobby, hallway, break room and an empty window suite',
+          label: 'West walkthrough ad',
+          note: 'Ran in the Meta lead ads in July and August 2026',
+        },
+        {
+          kind: 'video',
+          src: '/case-studies/image-studios-richardson-west-37-of-38/ad-2.mp4',
+          poster: '/case-studies/image-studios-richardson-west-37-of-38/ad-2.jpg',
+          alt: 'Vertical video comparing the original IMAGE Studios Richardson location with the new West location',
+          label: 'Main vs West ad',
+          note: 'Ran in the Meta lead ads in July and August 2026',
         },
       ],
     },

@@ -15,6 +15,11 @@ export const study: CaseStudy = {
     'Goal: 50 founding members in presale week. One week after sales opened, ULC East Boca\'s GM reported about 92. Our ads had banked 720 Meta leads on $4,627.28 before the sale.',
   published: '2026-10-22',
   readTime: '6 min',
+  cover: {
+    src: '/case-studies/ultimate-longevity-center-east-boca-founding-week/cover.jpg',
+    alt: 'Camille Eaton, general manager of ULC East Boca, outdoors among palm trees in a frame from the Aug 21 clip that became her founding announcement ad',
+    position: '96% 30%',
+  },
   heroStats: [
     {
       value: '~92',
@@ -109,10 +114,39 @@ export const study: CaseStudy = {
         },
       ],
     },
+    {
+      type: 'creative',
+      title: 'The Gary Brecka video that named Boca',
+      caption: 'Stats run from the video\'s first spend to Aug 27, 2026, the day before founding memberships went on sale, and cover all four copies of the video.',
+      items: [
+        {
+          kind: 'video',
+          src: '/case-studies/ultimate-longevity-center-east-boca-founding-week/ad-1.mp4',
+          poster: '/case-studies/ultimate-longevity-center-east-boca-founding-week/ad-1.jpg',
+          alt: 'Gary Brecka talking to camera in a black Ultimate Human shirt with the caption Hey, Boca Raton',
+          label: 'Gary Brecka shout-out to Boca',
+          stat: '553 leads at $5.86',
+          note: 'Meta, Jul 15 to Aug 27, 2026',
+        },
+      ],
+    },
     { type: 'h3', text: 'The final stretch before the sale' },
     {
       type: 'p',
       text: 'The coaching started before the GM had anything to film. Ralf, our Head of Brand and Creative, sent Camille her first content coaching guide on Aug 15, three days after she was introduced: a list of what to film around the area and inside the center, with examples of local hooks from our other accounts. **Fifth Element does the editing; the GM only films and uploads.**',
+    },
+    {
+      type: 'creative',
+      title: 'The Aug 15 filming guide: 15 Boca hooks for the GM',
+      items: [
+        {
+          kind: 'document',
+          src: '/case-studies/ultimate-longevity-center-east-boca-founding-week/doc-1.jpg',
+          alt: 'Hooks to Film section of the East Boca VIP list filming guide, 15 Boca Raton hooks to film',
+          label: 'Filming guide, hooks to film',
+          note: 'Sent Aug 15, 2026',
+        },
+      ],
     },
     {
       type: 'p',
@@ -121,6 +155,29 @@ export const study: CaseStudy = {
     {
       type: 'p',
       text: 'It came sooner. On Aug 21, a week before the sale, Davor flagged a two-day jump in cost per lead and asked for Camille\'s VIP recordings in the weekend rotation. She filmed and uploaded her first clips that day, and we refreshed targeting on the ad sets that had been winning. On Monday, Aug 24, two days ahead of the Wednesday estimate we had given, we delivered finished founding announcement creative. Davor signed off the same day ("Looks good to me"), saying it should help lead flow into Friday\'s launch, and handed final approval to Camille. Ralf confirmed it would be running that day, four days before memberships went on sale.',
+    },
+    {
+      type: 'creative',
+      title: 'Hook 8 on camera, and the founding announcement ad',
+      caption: 'Hook 8 in the Aug 15 guide became one of Camille\'s Aug 21 clips and a finished ad on Aug 24.',
+      items: [
+        {
+          kind: 'video',
+          src: '/case-studies/ultimate-longevity-center-east-boca-founding-week/ad-4.mp4',
+          poster: '/case-studies/ultimate-longevity-center-east-boca-founding-week/ad-4.jpg',
+          alt: 'Finished ad of Camille Eaton with captions, cut with brand footage of Gary Brecka and recovery equipment',
+          label: 'Finished hook 8 ad, Aug 24',
+        },
+        {
+          kind: 'video',
+          src: '/case-studies/ultimate-longevity-center-east-boca-founding-week/ad-5.mp4',
+          poster: '/case-studies/ultimate-longevity-center-east-boca-founding-week/ad-5.jpg',
+          alt: 'Camille Eaton saying Hey Boca in the opening of a captioned ad announcing founding memberships in a couple of days',
+          label: 'Founding announcement ad, opening',
+          stat: '13 leads at $9.47',
+          note: 'Meta, Aug 24 to Sep 16, 2026; 4 of the 13 before sales opened Aug 28',
+        },
+      ],
     },
     {
       type: 'quote',

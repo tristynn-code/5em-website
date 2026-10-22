@@ -13,6 +13,11 @@ export const study: CaseStudy = {
     '7 of 14 Pilates Addiction studios sold 100+ memberships on Founders Day. Leads going in predicted it (r = 0.80): a median 893 for the seven, 575 for the rest.',
   published: '2026-10-22',
   readTime: '7 min',
+  cover: {
+    src: '/case-studies/pilates-addiction-founders-day-playbook/cover.jpg',
+    alt: 'Two Pilates Addiction Christenbury team members wave beside black and gold balloons at a presale table, six days before Founders Day',
+    position: '50% 30%',
+  },
   heroStats: [
     {
       value: '7 of 14',
@@ -238,6 +243,32 @@ export const study: CaseStudy = {
       ],
     },
     {
+      type: 'creative',
+      title: 'Local hooks from two 100+ studios',
+      caption:
+        'Delivered ads from Flemington (Founders Day Aug 21, 2026) and Christenbury (Founders Day Oct 2, 2026). Each stat is that ad’s Meta result before its studio’s Founders Day.',
+      items: [
+        {
+          kind: 'video',
+          src: '/case-studies/pilates-addiction-founders-day-playbook/ad-1.mp4',
+          poster: '/case-studies/pilates-addiction-founders-day-playbook/ad-1.jpg',
+          alt: 'A Pilates Addiction team member at the Flemington Circle Shopping Center sign saying Hey Flemington, New Jersey, followed by studio class footage',
+          label: 'Hey Flemington hook at the shopping center sign',
+          stat: '149 leads at $9.80',
+          note: 'Meta, Jul 22 to Aug 20, 2026 (Flemington VIP period)',
+        },
+        {
+          kind: 'video',
+          src: '/case-studies/pilates-addiction-founders-day-playbook/ad-3.mp4',
+          poster: '/case-studies/pilates-addiction-founders-day-playbook/ad-3.jpg',
+          alt: 'A Pilates Addiction team member under a covered walkway saying Concord, Christenbury founding rates are limited, followed by class footage',
+          label: 'Founding rates are limited hook',
+          stat: '116 leads at $9.79',
+          note: 'Meta, Sep 11 to Oct 1, 2026 (Christenbury VIP period)',
+        },
+      ],
+    },
+    {
       type: 'quote',
       text: 'Thanks for all the support cranking the leads in and adjusting the spend to maximize our windows.',
       name: 'Joni Cook',
@@ -272,6 +303,30 @@ export const study: CaseStudy = {
       ],
       caption:
         'Day-one memberships are as reported by each studio’s owner to Fifth Element or recorded in our client success notes, not from the ad platform. Leads, cost per lead and ad spend are Meta results from first spend to the day before Founders Day, hiring campaigns excluded.',
+    },
+    {
+      type: 'creative',
+      title: 'The flyover ads behind two of the 100+ lists',
+      caption:
+        'The Christenbury flyover brought in more than half of the studio’s 1,238 leads going into Founders Day. Stills are the ads’ Meta thumbnails.',
+      items: [
+        {
+          kind: 'image',
+          src: '/case-studies/pilates-addiction-founders-day-playbook/ad-4.jpg',
+          alt: 'Aerial town view from the Pilates Addiction Christenbury flyover video ad',
+          label: 'Christenbury flyover ad (still)',
+          stat: '640 leads at $5.11',
+          note: 'Meta, Aug 14 to Oct 1, 2026 (Christenbury VIP period)',
+        },
+        {
+          kind: 'image',
+          src: '/case-studies/pilates-addiction-founders-day-playbook/ad-5.jpg',
+          alt: 'Aerial town view with the words Coming Soon, from the Pilates Addiction Flemington flyover video ad',
+          label: 'Flemington flyover ad, launch week (still)',
+          stat: '92 leads at $2.82',
+          note: 'Meta, Jul 20 to 28, 2026 (first nine days of Flemington’s VIP period)',
+        },
+      ],
     },
     { type: 'h2', kicker: 'Why It Worked', text: 'The list is the product' },
     {

@@ -13,6 +13,11 @@ export const study: CaseStudy = {
     'Across 29 budget sprints at 28 franchise locations (Mar to Oct 2026), 1.90x daily spend lifted leads per day 65.5% for a 14.8% higher cost per lead. When to start, stop, and tell the owner.',
   published: '2026-10-22',
   readTime: '7 min',
+  cover: {
+    src: '/case-studies/budget-sprints-playbook/cover.jpg',
+    alt: 'A woman in a red Pilates Addiction top smiling outside a brick building in a Founding 50 drop-date ad',
+    position: '50% 45%',
+  },
   heroStats: [
     {
       value: '+65.5%',
@@ -129,6 +134,31 @@ export const study: CaseStudy = {
         { label: 'Jul 17', value: 26 },
       ],
       note: 'Daily spend: $141.24 on Jul 7, $250.25 on Jul 8, $234.17 to $322.73 through Jul 16.',
+    },
+    {
+      type: 'creative',
+      title: 'The ads running in Brighton\'s last five days, through Founders Day',
+      caption: 'Two of the ads live from Jul 13 to 17, 2026 (Founders Day was Jul 17), when the account drew 167 Meta leads; these two drew 95 of them. Our ad-level data starts Jul 13, so these figures cover only those five days, not the whole sprint.',
+      items: [
+        {
+          kind: 'video',
+          src: '/case-studies/budget-sprints-playbook/ad-1.mp4',
+          poster: '/case-studies/budget-sprints-playbook/ad-1.jpg',
+          alt: 'A woman in a red Pilates Addiction top walks along a brick wall announcing that Founding 50 memberships drop on July 17',
+          label: 'Founding 50 drop-date ad',
+          stat: '29 leads at $5.59',
+          note: 'Meta, Jul 13 to 17, 2026. Same video in three ad sets',
+        },
+        {
+          kind: 'video',
+          src: '/case-studies/budget-sprints-playbook/ad-3.mp4',
+          poster: '/case-studies/budget-sprints-playbook/ad-3.jpg',
+          alt: 'A woman poses outside nearby stores, including a Costco, asking viewers if they shop there, then stands at the door of the empty unit that will become the Brighton studio',
+          label: '"Do you shop here?" VIP list ad',
+          stat: '66 leads at $6.63',
+          note: 'Meta, Jul 13 to 17, 2026. Same video in seven ad sets. First 11 seconds of a 30-second ad',
+        },
+      ],
     },
     { type: 'h2', kicker: 'Two Ways to Get It Wrong', text: 'Under-spending, and sprinting off a launch spike' },
     { type: 'h3', text: 'Failure one: holding a healthy studio at baseline' },

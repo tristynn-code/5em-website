@@ -14,6 +14,11 @@ export const study: CaseStudy = {
     'Local footage took an iFlex studio from 27 to 74 leads a week in late July 2026 and cut cost per lead from $42.82 to $20.14. Two weeks later it was back at $41.55.',
   published: '2026-10-22',
   readTime: '7 min',
+  cover: {
+    src: '/case-studies/iflex-local-content-and-fatigue/cover.jpg',
+    alt: 'An iFlex stretch coach guiding a client through an assisted neck stretch',
+    position: '56% 15%',
+  },
   heroStats: [
     {
       value: '74',
@@ -193,6 +198,21 @@ export const study: CaseStudy = {
       name: 'Tristynn McGowan',
       role: 'Founder & CEO, Fifth Element, in our status update after the Aug 6, 2026 iFlex corporate sync',
     },
+    {
+      type: 'creative',
+      title: 'The three early warnings we watch for',
+      caption:
+        'From the script of our ad fatigue video for franchise owners (December 2025). Between the weeks of Jul 21 and Aug 4, 2026, this studio showed the second and third: CTR slid and cost per lead climbed at about the same weekly spend.',
+      items: [
+        {
+          kind: 'document',
+          src: '/case-studies/iflex-local-content-and-fatigue/doc-2.jpg',
+          alt: 'Fifth Element fatigue video script listing three early warning signs: attention drop, click drop and cost per lead drifting up',
+          label: 'Fatigue script: three early warnings',
+          note: 'Fifth Element ad fatigue video script, December 2025',
+        },
+      ],
+    },
 
     { type: 'h2', kicker: 'The Principle', text: 'Local is a signal, and signals wear out' },
     {
@@ -253,6 +273,20 @@ export const study: CaseStudy = {
         {
           title: 'Keep a mix',
           text: 'Local hooks win the click; studio footage and offer ads help it convert. In 75 Pilates Addiction studio-months where both ran side by side (Jul 13 to Oct 20, 2026), local-named ads had the higher link CTR in 51 but a lower median lead submission rate, 10.6% against 14.8%. In October 2026 Ralf Ocampo, our Head of Brand and Creative, began moving accounts toward about half local content, a quarter studio footage and a quarter offer ads.',
+        },
+      ],
+    },
+    {
+      type: 'creative',
+      title: 'The refresh cycle behind the cadence',
+      caption: 'The first page of our 3-day refresh cycle SOP (February 2026), the internal process behind step 3.',
+      items: [
+        {
+          kind: 'document',
+          src: '/case-studies/iflex-local-content-and-fatigue/doc-1.jpg',
+          alt: 'First page of the Fifth Element 3-day refresh cycle SOP: act on the last 3 days at the ad set level and refresh before cost per lead spikes',
+          label: '3-day refresh cycle SOP',
+          note: 'Fifth Element internal SOP, February 2026',
         },
       ],
     },

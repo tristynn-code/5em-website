@@ -23,6 +23,24 @@ export interface Stat {
   sub?: string;
 }
 
+/** One piece of real work shown inside a study: an ad, a coaching doc page, a landing page. */
+export interface CreativeItem {
+  /** video = an ad video (shown in a phone frame); image = a static ad or photo;
+      document = a coaching doc or report page; page = a landing page screenshot. */
+  kind: 'video' | 'image' | 'document' | 'page';
+  /** Path under /public, e.g. "/case-studies/<slug>/ad-1.mp4". */
+  src: string;
+  /** Still frame for videos (also used in the PDF). */
+  poster?: string;
+  alt: string;
+  /** Short name, e.g. "Coming Soon flyer ad". */
+  label: string;
+  /** The result, e.g. "409 leads at $7.84". */
+  stat?: string;
+  /** Window or context for the stat. */
+  note?: string;
+}
+
 export type Block =
   | { type: 'p'; text: string }
   | { type: 'h2'; text: string; kicker?: string }
@@ -44,6 +62,7 @@ export type Block =
       note?: string;
     }
   | { type: 'table'; columns: string[]; rows: string[][]; caption?: string }
+  | { type: 'creative'; title: string; caption?: string; items: CreativeItem[] }
   | { type: 'cta' };
 
 export interface CaseStudy {
@@ -66,6 +85,8 @@ export interface CaseStudy {
   /** ISO date. */
   published: string;
   readTime: string;
+  /** Study-specific cover photo (card + hero). Falls back to the brand photo. */
+  cover?: { src: string; alt: string; position?: string };
   /** 3-4 headline numbers shown under the hero. */
   heroStats: Stat[];
   /** Card chips. */

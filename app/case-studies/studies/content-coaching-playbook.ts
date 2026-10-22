@@ -14,6 +14,11 @@ export const study: CaseStudy = {
     'Ads built on local footage, classified by ad name, out-clicked stock ads in 51 of 75 same-studio, same-month Pilates Addiction matchups, Jul 13 to Oct 20, 2026. How we coach owners to film it.',
   published: '2026-10-22',
   readTime: '7 min',
+  cover: {
+    src: '/case-studies/content-coaching-playbook/cover.jpg',
+    alt: 'Tristynn McGowan, Fifth Element founder, recording the five shots filming script for franchisees, Mar 18, 2026',
+    position: '50% 40%',
+  },
   heroStats: [
     {
       value: '51 of 75',
@@ -168,6 +173,29 @@ export const study: CaseStudy = {
       name: 'Tristynn McGowan',
       role: 'Founder & CEO, Fifth Element, in the "five shots" script for franchisees, Mar 18, 2026',
     },
+    {
+      type: 'creative',
+      title: 'The five shots script and the filming guide owners work from',
+      caption:
+        'A 22-second excerpt of Tristynn\'s Mar 18, 2026 "five shots" video for franchisees, cropped to vertical, and the first page of our Pilates Addiction filming guide.',
+      items: [
+        {
+          kind: 'video',
+          src: '/case-studies/content-coaching-playbook/ad-1.mp4',
+          poster: '/case-studies/content-coaching-playbook/ad-1.jpg',
+          alt: 'Tristynn McGowan on camera in a Fifth Element cap, explaining that owners only need a hook, a middle and a call to action of one or two sentences each',
+          label: 'The "five shots" video: hook, middle, call to action',
+          note: 'Mar 18, 2026, Tristynn\'s filming script for franchisees',
+        },
+        {
+          kind: 'document',
+          src: '/case-studies/content-coaching-playbook/doc-1.jpg',
+          alt: 'Page 1 of the Fifth Element filming guide: film vertically at eye level, audio is the most important element, and do not stop recording after a mistake',
+          label: 'Filming coaching guide, page 1',
+          note: 'Technical checklist and performance tips from our March 2026 Pilates Addiction filming guide',
+        },
+      ],
+    },
 
     { type: 'h2', kicker: 'Proof Points', text: 'Where coached footage moved the numbers' },
     { type: 'h3', text: 'Pilates Addiction Vintage Park: filmed before it launched' },
@@ -197,6 +225,40 @@ export const study: CaseStudy = {
     {
       type: 'p',
       text: 'At South Austin older ads were soaking up the budget, and across our Pilates Addiction matchups Meta gave local ads a median 38% of spend. On Jun 30 we moved the new footage into its own ad sets so Meta would fund it. **One good shoot is not a strategy, which is why the cadence is every 7 to 14 days.**',
+    },
+    {
+      type: 'creative',
+      title: 'South Austin: a raw clip from the studio team and two finished ads',
+      caption:
+        'Results are Meta ad-level data, which for this account starts on Jul 13, 2026, the last day of the table\'s after window, so they describe the weeks that followed, not the 14-day windows. The "Do you shop here?" ad was finished Jul 8, after the Jun 30 change. The JuiceLand flyer ad drew the most leads of any single South Austin ad in that data and uses different footage from the raw clip.',
+      items: [
+        {
+          kind: 'video',
+          src: '/case-studies/content-coaching-playbook/ad-2.mp4',
+          poster: '/case-studies/content-coaching-playbook/ad-2.jpg',
+          alt: 'Raw phone clip: a South Austin team member in a Pilates Addiction shirt waves at the door of a neighboring juice bar and asks if viewers get their smoothie there',
+          label: 'Raw clip from the studio team',
+          note: 'Three seconds, filmed on a phone, uploaded Jun 30, 2026',
+        },
+        {
+          kind: 'video',
+          src: '/case-studies/content-coaching-playbook/ad-3.mp4',
+          poster: '/case-studies/content-coaching-playbook/ad-3.jpg',
+          alt: 'Finished ad: a South Austin team member outside a neighborhood grocery store asks "Do you shop here?", then the juice bar clip, then the team at the studio door, then studio class footage',
+          label: '"Do you shop here?" ad built from the team\'s clips',
+          stat: '43 leads at $13.26',
+          note: 'Best of 4 ads with this video\'s name. Meta, Jul 13 to Aug 6, 2026',
+        },
+        {
+          kind: 'video',
+          src: '/case-studies/content-coaching-playbook/ad-4.mp4',
+          poster: '/case-studies/content-coaching-playbook/ad-4.jpg',
+          alt: 'Finished ad: a Pilates Addiction South Austin Coming Soon flyer held up in front of the shopping center sign with JuiceLand at the top, then studio class footage',
+          label: 'Coming Soon flyer at the JuiceLand sign',
+          stat: '107 leads at $10.42',
+          note: 'Best of several ads with this video\'s name. Meta, Jul 13 to Aug 21, 2026',
+        },
+      ],
     },
     {
       type: 'quote',

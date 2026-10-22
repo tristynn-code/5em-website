@@ -43,6 +43,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
   const brand = getBrandMeta(study.brand);
   const related = getRelatedStudies(study.slug);
   const crumb = brand.id === 'network' ? 'Playbooks' : brand.name;
+  const heroPhoto = study.cover?.src ?? brand.photo;
 
   const articleSchema = {
     '@context': 'https://schema.org',
@@ -55,7 +56,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
     author: { '@id': `${SITE.url}#organization` },
     publisher: { '@id': `${SITE.url}#organization` },
     mainEntityOfPage: `${SITE.url}/case-studies/${study.slug}`,
-    image: brand.photo ? `${SITE.url}${brand.photo}` : undefined,
+    image: heroPhoto ? `${SITE.url}${heroPhoto}` : undefined,
     articleSection: 'Case Studies',
     about: brand.id === 'network' ? undefined : { '@type': 'Organization', name: brand.name },
   };
@@ -73,18 +74,18 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
 
       {/* HERO */}
       <section className="relative overflow-hidden" style={{ background: '#0F1314' }}>
-        {brand.photo && (
+        {heroPhoto && (
           <img
-            src={brand.photo}
+            src={heroPhoto}
             alt=""
             className="absolute inset-0 w-full h-full object-cover opacity-40"
-            style={{ objectPosition: brand.photoPosition }}
+            style={{ objectPosition: study.cover ? study.cover.position : brand.photoPosition }}
           />
         )}
         <div
           className="absolute inset-0 pointer-events-none"
           style={{
-            background: brand.photo
+            background: heroPhoto
               ? 'linear-gradient(180deg,rgba(15,19,20,.55) 0%,rgba(15,19,20,.85) 70%,#0F1314 100%)'
               : 'radial-gradient(circle at 85% 10%,rgba(0,190,157,.22) 0%,transparent 55%)',
           }}

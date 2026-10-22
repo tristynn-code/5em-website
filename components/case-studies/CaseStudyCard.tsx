@@ -19,12 +19,12 @@ export default function CaseStudyCard({ study, large }: { study: CaseStudy; larg
         className={`relative overflow-hidden ${large ? 'md:w-1/2 aspect-[16/10] md:aspect-auto' : 'aspect-[16/9]'}`}
         style={{ background: 'linear-gradient(135deg,#0F1314 0%,#1D2637 100%)' }}
       >
-        {brand.photo && (
+        {(study.cover?.src ?? brand.photo) && (
           <img
-            src={brand.photo}
+            src={study.cover?.src ?? brand.photo}
             alt=""
             className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
-            style={{ objectPosition: brand.photoPosition }}
+            style={{ objectPosition: study.cover ? study.cover.position : brand.photoPosition }}
           />
         )}
         <div

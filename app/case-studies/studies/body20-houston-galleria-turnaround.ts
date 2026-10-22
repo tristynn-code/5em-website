@@ -13,6 +13,11 @@ export const study: CaseStudy = {
   summary: "BODY20's corporate Houston Galleria studio went from 32 leads at $42.78 in May 2026 to 156 leads at $12.86 in August 2026, after a clean rebuild and a later step up in spend.",
   published: '2026-10-22',
   readTime: '6 min',
+  cover: {
+    src: '/case-studies/body20-houston-galleria-turnaround/cover.jpg',
+    alt: 'A woman in a BODY20 training suit smiling during a workout, from a BODY20 Houston Galleria ad',
+    position: '80% 30%',
+  },
   heroStats: [
     {
       value: '156',
@@ -163,6 +168,22 @@ export const study: CaseStudy = {
     {
       type: 'p',
       text: 'July against August is the cleanest comparison, two full months: spend went from $1,600.00 to $2,006.20, leads from 100 to 156, and cost per lead from $16.00 to $12.86, the studio\'s best full month since its February 24 relaunch. **In August, more budget came with cheaper leads, not more expensive ones.** Measured from June, spend grew 1.93x and leads 2.36x, but June had only 20 days of spend on record; per day, spend went from $51.94 in June to $64.72 in August. Across the lowest-cost 90-day stretch, May 30 to August 27, the studio spent $4,415.60 for 315 leads at $14.02. Jeff had floated $10,000 more across Galleria and Ponte Vedra, and called it "probably a little bit aggressive" himself. Galleria\'s monthly spend never went above $2,034.06 (September 2026).',
+    },
+    {
+      type: 'creative',
+      title: 'One of the ads running in the first half of August',
+      caption:
+        'Ad-level results for this studio are on record from July 13, 2026, and the figure covers only the window shown. A BODY20 brand video, run on the studio\'s account, shown as an example of what ran, not as the cause of the August result.',
+      items: [
+        {
+          kind: 'image',
+          src: '/case-studies/body20-houston-galleria-turnaround/ad-2.jpg',
+          alt: 'A man in a BODY20 training suit doing a push-up, with the title BODY20 Strength',
+          label: 'Strength video ad (still)',
+          stat: '21 leads at $9.47',
+          note: 'Meta, Aug 1 to 16, 2026, across the 9 ads that used this video',
+        },
+      ],
     },
     {
       type: 'p',
