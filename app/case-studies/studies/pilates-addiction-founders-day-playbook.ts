@@ -15,7 +15,7 @@ export const study: CaseStudy = {
   readTime: '7 min',
   cover: {
     src: '/case-studies/pilates-addiction-founders-day-playbook/cover.jpg',
-    alt: 'Two Pilates Addiction Christenbury team members wave beside black and gold balloons at a presale table, six days before Founders Day',
+    alt: "A group of Pilates Addiction instructors and members posed in front of the lit arched mirrors, from the brand's official photography",
     position: '50% 30%',
   },
   heroStats: [
@@ -162,13 +162,7 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'Across 16 Pilates Addiction studios with a documented Founders 50 date and first spend April 6 to July 20, 2026, launch to the day before Founders 50 produced 12,206 leads on $114,061.31, a pooled $9.34 cost per lead, in a median of 43 days. Eight of the 16 crossed our working target of 700 leads, and 14 crossed 500.',
-    },
-    {
-      type: 'quote',
-      text: 'We are not testing into this. We’re not going to just spend 500 or 1000 to get started. That is setting ourselves up for failure. We train the teams to go big in the first month.',
-      name: 'Jeff Miller',
-      role: 'Chief Growth Officer, Sequel Brands',
+      text: 'Across 16 Pilates Addiction studios with a documented Founders 50 date and first spend April 6 to July 20, 2026, launch to the day before Founders 50 produced 12,206 leads on $114,061.31, a pooled $9.34 cost per lead, in a median of 43 days. Eight of the 16 crossed our working target of 700 leads, and 14 crossed 500. Sequel now trains its studios to go big in the first month instead of testing into it.',
     },
     { type: 'h2', kicker: 'The Cliff', text: 'What happens after Founders 50' },
     {
@@ -349,7 +343,7 @@ export const study: CaseStudy = {
     },
   ],
   sources:
-    'Meta Ads data via Fifth Element reporting (dashboards table, hiring campaigns excluded): each studio’s first spend to the day before its Founders Day, Mar 18 to Oct 1, 2026; launch curve for 35 Pilates Addiction launches with first spend Mar 28 to Aug 20, 2026; launch-to-Founders-50 totals for first spend Mar 18 to Aug 20, 2026; Founders 50 comparisons for 17 Pilates Addiction studios on the old single-campaign structure with Founders 50 dates Apr 24 to Jul 17, 2026 (14 days before vs days 1 to 14 and 15 to 28 after); data through Oct 20, 2026. Ultimate Longevity Center launch curve from the same table, 10 centers with first spend Jun 18 to Aug 3, 2026. Budget-sprint and week-pair stats from the same table (location accounts only; sprints in Pilates Addiction, iFlex and Ultimate Longevity Center), Mar 21 to Oct 20, 2026. Launch ranking among 46 Pilates Addiction launches with a full first 30 days and first spend Apr 3 to Sep 22, 2026. Day-one membership counts reported by studio owners to Fifth Element or recorded in Fifth Element client success notes; first-day count at lunch per Sequel Brands corporate. Brand-wide Founders Day average as presented by Sequel Brands on its agency call, Aug 19, 2026. Weekly Pilates Addiction roll-up, Jul 24, 2026, and Sequel correspondence, Jul 27 to Jul 29, 2026.',
+    'Meta Ads data via Fifth Element reporting (dashboards table, hiring campaigns excluded): each studio’s first spend to the day before its Founders Day, Mar 18 to Oct 1, 2026; launch curve for 35 Pilates Addiction launches with first spend Mar 28 to Aug 20, 2026; launch-to-Founders-50 totals for first spend Mar 18 to Aug 20, 2026; Founders 50 comparisons for 17 Pilates Addiction studios on the old single-campaign structure with Founders 50 dates Apr 24 to Jul 17, 2026 (14 days before vs days 1 to 14 and 15 to 28 after); data through Oct 20, 2026. Ultimate Longevity Center launch curve from the same table, 10 centers with first spend Jun 18 to Aug 3, 2026. Budget-sprint and week-pair stats from the same table (location accounts only; sprints in Pilates Addiction, iFlex and Ultimate Longevity Center), Mar 21 to Oct 20, 2026. Launch ranking among 46 Pilates Addiction launches with a full first 30 days and first spend Apr 3 to Sep 22, 2026. Day-one membership counts reported by studio owners to Fifth Element or recorded in Fifth Element client success notes; first-day count at lunch per Sequel Brands corporate. Brand-wide Founders Day average and Sequel’s first-month guidance for studios as presented by Sequel Brands on its agency call, Aug 19, 2026. Weekly Pilates Addiction roll-up, Jul 24, 2026, and Sequel correspondence, Jul 27 to Jul 29, 2026.',
   featured: 3,
   order: 3,
   seoKeywords: [

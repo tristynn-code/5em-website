@@ -8,7 +8,7 @@ export const study: CaseStudy = {
   vertical: 'EMS Fitness',
   location: 'Houston, TX',
   title: "How BODY20 Houston Galleria went from Sequel's alert list to [[156 leads in a month at $12.86]]",
-  dek: 'In May 2026, Sequel Brands flagged BODY20\'s corporate Houston studio, which finished the month at $42.78 per lead. Sequel\'s Chief Growth Officer told us to "go ham," and the first thing we did with that permission was not spend more.',
+  dek: 'In May 2026, Sequel Brands flagged BODY20\'s corporate Houston studio, which finished the month at $42.78 per lead. Sequel\'s Chief Growth Officer told us to pull out all the stops, and the first thing we did with that permission was not spend more.',
   cardTitle: 'BODY20 Houston Galleria: $42.78 to $12.86 per lead, May to Aug 2026',
   summary: "BODY20's corporate Houston Galleria studio went from 32 leads at $42.78 in May 2026 to 156 leads at $12.86 in August 2026, after a clean rebuild and a later step up in spend.",
   published: '2026-10-22',
@@ -97,13 +97,7 @@ export const study: CaseStudy = {
     { type: 'h2', kicker: 'What We Did', text: 'What the green light bought' },
     {
       type: 'p',
-      text: 'Two days after the alert, Tristynn McGowan, our Founder and CEO, wrote in the team status update: "It\'s not a fire. It\'s a sandbox that needs faster iteration cycles." BODY20 had told us its corporate studios were where it tests things before taking them to franchisees. On the May 21 weekly sync, Jeff went further.',
-    },
-    {
-      type: 'quote',
-      text: 'Whatever you need from me on Galleria and Ponte Vedra, like, go, like, go ham ... this is a test case, and if you tell me that we need $10,000 to do this, well, I\'ll find a way to get it, that\'s probably a little bit aggressive, but you know what I mean.',
-      name: 'Jeff Miller',
-      role: 'Chief Growth Officer, Sequel Brands, May 21, 2026',
+      text: 'We did not treat the alert as a fire. We treated Galleria as a place to test, and the job was to make the test cycles faster. BODY20 had told us its corporate studios were where it tests things before taking them to franchisees. On the May 21 weekly sync, Jeff went further: whatever we needed on Galleria and Ponte Vedra, he would back, because the two studios were a test case. He floated as much as $10,000 more to do it, while noting that figure was on the aggressive side.',
     },
     {
       type: 'p',
@@ -167,7 +161,7 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'July against August is the cleanest comparison, two full months: spend went from $1,600.00 to $2,006.20, leads from 100 to 156, and cost per lead from $16.00 to $12.86, the studio\'s best full month since its February 24 relaunch. **In August, more budget came with cheaper leads, not more expensive ones.** Measured from June, spend grew 1.93x and leads 2.36x, but June had only 20 days of spend on record; per day, spend went from $51.94 in June to $64.72 in August. Across the lowest-cost 90-day stretch, May 30 to August 27, the studio spent $4,415.60 for 315 leads at $14.02. Jeff had floated $10,000 more across Galleria and Ponte Vedra, and called it "probably a little bit aggressive" himself. Galleria\'s monthly spend never went above $2,034.06 (September 2026).',
+      text: 'July against August is the cleanest comparison, two full months: spend went from $1,600.00 to $2,006.20, leads from 100 to 156, and cost per lead from $16.00 to $12.86, the studio\'s best full month since its February 24 relaunch. **In August, more budget came with cheaper leads, not more expensive ones.** Measured from June, spend grew 1.93x and leads 2.36x, but June had only 20 days of spend on record; per day, spend went from $51.94 in June to $64.72 in August. Across the lowest-cost 90-day stretch, May 30 to August 27, the studio spent $4,415.60 for 315 leads at $14.02. Jeff had floated $10,000 more across Galleria and Ponte Vedra. Galleria\'s monthly spend never went above $2,034.06 (September 2026).',
     },
     {
       type: 'creative',
@@ -191,7 +185,7 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'The studio was converting. On August 20, Steve told us Galleria was one of BODY20\'s top three studios in memberships so far that month, with 10. That is BODY20\'s studio-wide count from every source, not a number from our ads. On September 24 he named Galleria one of nine focus studios: "they\'re signing members ... in the case of Galleria, they just need more leads." The studio was closing. What it needed from its agency was volume.',
+      text: 'The studio was converting. On August 20, Steve told us Galleria was one of BODY20\'s top three studios in memberships so far that month, with 10. That is BODY20\'s studio-wide count from every source, not a number from our ads. On September 24 he named Galleria one of nine focus studios and said it was doing well: it was signing members and converting through the funnel. What it needed from its agency was more leads.',
     },
     { type: 'cta' },
     { type: 'h2', kicker: 'Why It Worked', text: 'The leak was after the click' },
@@ -215,17 +209,17 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'On the September 24 sync, BODY20\'s Chief Marketing Officer told us what he says when owners ask which agency corporate uses.',
+      text: 'On the September 24 sync, BODY20\'s Chief Marketing Officer told us what he tells owners who ask which agency corporate uses: Fifth Element, because it can scale.',
     },
     {
       type: 'quote',
-      text: "With the corporate studios, we're coming to you. You're our agency of choice ... Corporate uses Fifth Element. If they ask me why, I tell them, A, they can scale. Two, they're the only agency that's really testing out creative and landing pages.",
+      text: "You're our agency of choice.",
       name: 'Steve Rockman',
       role: 'Chief Marketing Officer, BODY20, September 24, 2026',
     },
   ],
   sources:
-    'Meta Ads Manager data via Fifth Element reporting for BODY20 Houston Galleria, record beginning Feb 24, 2026; monthly figures Mar 1 to Sep 30, 2026; week before the alert May 7 to 13, 2026; rebuild launch window Jun 11 to 14, 2026; lowest-cost 90 days May 30 to Aug 27, 2026; August halves Aug 1 to 16 and Aug 17 to 31, 2026. Click-through and lead submission rates (leads divided by link clicks) from the same Meta data, Mar 1 to Jul 31, 2026. Membership count (10, month to date as of Aug 20, 2026) reported by BODY20\'s Chief Marketing Officer on the Aug 20, 2026 weekly sync and is the studio\'s total from all sources. Alert from a Sequel Brands email of May 14, 2026. Account changes and creative direction from Fifth Element status updates of May 16, May 22, May 29, Jun 5 and Jun 26, 2026. Quotes from Fifth Element weekly syncs with Sequel Brands and BODY20 on May 21 and Sep 24, 2026, and a Fifth Element internal status update of May 16, 2026.',
+    'Meta Ads Manager data via Fifth Element reporting for BODY20 Houston Galleria, record beginning Feb 24, 2026; monthly figures Mar 1 to Sep 30, 2026; week before the alert May 7 to 13, 2026; rebuild launch window Jun 11 to 14, 2026; lowest-cost 90 days May 30 to Aug 27, 2026; August halves Aug 1 to 16 and Aug 17 to 31, 2026. Click-through and lead submission rates (leads divided by link clicks) from the same Meta data, Mar 1 to Jul 31, 2026. Membership count (10, month to date as of Aug 20, 2026) reported by BODY20\'s Chief Marketing Officer on the Aug 20, 2026 weekly sync and is the studio\'s total from all sources. Alert from a Sequel Brands email of May 14, 2026. Account changes and creative direction from Fifth Element status updates of May 16, May 22, May 29, Jun 5 and Jun 26, 2026. Sequel Brands direction from the Fifth Element weekly sync of May 21, 2026. Focus-studio status and quote from the Fifth Element weekly sync with BODY20 on Sep 24, 2026.',
   order: 1,
   seoKeywords: [
     'BODY20 marketing agency',

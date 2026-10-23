@@ -14,8 +14,8 @@ export const study: CaseStudy = {
   readTime: '7 min',
   cover: {
     src: '/case-studies/pilates-addiction-after-founders-day/cover.jpg',
-    alt: 'A Pilates Addiction Davie team member at the Welcome to the Town of Davie sign, from the studio\'s June sign footage',
-    position: '50% 40%',
+    alt: "An instructor with a headset mic cues members leaning into the reformer towers under warm light, from Pilates Addiction's official photography",
+    position: '55% 40%',
   },
   heroStats: [
     {
@@ -54,7 +54,7 @@ export const study: CaseStudy = {
     {
       when: 'Jun 12, 2026',
       title: 'Founders 50',
-      text: 'After a budget push and studio-filmed teaser hooks, the owner reports "over 70 memberships so far" on Founders 50 day.',
+      text: 'After a budget push and studio-filmed teaser hooks, the owner reports over 70 memberships on Founders 50 day.',
     },
     {
       when: 'Jul 21 to Aug 19, 2026',
@@ -263,13 +263,7 @@ export const study: CaseStudy = {
     { type: 'h3', text: 'Owners come back' },
     {
       type: 'p',
-      text: 'The other month-six test is whether owners come back. As of Oct 21, 2026, **9 owner groups have brought two or more Pilates Addiction studios to Fifth Element, 22 studios in all.** Middletown\'s owner, three months past a 109-membership Founders Day:',
-    },
-    {
-      type: 'quote',
-      text: 'We\'re very happy, Justin. We definitely have been happy with you. Intend to use you for the second location.',
-      name: 'Joni Cook',
-      role: 'Owner, Pilates Addiction Middletown (Aug 14, 2026)',
+      text: 'The other month-six test is whether owners come back. As of Oct 21, 2026, **9 owner groups have brought two or more Pilates Addiction studios to Fifth Element, 22 studios in all.** On Aug 14, 2026, three months past a 109-membership Founders Day, Middletown\'s owner told us she intended to use Fifth Element for her second location.',
     },
     { type: 'h2', kicker: 'Why It Works', text: 'The launch number is the campaign\'s novelty talking' },
     {

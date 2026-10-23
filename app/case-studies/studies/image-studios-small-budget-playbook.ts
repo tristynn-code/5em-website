@@ -81,13 +81,7 @@ export const study: CaseStudy = {
     { type: 'h2', kicker: 'The Problem', text: 'Small budgets break the usual agency reflex' },
     {
       type: 'p',
-      text: 'On July 14, 2026, a Florida IMAGE studio in presale had gone almost a week without a lead: the last one came in on July 7. That day we folded the budget into fewer ad sets instead of adding money. In the 14 days from that change the studio got 13 Meta leads instead of 5, and its cost per lead fell from $118.97 to $56.99.',
-    },
-    {
-      type: 'quote',
-      text: 'We did not increase the overall budget. We\'re simply concentrating the existing spend so Meta has more resources in each area and a better opportunity to deliver the ads consistently.',
-      name: 'Drew Waelde',
-      role: 'Head of Agency Operations, Fifth Element, to the owner of the Florida studio, Jul 14, 2026',
+      text: 'On July 14, 2026, a Florida IMAGE studio in presale had gone almost a week without a lead: the last one came in on July 7. That day we folded the same budget into fewer ad sets instead of adding money, which gave Meta more to work with in each ad set and a better chance to deliver the ads consistently. In the 14 days from that change the studio got 13 Meta leads instead of 5, and its cost per lead fell from $118.97 to $56.99.',
     },
     {
       type: 'p',
@@ -99,7 +93,7 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'When an account like that goes quiet, the usual reflex is to add: more budget, more ad sets to "test" audiences, more form steps to "qualify" leads. We have made that last mistake ourselves: on July 14 we added a phone check to the Florida form for quality, and took it out on August 27. **Our rule is to subtract before we add, and to ask for budget last.**',
+      text: 'When an account like that goes quiet, the usual reflex is to add: more budget, more ad sets to test audiences, more form steps to qualify leads. We have made that last mistake ourselves: on July 14 we added a phone check to the Florida form for quality, and took it out on August 27. **Our rule is to subtract before we add, and to ask for budget last.**',
     },
 
     { type: 'h2', kicker: 'The Evidence', text: 'Three changes, one direction' },
@@ -198,7 +192,7 @@ export const study: CaseStudy = {
         },
         {
           title: 'Keep the form short',
-          text: 'No intro screen. One short multiple-choice qualification question, chosen with the owner. The second studio dropped "How long have you been a licensed beauty professional?" and kept "What services do you offer?" as checkboxes, which is faster to answer and still sorts pros by specialty. When tours lag, we add back one intent question before we touch the budget.',
+          text: 'No intro screen. One short multiple-choice qualification question, chosen with the owner. The second studio dropped the years-licensed question and kept a services checklist, which is faster to answer and still sorts pros by specialty. When tours lag, we add back one intent question before we touch the budget.',
         },
         {
           title: 'Write creative for the vacancy, not the building',
@@ -260,18 +254,10 @@ export const study: CaseStudy = {
     },
     {
       type: 'creative',
-      title: 'Myrtle Beach reels from the weeks it was filling suites',
+      title: 'A Myrtle Beach reel from the weeks it was filling suites',
       caption:
-        'Weekly reels we made for the studio in March 2026, while it still had suites to fill. No ad stats are attached to these reels.',
+        'One of the weekly reels we made for the studio in March 2026, while it still had suites to fill. No ad stats are attached to this reel.',
       items: [
-        {
-          kind: 'video',
-          src: '/case-studies/image-studios-small-budget-playbook/ad-1.mp4',
-          poster: '/case-studies/image-studios-small-budget-playbook/ad-1.jpg',
-          alt: 'Vertical reel opening on the IMAGE Studios Myrtle Beach building, then walking through an empty suite captioned The views of your work day',
-          label: 'Open suite walkthrough',
-          note: 'Delivered Mar 10, 2026',
-        },
         {
           kind: 'video',
           src: '/case-studies/image-studios-small-budget-playbook/ad-2.mp4',

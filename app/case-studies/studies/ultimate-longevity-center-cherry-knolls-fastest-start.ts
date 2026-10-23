@@ -63,11 +63,11 @@ export const study: CaseStudy = {
     { type: 'h2', kicker: 'The Situation', text: 'A longevity center with nothing to walk into' },
     {
       type: 'p',
-      text: 'Ashley and Mike Papp chose Fifth Element on June 19, 2026, after sitting through a call with another agency. "We were impressed with your eagerness and presentation," Ashley wrote that day. They signed on June 22. They were opening Ultimate Longevity Center Cherry Knolls on South University Boulevard in Centennial, Colorado, with a planned opening in February 2027. ULC was a brand-new concept. No center was open anywhere, so there was no space to film, no member to interview and no word of mouth. On our June 22 call, Ashley named the problem herself: they were asking people to buy something that did not exist yet.',
+      text: 'Ashley and Mike Papp chose Fifth Element on June 19, 2026, after sitting through a call with another agency. "We were impressed with your eagerness and presentation," Ashley wrote that day. They signed on June 22. They were opening Ultimate Longevity Center Cherry Knolls on South University Boulevard in Centennial, Colorado, with a planned opening in February 2027. ULC was a brand-new concept. No center was open anywhere, so there was no space to film, no member to interview and no word of mouth. The center was asking people to buy something that did not exist yet.',
     },
     {
       type: 'p',
-      text: "A ULC presale runs on one asset an agency controls: **the list**. Every lead collected during the VIP stage is someone the center and its CRM can work until founding membership weekend, when the founding rate goes on sale. The bigger the list, the more people the center has to sell to that weekend. Ashley's question on that call was how to keep people interested for the 45 days before sales opened.",
+      text: "A ULC presale runs on one asset an agency controls: **the list**. Every lead collected during the VIP stage is someone the center and its CRM can work until founding membership weekend, when the founding rate goes on sale. The bigger the list, the more people the center has to sell to that weekend. The question was how to keep people interested for the 45 days before sales opened.",
     },
     {
       type: 'p',
@@ -120,7 +120,7 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: `Her tally was the owners' own. By our count of Meta leads, the center passed 300 on July 15 and 700 on July 31. In the same message, she asked whether we had launched a new ad, because leads had ticked up over a weekend when the owners ran a booth at a local farmers market. Three or four people at the booth told them they had seen the ads. Drew's answer was plain: "We haven't launched anything new. The existing campaigns and original ads are simply performing exceptionally well right now." The work had been done before July 6.`,
+      text: `Her tally was the owners' own. By our count of Meta leads, the center passed 300 on July 15 and 700 on July 31. In the same message, she noted that leads had ticked up over the weekend, when the owners ran a booth at a local farmers market. Three or four people at the booth told them they had seen the ads.`,
     },
     {
       type: 'creative',
@@ -148,11 +148,11 @@ export const study: CaseStudy = {
     { type: 'h2', kicker: 'The Result', text: 'A 700-lead challenge, met by the last day of July' },
     {
       type: 'p',
-      text: `On July 14, Drew reported **268 leads at a $3.61 cost per lead**: the lead count in an email to Sequel Brands' CMO and ULC's Director of Marketing, the cost per lead in Slack to the owners. Both went out at midday. Our dashboards, which count full days, show 260 leads at $3.57 through July 13 and 290 at $3.65 through July 14. Drew told the owners it was "the strongest performance we've seen from any ULC location to date." At that point only one other ULC center we ran had been live for more than a day.`,
+      text: `On July 14, Drew reported **268 leads at a $3.61 cost per lead**: the lead count in an email to Sequel Brands' CMO and ULC's Director of Marketing, the cost per lead in Slack to the owners. Both went out at midday. Our dashboards, which count full days, show 260 leads at $3.57 through July 13 and 290 at $3.65 through July 14.`,
     },
     {
       type: 'p',
-      text: `July closed at **709 leads on $4,555.23, $6.42 each**, past the owners' 700 challenge by our count of Meta leads. By July 28 the owners had noticed lead flow slowing. Drew walked them through the numbers and what to expect next, and Ashley thanked him for "the detail and data."`,
+      text: `July closed at **709 leads on $4,555.23, $6.42 each**, past the owners' 700 challenge by our count of Meta leads. By July 28 the owners had noticed lead flow slowing. Drew walked them through the numbers and what to expect next, and Ashley thanked him for the detail and the data.`,
     },
     {
       type: 'chart',
@@ -202,16 +202,6 @@ export const study: CaseStudy = {
       text: 'Meta calls a new campaign\'s first days its learning phase, and it is tempting to run them that way: launch, watch, fix the page later. For a presale that is backwards. Whatever is still broken on day one burns the cheapest leads the center will ever get. At Cherry Knolls the page, the local anchor, the wider radius, the CRM routing and the ads were all in place by launch on July 6, so the cheap first weeks went into the list instead of into fixes.',
     },
     {
-      type: 'p',
-      text: "On a September 18, 2026 call, ULC's Director of Marketing put it plainly.",
-    },
-    {
-      type: 'quote',
-      text: 'You guys have always had a big pop.',
-      name: 'Elise Budowanec',
-      role: 'Director of Marketing, Ultimate Longevity Center, September 18, 2026',
-    },
-    {
       type: 'callout',
       title: 'The lesson',
       text: 'Whatever is still broken on launch day burns the cheapest leads the center will ever get, so finish the page, the routing and the ads before the first dollar is spent.',
@@ -227,7 +217,7 @@ export const study: CaseStudy = {
     },
   ],
   sources:
-    "Meta lead and spend data from Fifth Element's client dashboards (Meta-attributed leads): launch to founding weekend July 6 to August 13, 2026; first eight and nine days July 6 to 13 and July 6 to 14, 2026; first 30 days and landing page conversion July 6 to August 4, 2026; to date July 6 to October 20, 2026. The 268 leads at $3.61 is the midday figure Fifth Element reported on July 14, 2026 (lead count by email to Sequel Brands and ULC, cost per lead in Slack to the owners). ULC launch-curve benchmark from 10 ULC launches with first spend June 18 to August 3, 2026, pooled by campaign age (Fifth Element client dashboards). Page comparison at the first ULC center we launched from Meta Ads Manager (ad level), June 15 to July 31, 2026; landing page system totals from Meta Ads Manager (landing page ad sets), July 1 to October 21, 2026. Launch setup from email (July 2 and July 6, 2026), Slack (July 1 and July 6, 2026) and Fifth Element task records (July 22 and July 31, 2026). Owner goals and comments from email (June 19 and July 28, 2026), owner calls (June 22 and July 2, 2026) and Slack (July 14, 2026). Elise Budowanec quote from a ULC and Fifth Element call, September 18, 2026. Membership sales are made by the center and are not reported here.",
+    "Meta lead and spend data from Fifth Element's client dashboards (Meta-attributed leads): launch to founding weekend July 6 to August 13, 2026; first eight and nine days July 6 to 13 and July 6 to 14, 2026; first 30 days and landing page conversion July 6 to August 4, 2026; to date July 6 to October 20, 2026. The 268 leads at $3.61 is the midday figure Fifth Element reported on July 14, 2026 (lead count by email to Sequel Brands and ULC, cost per lead in Slack to the owners). ULC launch-curve benchmark from 10 ULC launches with first spend June 18 to August 3, 2026, pooled by campaign age (Fifth Element client dashboards). Page comparison at the first ULC center we launched from Meta Ads Manager (ad level), June 15 to July 31, 2026; landing page system totals from Meta Ads Manager (landing page ad sets), July 1 to October 21, 2026. Launch setup from email (July 2 and July 6, 2026), Slack (July 1 and July 6, 2026) and Fifth Element task records (July 22 and July 31, 2026). Owner goals and comments from email (June 19 and July 28, 2026), owner calls (June 22 and July 2, 2026) and Slack (July 14, 2026). Membership sales are made by the center and are not reported here.",
   order: 3,
   seoKeywords: [
     'presale lead generation',

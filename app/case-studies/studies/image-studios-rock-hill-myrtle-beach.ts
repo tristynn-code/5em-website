@@ -97,11 +97,11 @@ export const study: CaseStudy = {
       items: [
         {
           title: 'Start six months before opening',
-          text: 'Chris\'s advice to other owners is to start "about six months before I opened my studios," because it "allowed us an opportunity to become known in the local market." The early start gave pros the chance to tour Rock Hill during construction and potentially customize their rooms before it was finished.',
+          text: "Chris's advice to other owners is to start working with Fifth Element about six months before opening. For Rock Hill, the early start gave the studio a chance to become known in the local market and to start talking with local beauty pros before the doors opened. It also gave pros the chance to tour Rock Hill during construction and potentially customize their rooms before it was finished.",
         },
         {
           title: 'Track the suite count',
-          text: 'Chris logs tours, applications and leases on our weekly tour and occupancy form, and our call notes track the count: "29/39" on March 4, 2025, "30/39 studios filled!" on March 18. From the November 28, 2022 contract start to his last submission in early 2026, our tracker totals 631 leads and 286 scheduled tours for Rock Hill (the tours are owner-entered; the lead total is the tracker\'s own count, not Meta reporting data).',
+          text: 'Chris logs tours, applications and leases on our weekly tour and occupancy form, and our call notes track the count: 29 of 39 suites filled on March 4, 2025, and 30 of 39 on March 18. From the November 28, 2022 contract start to his last submission in early 2026, our tracker totals 631 leads and 286 scheduled tours for Rock Hill (the tours are owner-entered; the lead total is the tracker\'s own count, not Meta reporting data).',
         },
         {
           title: 'Advertise only the suites that are open',
@@ -261,7 +261,7 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'Chris made the network argument himself: "They work with many different franchise owners, and they\'re able to leverage what they\'ve learned in other places for working with your newer franchises."',
+      text: 'In his video testimonial, Chris named the advantage of an agency that works across a franchise system: "They work with many different franchise owners, and they\'re able to leverage what they\'ve learned in other places for working with your newer franchises."',
     },
   ],
   sources:

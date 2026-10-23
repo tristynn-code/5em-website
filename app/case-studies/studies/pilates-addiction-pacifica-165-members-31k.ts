@@ -18,8 +18,8 @@ export const study: CaseStudy = {
   readTime: '6 min',
   cover: {
     src: '/case-studies/pilates-addiction-pacifica-165-members-31k/cover.jpg',
-    alt: 'A studio team member smiles while holding a Pilates Addiction Pacifica Coming Soon flyer in a shopping center parking lot',
-    position: '50% 15%',
+    alt: "An empty Pilates Addiction studio with rows of black and gold reformers, lit arched mirrors and the Pilates Addiction wall sign, from the brand's official photography",
+    position: '55% 45%',
   },
   heroStats: [
     {
@@ -83,7 +83,7 @@ export const study: CaseStudy = {
     { type: 'h2', kicker: 'The Situation', text: 'A second studio, a short runway' },
     {
       type: 'p',
-      text: 'On Friday, July 10, 2026, Pilates Addiction Pacifica opened its Founders 50 sale and, by the owner\'s count, signed 165 members that day. Eleven weeks earlier, the same owner\'s first studio had closed its Founders 50 sale with 57. The second launch had a shorter runway and a small market. "Pacifica in the Bay Area is a small town," Jeff Miller, Chief Growth Officer of Sequel Brands, told the franchisor\'s agencies on July 15.',
+      text: 'On Friday, July 10, 2026, Pilates Addiction Pacifica opened its Founders 50 sale and, by the owner\'s count, signed 165 members that day. Eleven weeks earlier, the same owner\'s first studio had closed its Founders 50 sale with 57. The second launch had a shorter runway, and Pacifica is a small Bay Area town.',
     },
     {
       type: 'p',
@@ -103,7 +103,7 @@ export const study: CaseStudy = {
       items: [
         {
           title: 'Move on day two',
-          text: 'Before noon on day two, Drew Waelde, our Head of Agency Operations, told the owner the campaign was showing "210 leads generated at just a $0.68 CPL all-time" and recommended doubling the daily budget. The owner approved within minutes and the budget went to $300 a day. The first two days produced **314 leads at $0.95 each**.',
+          text: 'Before noon on day two, Drew Waelde, our Head of Agency Operations, told the owner the campaign had generated 210 leads at a $0.68 cost per lead so far and recommended doubling the daily budget. The owner approved within minutes and the budget went to $300 a day. The first two days produced **314 leads at $0.95 each**.',
         },
         {
           title: 'Hold the sprint through the launch window',
@@ -115,37 +115,16 @@ export const study: CaseStudy = {
         },
         {
           title: 'Refresh with owner footage, then add the date',
-          text: 'The refresh with that footage went live on July 6. The nine-day gap was on our side, and the slump ran almost exactly across it: 96 leads at $10.15 from June 26 to July 5. That day Ralf asked for the close the first studio had used: "Just like we did with [your first studio], I\'d love to get some simple hooks announcing the date of Founders 50." The point was "to announce the launch date this week to maximize urgency." The owner\'s team filmed them the next day, and the drop-date ads went live July 8.',
+          text: 'The refresh with that footage went live on July 6. The nine-day gap was on our side, and the slump ran almost exactly across it: 96 leads at $10.15 from June 26 to July 5. The day the refresh went live, Ralf asked for the close the first studio had used: simple hooks announcing the Founders 50 date, so the launch date could go out that week and build urgency. The owner\'s team filmed them the next day, and the drop-date ads went live July 8.',
         },
       ],
     },
     {
       type: 'creative',
-      title: 'What we asked the owner\'s team to film',
-      caption: 'The local-shots section of our Pilates Addiction filming guide.',
-      items: [
-        {
-          kind: 'document',
-          src: '/case-studies/pilates-addiction-pacifica-165-members-31k/doc-1.jpg',
-          alt: 'Filming guide section titled Localized Areas Around Our Location: film wide shots near the future studio, pan the street, point to the area',
-          label: 'Our filming guide: local shots',
-        },
-      ],
-    },
-    {
-      type: 'creative',
-      title: 'The refresh ad the owner\'s team filmed, and the drop-date ad',
+      title: 'The Founders Day drop-date ad',
       caption:
-        'The clip the owner\'s team filmed on June 26, which ran as the refresh ad, and the ad that announced the Founders Day date. The campaign launched on corporate presale creative, not shown here; this footage went live in the final four days.',
+        'The ad that announced the Founders Day date, cut from a clip the owner\'s team filmed. The campaign launched on corporate presale creative, not shown here; owner footage went live in the final four days.',
       items: [
-        {
-          kind: 'video',
-          src: '/case-studies/pilates-addiction-pacifica-165-members-31k/ad-1.mp4',
-          poster: '/case-studies/pilates-addiction-pacifica-165-members-31k/ad-1.jpg',
-          alt: 'A studio team member walks a Pilates Addiction Pacifica Coming Soon flyer past nearby shops and tapes it to the studio window',
-          label: 'Refresh ad, filmed by the owner\'s team',
-          note: 'Filmed Jun 26, live Jul 6, 2026',
-        },
         {
           kind: 'video',
           src: '/case-studies/pilates-addiction-pacifica-165-members-31k/ad-2.mp4',
@@ -164,7 +143,7 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'Because the owner set a rule ("if we are getting results") instead of a fixed number, we could spend into the cheap window the day it opened.',
+      text: 'Because the owner tied the budget to results instead of a fixed number, we could spend into the cheap window the day it opened.',
     },
     { type: 'h2', kicker: 'The Result', text: '165 members after 29 days of VIP presale' },
     {
@@ -175,7 +154,7 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'Sequel\'s numbers put 165 in context. On an August 19 call with the brand\'s agencies, Jeff Miller walked through the average Pilates Addiction Founders 50 day one by quarter: 10 at first, then 61 and 67, "and now 76." Then he named the outliers: Vintage Park, and "Pacifica right behind them," at 165.',
+      text: 'Sequel\'s numbers put 165 in context. On an August 19 call with the brand\'s agencies, Jeff Miller, Chief Growth Officer of Sequel Brands, walked through the average Pilates Addiction Founders 50 day one by quarter: 10 at first, then 61 and 67, and now 76. Then he named the outliers: Vintage Park, with Pacifica right behind it at 165.',
     },
     {
       type: 'p',
@@ -256,11 +235,11 @@ export const study: CaseStudy = {
     { type: 'h2', kicker: 'What This Means for Your Brand', text: 'Make the sprint a rule, not a negotiation' },
     {
       type: 'p',
-      text: 'The usual way to open a location is a small budget, raised after a few weeks of data. By then the cheapest leads that location will ever see are gone. Sequel now tells its agencies the same. "We are not testing into this," Jeff Miller said on the August 19 call. "We\'re not going to just spend 500 or 1000 to get started. That is setting ourselves up for failure." Our Pilates Addiction rule: a CPL under $10 means double the budget, and a CPL back at $10 to $12 means return to $100 a day, read alongside a weekly target of 75 to 100 leads. Get the owner to agree to it before launch. Pacifica\'s owner gave it to us in one sentence on day two.',
+      text: 'The usual way to open a location is a small budget, raised after a few weeks of data. By then the cheapest leads that location will ever see are gone. Sequel now tells its agencies the same. On the August 19 call, Jeff Miller said Sequel is not testing into launches with $500 or $1,000 to start, because that sets a studio up to fail. Our Pilates Addiction rule: a CPL under $10 means double the budget, and a CPL back at $10 to $12 means return to $100 a day, read alongside a weekly target of 75 to 100 leads. Get the owner to agree to it before launch. Pacifica\'s owner gave it to us in one sentence on day two.',
     },
     {
       type: 'p',
-      text: 'The lesson this launch had not yet applied was early footage. At both studios the first local footage arrived about two weeks in, 15 and 16 days after launch. On July 9, Tristynn McGowan, our Founder and CEO, proposed to Sequel moving the coaching to "the moment they engage with us" to "collect as much content as possible to launch with local assets." Since July we collect owner footage right before launch, so a refresh is ready the day the launch curve turns. Jeff Miller had set the goal in a July 8 email: "Our goal is for every studio to resemble Vintage Park and Pacifica." Footage before launch, a sprint into the launch window and drop-date hooks the week of the sale are now part of how we run Pilates Addiction presales.',
+      text: 'The lesson this launch had not yet applied was early footage. At both studios the first local footage arrived about two weeks in, 15 and 16 days after launch. On July 9 we proposed to Sequel that content coaching start the moment an owner first engages with us, so we can collect as much content as possible to launch with local assets. Since July we collect owner footage right before launch, so a refresh is ready the day the launch curve turns. Jeff Miller had set the goal in a July 8 email: "Our goal is for every studio to resemble Vintage Park and Pacifica." Footage before launch, a sprint into the launch window and drop-date hooks the week of the sale are now part of how we run Pilates Addiction presales.',
     },
   ],
   sources:

@@ -108,14 +108,8 @@ export const study: CaseStudy = {
       text: 'The week to July 20 was softer, with CTR at 1.98% and lead submission rate at 8.52%, but CPM was still the biggest gap. The ads ran on solid corporate creative, and the only local signal in the hook was the name of the town: no place anyone would recognize, no neighborhood callouts.',
     },
     {
-      type: 'quote',
-      text: 'Everything upstream is healthy except CPM, and CPM is high because the creative has no local hook in it.',
-      name: 'Tristynn McGowan',
-      role: 'Founder & CEO, Fifth Element, in our status update after the Jul 15, 2026 review',
-    },
-    {
       type: 'p',
-      text: 'That ruled out the usual first move. **With well over 100,000 people already in range, a bigger radius buys distance, not demand.** The lever was footage that looked like the neighborhood, and the people best placed to film it were the studio\'s own team. We also told them what to expect: if CPM halved and nothing else changed, cost per lead would land around $15.',
+      text: 'So CPM was the one broken number, and it was high because the creative had no local hook. That ruled out the usual first move. **With well over 100,000 people already in range, a bigger radius buys distance, not demand.** The lever was footage that looked like the neighborhood, and the people best placed to film it were the studio\'s own team. We also told them what to expect: if CPM halved and nothing else changed, cost per lead would land around $15.',
     },
 
     { type: 'h2', kicker: 'What We Did', text: 'Film the place the neighborhood already knows' },
@@ -128,7 +122,7 @@ export const study: CaseStudy = {
         },
         {
           title: 'Skip the studio',
-          text: 'None of the footage had to show the studio. As we tell owners, "the best way to localize your studio is not show your studio at all."',
+          text: 'None of the footage had to show the studio. Often the best way to localize a studio is not to show the studio at all.',
         },
         {
           title: 'Edit into variations',
@@ -190,13 +184,7 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'The general manager had sent a second batch of footage by July 24, and three more local ads started spending on July 27 and 28. **Meta kept most of the spend on the first ads, the market tired of them, and the new ones did not stop the slide.** New footage within a week was necessary here. On its own, it was not enough.',
-    },
-    {
-      type: 'quote',
-      text: '[The] local content changed performance overnight then fatigued after six days, so that market needs volume rather than one good shoot.',
-      name: 'Tristynn McGowan',
-      role: 'Founder & CEO, Fifth Element, in our status update after the Aug 6, 2026 iFlex corporate sync',
+      text: 'The general manager had sent a second batch of footage by July 24, and three more local ads started spending on July 27 and 28. **Meta kept most of the spend on the first ads, the market tired of them, and the new ones did not stop the slide.** New footage within a week was necessary here. On its own, it was not enough. On August 6 we told iFlex corporate that this market needs a steady volume of local footage, not one good shoot.',
     },
     {
       type: 'creative',

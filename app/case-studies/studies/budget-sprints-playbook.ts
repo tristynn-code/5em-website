@@ -15,8 +15,8 @@ export const study: CaseStudy = {
   readTime: '7 min',
   cover: {
     src: '/case-studies/budget-sprints-playbook/cover.jpg',
-    alt: 'A woman in a red Pilates Addiction top smiling outside a brick building in a Founding 50 drop-date ad',
-    position: '50% 45%',
+    alt: "A Pilates Addiction reformer class with legs raised beside the lit Pilates Addiction wall sign, from the brand's official photography",
+    position: '50% 50%',
   },
   heroStats: [
     {
@@ -80,7 +80,7 @@ export const study: CaseStudy = {
     { type: 'h2', kicker: 'The Problem', text: 'A cheap week is a window, not a new normal' },
     {
       type: 'p',
-      text: 'When a location\'s cost per lead drops, the easy call is to leave the budget alone. Tristynn McGowan, our Founder and CEO, tells owners why some agencies do: "It\'s a double-edged sword... the reason that your budget sprint ended in the first place is because your cost per lead started increasing." We take that trade on purpose, because holding still does not keep the cheap week.',
+      text: 'When a location\'s cost per lead drops, the easy call is to leave the budget alone. More spend usually pushes cost per lead up, and that rise is what ends a sprint, so some agencies never start one. We take that trade on purpose, because holding still does not keep the cheap week.',
     },
     {
       type: 'p',
@@ -164,13 +164,7 @@ export const study: CaseStudy = {
     { type: 'h3', text: 'Failure one: holding a healthy studio at baseline' },
     {
       type: 'p',
-      text: 'On May 19, 2026, the owners of a Pilates Addiction studio in Georgia came to a review worried they were behind. They were not: since its April 23 launch the studio was at $10.29 per lead with a 15% lead submission rate, both brand average. It had sat near $100 a day because our sprint trigger was CPL under $10, and it never crossed the line. Tristynn McGowan\'s notes after the review put it on us:',
-    },
-    {
-      type: 'quote',
-      text: 'This is a Tristynn / Fifth Element systems issue, not a [studio] performance issue. Our team\'s been holding studios at baseline spend because we\'re targeting under-$10 CPL before triggering budget sprints.',
-      name: 'Tristynn McGowan',
-      role: 'Founder & CEO, Fifth Element. Account notes, May 19, 2026',
+      text: 'On May 19, 2026, the owners of a Pilates Addiction studio in Georgia came to a review worried they were behind. They were not: since its April 23 launch the studio was at $10.29 per lead with a 15% lead submission rate, both brand average. It had sat near $100 a day because our sprint trigger was CPL under $10, and it never crossed the line. That was our rule, not the studio\'s performance: we had been holding studios at baseline spend while we waited for cost per lead to drop under $10 before recommending a sprint.',
     },
     {
       type: 'p',
@@ -182,13 +176,13 @@ export const study: CaseStudy = {
     },
     {
       type: 'quote',
-      text: 'Do it... If there\'s an opportunity, take it... those opportunities don\'t last.',
+      text: 'If there\'s an opportunity, take it... those opportunities don\'t last.',
       name: 'Jeff Miller',
       role: 'Chief Growth Officer, Sequel Brands',
     },
     {
       type: 'p',
-      text: 'On that call, Tristynn described a studio where we eased off after a strong run and the owner asked if we were doing something wrong. His notes: "Not doing that again."',
+      text: 'On the same call, we went over a studio where we had eased off after a strong run, and the owner asked if we were doing something wrong. We do not ease off a working campaign without a signal now.',
     },
     { type: 'h3', text: 'Failure two: reading launch week as the new normal' },
     {
@@ -229,7 +223,7 @@ export const study: CaseStudy = {
         },
         {
           title: 'Pitch every step with the receipts',
-          text: 'Each increase is a short message with numbers and an ask. Vintage Park: "165 leads at a ~$2.45 CPL," approved at $200; "117 leads since Saturday at a $4.12 CPL," approved at $300. Pacifica, day two: "210 leads generated at just a $0.68 CPL all-time." The owner: "Go as high as you need to if we are getting results." Our rule is to tell the owner before budget comes back down, and why.',
+          text: 'Each increase is a short message with numbers and an ask. At Vintage Park, the first, on May 15, showed 165 leads at about $2.45 per lead and was approved at $200 a day; the next, on May 18, showed 117 leads since Saturday at $4.12 and was approved at $300. At Pacifica, our day-two message showed 210 leads at $0.68 per lead all-time, and the owner wrote back: "Go as high as you need to if we are getting results." Our rule is to tell the owner before budget comes back down, and why.',
         },
       ],
     },
@@ -237,7 +231,7 @@ export const study: CaseStudy = {
     { type: 'h2', kicker: 'Why It Works', text: 'Cheap leads are perishable' },
     {
       type: 'p',
-      text: 'A sprint does not buy cheaper leads. It buys more leads while the price is still low, because the low price is leaving either way. Tristynn\'s version for owners: "It\'s not luck, and it\'s not rocket science. It is simply doing the budget sprints, so getting as many leads as you can when things are good."',
+      text: 'A sprint does not buy cheaper leads. It buys more leads while the price is still low, because the low price is leaving either way. There is no luck in it: the job is to get as many leads as you can while things are good.',
     },
     {
       type: 'callout',

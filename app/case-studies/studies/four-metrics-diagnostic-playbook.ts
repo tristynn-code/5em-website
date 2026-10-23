@@ -106,7 +106,7 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'One rung was out of band: fewer than 7 in 100 link clicks became a lead. An Instant Form had gone live beside the landing page on May 18, and the May 19 review call made it the primary lever. "The 7% funnel conversion rate is the bigger issue than CTR," our status update from that call said. In the 14 days from May 19, against the 14 before, LSR went from 6.54% to 14.25% and cost per lead from $28.74 to $20.60, on less spend ($1,256.39 vs $1,437.16).',
+      text: 'One rung was out of band: fewer than 7 in 100 link clicks became a lead. An Instant Form had gone live beside the landing page on May 18, and our May 19 review made it the primary lever, because conversion at about 7% was a bigger problem than CTR. In the 14 days from May 19, against the 14 before, LSR went from 6.54% to 14.25% and cost per lead from $28.74 to $20.60, on less spend ($1,256.39 vs $1,437.16).',
     },
     {
       type: 'p',
@@ -157,12 +157,6 @@ export const study: CaseStudy = {
         },
       ],
     },
-    {
-      type: 'quote',
-      text: 'There\'s four metrics to track. CPL is the fourth, but CPL doesn\'t do anything. It\'s just a conclusion of the other three. So you really only need to know three: CPM, click rate, and lead submission rate.',
-      name: 'Tristynn McGowan',
-      role: 'Founder & CEO, Fifth Element, on a call with a prospective client, Sep 16, 2026',
-    },
 
     { type: 'h2', kicker: 'The Ladder', text: 'Read top to bottom. Fix one rung at a time.' },
     {
@@ -202,14 +196,8 @@ export const study: CaseStudy = {
       ],
     },
     {
-      type: 'quote',
-      text: 'A bigger audience can lower CPM, but for a hyper-local studio it pulls in outer-edge leads who say the studio is too far, which burns spend and tanks conversion. I own this one.',
-      name: 'Tristynn McGowan',
-      role: 'Founder & CEO, Fifth Element, status update on the Texas studio, Jun 24, 2026',
-    },
-    {
       type: 'p',
-      text: 'When the audience is big enough, the fix is creative. An iFlex Stretch Studios location had 129,000 to 150,000 people inside 2 miles, a CPM around $35 and, our July 16, 2026 review found, healthy numbers everywhere else and ads with no local hook. Its general manager filmed a shopping district 0.2 miles away. Over 7 days either side of July 21, CPM fell from $37.13 to $28.37, leads went from 27 to 74 and cost per lead from $42.82 to $20.14, with daily spend also up ($165.17 to $212.88). Our rule of thumb: **under about 60,000 people, widening lowers CPM. At 130,000 or more we change the creative first; at 500,000 or more, widening bought distance, not demand.**',
+      text: 'The lesson we took from Texas: a bigger audience can lower CPM, but for a hyper-local studio it also pulls in leads at the outer edge who find the studio too far away, which burns spend and drags conversion down. When the audience is big enough, the fix is creative. An iFlex Stretch Studios location had 129,000 to 150,000 people inside 2 miles, a CPM around $35 and, our July 16, 2026 review found, healthy numbers everywhere else and ads with no local hook. Its general manager filmed a shopping district 0.2 miles away. Over 7 days either side of July 21, CPM fell from $37.13 to $28.37, leads went from 27 to 74 and cost per lead from $42.82 to $20.14, with daily spend also up ($165.17 to $212.88). Our rule of thumb: **under about 60,000 people, widening lowers CPM. At 130,000 or more we change the creative first; at 500,000 or more, widening bought distance, not demand.**',
     },
 
     { type: 'h3', text: 'Rung 2: a falling CTR means tired creative' },

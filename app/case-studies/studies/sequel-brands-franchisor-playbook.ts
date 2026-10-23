@@ -7,7 +7,7 @@ export const study: CaseStudy = {
   brandName: 'Fifth Element',
   vertical: 'Multi-Brand Franchising',
   title: 'How Fifth Element went from [[1 Pilates Addiction studio to 59]], and what the franchisor got',
-  dek: 'On June 26, 2026, Sequel Brands’ Chief Growth Officer wrote that he wanted to “bottle that secret sauce and replicate it for 300 more studios”. Four weeks later he called our weekly report “one of the worst weekly reports we have seen.” This is what Fifth Element built for the franchisor behind Pilates Addiction, BODY20, iFlex, Ultimate Longevity Center and beem, and what we did in both weeks.',
+  dek: 'On June 26, 2026, Sequel Brands’ Chief Growth Officer wrote that he wanted to “bottle that secret sauce and replicate it for 300 more studios”. Four weeks later he wrote that our weekly report was one of the worst Sequel had seen. This is what Fifth Element built for the franchisor behind Pilates Addiction, BODY20, iFlex, Ultimate Longevity Center and beem, and what we did in both weeks.',
   cardTitle: '1 to 59 Pilates Addiction studios with us: what the franchisor gets',
   summary:
     'One Pilates Addiction studio ran with Fifth Element in January 2026; 59 had ad spend through us Sep 21 to Oct 20, among 100 Sequel Brands locations. What the franchisor gets.',
@@ -15,8 +15,8 @@ export const study: CaseStudy = {
   readTime: '7 min',
   cover: {
     src: '/case-studies/sequel-brands-franchisor-playbook/cover.jpg',
-    alt: 'Three frames from the footage behind a Pilates Addiction Yorba Linda presale ad: a gold Pilates Addiction key fob hanging in front of the Coming Soon storefront, a woman reaching for the keys, and the same woman holding the studio door open.',
-    position: '50% 50%',
+    alt: "Three panels from official Sequel Brands photography: a BODY20 member mid-workout in an EMS suit, a Pilates Addiction instructor cueing class, and an iFlex stretch coach with a client",
+    position: '50% 30%',
   },
   heroStats: [
     {
@@ -74,17 +74,11 @@ export const study: CaseStudy = {
     { type: 'h2', kicker: 'The Problem', text: 'The franchisor is the customer most agencies never report to' },
     {
       type: 'p',
-      text: 'In January 2026, Sequel Brands’ Chief Growth Officer wrote to the agencies in its program: “For Pilates Addiction alone we are looking to open 200 studios this year.” Each of those owners picks an agency, or none. On Sequel’s February agency call it became clear that a large share of Pilates Addiction studios were not working with any marketing vendor, because owners doubted marketing would perform.',
+      text: 'In January 2026, Sequel Brands’ Chief Growth Officer wrote to the agencies in its program that Sequel was looking to open 200 Pilates Addiction studios that year alone. Each of those owners picks an agency, or none. On Sequel’s February agency call it became clear that a large share of Pilates Addiction studios were not working with any marketing vendor, because owners doubted marketing would perform.',
     },
     {
       type: 'p',
-      text: 'Most agencies report only to the owner who pays them. So the franchisor’s growth team, the people accountable for whether those studios open strong, sees its own marketing in pieces: a screenshot an owner forwards, a complaint in the owners’ Slack. iFlex’s marketing director described the gap on her first call with us, in April 2026:',
-    },
-    {
-      type: 'quote',
-      text: 'In regards to dashboards, this is probably more than what I’m used to getting, because the thing that I was never really able to get was a clear visual of, like, what is top performing?',
-      name: 'Gabi Khowploum',
-      role: 'Marketing Director, iFlex Stretch Studios',
+      text: 'Most agencies report only to the owner who pays them. So the franchisor’s growth team, the people accountable for whether those studios open strong, sees its own marketing in pieces: a screenshot an owner forwards, a complaint in the owners’ Slack. When we first walked iFlex’s marketing director through our dashboards in April 2026, she told us she had never been able to get a clear view of what was performing best.',
     },
     {
       type: 'p',
@@ -116,17 +110,17 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'The launch that put Fifth Element in front of the whole brand was Vintage Park, outside Houston. It brought in 1,553 leads from our ads in its first 30 days (May 12 to June 10, 2026) at a $4.80 cost per lead. On June 17, nine days before its Founders Day sale, Sequel’s Chief Growth Officer raised it on the monthly call he holds with every agency working Pilates Addiction and BODY20 studios.',
+      text: 'The launch that put Fifth Element in front of the whole brand was Vintage Park, outside Houston. It brought in 1,553 leads from our ads in its first 30 days (May 12 to June 10, 2026) at a $4.80 cost per lead. On June 17, nine days before its Founders Day sale, Sequel’s Chief Growth Officer raised it on the monthly call he holds with every agency working Pilates Addiction and BODY20 studios, calling it “the example of all examples.”',
     },
     {
       type: 'quote',
-      text: 'Tristynn has the example of all examples, right now, that if we can replicate as a brand, all of our jobs will be awesome in VIP marketing. ... So I have tasked Tristynn and Fifth Element with trying to replicate that, because doing it once is cool, repeating it is amazing.',
+      text: 'I have tasked Tristynn and Fifth Element with trying to replicate that, because doing it once is cool, repeating it is amazing.',
       name: 'Jeff Miller',
       role: 'Chief Growth Officer, Sequel Brands',
     },
     {
       type: 'p',
-      text: 'On a call the next day he described the launch approach Sequel now asks of every agency: come out the gate strong in month one, so a studio starts its sale with 700 to 800 leads. “It’s the playbook now,” he said.',
+      text: 'On a call the next day he described the launch playbook Sequel now asks of every agency: come out the gate strong in month one, so a studio starts its sale with 700 to 800 leads.',
     },
     {
       type: 'p',
@@ -142,7 +136,7 @@ export const study: CaseStudy = {
         },
         {
           title: 'Alerts before owners complain',
-          text: 'From June 22 to mid-August 2026, our Head of Agency Operations, Drew Waelde, sent Sequel a Monday update flagging green, yellow and red locations. Sequel’s CGO was also sending his own red and yellow lists. On August 6 we asked if Drew should wait for his list. His answer: “it seems like we’re doing it twice... you guys do a good job.” On August 31 he sent every agency in the program a red-alert list and said one would follow every two weeks. We answer his lists studio by studio.',
+          text: 'From June 22 to mid-August 2026, our Head of Agency Operations, Drew Waelde, sent Sequel a Monday update flagging green, yellow and red locations. Sequel’s CGO was also sending his own red and yellow lists. On August 6 we asked if Drew should wait for his list. He said the two were duplicating the work and that he would reply to Drew’s update when he saw an outlier. On August 31 he sent every agency in the program a red-alert list and said one would follow every two weeks. We answer his lists studio by studio.',
         },
         {
           title: 'Creative the franchisor can hand to the network',
@@ -175,43 +169,24 @@ export const study: CaseStudy = {
           kind: 'video',
           src: '/case-studies/sequel-brands-franchisor-playbook/ad-1.mp4',
           poster: '/case-studies/sequel-brands-franchisor-playbook/ad-1.jpg',
-          alt: 'Pilates Addiction Yorba Linda presale video ad: a woman reaches for a gold Pilates Addiction key fob in front of the Coming Soon storefront, walks to the gold front door and opens it, then studio shots captioned Yorba Linda, CA, opening soon, and a Join the VIP list end card.',
+          alt: 'Pilates Addiction Yorba Linda presale video ad: a woman reaches for a gold Pilates Addiction key fob in front of the Coming Soon storefront, walks to the gold front door and opens it, then studio shots captioned Yorba Linda, CA, opening soon, and Join the VIP list for exclusive offers.',
           label: 'Grab the keys and open the door ad',
           note: 'Pilates Addiction Yorba Linda presale, September 2026',
-        },
-      ],
-    },
-    {
-      type: 'creative',
-      title: 'A BODY20 creative slide we showed every agency in September',
-      caption: 'Also from the September 16, 2026 deck.',
-      items: [
-        {
-          kind: 'document',
-          src: '/case-studies/sequel-brands-franchisor-playbook/doc-2.jpg',
-          alt: 'BODY20 Top Creatives slide showing two ads: a “the future of fitness is here” studio video and a static ad offering BODY20 for $49.',
-          label: 'BODY20 top creatives slide',
         },
       ],
     },
     { type: 'h2', kicker: 'The Bad Week', text: 'The report that exposed us' },
     {
       type: 'p',
-      text: 'On Friday, July 24, 2026, our automated Pilates Addiction roll-up went to Sequel. Across the 35 studios on it, leads were down 27.5% on spend down 8.8%. The CGO wrote back that evening: “one of the worst weekly reports we have seen.” He asked whether something had happened across the board, or whether it might be a reporting issue.',
+      text: 'On Friday, July 24, 2026, our automated Pilates Addiction roll-up went to Sequel. Across the 35 studios on it, leads were down 27.5% on spend down 8.8%. The CGO wrote back that evening, calling it one of the worst weekly reports Sequel had seen. He asked whether something had happened across the board, or whether it might be a reporting issue.',
     },
     {
       type: 'p',
-      text: 'For the 35 studios on the report, it was not, and **we said so.** Drew replied about an hour later. (We found later that the report also missed three studios that launched that week. Counting them, leads were down 16.7%.)',
-    },
-    {
-      type: 'quote',
-      text: 'We’re aware of this performance decline internally and have already begun reviewing the data across the brand to better understand what’s driving the drop. We agree these results are below our expectations.',
-      name: 'Drew Waelde',
-      role: 'Head of Agency Operations, Fifth Element',
+      text: 'For the 35 studios on the report, it was not, and **we said so.** Drew replied about an hour later: we were aware of the decline, had already begun reviewing the data across the brand, and agreed the results were below our expectations. (We found later that the report also missed three studios that launched that week. Counting them, leads were down 16.7%.)',
     },
     {
       type: 'p',
-      text: 'His note named the pattern: “One trend we’ve consistently observed is that lead volume tends to decline following the end of the Founder’s 50 date.” Rather than send a partial answer, he promised a full plan the next week. The week in the report began on July 17, the day four of its studios held their Founders 50 sale. In numbers:',
+      text: 'His note named the pattern we had seen again and again: lead volume tends to fall once a studio’s Founders 50 sale ends. Rather than send a partial answer, he promised a full plan the next week. The week in the report began on July 17, the day four of its studios held their Founders 50 sale. In numbers:',
     },
     {
       type: 'table',
@@ -243,7 +218,7 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'A week later Drew sent an early update on the new structure. The CGO asked whether we could “share some of the high level strategy and learnings on our next Cap call,” the all-agency call. The next day, on our weekly call, he put it shorter: “keep an eye on it, replicate it, you know, double it.”',
+      text: 'A week later Drew sent an early update on the new structure. The CGO asked us to share the high-level strategy and learnings with every agency on the next all-agency call.',
     },
     { type: 'cta' },
     {
@@ -264,7 +239,7 @@ export const study: CaseStudy = {
       items: [
         {
           title: 'BODY20',
-          text: '“With the corporate studios, we’re coming to you. You’re our agency of choice.” Steve Rockman, Chief Marketing Officer, BODY20, September 24, 2026.',
+          text: '“You’re our agency of choice.” Steve Rockman, Chief Marketing Officer, BODY20, September 24, 2026, on BODY20 using Fifth Element for its corporate-owned studios.',
         },
         {
           title: 'Ultimate Longevity Center',
@@ -297,7 +272,7 @@ export const study: CaseStudy = {
     },
   ],
   sources:
-    'Pilates Addiction studio counts: January 2026 as Fifth Element reported it to Sequel Brands; Feb 19 to Aug 19, 2026 from the dashboards table (studios with Meta spend in the 30 days to each date, hiring campaigns excluded). Sequel location counts, including the 59 Pilates Addiction studios, are Fifth Element’s count of locations with spend Sep 21 to Oct 20, 2026, the most conservative of our data sources (the dashboards table gives 62 Pilates Addiction studios and 19 Ultimate Longevity Center locations for the same window, counting the centers that launched in October). Weekly network cost per lead from the dashboards table (all Pilates Addiction studios Fifth Element runs, hiring campaigns excluded), weeks of Jul 27 to Oct 12, 2026. Vintage Park first 30 days (May 12 to Jun 10, 2026) from Meta Ads data via Fifth Element reporting, hiring campaigns excluded; Founders Day memberships reported by the owner. Weekly roll-up figures from the Fifth Element report of Jul 24, 2026; the 16.7% figure from the dashboards table, Jul 10 to 16 vs Jul 17 to 23, 2026. Founders 50 before/after from the dashboards table (hiring campaigns excluded) for 17 Pilates Addiction studios on the old single-campaign structure with Founders 50 dates Apr 24 to Jul 17, 2026 (14 days before vs days 1 to 14 and 15 to 28 after). Repeat-owner count from Fifth Element billing records, Oct 21, 2026. Quotes from Sequel Brands, BODY20, iFlex, beem and Ultimate Longevity Center calls and emails, Jan 10 to Sep 24, 2026.',
+    'Pilates Addiction studio counts: January 2026 as Fifth Element reported it to Sequel Brands; Feb 19 to Aug 19, 2026 from the dashboards table (studios with Meta spend in the 30 days to each date, hiring campaigns excluded). Sequel location counts, including the 59 Pilates Addiction studios, are Fifth Element’s count of locations with spend Sep 21 to Oct 20, 2026, the most conservative of our data sources (the dashboards table gives 62 Pilates Addiction studios and 19 Ultimate Longevity Center locations for the same window, counting the centers that launched in October). Weekly network cost per lead from the dashboards table (all Pilates Addiction studios Fifth Element runs, hiring campaigns excluded), weeks of Jul 27 to Oct 12, 2026. Vintage Park first 30 days (May 12 to Jun 10, 2026) from Meta Ads data via Fifth Element reporting, hiring campaigns excluded; Founders Day memberships reported by the owner. Weekly roll-up figures from the Fifth Element report of Jul 24, 2026; the 16.7% figure from the dashboards table, Jul 10 to 16 vs Jul 17 to 23, 2026. Founders 50 before/after from the dashboards table (hiring campaigns excluded) for 17 Pilates Addiction studios on the old single-campaign structure with Founders 50 dates Apr 24 to Jul 17, 2026 (14 days before vs days 1 to 14 and 15 to 28 after). Repeat-owner count from Fifth Element billing records, Oct 21, 2026. Quotes from Sequel Brands emails and the June 17, 2026 all-agency call, and from BODY20, beem and Ultimate Longevity Center corporate syncs, Jun 17 to Sep 24, 2026.',
   featured: 7,
   order: 5,
   seoKeywords: [

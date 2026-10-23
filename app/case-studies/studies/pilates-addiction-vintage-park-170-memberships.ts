@@ -15,8 +15,8 @@ export const study: CaseStudy = {
   readTime: '6 min',
   cover: {
     src: '/case-studies/pilates-addiction-vintage-park-170-memberships/cover.jpg',
-    alt: 'The Pilates Addiction Vintage Park storefront with its Coming Soon banner, fall 2026',
-    position: '50% 45%',
+    alt: "A full Pilates Addiction class holding Pilates rings at the reformer towers, with the brand's sign reflected in the mirrors, from the brand's official photography",
+    position: '55% 30%',
   },
   heroStats: [
     {
@@ -80,7 +80,7 @@ export const study: CaseStudy = {
     { type: 'h2', kicker: 'The Situation', text: 'A Coming Soon flyer and a presale' },
     {
       type: 'p',
-      text: 'On May 27, 2026, Jeff Miller, Chief Growth Officer of Sequel Brands, emailed us about a Pilates Addiction studio that, by his count, had passed 1,000 leads in two weeks at a cost per lead under $4. His first question: "Legit leads? All going to website?" They were. Every ad went to the presale landing page, with no Instant Forms.',
+      text: 'On May 27, 2026, Jeff Miller, Chief Growth Officer of Sequel Brands, emailed us about a Pilates Addiction studio that, by his count, had passed 1,000 leads in two weeks at a cost per lead under $4. His first question was whether the leads were real and all going to the website. They were. Every ad went to the presale landing page, with no Instant Forms.',
     },
     {
       type: 'p',
@@ -100,7 +100,7 @@ export const study: CaseStudy = {
       items: [
         {
           title: 'Coach the owners before the ads go live',
-          text: 'On May 8, four days before launch, Ralf Ocampo, our Head of Brand and Creative, sent the owners their first content coaching document on "how you can film content around your area." He had picked a spot from photos of the address and asked for footage "specifically at this sign." Lacey replied within five minutes: "I was going to stand in that exact spot for my one liner." The campaign was waiting only on the ad wallet, and the owners filmed in that gap, on May 9 and 10.',
+          text: 'On May 8, four days before launch, Ralf Ocampo, our Head of Brand and Creative, sent the owners their first content coaching document, on how to film content around their area. From photos of the address, he had picked out a sign and asked the owners to film there. Lacey replied within five minutes that she had planned to film her one-liner in that exact spot. The campaign was waiting only on the ad wallet, and the owners filmed in that gap, on May 9 and 10.',
         },
         {
           title: 'Launch tight',
@@ -108,7 +108,7 @@ export const study: CaseStudy = {
         },
         {
           title: 'Sprint in steps',
-          text: 'The brand standard is $100 a day. On day four, Drew Waelde, our Head of Agency Operations, reported "165 leads at a ~$2.45 CPL, which is as good as it gets out of the gate," and recommended $200 a day. Russ approved eight minutes later. On day seven Drew confirmed the bigger budget was holding, at "117 leads since Saturday at a $4.12 CPL," and Russ approved $300. Week-one spend was $1,221.73 and week two $2,034.60, while cost per lead moved only from $3.22 to $3.37.',
+          text: 'The brand standard is $100 a day. On day four, Drew Waelde, our Head of Agency Operations, reported 165 leads at about $2.45 per lead and recommended $200 a day. Russ approved eight minutes later. On day seven Drew confirmed the bigger budget was holding, at 117 leads since Saturday at a $4.12 cost per lead, and Russ approved $300. Week-one spend was $1,221.73 and week two $2,034.60, while cost per lead moved only from $3.22 to $3.37.',
         },
         {
           title: 'Let the budget follow the business',
@@ -116,7 +116,7 @@ export const study: CaseStudy = {
         },
         {
           title: 'Film the drop date',
-          text: 'On June 16, ten days out, Ralf sent Founders 50 coaching built around "highlighting the drop date to create urgency," asking for 10 to 15 hooks. Russ uploaded 13 clips the next day, and four finished ads were delivered June 18.',
+          text: 'On June 16, ten days out, Ralf sent Founders 50 coaching that used the drop date to create urgency and asked for 10 to 15 hooks. Russ uploaded 13 clips the next day, and four finished ads were delivered June 18.',
         },
         {
           title: 'Work the list',
@@ -192,12 +192,6 @@ export const study: CaseStudy = {
       type: 'p',
       text: 'Among the 46 Pilates Addiction launches we ran since late March 2026 with a full first 30 days of data (first spend Apr 3 to Sep 22, 2026), Vintage Park ranked first on leads, first on lowest cost per lead and first on spend. More spend usually buys pricier leads. Here it did not.',
     },
-    {
-      type: 'quote',
-      text: 'People call and ask, I\'m like, Fifth Element, just go, don\'t ask questions.',
-      name: 'Russ Williams',
-      role: 'Owner, Pilates Addiction Vintage Park, on a call with our team, Jun 4, 2026',
-    },
     { type: 'cta' },
     { type: 'h2', kicker: 'Why It Worked', text: 'Cheap leads, in volume, aimed at one day' },
     {
@@ -210,7 +204,7 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'We cannot say which ads did the work, since the presale has no ad-level records. What we can show is footage in hand before launch and $300 a day inside week one, at a nearly flat cost per lead. On June 17, on a call with its Pilates Addiction agencies, Jeff Miller pointed to Vintage Park as "the example of all examples," credited a "combination of local content and a high budget," and added: "doing it once is cool, repeating it is amazing."',
+      text: 'We cannot say which ads did the work, since the presale has no ad-level records. What we can show is footage in hand before launch and $300 a day inside week one, at a nearly flat cost per lead. On June 17, on Sequel\'s call with its Pilates Addiction agencies, Jeff Miller pointed to Vintage Park as "the example of all examples" and credited the combination of local content and a high budget.',
     },
     {
       type: 'callout',
@@ -223,11 +217,11 @@ export const study: CaseStudy = {
       items: [
         {
           title: 'Content before launch',
-          text: 'Coach owners before launch and film the Coming Soon flyer, the street or a landmark nearby, with the property\'s OK. On July 8 Jeff Miller asked us to "incorporate more local content at launch if possible even if it takes a few more days to launch the campaigns." A week later Tristynn McGowan, our Founder and CEO, told Sequel: "We\'ve changed our onboarding process with all of our Pilates Addiction locations to grab content from them right before launching, rather than waiting a week or two."',
+          text: 'Coach owners before launch and film the Coming Soon flyer, the street or a landmark nearby, with the property\'s OK. On July 8 Jeff Miller asked us to add more local content at launch where possible, even if it delayed the campaigns by a few days. A week later we told Sequel we had changed onboarding at all of our Pilates Addiction locations to collect owner content right before launch, rather than waiting a week or two.',
         },
         {
           title: 'Sprint into a cheap cost per lead',
-          text: 'Under $10 a lead, double the daily budget; when the cost climbs back to $10 to $12, return to $100 a day. Launch-week costs usually start low, so raise in steps and confirm each one holds. Sequel now tells its agencies: "If they have success, we want to double down quickly."',
+          text: 'Under $10 a lead, double the daily budget; when the cost climbs back to $10 to $12, return to $100 a day. Launch-week costs usually start low, so raise in steps and confirm each one holds. Sequel now tells its agencies to double down quickly when a studio has success.',
         },
         {
           title: 'Drop-date hooks a week out',

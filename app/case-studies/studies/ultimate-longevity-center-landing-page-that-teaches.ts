@@ -62,7 +62,7 @@ export const study: CaseStudy = {
     {
       when: 'Aug 13, 2026',
       title: 'Price after the form',
-      text: 'Tristynn McGowan writes to ULC that using "$99 down" as the submit button would tank conversion.',
+      text: 'Tristynn McGowan writes to ULC that putting the $99 deposit on the submit button would cut conversion, and proposes explaining it on the page instead.',
     },
     {
       when: 'Oct 5 to 14, 2026',
@@ -86,17 +86,11 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'Five days in, Tristynn McGowan, Fifth Element’s Founder and CEO, reported to ULC and Sequel Brands that the page was sitting at a **3% lead submission rate** (LSR): about 3 leads for every 100 visits, against a norm of around 10%. Tristynn’s read was that the problem sat between the click and the form.',
-    },
-    {
-      type: 'quote',
-      text: 'My theory is that ULC is just hard to explain. Since we’re creating a new category in longevity, the landing page might not be explaining ULC the best.',
-      name: 'Tristynn McGowan',
-      role: 'Founder & CEO, Fifth Element',
+      text: 'Five days in, Tristynn McGowan, Fifth Element’s Founder and CEO, reported to ULC and Sequel Brands that the page was sitting at a **3% lead submission rate** (LSR): about 3 leads for every 100 visits, against a norm of around 10%. Our read was that the problem sat between the click and the form: ULC is a new category in longevity, and the page was not yet explaining it well enough for a visitor to want to raise a hand.',
     },
     {
       type: 'p',
-      text: 'The same day, Nate Chang, Chief Marketing Officer of Sequel Brands, replied: "Yes, let’s proceed with testing your landing pages vs ours for now."',
+      text: 'We proposed testing our own page against the original. The same day, Nate Chang, Chief Marketing Officer of Sequel Brands, approved the test.',
     },
     { type: 'h2', kicker: 'What We Did', text: 'Teach first, then ask' },
     {
@@ -158,7 +152,7 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'Leaving prices off was ULC’s call as much as ours. Elise Budowanec, ULC’s Director of Marketing, put it plainly on June 29: "The primary goal of the page is lead generation, not to close the sale."',
+      text: 'Leaving prices off was ULC’s call as much as ours. On June 29, Elise Budowanec, ULC’s Director of Marketing, confirmed that the page’s primary goal was lead generation, not closing the sale.',
     },
     {
       type: 'p',
@@ -191,7 +185,7 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'The bigger proof is what happened when the page went to every center we launched. From July 1 to October 21, 2026, landing page ad sets across **20 ULC centers** spent $127,324.22, drew 102,548 link clicks and produced **11,715 leads at $10.87**, an 11.42% conversion rate. On a September 18 call, Elise told the team that the centers launched after the first one had "reaped the rewards of that page," and that it was "doing a lot in terms of our lead submission rate." On the same call she added: "I think lead quality is good."',
+      text: 'The bigger proof is what happened when the page went to every center we launched. From July 1 to October 21, 2026, landing page ad sets across **20 ULC centers** spent $127,324.22, drew 102,548 link clicks and produced **11,715 leads at $10.87**, an 11.42% conversion rate. In a September 18 meeting between ULC and our team, Elise credited the page with lifting lead submission rates at the centers launched after the first one, and said lead quality was good.',
     },
     { type: 'cta' },
     { type: 'h2', kicker: 'The Proof', text: 'Lead with the price, and conversion halves' },
@@ -220,7 +214,7 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'Our weekly performance alert caught it. On October 13, Drew Waelde, Head of Agency Operations, wrote to ULC that "asking for $99 down upfront is too big of a commitment at this point in the funnel." Elise answered the next morning: "I think we should switch the landing page back as soon as possible." That day the page was re-led with "Lock in 20% off for life" and "no payment needed," with the $99 still on the page, further down. What changed was what came first. The next week the 7 centers converted at **9.26%**.',
+      text: 'Our weekly performance alert caught it. On October 13, Drew Waelde, Head of Agency Operations, wrote to ULC that "asking for $99 down upfront is too big of a commitment at this point in the funnel." Elise agreed the next morning that the page should switch back as soon as possible. That day the page was re-led with "Lock in 20% off for life" and "no payment needed," with the $99 still on the page, further down. What changed was what came first. The next week the 7 centers converted at **9.26%**.',
     },
     {
       type: 'creative',
@@ -244,7 +238,7 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'It matched a risk the team had named in August. On August 13, Tristynn wrote to ULC: "We know that if we use ‘$99 down’ as the CTA button ... our LSR will tank." He proposed explaining the $99 on the page and keeping it off the button. In October, the control group showed the cost within a week.',
+      text: 'It matched a risk the team had named in August. On August 13, Tristynn wrote to ULC that putting the $99 deposit on the submit button would cut the lead submission rate, and proposed explaining the $99 on the page and keeping it off the button. In October, the control group showed the cost within a week.',
     },
     { type: 'h2', kicker: 'Why It Worked', text: 'A new category has to teach before it asks' },
     {
@@ -259,7 +253,7 @@ export const study: CaseStudy = {
     { type: 'h2', kicker: 'What This Means for Your Brand', text: 'Treat the page as part of the offer' },
     {
       type: 'p',
-      text: 'Tristynn put it to ULC this way on September 18: Meta’s Instant Forms are "consistent, but consistently average," while "we view landing pages as the ends of the bell curve," landing near 3% or near 20%. That spread is why the page deserves the same testing as the ads. Build one strong page, roll it out on permanent URLs so every location gets the improvement at once, and keep a control group so you can tell a page problem from an ad problem in days, not months. Across brands, 51 of the 55 studio publishes in our builder were done by our Head of Brand and Creative, a designer, not an engineer.',
+      text: 'In our experience, Meta’s Instant Forms deliver steady but average conversion, while landing pages sit at the ends of the bell curve, near 3% or near 20%. That spread is why the page deserves the same testing as the ads. Build one strong page, roll it out on permanent URLs so every location gets the improvement at once, and keep a control group so you can tell a page problem from an ad problem in days, not months. Across brands, 51 of the 55 studio publishes in our builder were done by our Head of Brand and Creative, a designer, not an engineer.',
     },
     {
       type: 'p',
@@ -267,7 +261,7 @@ export const study: CaseStudy = {
     },
   ],
   sources:
-    'Meta Ads data pulled read-only by Fifth Element from the Meta Graph API on Oct 22, 2026, landing-page-optimized ad sets only (Instant Form ad sets excluded): first ULC center, ad level by destination, Jun 15 to Jul 31, 2026 (excludes 8 boosted-post ads whose destination Meta does not report), and the same center by month at the ad set level, June and July 2026; 20 ULC centers, Jul 1 to Oct 21, 2026 (includes the first center’s early-July original-page ads and the boosted post); $99 test and control windows, Sep 22 to Oct 21, 2026; offer-wording comparison, Sep 4 to Oct 4, 2026; monthly trend for the 8 July centers, Jul 1 to Oct 21, 2026. Leads are Meta-reported (pixel Lead event on the thank-you page) and have not been reconciled to ULC’s CRM. Conversion = leads divided by link clicks. Page launch dates from the Fifth Element landing page platform and repository commit history; first spend dates from Fifth Element reporting. These are observational comparisons, not randomized tests. Quotes from Slack, email and a recorded call, Jun 23 to Oct 14, 2026.',
+    'Meta Ads data pulled read-only by Fifth Element from the Meta Graph API on Oct 22, 2026, landing-page-optimized ad sets only (Instant Form ad sets excluded): first ULC center, ad level by destination, Jun 15 to Jul 31, 2026 (excludes 8 boosted-post ads whose destination Meta does not report), and the same center by month at the ad set level, June and July 2026; 20 ULC centers, Jul 1 to Oct 21, 2026 (includes the first center’s early-July original-page ads and the boosted post); $99 test and control windows, Sep 22 to Oct 21, 2026; offer-wording comparison, Sep 4 to Oct 4, 2026; monthly trend for the 8 July centers, Jul 1 to Oct 21, 2026. Leads are Meta-reported (pixel Lead event on the thank-you page) and have not been reconciled to ULC’s CRM. Conversion = leads divided by link clicks. Page launch dates from the Fifth Element landing page platform and repository commit history; first spend dates from Fifth Element reporting. These are observational comparisons, not randomized tests. Quotes from Slack (Jul 1, 2026) and email (Oct 13, 2026); other statements paraphrased from Slack, email and a recorded call, Jun 23 to Oct 14, 2026.',
   order: 4,
   seoKeywords: [
     'franchise landing page conversion',

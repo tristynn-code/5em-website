@@ -14,8 +14,8 @@ export const study: CaseStudy = {
   readTime: '6 min',
   cover: {
     src: '/case-studies/ultimate-longevity-center-presale-launches/cover.jpg',
-    alt: 'Palm trees against a clear Arizona sky, from the Chandler owners\' own footage that opened the ULC Chandler Coming Soon ad',
-    position: '50% 40%',
+    alt: "Gary Brecka in a black Ultimate Longevity Center tee, from the brand's official photography",
+    position: '72% 35%',
   },
   heroStats: [
     {
@@ -139,7 +139,7 @@ export const study: CaseStudy = {
         },
         {
           title: 'Make it local as fast as the owner can film',
-          text: 'Centers open on ULC\'s proven corporate and Gary Brecka creative. Content coaching then gives owners who have never filmed themselves a hook guide and a simple SOP, and we add Gary videos that call out the town, footage of local landmarks and the owner or general manager on camera. Since September 10, nine ULC centers have sent us 302 raw files to cut into ads. Elise singled out Chandler and Cherry Knolls, "two franchise partners who aren\'t necessarily used to being, you know, face to camera," and tied the coaching to the ads: "the proof is in the pudding."',
+          text: 'Centers open on ULC\'s proven corporate and Gary Brecka creative. Content coaching then gives owners who have never filmed themselves a hook guide and a simple SOP, and we add Gary videos that call out the town, footage of local landmarks and the owner or general manager on camera. Since September 10, nine ULC centers have sent us 302 raw files to cut into ads. Elise singled out the Chandler and Cherry Knolls owners, neither used to being on camera, as examples of that coaching showing up in the ads.',
         },
         {
           title: 'Sprint inside the first two weeks',
@@ -164,7 +164,7 @@ export const study: CaseStudy = {
     {
       type: 'creative',
       title: 'From the filming guide to a finished ad in Chandler',
-      caption: 'The guide we sent the Chandler owners in August, a clip they filmed three days later, the ad we cut from it, and one of the owners on camera.',
+      caption: 'The guide we sent the Chandler owners in August, the raw clip they filmed three days later, and the finished ad we cut from it.',
       items: [
         {
           kind: 'document',
@@ -178,7 +178,7 @@ export const study: CaseStudy = {
           src: '/case-studies/ultimate-longevity-center-presale-launches/ad-4.mp4',
           poster: '/case-studies/ultimate-longevity-center-presale-launches/ad-4.jpg',
           alt: 'Raw phone clip from the Chandler owners: a slow pan across the ASU Research Park sign, its fountain and palm trees',
-          label: 'Owners\' raw clip of a local landmark',
+          label: 'Raw clip the owner sent',
           note: 'Filmed Aug 17, 2026, three days after the guide',
         },
         {
@@ -186,17 +186,9 @@ export const study: CaseStudy = {
           src: '/case-studies/ultimate-longevity-center-presale-launches/ad-2.mp4',
           poster: '/case-studies/ultimate-longevity-center-presale-launches/ad-2.jpg',
           alt: 'The finished ad: the same ASU Research Park shot with Ultimate Longevity Center and Coming Soon to Chandler over it',
-          label: 'Coming Soon to Chandler ad cut from that clip',
+          label: 'The finished ad',
           stat: '187 leads at $9.17',
-          note: 'One ad copy, Meta, Sep 1 to Oct 21, 2026',
-        },
-        {
-          kind: 'video',
-          src: '/case-studies/ultimate-longevity-center-presale-launches/ad-3.mp4',
-          poster: '/case-studies/ultimate-longevity-center-presale-launches/ad-3.jpg',
-          alt: 'One of the ULC Chandler owners speaking to camera and inviting people to the VIP list',
-          label: 'Owner on camera, Chandler',
-          note: 'Opening of the owner video, delivered Oct 6, 2026',
+          note: 'Coming Soon to Chandler, one ad copy, Meta, Sep 1 to Oct 21, 2026',
         },
       ],
     },
@@ -221,7 +213,7 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'The owners\' own targets show the size of those bursts. At Five Points Raleigh the target was 500 leads before presale; the center had **792 in its first 30 days**. Cherry Knolls\' owner set a goal of 300 leads by July 31. On July 14 she posted that they had already passed it and that she was "making it a challenge 700 by 7/31." July closed at 709 Meta leads at $6.42.',
+      text: 'The owners\' own targets show the size of those bursts. At Five Points Raleigh the target was 500 leads before presale; the center had **792 in its first 30 days**. Cherry Knolls\' owner set a goal of 300 leads by July 31. On July 14 she posted that they had already passed it and set a new challenge of 700 by July 31. July closed at 709 Meta leads at $6.42.',
     },
     {
       type: 'creative',
@@ -261,7 +253,7 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'ULC corporate sees the sprint effect in its own data. On the September 18 call, Elise walked ULC\'s president through one center\'s weekly leads, starting from a first sprint that ran the same week our new page and creative went live: "when they did the first budget sprint that week they had 176 leads. They dropped to 98. They did the second one. They got 122 leads."',
+      text: 'ULC corporate sees the sprint effect in its own data. On the September 18 call, Elise walked ULC\'s president through one center\'s weekly leads: 176 in the week of its first budget sprint, which ran the same week our new page and creative went live, 98 the week after, and 122 when it sprinted again.',
     },
     {
       type: 'callout',
@@ -280,7 +272,7 @@ export const study: CaseStudy = {
     },
   ],
   sources:
-    'Leads, spend, CPL and CTR: Meta Ads Manager data via Fifth Element reporting, June 18 to October 20, 2026 (19 ULC centers; first-30-day windows from each center\'s first spend, July 6 to August 25, 2026; launch-age curve from the 10 centers with first spend June 18 to August 3, 2026). Brand CTR comparison: all locations by brand, January 1, 2025 to October 20, 2026. Sprint and week-pair analysis: Fifth Element client dashboards (hiring campaigns excluded, location accounts only), March 21 to October 20, 2026. Landing page conversion: Meta ad-level data, June 15 to July 31, 2026. Raw content files: Fifth Element content tracker, September 10 to October 22, 2026. Founding sales dates: ULC presale tracker. Membership counts reported to Fifth Element by the ULC Lakewood owner (October 16, 2026) and the ULC East Boca general manager (September 4 and October 15, 2026). Quotes from the ULC and Fifth Element sync, September 18, 2026, and owner Slack, July 14, 2026.',
+    'Leads, spend, CPL and CTR: Meta Ads Manager data via Fifth Element reporting, June 18 to October 20, 2026 (19 ULC centers; first-30-day windows from each center\'s first spend, July 6 to August 25, 2026; launch-age curve from the 10 centers with first spend June 18 to August 3, 2026). Brand CTR comparison: all locations by brand, January 1, 2025 to October 20, 2026. Sprint and week-pair analysis: Fifth Element client dashboards (hiring campaigns excluded, location accounts only), March 21 to October 20, 2026. Landing page conversion: Meta ad-level data, June 15 to July 31, 2026. Raw content files: Fifth Element content tracker, September 10 to October 22, 2026. Founding sales dates: ULC presale tracker. Membership counts reported to Fifth Element by the ULC Lakewood owner (October 16, 2026) and the ULC East Boca general manager (September 4 and October 15, 2026). Quotes from the ULC and Fifth Element sync, September 18, 2026. Cherry Knolls goal and July 14 update: owner Slack, July 14, 2026.',
   featured: 4,
   order: 1,
   seoKeywords: [

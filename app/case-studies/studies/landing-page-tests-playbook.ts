@@ -83,13 +83,7 @@ export const study: CaseStudy = {
     { type: 'h2', kicker: 'The Problem', text: 'Most agencies test the ads and leave the page alone' },
     {
       type: 'p',
-      text: 'In most franchise marketing, the landing page is built once, approved, and left alone while the testing budget goes to ads. But the page is where a click becomes a lead.',
-    },
-    {
-      type: 'quote',
-      text: '[Instant Forms are] just always going to be consistent, but consistently average. We view landing pages as the ends of the bell curve. You’re going to roll the dice and get 3%. You’re going to get 20%.',
-      name: 'Tristynn McGowan',
-      role: 'Founder & CEO, Fifth Element, on a call with ULC corporate (September 18, 2026)',
+      text: 'In most franchise marketing, the landing page is built once, approved, and left alone while the testing budget goes to ads. But the page is where a click becomes a lead. Instant Forms tend to be consistent but average. Landing pages sit at the ends of the bell curve: a page can convert at 3%, or at 20%.',
     },
     {
       type: 'p',
@@ -125,7 +119,7 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'Drew Waelde, our Head of Agency Operations, flagged it to ULC on October 13: "asking for $99 down upfront is too big of a commitment at this point in the funnel." Elise Budowanec, Director of Marketing at Ultimate Longevity Center, replied the next morning: "I think we should switch the landing page back as soon as possible." That day the page was re-led with "Lock in 20% off for life" and "no payment needed," with the $99 further down. From October 15 to 21, ads without $99 in the copy converted at **11.66%** at a $12.06 CPL, above the control’s 9.74% (some were new ad sets from October 9 and 12). Ads with "$99" in the copy reached only 5.76%.',
+      text: 'Drew Waelde, our Head of Agency Operations, flagged the drop to ULC on October 13, writing that asking for $99 down up front was too big a commitment at that point in the funnel. Elise Budowanec, Director of Marketing at Ultimate Longevity Center, replied the next morning asking to switch the page back as soon as possible. That day the page was re-led with "Lock in 20% off for life" and "no payment needed," with the $99 further down. From October 15 to 21, ads without $99 in the copy converted at **11.66%** at a $12.06 CPL, above the control’s 9.74% (some were new ad sets from October 9 and 12). Ads with "$99" in the copy reached only 5.76%.',
     },
     {
       type: 'creative',
@@ -154,7 +148,7 @@ export const study: CaseStudy = {
     { type: 'h2', kicker: 'Lesson 2', text: 'Teach before you ask' },
     {
       type: 'p',
-      text: 'ULC sells a longevity membership, a category most visitors have never bought. At its first presale center with us, the ads first pointed at the corporate page, converting near 3% five days in. On June 23, Nate Chang, Chief Marketing Officer of Sequel Brands, agreed: "Yes, let’s proceed with testing your landing pages vs ours for now." Our page explained ULC, walked through its Lab, Playground and Apothecary, leaned on Gary Brecka’s authority, and presented the founding offer, 25% off for the first 50, with no prices.',
+      text: 'ULC sells a longevity membership, a category most visitors have never bought. At its first presale center with us, the ads first pointed at the corporate page, converting near 3% five days in. On June 23, Nate Chang, Chief Marketing Officer of Sequel Brands, approved a test of our landing pages against corporate’s. Our page explained ULC, walked through its Lab, Playground and Apothecary, leaned on Gary Brecka’s authority, and presented the founding offer, 25% off for the first 50, with no prices.',
     },
     {
       type: 'quote',
@@ -164,7 +158,7 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'From June 15 to July 31, 2026, ads pointed at the corporate page converted at **2.89%** (13 leads from 450 link clicks) at a $56.49 CPL; ads pointed at ours converted at **8.80%** (166 leads from 1,887 clicks) at $26.61. The windows differ, the corporate sample is small, a boosted post with an unreadable destination is excluded, and the corporate page may not have fired the Lead event reliably. On July 1, Elise asked for our page at the next center "and any center you launch moving forward."',
+      text: 'From June 15 to July 31, 2026, ads pointed at the corporate page converted at **2.89%** (13 leads from 450 link clicks) at a $56.49 CPL; ads pointed at ours converted at **8.80%** (166 leads from 1,887 clicks) at $26.61. The windows differ, the corporate sample is small, a boosted post with an unreadable destination is excluded, and the corporate page may not have fired the Lead event reliably. On July 1, Elise asked for our page at the next center and at every center we launch from then on.',
     },
     {
       type: 'p',
@@ -194,7 +188,7 @@ export const study: CaseStudy = {
     { type: 'h2', kicker: 'Lesson 3', text: 'A specific offer beats a vague one' },
     {
       type: 'p',
-      text: 'On September 18, three ULC centers moved to a version whose stated brief was to "keep it vague and not put a specific percentage for founding memberships." "Only the first 50 members get the founding rate" became "Founding memberships are now open." Conversion fell from **11.98% to 8.72%** (September 4 to 17 vs September 19 to October 4) and CPL rose from $11.48 to $16.07, while 11 other ULC centers went from 10.40% to 10.05%. A cap gives a reason to act today; "open" does not. Confounders: the page host changed that day (same pixel and form confirmed), and all three had held their founding membership sales between August 14 and September 4.',
+      text: 'On September 18, three ULC centers moved to a version briefed to keep the offer vague, with no specific percentage for founding memberships. "Only the first 50 members get the founding rate" became "Founding memberships are now open." Conversion fell from **11.98% to 8.72%** (September 4 to 17 vs September 19 to October 4) and CPL rose from $11.48 to $16.07, while 11 other ULC centers went from 10.40% to 10.05%. A cap gives a reason to act today; "open" does not. Confounders: the page host changed that day (same pixel and form confirmed), and all three had held their founding membership sales between August 14 and September 4.',
     },
     { type: 'cta' },
     { type: 'h2', kicker: 'Lesson 4', text: 'Pages wear out' },
@@ -283,7 +277,7 @@ export const study: CaseStudy = {
     },
   ],
   sources:
-    'Meta Ads data pulled read-only by Fifth Element from the Meta Graph API on Oct 22, 2026, with ad sets split by optimization goal into website (landing page) and Instant Form: ULC $99 test and control, Sep 22 to Oct 21, 2026; ULC offer-wording test, Sep 4 to Oct 4, 2026; ULC first presale center by ad destination, Jun 15 to Jul 31, 2026; ULC monthly trend, Jul 1 to Oct 21, 2026; ULC website leads (11,715 at $10.87) and Instant Form comparison, Jul 1 to Oct 21, 2026; ULC single-center Instant Form test, Sep 29 to Oct 5, 2026, with the center’s report of Oct 2, 2026; one iFlex studio rebuild, Jun 3 to Jun 25, 2026; iFlex studio fatigue example, Jun 17 to Oct 21, 2026; iFlex redesign test, two studios, three weeks either side of each studio’s August 2026 switch; iFlex website leads (1,990), Jun 10 to Oct 21, 2026. iFlex website lead counts may be inflated by up to 2x by a duplicate Lead event. Pilates Addiction Instant Form comparison from Fifth Element reporting data, 14 days before vs 14 days after each change, changes made Apr 20 to Aug 22, 2026 (data Apr 6 to Sep 4, 2026). Leads are Meta-reported and have not been reconciled to CRM records. Conversion = leads divided by link clicks. Page versions, publish times, parity checks, change log and live page counts from the Fifth Element landing page platform, Aug 5 to Oct 22, 2026. These are observational comparisons, not randomized tests. Quotes from Slack, email and a recorded call, Jun 23 to Oct 14, 2026.',
+    'Meta Ads data pulled read-only by Fifth Element from the Meta Graph API on Oct 22, 2026, with ad sets split by optimization goal into website (landing page) and Instant Form: ULC $99 test and control, Sep 22 to Oct 21, 2026; ULC offer-wording test, Sep 4 to Oct 4, 2026; ULC first presale center by ad destination, Jun 15 to Jul 31, 2026; ULC monthly trend, Jul 1 to Oct 21, 2026; ULC website leads (11,715 at $10.87) and Instant Form comparison, Jul 1 to Oct 21, 2026; ULC single-center Instant Form test, Sep 29 to Oct 5, 2026, with the center’s report of Oct 2, 2026; one iFlex studio rebuild, Jun 3 to Jun 25, 2026; iFlex studio fatigue example, Jun 17 to Oct 21, 2026; iFlex redesign test, two studios, three weeks either side of each studio’s August 2026 switch; iFlex website leads (1,990), Jun 10 to Oct 21, 2026. iFlex website lead counts may be inflated by up to 2x by a duplicate Lead event. Pilates Addiction Instant Form comparison from Fifth Element reporting data, 14 days before vs 14 days after each change, changes made Apr 20 to Aug 22, 2026 (data Apr 6 to Sep 4, 2026). Leads are Meta-reported and have not been reconciled to CRM records. Conversion = leads divided by link clicks. Page versions, publish times, parity checks, change log and live page counts from the Fifth Element landing page platform, Aug 5 to Oct 22, 2026. These are observational comparisons, not randomized tests. Quote from Slack, Jun 29, 2026; other client correspondence from Slack and email, Jun 23 to Oct 14, 2026.',
   order: 4,
   seoKeywords: [
     'franchise landing page conversion',

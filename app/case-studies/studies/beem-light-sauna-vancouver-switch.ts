@@ -16,7 +16,7 @@ export const study: CaseStudy = {
   readTime: '6 min',
   cover: {
     src: '/case-studies/beem-light-sauna-vancouver-switch/cover.jpg',
-    alt: 'A beem infrared suite at Vancouver Grand Central glowing red, with a guest seated inside',
+    alt: "A member resting inside an open beem full-body light pod glowing blue, from beem's official photography",
     position: '50% 50%',
   },
   heroStats: [
@@ -89,13 +89,13 @@ export const study: CaseStudy = {
     },
     {
       type: 'quote',
-      text: "I ultimately want what's best for my franchisees, and that's why I recommended you. ... I said this is what I'm seeing from the data. I'm seeing that you know Reston and Park Slope, they're getting a lot of leads.",
+      text: "I ultimately want what's best for my franchisees, and that's why I recommended you.",
       name: 'Veronica Stranc',
       role: 'VP Marketing Operations, beem Light Sauna',
     },
     {
       type: 'p',
-      text: 'Here is what those two studios had done by the time of the referral:',
+      text: 'She made the referral on the data she could see from Reston and Park Slope. Here is what those two studios had done by the time of the referral:',
     },
     {
       type: 'stats',
@@ -115,11 +115,11 @@ export const study: CaseStudy = {
       items: [
         {
           title: "Read the problem from the owner's own report",
-          text: 'A 0.8% click-through rate means people are seeing the ads and scrolling past. That is a creative problem before it is a targeting or budget problem. Our read on the Aug 25 call was short: "It\'s just an ad creative thing. That\'s all it is. You gotta make content, and you gotta run more ads." The owner signed the next day.',
+          text: 'A 0.8% click-through rate means people are seeing the ads and scrolling past. That is a creative problem before it is a targeting or budget problem, and that was our read on the Aug 25 call: the fix was more content and more ads. The owner signed the next day.',
         },
         {
           title: 'Launch on proven beem creative, not a blank page',
-          text: 'The normal move is to wait for new footage or build fresh concepts. The studio had been without ads for more than a week, so we launched on Sep 3, the day of the kickoff call. At kickoff, Justin Flores, our Client Success Manager, told the owner, "We will launch with creatives at first that have been proven to be successful with other beem locations." Local content would follow once the account was moving.',
+          text: 'The normal move is to wait for new footage or build fresh concepts. The studio had been without ads for more than a week, so we launched on Sep 3, the day of the kickoff call. At kickoff, Justin Flores, our Client Success Manager, set the plan with the owner: launch on creatives that had already proven successful at other beem locations, and bring in local content once the account was moving.',
         },
         {
           title: 'Agree the budget rules early',
@@ -127,19 +127,13 @@ export const study: CaseStudy = {
         },
         {
           title: 'When the curve turns, fix the creative',
-          text: 'Click-through rate on all clicks slipped from 3.00% in the first week, Sep 3 to 9, to 2.28% in the week of Sep 17 to 23, and the 14 days to Sep 29 produced 33 leads at $21.43. The extra $500 was tied to cost per lead staying low, and it did not, so spend stayed at the $50 baseline. At the Sep 30 review Justin tied the rising cost per lead to the slipping click-through rate. We asked the studio to upload its raw local footage and agreed the anniversary message, built on beem\'s anniversary playbook: three complimentary sessions and "special anniversary pricing", with no founder pricing or membership rates that could confuse existing members.',
+          text: 'Click-through rate on all clicks slipped from 3.00% in the first week, Sep 3 to 9, to 2.28% in the week of Sep 17 to 23, and the 14 days to Sep 29 produced 33 leads at $21.43. The extra $500 was tied to cost per lead staying low, and it did not, so spend stayed at the $50 baseline. At the Sep 30 review Justin tied the rising cost per lead to the slipping click-through rate. We asked the studio to upload its raw local footage and agreed the anniversary message, built on beem\'s anniversary playbook: three complimentary sessions and special anniversary pricing, with no founder pricing or membership rates that could confuse existing members.',
         },
         {
           title: 'Spend into a signal, with an end date',
           text: 'The anniversary ads went live on Friday, Oct 9. At the Oct 14 review the owner said he had seen an early bump and asked whether to put more behind it. Justin recommended doubling the daily budget to $100 through Oct 21, the anniversary, with the increase coming off early if cost per lead climbed and coming off on the 21st regardless.',
         },
       ],
-    },
-    {
-      type: 'quote',
-      text: "If we see the cost per lead is skyrocketing, and it's not helping the account at all, we'll simply just put it back down for you. But if it's working, then we'll leave it running and we'll turn it off on the 21st.",
-      name: 'Justin Flores',
-      role: 'Client Success Manager, Fifth Element',
     },
     { type: 'h2', kicker: 'The Result', text: 'More than twice the leads at about half the cost, on about the same budget' },
     {
@@ -239,13 +233,7 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: "On the Aug 25 call, Tristynn told the owner that beem's corporate team already had access to the dashboard he would be getting.",
-    },
-    {
-      type: 'quote',
-      text: "If they notice you're not doing well, by the way, they'll be on me immediately. So it's not just my staff; it's them.",
-      name: 'Tristynn McGowan',
-      role: 'Founder & CEO, Fifth Element',
+      text: "beem's corporate team already had access to the dashboard the owner would be getting. If Vancouver slipped, corporate would see it too.",
     },
     {
       type: 'callout',
@@ -263,8 +251,8 @@ export const study: CaseStudy = {
     },
     {
       type: 'creative',
-      title: 'The content guide we sent, and what the studio filmed',
-      caption: 'The guide went to the studio after the Sep 16 review. The clip is raw footage the studio uploaded around the Oct 14 review; it had not run as an ad by Oct 21.',
+      title: 'The content guide we sent, what the studio filmed, and the ad we made from it',
+      caption: 'The guide went to the studio after the Sep 16 review. The studio uploaded the raw clip around the Oct 14 review, and we cut it into a member video ad delivered Oct 16. That ad had not started spending by Oct 21.',
       items: [
         {
           kind: 'document',
@@ -285,14 +273,22 @@ export const study: CaseStudy = {
           src: '/case-studies/beem-light-sauna-vancouver-switch/ad-5.mp4',
           poster: '/case-studies/beem-light-sauna-vancouver-switch/ad-5.jpg',
           alt: 'Two studio team members step into a purple-lit infrared suite at beem Vancouver Grand Central and sit down',
-          label: 'Studio footage, first session concept',
-          note: 'Raw clip uploaded Oct 14, 2026',
+          label: 'Raw clip the owner sent',
+          note: 'Uploaded Oct 14, 2026',
+        },
+        {
+          kind: 'video',
+          src: '/case-studies/beem-light-sauna-vancouver-switch/ad-6.mp4',
+          poster: '/case-studies/beem-light-sauna-vancouver-switch/ad-6.jpg',
+          alt: 'A beem team member interviews a member about her beem experience, with the raw suite clip of two people seated in the purple-lit infrared suite playing below',
+          label: 'The finished ad',
+          note: 'Member video ad, delivered Oct 16, 2026. First 24 seconds',
         },
       ],
     },
     {
       type: 'p',
-      text: 'Corporate already has the numbers that decide where it sends its next owner. We run every location as if corporate is watching, because it is, and we treat budget the same way at every studio: a baseline the owner sets, extra spend only on a signal, and an end date on every sprint. On Sep 10, a week after Vancouver went live, Veronica Stranc told us, "I think you know you\'ve proven yourself with me."',
+      text: 'Corporate already has the numbers that decide where it sends its next owner. We run every location as if corporate is watching, because it is, and we treat budget the same way at every studio: a baseline the owner sets, extra spend only on a signal, and an end date on every sprint. On Sep 10, a week after Vancouver went live, Veronica Stranc told us we had proven ourselves with her.',
     },
   ],
   sources:

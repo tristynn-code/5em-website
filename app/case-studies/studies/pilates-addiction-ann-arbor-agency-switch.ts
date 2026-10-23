@@ -84,12 +84,6 @@ export const study: CaseStudy = {
       text: 'Shelley and Matt Crawford own two Pilates Addiction studios in Michigan. Ann Arbor was already open and running ads with another agency. Brighton, about 25 minutes away, was in presale. In June 2026 they chose Fifth Element for Brighton first. Shelley wanted both studios with one agency, but did not want to disrupt the one already open.',
     },
     {
-      type: 'quote',
-      text: 'You guys look like you had a pretty good track record... I\'d like both of my studios to be with the same provider, just to keep it like consistent, but I was worried about, like, you know, messing up Ann Arbor\'s flow.',
-      name: 'Shelley Crawford',
-      role: 'Owner, Pilates Addiction Ann Arbor and Brighton (Jun 15, 2026 call)',
-    },
-    {
       type: 'p',
       text: 'Brighton\'s ads started Jun 16. About two weeks later, on Jul 2, Ann Arbor moved over too. By Brighton\'s Founders Day on Jul 17, our ads there had produced **893 leads at a $6.08 cost per lead** (Jun 16 to Jul 16, 2026), and the owner reported 117 members afterward.',
     },
@@ -99,18 +93,9 @@ export const study: CaseStudy = {
     },
     {
       type: 'creative',
-      title: 'Three of the launch ads from our first month',
+      title: 'Two of the launch ads from our first month',
       caption: 'Videos from our Jul 2 launch. Stats run from Jul 13, when our ad-level data starts, to Aug 3, and combine each ad\'s copies across ad sets.',
       items: [
-        {
-          kind: 'video',
-          src: '/case-studies/pilates-addiction-ann-arbor-agency-switch/ad-1.mp4',
-          poster: '/case-studies/pilates-addiction-ann-arbor-agency-switch/ad-1.jpg',
-          alt: 'A young man in a white T-shirt on a reformer with the captions my first time trying Pilates and Now open in Ann Arbor',
-          label: 'First Pilates class UGC ad',
-          stat: '11 leads at $28.28',
-          note: 'Meta, Jul 13 to Aug 3, 2026',
-        },
         {
           kind: 'video',
           src: '/case-studies/pilates-addiction-ann-arbor-agency-switch/ad-2.mp4',
@@ -149,7 +134,7 @@ export const study: CaseStudy = {
         },
         {
           title: 'Fix the conversion step first (Jul 14 to 23)',
-          text: 'On Jul 14 Drew Waelde, our Head of Agency Operations, read the funnel. A $19 CPM and a 1.5% click-through rate were healthy: "the audience size is not the issue." The drop came after the click, with only about 8% of clicks becoming leads against the 10% to 15% we want for Pilates Addiction. He recommended **Meta Instant Forms** beside the corporate landing page, so people could sign up without leaving Facebook or Instagram. The owner approved the same day. The forms started taking leads on Jul 21, and from Jul 23 every lead came through one.',
+          text: 'On Jul 14 Drew Waelde, our Head of Agency Operations, read the funnel. A $19 CPM and a 1.5% click-through rate were healthy, so the audience size was not the issue. The drop came after the click, with only about 8% of clicks becoming leads against the 10% to 15% we want for Pilates Addiction. He recommended **Meta Instant Forms** beside the corporate landing page, so people could sign up without leaving Facebook or Instagram. The owner approved the same day. The forms started taking leads on Jul 21, and from Jul 23 every lead came through one.',
         },
         {
           title: 'Read the funnel again (Aug 4)',
@@ -201,12 +186,6 @@ export const study: CaseStudy = {
         { value: '6.97% to 11.99%', label: 'Clicks that became leads', sub: 'Same-length windows, flat spend. Our benchmark is 10%' },
         { value: '1.57% to 1.89%', label: 'Click-through rate', sub: 'Same windows. Clicks rose; conversion is what moved most' },
       ],
-    },
-    {
-      type: 'quote',
-      text: 'Budget is going to determine how many leads you get. Creative is going to determine your cost per lead.',
-      name: 'Tristynn McGowan',
-      role: 'Founder & CEO, Fifth Element',
     },
     {
       type: 'chart',
@@ -276,7 +255,7 @@ export const study: CaseStudy = {
     },
   ],
   sources:
-    'Meta Ads Manager data via Fifth Element reporting: Ann Arbor monthly totals Jul 2 to Sep 30, 2026, with Oct 1 to 20, 2026 noted; weekly leads Jul 6 to Sep 20, 2026; 14-day windows Jul 21 to Aug 3 and Aug 5 to 18, 2026; radius comparison 7 days before and 14 days after Jul 9, 2026; ad-level results Aug 4 to 18 and Aug 1 to Sep 30, 2026, including Instant Form leads from Jul 21, 2026 and the Michigan-themed ad launch on Aug 28, 2026. Brighton pre-Founders Day leads from Fifth Element reporting, Jun 16 to Jul 16, 2026; Brighton membership count (117) reported by the owner to Fifth Element on the Jul 21, 2026 check-in. Owner quote from a Jun 15, 2026 call with Fifth Element. Radius date and Instant Forms recommendation from Fifth Element Slack, Jul 14, 2026. Check-in notes dated Jul 7, Jul 21, Aug 4 and Aug 18, 2026. Client survey score from a Fifth Element client survey response, September 2026.',
+    'Meta Ads Manager data via Fifth Element reporting: Ann Arbor monthly totals Jul 2 to Sep 30, 2026, with Oct 1 to 20, 2026 noted; weekly leads Jul 6 to Sep 20, 2026; 14-day windows Jul 21 to Aug 3 and Aug 5 to 18, 2026; radius comparison 7 days before and 14 days after Jul 9, 2026; ad-level results Aug 4 to 18 and Aug 1 to Sep 30, 2026, including Instant Form leads from Jul 21, 2026 and the Michigan-themed ad launch on Aug 28, 2026. Brighton pre-Founders Day leads from Fifth Element reporting, Jun 16 to Jul 16, 2026; Brighton membership count (117) reported by the owner to Fifth Element on the Jul 21, 2026 check-in. Owners\' reasons for the switch from a Jun 15, 2026 call with Fifth Element. Radius date and Instant Forms recommendation from Fifth Element Slack, Jul 14, 2026. Check-in notes dated Jul 7, Jul 21, Aug 4 and Aug 18, 2026. Client survey score from a Fifth Element client survey response, September 2026.',
   order: 5,
   seoKeywords: [
     'Pilates Addiction Ann Arbor',

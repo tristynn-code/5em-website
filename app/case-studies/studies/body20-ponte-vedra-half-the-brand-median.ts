@@ -8,7 +8,7 @@ export const study: CaseStudy = {
   vertical: 'EMS Fitness',
   location: 'Ponte Vedra, FL',
   title: 'What a working Meta account looks like: BODY20 Ponte Vedra at [[$17.08 per lead]]',
-  dek: 'EMS takes a demo to make sense, and BODY20’s Chief Marketing Officer said he would personally own this corporate launch. Six weeks in, the studio’s last 30 days read 127 leads at $18.19, and he told the weekly call: “A working Meta account, that’s what one looks like.”',
+  dek: 'EMS takes a demo to make sense, and BODY20’s Chief Marketing Officer said he would personally own this corporate launch. Six weeks in, the studio’s last 30 days read 127 leads at $18.19. A week later he told the weekly call that BODY20 liked the numbers and trusted Fifth Element.',
   cardTitle: 'BODY20 Ponte Vedra: $17.08 leads in a category that needs a demo',
   summary:
     'BODY20 Ponte Vedra, a corporate studio launched in May 2026, bought Meta leads at $17.08 from Jul 23 to Oct 20, 2026, 52.7% under the $36.13 median of the 12 BODY20 locations we run with at least $500 spend and 30 days of data in that window.',
@@ -51,7 +51,7 @@ export const study: CaseStudy = {
     },
     {
       when: 'Jun 25, 2026',
-      title: '“A working Meta account”',
+      title: '127 leads in 30 days',
       text: 'BODY20’s Chief Marketing Officer sees the last-30-days read on the weekly call: 127 leads at $18.19, May 26 to June 24.',
     },
     {
@@ -77,7 +77,7 @@ export const study: CaseStudy = {
     { type: 'h2', kicker: 'The Situation', text: 'A corporate studio in a category most people have not tried' },
     {
       type: 'p',
-      text: 'Before the first ad ran, Steve Rockman, BODY20’s Chief Marketing Officer, posted in the studio’s Slack channel: "I’m going to personally own those two so I might ask a lot of questions." The two were BODY20 studios the brand owns and pays for itself. On April 28, 2026, Sequel Brands had asked Fifth Element to launch Meta campaigns for both, and one was in Ponte Vedra, Florida. On a corporate studio there is no franchisee between the agency and the brand. Corporate pays the bill, and the people grading the work run marketing for the whole system.',
+      text: 'Before the first ad ran, Steve Rockman, BODY20’s Chief Marketing Officer, told the studio’s Slack channel he would personally oversee two accounts, both BODY20 studios the brand owns and pays for itself. On April 28, 2026, Sequel Brands had asked Fifth Element to launch Meta campaigns for both, and one was in Ponte Vedra, Florida. On a corporate studio there is no franchisee between the agency and the brand. Corporate pays the bill, and the people grading the work run marketing for the whole system.',
     },
     {
       type: 'p',
@@ -131,17 +131,17 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'On the June 25 weekly call, Tristynn read out Ponte Vedra’s last 30 days: 127 leads at $18 each (in our reporting, May 26 to June 24: $18.19 on $2,309.89 of spend). Seconds later, looking at the corporate studios’ numbers, Steve said this.',
-    },
-    {
-      type: 'quote',
-      text: 'Hey, look at that. A working Meta account, that’s what one looks like.',
-      name: 'Steve Rockman',
-      role: 'Chief Marketing Officer, BODY20, Jun 25, 2026',
+      text: 'On the June 25 weekly call with BODY20, Tristynn read out Ponte Vedra’s last 30 days: 127 leads at $18 each (in our reporting, May 26 to June 24: $18.19 on $2,309.89 of spend).',
     },
     {
       type: 'p',
-      text: 'A week later, showing the same group a sample dashboard he had built from a June Meta report pulled on June 29, he said: "Ponte Vedra is getting the most leads by studio." Our own reporting agrees for June 2026: 129 leads, the most of any BODY20 location we run. The next had 66.',
+      text: 'A week later, showing the same group a sample dashboard he had built from a June Meta report pulled on June 29, Steve told the call that Ponte Vedra was getting the most leads by studio. Our own reporting agrees for June 2026: 129 leads, the most of any BODY20 location we run. The next had 66. On the same call, he put the corporate view plainly.',
+    },
+    {
+      type: 'quote',
+      text: 'We like the numbers. Ponte Vedra and Galleria are doing great, and we trust Fifth Element.',
+      name: 'Steve Rockman',
+      role: 'Chief Marketing Officer, BODY20, Jul 2, 2026',
     },
     { type: 'h2', kicker: 'The Result', text: 'Cheaper every month, May through September' },
     {
@@ -226,11 +226,11 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'Corporate studios are the right place to prove it, because the brand sees every number and decides what goes to franchisees. On the July 2 weekly call, Steve put the corporate view plainly: "We like the numbers. Ponte Vedra and Galleria are doing great, and we trust Fifth Element." If you have a location your team calls a hard market, that is the one we would ask to start with.',
+      text: 'Corporate studios are the right place to prove it, because the brand sees every number and decides what goes to franchisees. If you have a location your team calls a hard market, that is the one we would ask to start with.',
     },
   ],
   sources:
-    'Meta Ads Manager data via Fifth Element reporting, May 12 to Oct 20, 2026 (first spend May 12; launch confirmed to corporate May 13). Medians are computed across the BODY20 locations in Fifth Element reporting for each stated window; all are BODY20 locations Fifth Element runs, not the whole BODY20 system. Leads are Meta-attributed leads; this study does not report lead quality, bookings or memberships. "Most leads by studio" is BODY20’s Chief Marketing Officer’s reading of a June 2026 Meta report he pulled on Jun 29, as he said on Jul 2, 2026. The under-$25 and under-$30 bands are BODY20 corporate’s.',
+    'Meta Ads Manager data via Fifth Element reporting, May 12 to Oct 20, 2026 (first spend May 12; launch confirmed to corporate May 13). Medians are computed across the BODY20 locations in Fifth Element reporting for each stated window; all are BODY20 locations Fifth Element runs, not the whole BODY20 system. Leads are Meta-attributed leads; this study does not report lead quality, bookings or memberships. The June ranking of Ponte Vedra as the BODY20 studio with the most leads is BODY20’s Chief Marketing Officer’s reading of a June 2026 Meta report he pulled on Jun 29, as he said on Jul 2, 2026. The under-$25 and under-$30 bands are BODY20 corporate’s.',
   order: 2,
   seoKeywords: [
     'BODY20 marketing agency',

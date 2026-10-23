@@ -51,7 +51,7 @@ export const study: CaseStudy = {
     {
       when: 'Feb 2026',
       title: 'Local takes over at Pilates Addiction',
-      text: 'Pilates Addiction Alamo Heights in San Antonio adds short local hooks filmed by its own team. Our Feb 10 status update counts 32 of the studio\'s 37 leads that day from the new local videos, a few hours after they went live. By Feb 23 our creative team\'s read across the brand is "localized is king."',
+      text: 'Pilates Addiction Alamo Heights in San Antonio adds short local hooks filmed by its own team. Our Feb 10 status update counts 32 of the studio\'s 37 leads that day from the new local videos, a few hours after they went live. By Feb 23 our creative team\'s read across the brand is that localized creative wins.',
     },
     {
       when: 'Mar 2026',
@@ -88,12 +88,6 @@ export const study: CaseStudy = {
       type: 'p',
       text: 'We made a different bet. The footage that makes an ad local is filmed by the owner or a staff member, on a phone, off a short coaching document from us. Our editors do everything else. **We coach the person who already lives there instead of hiring a crew that does not.**',
     },
-    {
-      type: 'quote',
-      text: 'The fact that you guys are providing coaching is, I would say, something I haven\'t seen from other agencies.',
-      name: 'Gabi Khowploum',
-      role: 'Marketing Director, iFlex Stretch Studios, on her first call with Fifth Element, Apr 30, 2026',
-    },
 
     { type: 'h2', kicker: 'The Evidence', text: 'What the ad data shows' },
     {
@@ -126,7 +120,7 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'Two rows need a plain reading. Flyovers, the cheapest leads, are drone and aerial shots of the town that we or the brand usually source, not owner footage; in 37 same-studio, same-month pairs across 21 studios they beat stock ads on cost per lead 22 times. Ads named UGC, the class most likely to be pure owner footage, had the highest cost per lead. So owner footage does not win on its own. **The town earns the attention; the brand\'s footage and the offer close it.** That is why our edits open on a local hook and run into the brand\'s footage: "Almost all of our top creatives are local content in the hook," as Tristynn told Sequel Brands in April 2026.',
+      text: 'Two rows need a plain reading. Flyovers, the cheapest leads, are drone and aerial shots of the town that we or the brand usually source, not owner footage; in 37 same-studio, same-month pairs across 21 studios they beat stock ads on cost per lead 22 times. Ads named UGC, the class most likely to be pure owner footage, had the highest cost per lead. So owner footage does not win on its own. **The town earns the attention; the brand\'s footage and the offer close it.** That is why our edits open on a local hook and run into the brand\'s footage, and almost all of our top creatives have local content in the hook.',
     },
     {
       type: 'p',
@@ -136,7 +130,7 @@ export const study: CaseStudy = {
     { type: 'h2', kicker: 'What We Do Now', text: 'The coaching loop, step by step' },
     {
       type: 'p',
-      text: 'Two decisions in 2026 shaped the method. Through fall 2025, one-on-one coaching came only on our higher-priced plans. In March 2026 we started covering it in the base package for new Pilates Addiction studios because, as Tristynn told a prospect that month, "it\'s so necessary, we don\'t want owners not getting it." There is now no cap on coaching, edits or revisions. And in July, after Vintage Park, we moved filming before launch.',
+      text: 'Two decisions in 2026 shaped the method. Through fall 2025, one-on-one coaching came only on our higher-priced plans. In March 2026 we started covering it in the base package for new Pilates Addiction studios because it is too important for any owner to go without. There is now no cap on coaching, edits or revisions. And in July, after Vintage Park, we moved filming before launch.',
     },
     {
       type: 'steps',
@@ -151,7 +145,7 @@ export const study: CaseStudy = {
         },
         {
           title: 'Film the five shots',
-          text: 'Slow pans of every corner. The middle of the room and what makes it different, like the front desk. The storefront, including walking in. The same owner or manager on camera with a hook, a middle and a call to action, so viewers learn the face. And local landmarks, which Tristynn calls "the magic one": freeway exits, town squares, the building everyone in town recognizes, plus aerials if the owner has a drone. Otherwise we source them.',
+          text: 'Slow pans of every corner. The middle of the room and what makes it different, like the front desk. The storefront, including walking in. The same owner or manager on camera with a hook, a middle and a call to action, so viewers learn the face. And local landmarks, the shot that matters most: freeway exits, town squares, the building everyone within 5 to 20 miles recognizes, plus aerials if the owner has a drone. Otherwise we source them.',
         },
         {
           title: 'Write hooks of 12 words or fewer',
@@ -166,12 +160,6 @@ export const study: CaseStudy = {
           text: 'Within 72 hours we tell the owner which two ads are winning. When cost per lead rises, we read it down a ladder: cost per thousand impressions (CPM), then link click-through rate, then the share of clickers who become leads. High CPM on a big enough audience means the creative is not landing, so the next document asks for new local footage. Our status updates carry a creative action line for the creative team.',
         },
       ],
-    },
-    {
-      type: 'quote',
-      text: 'The best way to localize your studio is not show your studio at all. We have to remember everyone in a five to 20 mile radius recognizes something. And if you\'re a brand new franchise in town, they\'re not going to recognize you.',
-      name: 'Tristynn McGowan',
-      role: 'Founder & CEO, Fifth Element, in the "five shots" script for franchisees, Mar 18, 2026',
     },
     {
       type: 'creative',
@@ -201,11 +189,11 @@ export const study: CaseStudy = {
     { type: 'h3', text: 'Pilates Addiction Vintage Park: filmed before it launched' },
     {
       type: 'p',
-      text: 'Vintage Park, in the Houston area, got its first coaching document on May 8, 2026, four days before its ads went live; the owners filmed on their phones on May 9 and 10. The campaign opened on the brand\'s flyover ads of the area, and Ralf previewed "the next wave of localized ad creatives" on May 19. For the Founders 50 push his Jun 16 document asked for 10 to 15 drop-date hooks; the next day the owners uploaded 13 video files, and he wrote back: "I love the clear audio and your print out of the coaching."',
+      text: 'Vintage Park, in the Houston area, got its first coaching document on May 8, 2026, four days before its ads went live; the owners filmed on their phones on May 9 and 10. The campaign opened on the brand\'s flyover ads of the area, and Ralf previewed the next wave of localized ads on May 19. For the Founders 50 push his Jun 16 document asked for 10 to 15 drop-date hooks; the next day the owners uploaded 13 video files with clear audio, filmed from a printed copy of the coaching document.',
     },
     {
       type: 'p',
-      text: 'Of 46 Pilates Addiction launches since late March 2026, Vintage Park ranked first on leads and on cost per lead in its first 30 days: 1,553 leads at $4.80, from May 12. The owners reported 170 memberships on Founders Day, Jun 26. It was also the biggest spender, and we ran budget sprints into it. Sequel Brands\' Chief Growth Officer, Jeff Miller, called it a "combination of local content and a high budget." The content argument is narrower: cost per lead normally rises with spend, yet Vintage Park spent the most of the 46 and had the lowest. **After Vintage Park, we started asking every new Pilates Addiction location to film before its ads go live.**',
+      text: 'Of 46 Pilates Addiction launches since late March 2026, Vintage Park ranked first on leads and on cost per lead in its first 30 days: 1,553 leads at $4.80, from May 12. The owners reported 170 memberships on Founders Day, Jun 26. It was also the biggest spender, and we ran budget sprints into it, so the result took both local content and a high budget. The content argument is narrower: cost per lead normally rises with spend, yet Vintage Park spent the most of the 46 and had the lowest. **After Vintage Park, we started asking every new Pilates Addiction location to film before its ads go live.**',
     },
     { type: 'h3', text: 'Three studios, before and after new local footage' },
     {
@@ -237,7 +225,7 @@ export const study: CaseStudy = {
           src: '/case-studies/content-coaching-playbook/ad-2.mp4',
           poster: '/case-studies/content-coaching-playbook/ad-2.jpg',
           alt: 'Raw phone clip: a South Austin team member in a Pilates Addiction shirt waves at the door of a neighboring juice bar and asks if viewers get their smoothie there',
-          label: 'Raw clip from the studio team',
+          label: 'Raw clip the studio team sent',
           note: 'Three seconds, filmed on a phone, uploaded Jun 30, 2026',
         },
         {
@@ -245,7 +233,7 @@ export const study: CaseStudy = {
           src: '/case-studies/content-coaching-playbook/ad-3.mp4',
           poster: '/case-studies/content-coaching-playbook/ad-3.jpg',
           alt: 'Finished ad: a South Austin team member outside a neighborhood grocery store asks "Do you shop here?", then the juice bar clip, then the team at the studio door, then studio class footage',
-          label: '"Do you shop here?" ad built from the team\'s clips',
+          label: 'The finished ad: "Do you shop here?"',
           stat: '43 leads at $13.26',
           note: 'Best of 4 ads with this video\'s name. Meta, Jul 13 to Aug 6, 2026',
         },
@@ -254,7 +242,7 @@ export const study: CaseStudy = {
           src: '/case-studies/content-coaching-playbook/ad-4.mp4',
           poster: '/case-studies/content-coaching-playbook/ad-4.jpg',
           alt: 'Finished ad: a Pilates Addiction South Austin Coming Soon flyer held up in front of the shopping center sign with JuiceLand at the top, then studio class footage',
-          label: 'Coming Soon flyer at the JuiceLand sign',
+          label: 'Another finished ad: Coming Soon flyer at the JuiceLand sign',
           stat: '107 leads at $10.42',
           note: 'Best of several ads with this video\'s name. Meta, Jul 13 to Aug 21, 2026',
         },
@@ -268,7 +256,7 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'On the same call she singled out two owners who "aren\'t necessarily used to being face to camera," and said the guide we gave them "has been incredibly helpful."',
+      text: 'In the same meeting she singled out two franchise partners who were new to being on camera and said the filming guide we gave them had been very helpful.',
     },
 
     { type: 'h3', text: 'Where it goes wrong' },
@@ -293,7 +281,7 @@ export const study: CaseStudy = {
     { type: 'h2', kicker: 'Why It Works', text: 'Budget buys reach. Footage buys recognition.' },
     {
       type: 'p',
-      text: 'Tristynn\'s filming script ends on the point: "The serious ROI isn\'t in fancy production, it\'s in being relevant." A new location has no recognition in its own town, so its ads borrow it from places people already know. We can source aerials ourselves. We cannot source the owner standing at the shopping center everyone drives past, saying a line in their own voice every week or two. That only happens if the ask is small, specific and followed up.',
+      text: 'The return comes from being relevant, not from fancy production. A new location has no recognition in its own town, so its ads borrow it from places people already know. We can source aerials ourselves. We cannot source the owner standing at the shopping center everyone drives past, saying a line in their own voice every week or two. That only happens if the ask is small, specific and followed up.',
     },
     {
       type: 'callout',
@@ -309,7 +297,7 @@ export const study: CaseStudy = {
     },
   ],
   sources:
-    'Meta delivery data from Fifth Element\'s reporting database: Pilates Addiction ad-level comparisons Jul 13 to Oct 20, 2026 (ads classified by name; data pulled Oct 22, 2026); 14-day before and after windows Jun 16 to Aug 18, 2026 as listed; Vintage Park\'s first 30 days from May 12, 2026 and its rank among 46 Pilates Addiction launches since late March 2026; a June 2026 Pilates Addiction launch\'s first 5 days; Pilates Addiction locations with spend in the 30 days to Oct 20, 2026. New-ad counts Aug 31 to Oct 4, 2026 and upload counts Sep 10 to Oct 22, 2026 from Fifth Element\'s ad data and content upload tracker. Alamo Heights Feb 10, 2026 lead split from Fifth Element\'s status update that day. Vintage Park membership count reported by the owners. Corporate quotes from calls with iFlex Stretch Studios (Apr 30, 2026), Sequel Brands (Jun 17, 2026) and Ultimate Longevity Center (Sep 18, 2026). Leads are Meta-attributed leads, not CRM records or members.',
+    'Meta delivery data from Fifth Element\'s reporting database: Pilates Addiction ad-level comparisons Jul 13 to Oct 20, 2026 (ads classified by name; data pulled Oct 22, 2026); 14-day before and after windows Jun 16 to Aug 18, 2026 as listed; Vintage Park\'s first 30 days from May 12, 2026 and its rank among 46 Pilates Addiction launches since late March 2026; a June 2026 Pilates Addiction launch\'s first 5 days; Pilates Addiction locations with spend in the 30 days to Oct 20, 2026. New-ad counts Aug 31 to Oct 4, 2026 and upload counts Sep 10 to Oct 22, 2026 from Fifth Element\'s ad data and content upload tracker. Alamo Heights Feb 10, 2026 lead split from Fifth Element\'s status update that day. Vintage Park membership count reported by the owners. Corporate quote from Ultimate Longevity Center\'s sync meeting with Fifth Element (Sep 18, 2026). Leads are Meta-attributed leads, not CRM records or members.',
   featured: 6,
   order: 1,
   seoKeywords: [

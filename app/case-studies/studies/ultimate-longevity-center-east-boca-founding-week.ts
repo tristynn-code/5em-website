@@ -17,8 +17,8 @@ export const study: CaseStudy = {
   readTime: '6 min',
   cover: {
     src: '/case-studies/ultimate-longevity-center-east-boca-founding-week/cover.jpg',
-    alt: 'Camille Eaton, general manager of ULC East Boca, outdoors among palm trees in a frame from the Aug 21 clip that became her founding announcement ad',
-    position: '96% 30%',
+    alt: "A member resting with headphones in a BrainGym recliner, from Ultimate Longevity Center's official photography",
+    position: '60% 30%',
   },
   heroStats: [
     {
@@ -106,7 +106,7 @@ export const study: CaseStudy = {
         },
         {
           title: 'Localize with a name before you have footage',
-          text: 'With no footage to work from, we launched on the most recognizable voice the brand has: a Gary Brecka shout-out that **calls out Boca by name**, finished by our team and approved the day before launch. It started spending Jul 15 and was still the top ad in the account at the Sep 4 review, a week into the sale. "I know the fact that he\'s saying like East Boca, like it just makes it really credible," Camille told us that day.',
+          text: 'With no footage to work from, we launched on the most recognizable voice the brand has: a Gary Brecka shout-out that **calls out Boca by name**, finished by our team and approved the day before launch. It started spending Jul 15 and was still the top ad in the account at the Sep 4 review, a week into the sale. At that review, Camille told us that hearing him name East Boca made the ad credible.',
         },
         {
           title: 'Bank leads while they are cheapest',
@@ -154,11 +154,11 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'It came sooner. On Aug 21, a week before the sale, Davor flagged a two-day jump in cost per lead and asked for Camille\'s VIP recordings in the weekend rotation. She filmed and uploaded her first clips that day, and we refreshed targeting on the ad sets that had been winning. On Monday, Aug 24, two days ahead of the Wednesday estimate we had given, we delivered finished founding announcement creative. Davor signed off the same day ("Looks good to me"), saying it should help lead flow into Friday\'s launch, and handed final approval to Camille. Ralf confirmed it would be running that day, four days before memberships went on sale.',
+      text: 'It came sooner. On Aug 21, a week before the sale, Davor flagged a two-day jump in cost per lead and asked for Camille\'s VIP recordings in the weekend rotation. She filmed and uploaded her first clips that day, and we refreshed targeting on the ad sets that had been winning. On Monday, Aug 24, two days ahead of the Wednesday estimate we had given, we delivered finished founding announcement creative. Davor signed off the same day, saying it should help lead flow into Friday\'s launch, and handed final approval to Camille. Ralf confirmed it would be running that day, four days before memberships went on sale.',
     },
     {
       type: 'creative',
-      title: 'Hook 8 on camera, and the founding announcement ad',
+      title: 'Hook 8 as a finished ad, and the founding announcement ad',
       caption: 'Hook 8 in the Aug 15 guide became one of Camille\'s Aug 21 clips and a finished ad on Aug 24.',
       items: [
         {
@@ -178,12 +178,6 @@ export const study: CaseStudy = {
           note: 'Meta, Aug 24 to Sep 16, 2026; 4 of the 13 before sales opened Aug 28',
         },
       ],
-    },
-    {
-      type: 'quote',
-      text: 'Our goal was to get 50 for Presale week, we are as of right now like 92 ... So the leads are really solid, and we\'re like blowing things out of the water.',
-      name: 'Camille Eaton',
-      role: 'General Manager, Ultimate Longevity Center East Boca',
     },
     { type: 'h2', kicker: 'The Result', text: '720 leads in the bank, about 92 founding members in week one' },
     {
@@ -208,7 +202,7 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'By the Aug 19 review, Camille and Davor were already working through more than 700 leads in Kite, and Camille worked them herself. "Out of those 139 leads, I\'ve talked to every single one of them probably for at least 15 to 20 minutes," she told us on Sep 4, about the leads from the two weeks before that call. At that Sep 4 review, the Gary Brecka video calling out Boca was still the top ad, followed by a VIP-list still ad and a newer video featuring Camille.',
+      text: 'By the Aug 19 review, Camille and Davor were already working through more than 700 leads in Kite, and Camille worked them herself: on Sep 4 she told us she had personally spoken with every one of the 139 leads from the two weeks before that call, by her estimate for at least 15 to 20 minutes each, and that the leads were solid. At that Sep 4 review, the Gary Brecka video calling out Boca was still the top ad, followed by a VIP-list still ad and a newer video featuring Camille.',
     },
     {
       type: 'table',
@@ -221,7 +215,7 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'Across the system, ULC\'s Director of Marketing, Elise Budowanec, told us on Sep 18, 2026: "all of our conversions are coming from digital."',
+      text: 'Across the system, ULC\'s Director of Marketing, Elise Budowanec, told us on Sep 18, 2026 that ULC\'s membership conversions come from its digital VIP campaigns, with no grassroots or offline events behind them.',
     },
     { type: 'cta' },
     { type: 'h2', kicker: 'Why It Worked', text: 'The pipeline was full before the sale started' },
@@ -255,7 +249,7 @@ export const study: CaseStudy = {
     },
   ],
   sources:
-    'Meta Ads data via Fifth Element dashboards, Jul 14 to Aug 27, 2026 (pre-sale window, weekly lead counts), Jul 14 to Aug 12, 2026 (first 30 days) and Aug 5 to 18, 2026 (14 days before the Aug 19 review); ULC launch-curve benchmark from Fifth Element dashboards, 10 ULC centers with first spend Jun 18 to Aug 3, 2026, data through Oct 20, 2026; ULC landing page totals from Meta, Jul 1 to Oct 21, 2026. Aug 19 and Sep 4, 2026 Fifth Element review calls and status updates; Slack and email, Jul 10 to Aug 25, 2026. Member counts reported by the center\'s general manager to Fifth Element on Sep 4 and Oct 15, 2026. ULC corporate quotes from a Sep 18, 2026 call.',
+    'Meta Ads data via Fifth Element dashboards, Jul 14 to Aug 27, 2026 (pre-sale window, weekly lead counts), Jul 14 to Aug 12, 2026 (first 30 days) and Aug 5 to 18, 2026 (14 days before the Aug 19 review); ULC launch-curve benchmark from Fifth Element dashboards, 10 ULC centers with first spend Jun 18 to Aug 3, 2026, data through Oct 20, 2026; ULC landing page totals from Meta, Jul 1 to Oct 21, 2026. Aug 19 and Sep 4, 2026 Fifth Element review calls and status updates; Slack and email, Jul 10 to Aug 25, 2026. Member counts reported by the center\'s general manager to Fifth Element on Sep 4 and Oct 15, 2026. ULC corporate quote and remarks from a Sep 18, 2026 call.',
   order: 2,
   seoKeywords: [
     'Ultimate Longevity Center presale',

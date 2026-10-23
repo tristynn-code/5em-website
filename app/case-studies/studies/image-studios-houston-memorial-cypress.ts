@@ -91,13 +91,13 @@ export const study: CaseStudy = {
     },
     {
       type: 'quote',
-      text: "Actually, we already had a different marketing team's proposal that we were ready to sign but we wanted to hear Tristynn and his team's pitch to us before we did. After the call with Fifth Element, we called the other marketing company and told them that we were going in a different direction with our marketing dollars. We're glad we did. We have been inundated with leads to the point that we are actually struggling to keep up.",
+      text: "We already had a different marketing team's proposal that we were ready to sign but we wanted to hear Tristynn and his team's pitch to us before we did. After the call with Fifth Element, we called the other marketing company and told them that we were going in a different direction with our marketing dollars. We're glad we did. We have been inundated with leads to the point that we are actually struggling to keep up.",
       name: 'Richard Mazzarino',
       role: 'Owner, IMAGE Studios Houston Memorial (written testimonial, 2024)',
     },
     {
       type: 'p',
-      text: 'What tipped it, in Esther\'s telling, was focus. "The minute they said they eat, breathe and sleep, marketing and IMAGE Studios, I was like, sold," she said in her 2024 testimonial video.',
+      text: "What tipped it, in Esther's telling, was focus. In her 2024 testimonial video, she says that once our team told her we eat, breathe and sleep marketing and IMAGE Studios, she was sold.",
     },
     {
       type: 'creative',
@@ -279,7 +279,7 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'On Apr 22, 2026, the owners reported 4 move-ins that month across the two buildings and 2 more lined up, with Memorial at about 80% occupied and Cypress at about 60%. The refilling does not stop, so the inflow has to hold. In Esther\'s words from her 2024 video: "I feel like I constantly do have leads coming in, which has been nice."',
+      text: 'On Apr 22, 2026, the owners reported 4 move-ins that month across the two buildings and 2 more lined up, with Memorial at about 80% occupied and Cypress at about 60%. The refilling does not stop, so the inflow has to hold. In her 2024 testimonial video, Esther said leads were coming in constantly.',
     },
     {
       type: 'p',

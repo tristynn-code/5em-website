@@ -16,8 +16,8 @@ export const study: CaseStudy = {
   readTime: '7 min',
   cover: {
     src: '/case-studies/pilates-addiction-instant-forms-conversion-fix/cover.jpg',
-    alt: 'Two Pilates Addiction Southwest Las Vegas team members smiling in studio shirts, from a May 2026 local ad',
-    position: '50% 40%',
+    alt: "A member on a reformer pulling Pilates Addiction straps under magenta light, from the brand's official photography",
+    position: '40% 45%',
   },
   heroStats: [
     {
@@ -81,30 +81,6 @@ export const study: CaseStudy = {
     {
       type: 'p',
       text: 'In the four days ending June 11, 2026, a Pilates Addiction studio in southwest Las Vegas spent $391.61 on Meta ads and got 7 leads. People were still clicking its ads, at a 3.12% click-through rate over the prior two weeks. The step after the click had stalled. The usual agency reflex is to pull the nearest big lever: raise the budget, widen the radius, swap the creative, or move every ad to Meta Instant Forms because they are "cheaper." Each can work, and each can make things worse, because none starts by asking which part of the funnel broke.',
-    },
-    {
-      type: 'creative',
-      title: 'Local ads made for Southwest Las Vegas in May',
-      caption:
-        'Fifth Element finished these VIP list ads for the studio on May 15, 2026, ten days before our ads started on May 25. Our ad-level data for this studio starts July 13, so no results are shown, and we cannot confirm which of them ran in May or June.',
-      items: [
-        {
-          kind: 'video',
-          src: '/case-studies/pilates-addiction-instant-forms-conversion-fix/ad-1.mp4',
-          poster: '/case-studies/pilates-addiction-instant-forms-conversion-fix/ad-1.jpg',
-          alt: 'Two Southwest Las Vegas team members in Pilates Addiction shirts cheering outside a Las Vegas building, with the caption Las Vegas',
-          label: 'Studio team welcome ad',
-          note: 'Finished May 15, 2026',
-        },
-        {
-          kind: 'video',
-          src: '/case-studies/pilates-addiction-instant-forms-conversion-fix/ad-2.mp4',
-          poster: '/case-studies/pilates-addiction-instant-forms-conversion-fix/ad-2.jpg',
-          alt: 'A Southwest Las Vegas team member in a Pilates Addiction shirt outside a Las Vegas building, with the caption Hey Vegas, ready',
-          label: 'Hey Vegas local hook ad',
-          note: 'Finished May 15, 2026',
-        },
-      ],
     },
     {
       type: 'p',
@@ -179,13 +155,7 @@ export const study: CaseStudy = {
     { type: 'h3', text: 'Southwest Las Vegas: same budget, 176 leads instead of 64' },
     {
       type: 'p',
-      text: 'The studio in the opening is Southwest Las Vegas. Fifth Element started its ads on May 25, 2026, on the landing page alone, after its Founders 50 sale. By early June the page had stopped converting: 64 leads in the 14 days to June 11, 32 a week, against the 75 to 100 a week we now pace Pilates Addiction studios to. On June 9 Drew Waelde told the studio team what we would change.',
-    },
-    {
-      type: 'quote',
-      text: 'We\'re not replacing the website. We\'re simply adding another conversion method to help capture more opportunities and improve overall campaign efficiency. We\'ll continue monitoring lead quality closely and make further optimizations as data comes in.',
-      name: 'Drew Waelde',
-      role: 'Head of Agency Operations, Fifth Element, to the Southwest Las Vegas studio team, Jun 9, 2026',
+      text: 'The studio in the opening is Southwest Las Vegas. Fifth Element started its ads on May 25, 2026, on the landing page alone, after its Founders 50 sale. By early June the page had stopped converting: 64 leads in the 14 days to June 11, 32 a week, against the 75 to 100 a week we now pace Pilates Addiction studios to. On June 9 Drew Waelde, our Head of Agency Operations, wrote to the studio team with the plan: keep the website and add an Instant Form beside it as a second way to convert, then watch lead quality closely and keep optimizing as the data came in.',
     },
     {
       type: 'p',
@@ -289,7 +259,7 @@ export const study: CaseStudy = {
         },
         {
           title: 'Add, never replace',
-          text: 'The form runs beside the page, and the page stays ready to take the budget back.',
+          text: 'The form runs beside the page, never in place of it. We run both paths and put budget into whichever one delivers better results, measured by volume or by lead quality, and the page stays ready to take the budget back.',
         },
         {
           title: 'Watch the phone numbers',
@@ -297,19 +267,13 @@ export const study: CaseStudy = {
         },
         {
           title: 'Name the studio in the form header',
-          text: 'In May 2026 an owner told us the form was sending leads from outside the area. The next day the studio\'s name was in the form header. Ralf Ocampo, our Head of Brand and Creative, describes it as a soft layer of friction that qualifies leads without shrinking the ads\' local reach.',
+          text: 'In May 2026 an owner told us the form was sending leads from outside the area. The next day the studio\'s name was in the form header. The name adds a soft layer of friction that qualifies leads without shrinking the ads\' local reach.',
         },
         {
           title: 'Ask the studio about quality within days',
           text: 'Owners notice lead quality before any dashboard does. We check in right after the change.',
         },
       ],
-    },
-    {
-      type: 'quote',
-      text: 'We tend to never go exclusive to one or the other. We\'ll run both, and then put budget into the one that\'s getting you better results. Better results could either be volume, or it could also be quality.',
-      name: 'Tristynn McGowan',
-      role: 'Founder & CEO, Fifth Element, on a sales call, Aug 28, 2026',
     },
 
     { type: 'h2', kicker: 'Why It Worked', text: 'The fix matched the failure' },
@@ -334,7 +298,7 @@ export const study: CaseStudy = {
     },
   ],
   sources:
-    'Meta delivery data from Fifth Element\'s client dashboards (Meta platform, summed per studio per day), comparing the 14 days before with the 14 days from the first full day Instant Forms were live, first full days Apr 20 to Aug 22, 2026; go-live dates and other changes in each window from Fifth Element Slack client channels and status updates. Counter-examples use the same 14-day method (Pilates Addiction, changes May 18 to Jun 6, 2026; iFlex, Jul 24 and 25, 2026). Founders 50 comparison: 17 Pilates Addiction studios on the old single-campaign structure with Founders 50 dates Apr 24 to Jul 17, 2026; new-campaign comparison: 35 Pilates Addiction launches with first spend Mar 28 to Aug 20, 2026, both from Fifth Element\'s reporting database. Brand medians: location-level 90-day totals, Jul 23 to Oct 20, 2026, locations with at least $500 spend and 30 days of data (the same set as our Four Metrics benchmarks). Lead-quality notes from Fifth Element status updates and client channels, May to Oct 2026. Vintage Park membership count reported by the owner (Slack, Jun 29, 2026). Tristynn McGowan quote from a sales call, Aug 28, 2026. Leads are Meta-attributed leads, not CRM records or members.',
+    'Meta delivery data from Fifth Element\'s client dashboards (Meta platform, summed per studio per day), comparing the 14 days before with the 14 days from the first full day Instant Forms were live, first full days Apr 20 to Aug 22, 2026; go-live dates and other changes in each window from Fifth Element Slack client channels and status updates. Counter-examples use the same 14-day method (Pilates Addiction, changes May 18 to Jun 6, 2026; iFlex, Jul 24 and 25, 2026). Founders 50 comparison: 17 Pilates Addiction studios on the old single-campaign structure with Founders 50 dates Apr 24 to Jul 17, 2026; new-campaign comparison: 35 Pilates Addiction launches with first spend Mar 28 to Aug 20, 2026, both from Fifth Element\'s reporting database. Brand medians: location-level 90-day totals, Jul 23 to Oct 20, 2026, locations with at least $500 spend and 30 days of data (the same set as our Four Metrics benchmarks). Lead-quality notes from Fifth Element status updates and client channels, May to Oct 2026. Vintage Park membership count reported by the owner (Slack, Jun 29, 2026). Southwest Las Vegas plan from Drew Waelde\'s written update to the studio team (Slack, Jun 9, 2026). Leads are Meta-attributed leads, not CRM records or members.',
   order: 4,
   seoKeywords: [
     'Meta Instant Forms vs landing page',

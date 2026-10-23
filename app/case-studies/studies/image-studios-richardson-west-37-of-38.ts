@@ -8,7 +8,7 @@ export const study: CaseStudy = {
   vertical: 'Salon Suites',
   location: 'Richardson, TX',
   title: 'How IMAGE Studios Richardson West reached [[37 of 38 suites]] leased after hiring us about two months before opening',
-  dek: 'Lonnie McGowen Jr. hired us about two months before his second studio opened, with a four-word brief: "We need leads asap." His time was short, so we launched on brand creative, asked for the raw files behind his first studio\'s reels, and from April ran a local creator\'s videos of the new building in the ads. He did the recruiting and the closing. The studio went from 50% leased when he hired us to 37 of 38 suites by August 2026, owner-reported.',
+  dek: 'Lonnie McGowen Jr. hired us about two months before his second studio opened and asked for leads as soon as possible. His time was short, so we launched on brand creative, asked for the raw files behind his first studio\'s reels, and from April ran a local creator\'s videos of the new building in the ads. He did the recruiting and the closing. The studio went from 50% leased when he hired us to 37 of 38 suites by August 2026, owner-reported.',
   cardTitle: 'IMAGE Studios Richardson West: 37 of 38 suites after a late start',
   summary: 'An IMAGE Studios owner hired us about two months before opening, with the new studio 50% leased. By August 2026, Richardson West was at 37 of 38 suites, owner-reported.',
   published: '2026-10-22',
@@ -44,8 +44,8 @@ export const study: CaseStudy = {
   timeline: [
     {
       when: 'Nov 14 to 18, 2025',
-      title: '"We need leads asap"',
-      text: 'Lonnie McGowen Jr. asks on Nov 14 if we can start now and writes "We need leads asap" on Nov 17. He signs on Nov 18 and completes our onboarding form the same day, reporting the new studio at 50% leased.',
+      title: 'Hired weeks before opening',
+      text: 'Lonnie McGowen Jr. asks on Nov 14 if we can start now and on Nov 17 asks for leads as soon as possible. He signs on Nov 18 and completes our onboarding form the same day, reporting the new studio at 50% leased.',
     },
     {
       when: 'Nov 26 to Dec 2, 2025',
@@ -80,7 +80,7 @@ export const study: CaseStudy = {
     { type: 'h2', kicker: 'The Situation', text: 'About two months to opening, and an owner with no time to film' },
     {
       type: 'p',
-      text: 'On Nov 17, 2025, Lonnie McGowen Jr. emailed us the whole brief in four words: **"We need leads asap."** He already ran an IMAGE Studios salon suite location in Richardson, Texas. His second, Richardson West, was weeks from opening: 38 suites in the CityLine development, off US-75 and the George Bush Turnpike. Salon suites fill one professional at a time. Every empty suite is rent the owner pays and nobody else covers.',
+      text: 'On Nov 17, 2025, Lonnie McGowen Jr. emailed us a one-line brief: **he needed leads as soon as possible.** He already ran an IMAGE Studios salon suite location in Richardson, Texas. His second, Richardson West, was weeks from opening: 38 suites in the CityLine development, off US-75 and the George Bush Turnpike. Salon suites fill one professional at a time. Every empty suite is rent the owner pays and nobody else covers.',
     },
     {
       type: 'p',
@@ -88,26 +88,12 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'Coming in that late is a real handicap. Our strongest IMAGE presales started months before opening (one owner puts it at about six months), so the local market knew the studio by the time the doors opened. Richardson West had about two months, and an owner at the tail end of a build-out that, he wrote on Nov 20, "has been a juggernaut. My time is super limited." He chose to start Meta at $1,200 a month. Lead ads went live on Dec 2, and the first six days produced no leads on $197.25 of spend.',
+      text: 'Coming in that late is a real handicap. Our strongest IMAGE presales started months before opening (one owner puts it at about six months), so the local market knew the studio by the time the doors opened. Richardson West had about two months, and an owner at the tail end of a demanding build-out who told us on Nov 20 that his time was very limited. He chose to start Meta at $1,200 a month. Lead ads went live on Dec 2, and the first six days produced no leads on $197.25 of spend.',
     },
     { type: 'h2', kicker: 'What We Did', text: 'Start from footage that already existed, and screen for the pros he wanted' },
     {
       type: 'p',
       text: 'We launched on brand-standard creative: IMAGE pink, with a folder of photography our Head of Brand and Creative chose to match the owner\'s description of the space. It got awareness ads live on Nov 26, eight days after he signed, but it could only approximate this building. Lonnie had designed West differently from his first studio, in nude and earthy tones with 12-foot glass and lots of window suites, and he was posting about the build in his Instagram stories. Normally we coach owners to film new footage for the ads. With his time that limited, we went to footage that already existed.',
-    },
-    {
-      type: 'creative',
-      title: 'Footage that already existed: his first studio',
-      caption: 'A still from one of the reels the owner uploaded on Dec 27, 2025, which we slated for future ad creative. It shows his original Richardson studio, not West.',
-      items: [
-        {
-          kind: 'image',
-          src: '/case-studies/image-studios-richardson-west-37-of-38/clip-2.jpg',
-          alt: 'A suite at the original IMAGE Studios Richardson with a pink lips mural, pink shelves and a gold-framed chair',
-          label: 'A suite from a reel he sent',
-          note: 'Still from his Dec 27, 2025 upload',
-        },
-      ],
     },
     {
       type: 'steps',
@@ -126,7 +112,7 @@ export const study: CaseStudy = {
         },
         {
           title: 'Put a local creator\'s videos of West in the ads (from Apr 2, 2026)',
-          text: 'By spring the studio\'s Instagram was running videos from a local content creator who had offered to film for him. He asked us to use them because the videos were, in his words, "unique to our location," and getting great feedback. On the Apr 2 call we agreed to test localized content showing both studios, the local culture and the difference between his original and West locations, alongside the best-performing existing ads. He uploaded four videos that day, and on Apr 3 we confirmed we were launching some of them. Our Head of Brand and Creative had already been watching them.',
+          text: 'By spring the studio\'s Instagram was running videos from a local content creator who had offered to film for him. He asked us to use them because the videos were specific to his location and getting great feedback. On the Apr 2 call we agreed to test localized content showing both studios, the local culture and the difference between his original and West locations, alongside the best-performing existing ads. He uploaded four videos that day, and on Apr 3 we confirmed we were launching some of them. Our Head of Brand and Creative had already been watching them on the studio\'s Instagram and using them to show other owners how to capture good footage.',
         },
       ],
     },
@@ -154,30 +140,24 @@ export const study: CaseStudy = {
       ],
     },
     {
-      type: 'quote',
-      text: 'I\'ve been seeing those videos on your Instagram and I think they are fantastic. I\'ve used them a couple of times now to coach some owners through how they might be able to capture some great looking footage as well.',
-      name: 'Ralf Ocampo',
-      role: 'Head of Brand and Creative, Fifth Element (Slack, Apr 1, 2026)',
-    },
-    {
       type: 'p',
-      text: 'The credit is shared, and the split is clear. Lonnie had been messaging local pros on Instagram himself for four months before we started, and that outreach stayed his, not ours. On Apr 13 he told us he had just hosted a social mixer: "Had over 25 pros show up for the event." **Our job was to keep qualified pros coming in. His job was to turn them into tenants**, and he did.',
+      text: 'The credit is shared, and the split is clear. Lonnie had been messaging local pros on Instagram himself for four months before we started, and that outreach stayed his, not ours. On Apr 13 he told us he had just hosted a social mixer, and more than 25 pros came. **Our job was to keep qualified pros coming in. His job was to turn them into tenants**, and he did.',
     },
     { type: 'cta' },
     { type: 'h2', kicker: 'The Result', text: '50% leased at hire, 37 of 38 by August' },
     {
       type: 'p',
-      text: 'When he signed on Nov 18, 2025, the owner reported the new studio at 50% leased. He reported 29 of 38 suites leased on Feb 25, 2026, weeks after opening, and 30 of 38 on Mar 31. On Aug 4, 2026 he emailed the team: **"BTW we are 37/38 occupancy in our new space."** A few minutes later, in the same thread, he added:',
+      text: 'When he signed on Nov 18, 2025, the owner reported the new studio at 50% leased. He reported 29 of 38 suites leased on Feb 25, 2026, weeks after opening, and 30 of 38 on Mar 31. On Aug 4, 2026 he emailed the team that **the new space was 37 of 38 occupied**. When we congratulated him, he replied:',
     },
     {
       type: 'quote',
-      text: 'Thank you guys for the support. Couldn\'t do it without your help. It\'s been consistent candidate pool across the board.',
+      text: 'Thank you guys for the support. Couldn\'t do it without your help.',
       name: 'Lonnie McGowen Jr.',
       role: 'Owner, IMAGE Studios Richardson and Richardson West (Aug 4, 2026)',
     },
     {
       type: 'p',
-      text: 'On the ad side, we hold every IMAGE account to the same monthly test: the median cost per lead across the IMAGE locations we run that had at least 20 days of spend and 10 Meta leads that month. An IMAGE lead is a beauty professional asking about a suite, so costs near $40 are normal for the brand. Richardson West qualified in five months between December 2025 and July 2026, and its CPL came in under the median in all five: 120 leads at $33.15 across those months.',
+      text: 'In the same reply he said the pool of candidates had been consistent across the board. On the ad side, we hold every IMAGE account to the same monthly test: the median cost per lead across the IMAGE locations we run that had at least 20 days of spend and 10 Meta leads that month. An IMAGE lead is a beauty professional asking about a suite, so costs near $40 are normal for the brand. Richardson West qualified in five months between December 2025 and July 2026, and its CPL came in under the median in all five: 120 leads at $33.15 across those months.',
     },
     {
       type: 'table',
@@ -198,7 +178,7 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: 'The second piece was quality. Salon suites do not need hundreds of leads. They need what Lonnie called a "consistent candidate pool": licensed pros with a clientele who are ready to move. We screened on the form and in the targeting so he had fewer dead ends to chase, which mattered because he was doing the chasing himself. In January he said quality was improving. By late March it had slipped, which is why April added follow-up coaching and a Google search test.',
+      text: 'The second piece was quality. Salon suites do not need hundreds of leads. They need a consistent pool of candidates: licensed pros with a clientele who are ready to move. We screened on the form and in the targeting so he had fewer dead ends to chase, which mattered because he was doing the chasing himself. In January he said quality was improving. By late March it had slipped, which is why April added follow-up coaching and a Google search test.',
     },
     {
       type: 'callout',

@@ -73,7 +73,7 @@ export const study: CaseStudy = {
     { type: 'h2', kicker: 'The Situation', text: 'A building nobody could walk into, and a buyer who already has a job' },
     {
       type: 'p',
-      text: "IMAGE corporate keeps a sheet of how full each new studio is within 30 days of opening. Of the 78 launches on it with a recorded value (2023 to 2025 openings), only three opened at 90% or higher. Jarrett and Tara Jamieson's IMAGE Studios franchise in Bakersfield, California, opened in July 2024 at **92%, second on the sheet**. Jarrett was, in his own words, \"very new to the industry,\" and the couple started with Fifth Element on January 11, 2024, while the studio was still being built.",
+      text: "IMAGE corporate keeps a sheet of how full each new studio is within 30 days of opening. Of the 78 launches on it with a recorded value (2023 to 2025 openings), only three opened at 90% or higher. Jarrett and Tara Jamieson's IMAGE Studios franchise in Bakersfield, California, opened in July 2024 at **92%, second on the sheet**. Jarrett was new to the industry, and the couple started with Fifth Element on January 11, 2024, while the studio was still being built.",
     },
     {
       type: 'p',
@@ -173,7 +173,7 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: "Our own tracker counted 28 suites filled on opening day. Corporate's record of 92% within 30 days of opening is the number we publish. The call notes show how the building finished filling. On February 27, 2025, one suite was still open: esthetician suite 117. \"Jarrett is having a hard time getting this filled,\" Justin Flores, our Client Success Manager on the account, wrote after that call, and the boosted post for estheticians was set up during the call itself. On our March 11 call, Jarrett reported **100% occupancy** and told us the ads and posts could go back to the regular maintenance schedule. The grand opening celebration followed on May 2, 2025.",
+      text: "Our own tracker counted 28 suites filled on opening day. Corporate's record of 92% within 30 days of opening is the number we publish. The call notes show how the building finished filling. On February 27, 2025, one suite was still open: esthetician suite 117. The boosted post for estheticians was set up during our call that day. On our March 11 call, Jarrett reported **100% occupancy** and told us the ads and posts could go back to the regular maintenance schedule. The grand opening celebration followed on May 2, 2025.",
     },
     {
       type: 'stats',
@@ -200,7 +200,7 @@ export const study: CaseStudy = {
     { type: 'h2', kicker: 'Why It Worked', text: 'Know the pros, reach them early, answer them fast' },
     {
       type: 'p',
-      text: "Every pro who signs a suite lease brings an existing client base, and the number of those pros in one city is finite. That makes salon-suite leasing closer to recruiting than to retail marketing. The work that mattered in Bakersfield was knowing who the pros were, reaching them before the doors opened, and answering them quickly when they were ready to talk. Jarrett put it in his own terms: Fifth Element's \"ability to generate leads and just understand what pros need in this type of industry, was probably the best part about what Fifth Element brought to the table.\"",
+      text: "Every pro who signs a suite lease brings an existing client base, and the number of those pros in one city is finite. That makes salon-suite leasing closer to recruiting than to retail marketing. The work that mattered in Bakersfield was knowing who the pros were, reaching them before the doors opened, and answering them quickly when they were ready to talk. In his video testimonial, Jarrett put it in his own terms: \"Their ability to communicate, their ability to understand what we need, and their ability to generate leads and just understand what pros need in this type of industry, was probably the best part about what Fifth Element brought to the table.\"",
     },
     {
       type: 'callout',

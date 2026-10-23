@@ -16,8 +16,8 @@ export const study: CaseStudy = {
   readTime: '5 min',
   cover: {
     src: '/case-studies/iflex-highland-greenspot-launch/cover.jpg',
-    alt: 'Alexander Mattison, owner of iFlex Stretch Studios Highland Greenspot, smiling outside the studio next to its iFlex window poster, from a September 2026 founding membership ad',
-    position: '50% 40%',
+    alt: "An iFlex team member shaking hands with a guest at the front desk under the iFlex Stretch Studios sign, from iFlex's official photography",
+    position: '45% 20%',
   },
   heroStats: [
     {
@@ -93,7 +93,7 @@ export const study: CaseStudy = {
       items: [
         {
           title: 'Propose a bigger launch budget before there was any data',
-          text: `On June 12, five days before launch, Drew Waelde, our Head of Agency Operations, proposed starting Highland Greenspot above iFlex's standard starting budget, to "build momentum more quickly and maximize lead volume during the initial launch phase." iFlex's marketing team reviewed the reasoning and approved the higher start for the VIP phase on June 15. The studio spent $3,131.83 in its first 30 days.`,
+          text: `On June 12, five days before launch, Drew Waelde, our Head of Agency Operations, proposed starting Highland Greenspot above iFlex's standard starting budget, so the studio would build momentum faster and maximize lead volume during the initial launch phase. iFlex's marketing team reviewed the reasoning and approved the higher start for the VIP phase on June 15. The studio spent $3,131.83 in its first 30 days.`,
         },
         {
           title: 'Send every click to a landing page',
@@ -105,7 +105,7 @@ export const study: CaseStudy = {
         },
         {
           title: 'Coach the owner onto camera, and hold the 2-mile radius',
-          text: `On July 1 Justin Flores, our Client Success Manager, told the owner the studio did not need to be finished: simple face-to-camera videos and "coming soon" style content around the location would work. He recorded a couple of takes that weekend, and on July 6 Ralf sent him his first content coaching guide, built around the city and the neighborhood, for the next round. His edits were in the ads by mid-July. In the seven days from July 13, click-through rate was **4.85%, against 2.68%** in the seven days before, and leads rose from 51 to 57 on less spend ($679.94 against $712.83). On July 16 Justin told him: "The content you recorded has been performing very well since we implemented it." When the owner asked on July 1 about widening the targeting radius from 2 miles to 5, Justin recommended holding it at 2 while the existing audience was still producing.`,
+          text: `On July 1 Justin Flores, our Client Success Manager, told the owner the studio did not need to be finished: simple face-to-camera videos and coming-soon content around the location would work. He recorded a couple of takes that weekend, and on July 6 Ralf sent him his first content coaching guide, built around the city and the neighborhood, for the next round. The ads we cut from his takes were running by mid-July. In the seven days from July 13, click-through rate was **4.85%, against 2.68%** in the seven days before, and leads rose from 51 to 57 on less spend ($679.94 against $712.83). When the owner asked on July 1 about widening the targeting radius from 2 miles to 5, Justin recommended holding it at 2 while the existing audience was still producing.`,
         },
       ],
     },
@@ -132,12 +132,6 @@ export const study: CaseStudy = {
           note: 'As live on Oct 22, 2026',
         },
       ],
-    },
-    {
-      type: 'quote',
-      text: "The fact that you guys are providing coaching is, I would say, something I haven't seen from other agencies.",
-      name: 'Gabi Khowploum',
-      role: 'Marketing Director, iFlex Stretch Studios, on her first call with Fifth Element, Apr 30, 2026',
     },
     { type: 'h2', kicker: 'The Result', text: 'The cheapest leads came first' },
     {
@@ -187,7 +181,7 @@ export const study: CaseStudy = {
     },
     {
       type: 'p',
-      text: `Corporate did not wait for the results to reuse the launch budget. On June 16, the day before launch, Gabi asked us for a budget recommendation for another iFlex presale "similar to what you did for Highland Greenspot," and the next day for a way to share it with "any future studios." On July 2 corporate asked for its next two presale studios to start at that level or higher. Our July 23 portfolio update, prepared for iFlex corporate, had Highland Greenspot on pace to clear its 300-lead presale goal, credited the owner on camera plus local hooks, and called it "the model we want to replicate."`,
+      text: `Corporate did not wait for the results to reuse the launch budget. On June 16, the day before launch, Gabi Khowploum, iFlex's Marketing Director, asked us for a budget recommendation for another iFlex presale modeled on what we did for Highland Greenspot, and the next day for a way to share it with future studios. On July 2 corporate asked for its next two presale studios to start at that level or higher. Our July 23 portfolio update, prepared for iFlex corporate, had Highland Greenspot on pace to clear its 300-lead presale goal, credited the owner on camera plus local hooks, and named it the model to replicate.`,
     },
     { type: 'cta' },
     { type: 'h2', kicker: 'Why It Worked', text: 'Spend in the cheap weeks, teach before you ask' },
@@ -205,34 +199,26 @@ export const study: CaseStudy = {
     },
     {
       type: 'creative',
-      title: 'His first takes, the ads cut from them, and his first coaching guide',
+      title: 'His raw take, the ad cut from it, and his first coaching guide',
       caption:
-        'He filmed outside the empty storefront on Jul 5, the day before his first coaching guide arrived. Fifth Element edited the takes into ads with captions and stretching footage. The guide, the same one every iFlex presale owner gets, set up his next round.',
+        'He filmed this take outside the empty storefront on Jul 5, the day before his first coaching guide arrived. Fifth Element tightened it, added captions and closed it with iFlex stretching footage to make the Home of iFlex ad. The guide, the same one every iFlex presale owner gets, set up his next round.',
       items: [
         {
           kind: 'video',
           src: '/case-studies/iflex-highland-greenspot-launch/ad-2.mp4',
           poster: '/case-studies/iflex-highland-greenspot-launch/ad-2.jpg',
-          alt: 'The owner filming himself outside the empty retail space that became the studio, naming the shopping center and the Highland and Greenspot intersection',
-          label: 'Owner\'s raw take, Jul 5',
-          note: 'Filmed Jul 5, 2026. Unedited, first 21 seconds',
-        },
-        {
-          kind: 'image',
-          src: '/case-studies/iflex-highland-greenspot-launch/ad-4.jpg',
-          alt: 'Still from the finished ad cut from that take: the owner outside the future studio with the caption If you heard it here',
-          label: 'Neighborhood hook ad, still',
-          stat: '147 leads at $14.90, 4.77% CTR',
-          note: 'Meta, this ad, Jul 14 to Sep 22, 2026',
+          alt: 'The owner filming himself on his phone outside the empty retail space that became the studio, saying this location is the home of an iFlex Stretch Studios in Highland, California',
+          label: 'Raw clip the owner sent',
+          note: 'Filmed Jul 5, 2026. Unedited, first 25 seconds',
         },
         {
           kind: 'video',
           src: '/case-studies/iflex-highland-greenspot-launch/ad-3.mp4',
           poster: '/case-studies/iflex-highland-greenspot-launch/ad-3.jpg',
           alt: 'Finished ad: the owner outside the future studio says this location is the home of an iFlex Stretch Studios, here in Highland, California, with captions',
-          label: 'Home of iFlex ad',
+          label: 'The finished ad',
           stat: '48 leads at $12.75, 5.26% CTR',
-          note: 'Meta, both ad sets, Jul 13 to Sep 22, 2026',
+          note: 'Home of iFlex ad. Meta, both ad sets, Jul 13 to Sep 22, 2026',
         },
         {
           kind: 'document',
@@ -251,11 +237,11 @@ export const study: CaseStudy = {
     { type: 'h2', kicker: 'What This Means for Your Brand', text: 'Make the launch budget a brand decision' },
     {
       type: 'p',
-      text: `For an owner, it means you do not need walls to start building a list: face-to-camera video and "coming soon" footage were in Highland Greenspot's ads from mid-July, while the studio was still a presale.`,
+      text: `For an owner, it means you do not need walls to start building a list: face-to-camera video and coming-soon footage were in Highland Greenspot's ads from mid-July, while the studio was still a presale.`,
     },
     {
       type: 'p',
-      text: `For a franchisor, the payoff is treating the launch budget as a brand-level decision: set it from the presale lead goal and the launch curve before the first ad runs, so owners are not left to start small and catch up after the cheapest weeks are gone. Pair it with a page that explains the service before it asks for a name. On July 21 Gabi wrote that she was "aligned with continuing to launch campaigns with landing pages and then using instant forms as a tool to help support the campaign."`,
+      text: `For a franchisor, the payoff is treating the launch budget as a brand-level decision: set it from the presale lead goal and the launch curve before the first ad runs, so owners are not left to start small and catch up after the cheapest weeks are gone. Pair it with a page that explains the service before it asks for a name. On July 21 Gabi wrote that she was aligned with continuing to launch campaigns on landing pages, with Instant Forms as a tool to support them.`,
     },
   ],
   sources:
