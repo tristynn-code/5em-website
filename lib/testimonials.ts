@@ -30,6 +30,11 @@ export interface VideoTestimonial {
   video: string;
   poster: string;
   avatar: string;
+  /**
+   * 'portal' - filmed by the owner on their own phone through the client
+   * portal. 'studio' - shot by a production crew on location.
+   */
+  style: 'portal' | 'studio';
 }
 
 export interface WrittenTestimonial {
@@ -64,9 +69,21 @@ export function getVideoTestimonials(): VideoTestimonial[] {
   return [...videos].sort((a, b) => a.seconds - b.seconds);
 }
 
-/** The homepage rail - short, punchy, one per studio. */
+/**
+ * The homepage rail. Sorting purely by length would fill it with the shortest
+ * phone clips and never surface a professionally shot one, so this alternates
+ * between the two styles, shortest first within each.
+ */
 export function getFeaturedVideos(limit = 8): VideoTestimonial[] {
-  return getVideoTestimonials().slice(0, limit);
+  const byStyle = { studio: [] as VideoTestimonial[], portal: [] as VideoTestimonial[] };
+  getVideoTestimonials().forEach(v => byStyle[v.style].push(v));
+  const out: VideoTestimonial[] = [];
+  for (let i = 0; out.length < limit; i++) {
+    const next = [byStyle.studio[i], byStyle.portal[i]].filter(Boolean);
+    if (next.length === 0) break;
+    out.push(...next);
+  }
+  return out.slice(0, limit);
 }
 
 export function getWrittenTestimonials(): WrittenTestimonial[] {

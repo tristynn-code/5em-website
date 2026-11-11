@@ -89,8 +89,8 @@ export default function TestimonialsBoard({
               </h2>
             </div>
             <p className="text-[14px] text-tx-3 font-medium max-w-[340px]">
-              Recorded by owners themselves, straight from their phones. Tap any face, then swipe
-              up and down through the feed.
+              Some filmed on their own phone, some with a crew on location. Tap any face, then
+              swipe up and down through the feed.
             </p>
           </div>
 

@@ -20,8 +20,8 @@ export default function ClientVoices() {
           <div className="stag">Hear From Our Clients</div>
           <h2 className="sttl">Real Owners. Unscripted.</h2>
           <p className="ssub mx-auto">
-            No actors and no script. These are franchise owners who picked up their phone and told
-            us what changed. Swipe through, then tap to watch.
+            No actors and no script. These are franchise owners telling you what changed, some on
+            their own phone, some on camera in their studio. Swipe through, then tap to watch.
           </p>
         </div>
 

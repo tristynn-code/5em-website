@@ -229,11 +229,13 @@ export default function ReelsPlayer({
                     />
                     <div className="min-w-0">
                       <div className="text-white font-bold text-[16px] leading-tight truncate">
-                        {t.name}
+                        {t.name || t.business}
                       </div>
-                      <div className="text-[13px] font-medium truncate" style={{ color: accent }}>
-                        {t.business}
-                      </div>
+                      {t.name && (
+                        <div className="text-[13px] font-medium truncate" style={{ color: accent }}>
+                          {t.business}
+                        </div>
+                      )}
                     </div>
                   </div>
                   <div className="mt-3 flex items-center gap-2 text-[11px] font-semibold text-white/55">

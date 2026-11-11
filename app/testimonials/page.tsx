@@ -75,7 +75,8 @@ export default function TestimonialsPage() {
             style={{ maxWidth: 680 }}
           >
             Every testimonial here comes from a franchise owner who runs a location we market.
-            Most of them recorded it themselves, on their own phone, in their own studio.
+            Some recorded it themselves on their own phone. Others sat down with a camera
+            crew in their studio.
           </p>
 
           {/* COUNT STRIP */}

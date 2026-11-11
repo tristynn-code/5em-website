@@ -45,7 +45,7 @@ export default function VideoWall({
         type="button"
         data-testid="video-card"
         onClick={() => setOpenAt(i)}
-        aria-label={`Play ${t.name}'s video testimonial, ${t.business}`}
+        aria-label={`Play the video testimonial from ${t.name || t.business}, ${t.business}`}
         className={`group relative overflow-hidden rounded-[20px] bg-dk text-left transition-transform duration-300 hover:-translate-y-1 focus-visible:-translate-y-1 ${
           layout === 'rail'
             ? 'flex-shrink-0 w-[214px] md:w-[240px]'
@@ -102,13 +102,17 @@ export default function VideoWall({
             className="rounded-full object-cover flex-shrink-0"
             style={{ width: 34, height: 34, border: `2px solid ${accent}` }}
           />
+          {/* An owner who never says their name on camera, in an edit with no
+              name super, gets credited to their studio rather than a guess. */}
           <span className="min-w-0 block">
             <span className="block text-white font-bold text-[13.5px] leading-tight truncate">
-              {t.name}
+              {t.name || t.business}
             </span>
-            <span className="block text-[11.5px] font-medium truncate" style={{ color: accent }}>
-              {t.business}
-            </span>
+            {t.name && (
+              <span className="block text-[11.5px] font-medium truncate" style={{ color: accent }}>
+                {t.business}
+              </span>
+            )}
           </span>
         </span>
       </button>
