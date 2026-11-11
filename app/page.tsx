@@ -5,7 +5,7 @@ import ThreePillarSystem from '@/components/ThreePillarSystem';
 import HowItWorks from '@/components/HowItWorks';
 import IndustriesShowcase from '@/components/IndustriesShowcase';
 import CaseStudiesGrid from '@/components/CaseStudiesGrid';
-import TestimonialsGrid from '@/components/TestimonialsGrid';
+import ClientVoices from '@/components/testimonials/ClientVoices';
 import AuditOffer from '@/components/AuditOffer';
 import WhoWeServe from '@/components/WhoWeServe';
 import FinalCTA from '@/components/FinalCTA';
@@ -44,12 +44,12 @@ export default function Home() {
       </section>
 
       <PartnerShowcase />
+      <ClientVoices />
       <ProblemSection />
       <ThreePillarSystem />
       <HowItWorks />
       <IndustriesShowcase />
       <CaseStudiesGrid />
-      <TestimonialsGrid />
       <AuditOffer />
       <WhoWeServe />
       <FAQSection

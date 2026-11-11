@@ -1,4 +1,3 @@
-import testimonialsData from '@/content/testimonials.json';
 import brandsData from '@/content/brands.json';
 import verticalsData from '@/content/verticals.json';
 import problemsData from '@/content/problems.json';
@@ -6,18 +5,6 @@ import pillarsData from '@/content/pillars.json';
 import audiencesData from '@/content/audiences.json';
 import valuesData from '@/content/values.json';
 import teamData from '@/content/team.json';
-
-export interface Testimonial {
-  id: string;
-  name: string;
-  role: string;
-  location: string;
-  brand: string;
-  quote: string;
-  avatar: string;
-  category: string;
-  featured: boolean;
-}
 
 export interface Brand {
   id: string;
@@ -69,15 +56,6 @@ export interface TeamMember {
   name: string;
   role: string;
   photo: string;
-}
-
-export function getTestimonials(): Testimonial[] {
-  return testimonialsData as Testimonial[];
-}
-
-export function getFeaturedTestimonials(limit?: number): Testimonial[] {
-  const filtered = (testimonialsData as Testimonial[]).filter(t => t.featured);
-  return limit ? filtered.slice(0, limit) : filtered;
 }
 
 export function getBrands(): Brand[] {
