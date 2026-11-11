@@ -1,5 +1,6 @@
 import { SITE } from './seo';
-import testimonialsData from '@/content/testimonials.json';
+import writtenTestimonials from '@/content/testimonials-written.json';
+import videoTestimonials from '@/content/testimonials-video.json';
 
 /** ProfessionalService schema = how Google + AI classify the agency itself. */
 export function organizationSchema() {
@@ -72,8 +73,10 @@ export function websiteSchema() {
 
 /** Aggregate the testimonials into a single review-summary number. */
 export function aggregateRatingSchema() {
-  const testimonials = testimonialsData as Array<{ featured: boolean }>;
-  const count = testimonials.length;
+  // Counts the full named-review archive (written + on-camera), not the small
+  // homepage slice, so the rating Google sees matches what /testimonials shows.
+  const count =
+    (writtenTestimonials as unknown[]).length + (videoTestimonials as unknown[]).length;
   return {
     '@type': 'AggregateRating',
     ratingValue: '5',
@@ -84,33 +87,33 @@ export function aggregateRatingSchema() {
   };
 }
 
-/** Render all testimonials as individual Review entries. */
+/**
+ * Every written client review as an individual Review entity, from the full
+ * written archive (content/testimonials-written.json). This is the single
+ * canonical set of Review markup for the whole site - /testimonials does not
+ * re-emit it.
+ */
 export function reviewsSchema() {
-  const testimonials = testimonialsData as Array<{
+  const written = writtenTestimonials as Array<{
     id: string;
     name: string;
-    role: string;
+    brand: string;
     location: string;
     quote: string;
   }>;
-  return testimonials.map(t => ({
+  return written.map(t => ({
     '@context': 'https://schema.org',
     '@type': 'Review',
     '@id': `${SITE.url}#review-${t.id}`,
     author: {
       '@type': 'Person',
       name: t.name,
-      jobTitle: t.role,
-      address: {
-        '@type': 'PostalAddress',
-        addressLocality: t.location,
-      },
+      ...(t.location
+        ? { address: { '@type': 'PostalAddress', addressLocality: t.location } }
+        : {}),
+      ...(t.brand ? { worksFor: { '@type': 'Organization', name: t.brand } } : {}),
     },
-    reviewRating: {
-      '@type': 'Rating',
-      ratingValue: '5',
-      bestRating: '5',
-    },
+    reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
     reviewBody: t.quote,
     itemReviewed: { '@id': `${SITE.url}#organization` },
   }));
@@ -276,5 +279,60 @@ export function faqSchema(faqs: { question: string; answer: string }[]) {
         text: f.answer,
       },
     })),
+  };
+}
+
+/* ------------------------------------------------------------------ *
+ * Client testimonials (/testimonials)
+ * ------------------------------------------------------------------ */
+
+/**
+ * VideoObject for each owner-recorded testimonial, so the clips can surface in
+ * Google's video results instead of being invisible inside a JS player.
+ */
+export function videoTestimonialsSchema() {
+  const videos = videoTestimonials as Array<{
+    id: string;
+    name: string;
+    business: string;
+    brand: string;
+    seconds: number;
+    video: string;
+    poster: string;
+  }>;
+  return videos.map(v => ({
+    '@context': 'https://schema.org',
+    '@type': 'VideoObject',
+    '@id': `${SITE.url}/testimonials#video-${v.id}`,
+    name: `${v.name || v.business} on working with ${SITE.name} - ${v.business}`,
+    description: `${v.name ? `${v.name} of ${v.business}` : `The owner of ${v.business}`} shares their experience with ${SITE.name}, the franchise marketing agency behind their local lead generation.`,
+    thumbnailUrl: [v.poster],
+    contentUrl: v.video,
+    uploadDate: '2026-11-10',
+    duration: `PT${Math.floor(v.seconds / 60)}M${Math.round(v.seconds % 60)}S`,
+    isFamilyFriendly: true,
+    inLanguage: 'en-US',
+    publisher: { '@id': `${SITE.url}#organization` },
+    about: { '@type': 'Organization', name: v.brand },
+  }));
+}
+
+/** CollectionPage wrapper for /testimonials. */
+export function testimonialsPageSchema() {
+  const written = writtenTestimonials as unknown[];
+  const videos = videoTestimonials as unknown[];
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    '@id': `${SITE.url}/testimonials#page`,
+    url: `${SITE.url}/testimonials`,
+    name: `Client Testimonials | ${SITE.name}`,
+    description: `${written.length + videos.length} testimonials from franchise owners who work with ${SITE.name}, including ${videos.length} video testimonials recorded by owners themselves.`,
+    isPartOf: { '@id': `${SITE.url}#website` },
+    about: { '@id': `${SITE.url}#organization` },
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: written.length + videos.length,
+    },
   };
 }

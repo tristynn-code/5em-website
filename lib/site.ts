@@ -51,6 +51,7 @@ export const navLinks = [
   { label: 'About', href: '/about' },
   { label: 'Case Studies', href: '/case-studies' },
   // Note: Services is rendered as a special dropdown in <Nav /> — not via this list
+  { label: 'Testimonials', href: '/testimonials' },
   { label: 'Blog', href: '/blog' },
   { label: 'Contact', href: '/contact' },
 ];
